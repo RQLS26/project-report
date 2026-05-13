@@ -68,18 +68,15 @@ Se establecen los repositorios oficiales de la solución Buildline para garantiz
   </tbody>
 </table>
 
-#### GitFlow Workflow
-* **main:** Código estable y auditado desplegado en producción.
-* **develop:** Rama base para integración de nuevas características.
-* **feature/&lt;módulo&gt;:** Ej: `feature/procurement-comparison-sheet`.
-* **hotfix/&lt;issue&gt;:** Parches rápidos para errores críticos en el cálculo de APU.
+#### GitFlow Workflow and Collaboration Strategy
+Para asegurar una colaboración organizada, evitar conflictos en el código y mantener la integración continua, el equipo RQLS aplica estrictamente **GitFlow** como flujo de trabajo de ramificación (Branching Workflow). La estrategia de colaboración se define de la siguiente manera:
 
-<h4>Conventional Commits</h4>
-<pre><code>feat(tracking): implement IoT telemetry ingestion endpoint
-fix(compliance): resolve stock update discrepancy on partial receipt
-docs(readme): update swagger definitions for supplier endpoints
-build(deps): migrate to .NET 8.0 SDK
-</code></pre>
+* **main:** Rama que contiene el código de producción estable y auditado. Solo recibe integraciones a través de un proceso formal de Merge desde `release` o `hotfix`.
+* **develop:** Rama de integración principal. Aquí se unifica el trabajo de los desarrolladores para preparar el próximo despliegue.
+* **feature/&lt;módulo&gt;:** Ramas temporales creadas a partir de `develop` para aislar el desarrollo de nuevas Historias de Usuario (Ej: `feature/landing-hero-section`). La colaboración exige que estas ramas se integren a `develop` exclusivamente mediante **Pull Requests (PR)** en GitHub, requiriendo revisión de código (Code Review) antes de ser aprobadas.
+* **hotfix/&lt;issue&gt;:** Ramas de corrección rápida creadas desde `main` para resolver bugs críticos o parches de emergencia.
+
+El ciclo de vida del proyecto se apoya en Jira para asignar las tareas, asociando cada commit al ID de la tarea mediante Conventional Commits para una trazabilidad completa.
 
 
 ### 5.1.3. Source Code Style Guide & Conventions
