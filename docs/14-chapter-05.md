@@ -268,9 +268,21 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes a la presencia di
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-<p>
-  Se completó la implementación y el diseño de la Landing Page.
-</p>
+Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y despliegue de la Landing Page estática. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas:
+
+**Evidencia 1: Hero Section y Propuesta de Valor**
+Se desarrolló la pantalla de inicio principal destacando el mensaje de mitigación de sobrecostos y control del APU. La navegación superior es completamente funcional y el diseño respeta los lineamientos *responsive* para dispositivos móviles.
+<div align="center">
+  <img src="./assets/chapter-05/execution-hero.png" alt="Hero Section Evidence" width="90%">
+  <p><em>Figura: Vista principal (Hero Section) desplegada en la Landing Page.</em></p>
+</div>
+
+**Evidencia 2: Sección de Beneficios y Trazabilidad**
+Se maquetó la sección informativa donde se detallan los módulos de control de obra y aprobaciones jerárquicas, aplicando la paleta de colores corporativa y el sistema de diseño definido en Figma.
+<div align="center">
+  <img src="./assets/chapter-05/execution-benefits.png" alt="Benefits Section Evidence" width="90%">
+  <p><em>Figura: Sección de características y propuesta de valor logístico.</em></p>
+</div>
 
 #### 5.2.1.6. Services Documentation Evidence
 <p>
