@@ -125,6 +125,8 @@ Jefes de Proyecto / Gerentes Generales
 | 41 | TS-11 | Autenticación de usuario | Como desarrollador, quiero autenticar usuarios para garantizar acceso seguro al sistema. | 3 |
 | 42 | TS-12 | Registro de usuario | Como desarrollador, quiero registrar nuevos usuarios para permitir acceso controlado. | 3 |
 
+**Enlace directo al tablero:** [Tablero Jira - Proyecto Buildline](https://rqls26.atlassian.net/jira/software/projects/RQSL/boards/1/backlog?atlOrigin=eyJpIjoiYTI5N2Y0MTUyZjQ0NDdlZTg4ZjgzZWI2NjE4NTViMjIiLCJwIjoiaiJ9)
+
 <div align="center">
   <img src="./assets/chapter-03/jira1.png" alt="Evidence Product Backlog" width="90%">
   <p><em>Figura: Captura del Product Backlog en la herramienta de gestión del proyecto.</em></p>
