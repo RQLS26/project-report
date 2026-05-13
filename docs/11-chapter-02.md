@@ -379,7 +379,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 12:14</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://drive.google.com/file/d/14m4jJwM0lSUNWYnrakp4qyTpgDP1KKJ8/view" target="_blank">Ver video</a>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="[https://drive.google.com/file/d/14m4jJwM0lSUNWYnrakp4qyTpgDP1KKJ8/view](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113229_upc_edu_pe/IQDEaVYDEUiKT7zb9Z7TPyqSATlsRwzX_ZfiTSnf3o4FVWo?e=JYhc11)" target="_blank">Ver video</a>
     </tr>
     <tr>
       <td colspan="4">
