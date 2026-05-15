@@ -592,10 +592,6 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
   <p><em>Figura: Financial Dashboard por proyecto (Skyline Tower, Alpha Wing, Beta Foundation).</em></p>
 </div>
 
-<p>
-  <strong>Video de navegación del Sprint Review:</strong> <em>(reemplazar con la URL del video publicado en Microsoft Stream y/o YouTube)</em>
-</p>
-
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 <p>
