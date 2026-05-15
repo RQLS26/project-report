@@ -723,11 +723,6 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
   <li>Verificación post-despliegue del enrutamiento SPA (fallback a <code>index.html</code> para rutas profundas) y del funcionamiento de los guards de autenticación.</li>
 </ol>
 
-<div align="center">
-  <img src="./assets/chapter-05/sprint2-pipeline.png" alt="GitHub Actions Pipeline" width="90%">
-  <p><em>Figura: Pipeline de GitHub Actions desplegando el Frontend Web Application.</em></p>
-</div>
-
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 <p>
