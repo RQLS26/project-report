@@ -59,11 +59,11 @@ Se establecen los repositorios oficiales de la solución Buildline para garantiz
     </tr>
     <tr>
       <td>Frontend Web Application</td>
-      <td><a href="https://github.com/RQLS26/Buildline-Frontend">https://github.com/RQLS26/Buildline-Frontend</a></td>
+      <td><a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26/Frontend</a></td>
     </tr>
     <tr>
       <td>Backend Web Services</td>
-      <td><a href="https://github.com/RQLS26/Buildline-Backend">https://github.com/RQLS26/Buildline-Backend</a></td>
+      <td><a href="https://github.com/RQLS26/Backend">https://github.com/RQLS26/Backend</a></td>
     </tr>
   </tbody>
 </table>
