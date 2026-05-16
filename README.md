@@ -499,10 +499,10 @@ Este análisis permite identificar cómo se posiciona Buildline frente a ERPs co
     </tr>
     <tr>
       <td colspan="2"><strong>Logotipos</strong></td>
-      <td><img src="assets/chapter-02/buildline-logo.png" alt="Buildline" height="50"></td>
-      <td><img src="assets/chapter-02/s10-logo.png" alt="S10 ERP" height="50"></td>
-      <td><img src="assets/chapter-02/iconstruye-logo.png" alt="ICONSTRUYE" height="50"></td>
-      <td><img src="assets/chapter-02/mawi-logo.png" alt="Mawi" height="50"></td>
+      <td><img src="docs/assets/chapter-02/buildline-logo.png" alt="Buildline" height="50"></td>
+      <td><img src="docs/assets/chapter-02/s10-logo.png" alt="S10 ERP" height="50"></td>
+      <td><img src="docs/assets/chapter-02/iconstruye-logo.png" alt="ICONSTRUYE" height="50"></td>
+      <td><img src="docs/assets/chapter-02/mawi-logo.png" alt="Mawi" height="50"></td>
     </tr>
     <tr>
       <td colspan="2"><strong>Software</strong></td>
@@ -828,7 +828,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-02.png" alt="Entrevista 2" height="350">
+        <img src="docs/assets/chapter-02/entrevista-02.png" alt="Entrevista 2" height="350">
       </td>
     </tr>
     <tr>
@@ -879,7 +879,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-03.png" alt="Entrevista 3 - Leonardo" height="350">
+        <img src="docs/assets/chapter-02/entrevista-03.png" alt="Entrevista 3 - Leonardo" height="350">
       </td>
     </tr>
     <tr>
@@ -931,7 +931,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 3 - Leonardo" height="350">
+        <img src="docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 3 - Leonardo" height="350">
       </td>
     </tr>
     <tr>
@@ -986,7 +986,7 @@ En general, la entrevistada considera que las herramientas actuales no son sufic
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5 - Sebastián" height="350">
+        <img src="docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5 - Sebastián" height="350">
       </td>
     </tr>
     <tr>
@@ -1071,7 +1071,7 @@ A partir del análisis de las entrevistas y la recolección de información sobr
 
 Para el área operativa se elaboró el User Persona **Donnie Ruiz**. Se consideraron factores como su rol en la supervisión física de las obras, su necesidad de cumplir cronogramas estrictos y su ritmo de trabajo altamente móvil. Sus principales frustraciones giran en torno a la burocracia logística que retrasa la llegada de materiales y la dependencia de canales informales como WhatsApp para presionar por urgencias. Su perfil refleja una necesidad crítica de contar con una plataforma móvil, rápida y responsiva, que le permita solicitar insumos y rastrear su estado de entrega en tiempo real sin abandonar el campo.
 
-<img src="../docs/assets/chapter-02/user-persona01.png" alt="User Persona 1 - Martín" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/user-persona01.png" alt="User Persona 1 - Martín" width="auto" height="1900"/>
 
 <br>
 
@@ -1079,7 +1079,7 @@ Para el área operativa se elaboró el User Persona **Donnie Ruiz**. Se consider
 
 Para el área de control y gerencia se elaboró el User Persona **Roberto Alcántara**. Se consideraron aspectos como su enfoque en la rentabilidad, la aprobación de presupuestos y la auditoría corporativa. Sus principales frustraciones están asociadas a la pérdida de dinero por "compras de emergencia" no planificadas, el desorden documentario y la inseguridad de usar hojas de Excel compartidas para llevar las finanzas. Su perfil requiere un entorno de escritorio (Dashboard) que centralice las cotizaciones, garantice la inmutabilidad de los datos y le permita aprobar órdenes de compra formales con un solo clic.
 
-<img src="../docs/assets/chapter-02/user-persona02.png" alt="User Persona 2 - Roberto" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/user-persona02.png" alt="User Persona 2 - Roberto" width="auto" height="1900"/>
 
 ### 2.3.2. User Task Matrix
 
@@ -1144,11 +1144,11 @@ El User Journey Mapping es una herramienta de diseño centrado en el usuario que
 
 **1) Perfil 1: Área operativa de campo**
 
-<img src="../docs/assets/chapter-02/user-journey-mapping2.png" alt="User Journey Mapping 1 - Martin" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/user-journey-mapping2.png" alt="User Journey Mapping 1 - Martin" width="auto" height="1900"/>
 
 **2) Perfil 2: Área de control y gerencia**
 
-<img src="../docs/assets/chapter-02/user-journey-mapping1.png" alt="User Journey Mapping 2 - Roberto" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/user-journey-mapping1.png" alt="User Journey Mapping 2 - Roberto" width="auto" height="1900"/>
 
 ### 2.3.4. Empathy Mapping
 
@@ -1156,11 +1156,11 @@ Para crear una solución que realmente se vincule con las personas, no es sufici
 
 **1) Perfil 1: Área operativa de campo**
 
-<img src="../docs/assets/chapter-02/empathy-mapping1.png" alt="Empathy Mapping 1 - Martin" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/empathy-mapping1.png" alt="Empathy Mapping 1 - Martin" width="auto" height="1900"/>
 
 **2) Perfil 2: Área de control y gerencia**
 
-<img src="../docs/assets/chapter-02/empathy-mapping2.png" alt="Empathy Mapping 2 - Roberto" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/empathy-mapping2.png" alt="Empathy Mapping 2 - Roberto" width="auto" height="1900"/>
 
 ## 2.4. Big Picture EventStorming
 
@@ -1170,13 +1170,13 @@ Para diseñar un sistema robusto, primero debemos entender el negocio como un to
 
 En esta primera etapa, el equipo realizó una sesión de lluvia de ideas para capturar todos los eventos de dominio relevantes, sin preocuparse inicialmente por el orden o la jerarquía. El objetivo principal fue representar los acontecimientos reales del negocio —como la detección de una falta de material o la negociación de un precio— de manera independiente a cualquier función técnica o arquitectura del sistema.
 
-<img src="../docs/assets/chapter-02/big-picture-event-storming1.png" alt="Big Picture EventStorming 1" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/big-picture-event-storming1.png" alt="Big Picture EventStorming 1" width="auto" height="1900"/>
 
 **Step 2 – Structured Organization** 
 
 Después de listar los eventos en esta estructura nos permitió aislar los procesos clave, desde el requerimiento inicial en el frente de obra hasta la conciliación financiera final, resaltando las áreas de mejora que serán abordadas mediante nuestra solución digital.
 
-<img src="../docs/assets/chapter-02/big-picture-event-storming2.png" alt="Big Picture EventStorming 2" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/big-picture-event-storming2.png" alt="Big Picture EventStorming 2" width="auto" height="1900"/>
 
 ## 2.5. Ubiquitous Language
 
@@ -1287,7 +1287,7 @@ Jefes de Proyecto / Gerentes Generales
 | TS-12 | Registro de usuario | **Como** desarrollador,<br>**Quiero** registrar nuevos usuarios,<br>**Para** permitir acceso controlado. | **Escenario 1: Registro exitoso**<br>**Dado** que el request POST a `/api/v1/auth/sign-up` contiene datos válidos,<br>**Cuando** se envía la solicitud,<br>**Entonces** el sistema retorna status 201 y crea el usuario.<br><br>**Escenario 2: Email duplicado**<br>**Dado** que el correo ya existe en el sistema,<br>**Cuando** se intenta registrar el usuario,<br>**Entonces** el sistema retorna status 400 indicando conflicto de registro. | EP-04 |
      
 ## 3.2. Impact Mapping
-<img src="../docs/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
+<img src="docs/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
 ## 3.3. Product Backlog
 
 | Orden | User Story ID | Título | Descripción | Story Points |
@@ -1364,7 +1364,7 @@ El logotipo principal de Buildline está compuesto por un isotipo que integra m�
 
 <br>
 <p align="center">
-  <img src="../docs/assets/chapter-04/buildline_logo.jpg" alt="Buildline Logo" width="350px" height="auto"/>
+  <img src="docs/assets/chapter-04/buildline_logo.jpg" alt="Buildline Logo" width="350px" height="auto"/>
 </p>
 <br>
 
@@ -1380,7 +1380,7 @@ La jerarquía tipográfica se establece de la siguiente manera para garantizar c
 * **Botones y etiquetas (span):** 1.4rem (aprox. 14px) a 1.8rem (aprox. 18px).
 
 <p align="center">
-  <img src="../docs/assets/chapter-04/Style_guide.png" alt=" Typography Guide" width="500px" height="auto"/>
+  <img src="docs/assets/chapter-04/Style_guide.png" alt=" Typography Guide" width="500px" height="auto"/>
 </p>
 
 Esta distribución garantiza un contraste óptimo entre el texto y el fondo, superando un ratio mínimo de 4.5:1 según las WCAG 2.1 AA para una accesibilidad superior en entornos de campo.
@@ -1403,7 +1403,7 @@ Nuestra paleta de colores ha sido cuidadosamente seleccionada para evocar sensac
     * **Advertencia:** Amarillo para quiebres de stock o requerimientos pendientes.
 
 <p align="center">
-  <img src="../docs/assets/chapter-04/Color_guidelines.png" alt=Color Palette" width="800px" height="auto"/>
+  <img src="docs/assets/chapter-04/Color_guidelines.png" alt=Color Palette" width="800px" height="auto"/>
 </p>
 
 Esta combinación cromática refleja los valores de nuestra marca y busca transmitir al público (constructoras y gerentes de proyecto) una imagen de rigor, velocidad y control financiero.
@@ -1823,7 +1823,7 @@ El context diagram muestra al **Buildline Software System** como un recuadro en 
 
 En el diagrama se representan las relaciones entre estos elementos, destacando que los actores humanos interactúan únicamente con Buildline, mientras que el sistema se encarga de orquestar las integraciones con los servicios externos (validación tributaria, correos y pagos). Esta vista permite entender el alcance del sistema, los límites de responsabilidad y el ecosistema logístico en el que se inserta Buildline antes de entrar a detalles de implementación.
 
-![ContextDiagram Diagram](../docs/assets/chapter-04/ContextDiagram.svg)
+![ContextDiagram Diagram](docs/assets/chapter-04/ContextDiagram.svg)
 
 ---
 
@@ -1847,7 +1847,7 @@ En el diagrama se observa que:
 
 Esta vista permite apreciar cómo se distribuyen las responsabilidades entre la capa de presentación (Landing y SPA), la capa de lógica de negocio (API Application) y la capa de persistencia (Database), así como las principales decisiones tecnológicas que se han tomado para cada contenedor.
 
-![ContainerDiagram Diagram](../docs/assets/chapter-04/ContainerDiagram.svg)
+![ContainerDiagram Diagram](docs/assets/chapter-04/ContainerDiagram.svg)
 
 ---
 
@@ -1876,7 +1876,7 @@ En el diagrama se refleja cómo:
 
 De esta forma, los component diagrams complementan los diagramas de clases del frontend, backend y base de datos, mostrando cómo los contenedores se descomponen en componentes coherentes con los bounded contexts del dominio y cómo estos colaboran entre sí para implementar la funcionalidad completa de Buildline.
 
-![ComponentsDiagram Diagram](../docs/assets/chapter-04/ComponentDiagram.svg)
+![ComponentsDiagram Diagram](docs/assets/chapter-04/ComponentDiagram.svg)
 
 <div style="page-break-after: always;"></div>
 
@@ -2322,7 +2322,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes a la presencia di
 </p>
 
 <div align="center">
-  <img src="../docs/assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
+  <img src="docs/assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
   <p><em>Figura: Historial de commits demostrando la participación activa de los miembros del equipo RQLS.</em></p>
 </div>
 
@@ -2331,7 +2331,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes a la presencia di
 </p>
 
 <div align="center">
-  <img src="../docs/assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph">
+  <img src="docs/assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph">
   <p><em>Figura: Gráfica de visitantes mostrando la revisión constante del repositorio por parte del equipo.</em></p>
 </div>
 
@@ -2775,12 +2775,12 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 </p>
 
 <div align="center">
-  <img src="../docs/assets/chapter-05/commit-history-sprint2.png" alt="Commit History Sprint 2" width="90%">
+  <img src="docs/assets/chapter-05/commit-history-sprint2.png" alt="Commit History Sprint 2" width="90%">
   <p><em>Figura: Historial de commits del repositorio Frontend, evidenciando la participación distribuida del equipo RQLS durante el Sprint 2.</em></p>
 </div>
 
 <div align="center">
-  <img src="../docs/assets/chapter-05/contributors-sprint2.png" alt="Contributors Insights Sprint 2" width="90%">
+  <img src="docs/assets/chapter-05/contributors-sprint2.png" alt="Contributors Insights Sprint 2" width="90%">
   <p><em>Figura: Gráfica de Contributors de GitHub Insights mostrando la distribución de contribuciones del Sprint 2.</em></p>
 </div>
 
