@@ -213,14 +213,6 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 
 <div class="page-break"></div>
 
-# Abstract
-This project addresses the operational inefficiencies and digital gap within micro and small enterprises (MSMEs) in the Peruvian construction sector. Focusing on the procurement and logistics chain, the development follows the Lean UX framework and Agile methodologies to design a specialized Software as a Service (SaaS) platform. The system centralizes requisitions, quotation comparisons, and multi-level approval workflows to replace informal communication channels. Preliminary research and user discovery suggest that the implementation of such a solution significantly improves budget traceability and reduces administrative lead times. Ultimately, this work contributes to the digital maturity of the industry by providing an accessible tool for operational optimization.
-
-# Resumen
-Este proyecto aborda las ineficiencias operativas y la brecha digital en las micro y pequeÃ±as empresas (MYPES) del sector construcciÃ³n en el PerÃº. CentrÃ¡ndose en la cadena de adquisiciones y logÃ­stica, el desarrollo sigue el marco de trabajo Lean UX y metodologÃ­as Ã¡giles para diseÃ±ar una plataforma especializada bajo el modelo Software as a Service (SaaS). El sistema centraliza las requisiciones, la comparativa de cotizaciones y los flujos de aprobaciÃ³n multinivel para reemplazar los canales de comunicaciÃ³n informales. La investigaciÃ³n preliminar y el descubrimiento de usuarios sugieren que la implementaciÃ³n de una soluciÃ³n de este tipo mejora significativamente la trazabilidad presupuestal y reduce los tiempos de espera administrativos. En Ãºltima instancia, este trabajo contribuye a la madurez digital de la industria al proporcionar una herramienta accesible para la optimizaciÃ³n operativa
-
-<div class="page-break"></div>
-
 # CapÃ­tulo I: IntroducciÃ³n
 
 ## 1.1. Startup Profile
@@ -2072,11 +2064,11 @@ Se establecen los repositorios oficiales de la soluciÃ³n Buildline para garant
     </tr>
     <tr>
       <td>Frontend Web Application</td>
-      <td><a href="https://github.com/RQLS26/Buildline-Frontend">https://github.com/RQLS26/Buildline-Frontend</a></td>
+      <td><a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26/Frontend</a></td>
     </tr>
     <tr>
       <td>Backend Web Services</td>
-      <td><a href="https://github.com/RQLS26/Buildline-Backend">https://github.com/RQLS26/Buildline-Backend</a></td>
+      <td><a href="https://github.com/RQLS26/Backend">https://github.com/RQLS26/Backend</a></td>
     </tr>
   </tbody>
 </table>
