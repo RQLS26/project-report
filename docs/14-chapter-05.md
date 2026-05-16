@@ -117,9 +117,9 @@ Se utiliza nomenclatura en inglés relacionada con las entidades del dominio log
 
 Se especifica la configuración de despliegue para los entornos de Buildline, garantizando alta disponibilidad para ingenieros en obra.
 
-#### Landing Page - GitHub Pages
-Despliegue automático del contenido estático mediante GitHub Actions tras cada merge a la rama `main`.
-* **URL:** [https://github.com/RQLS26/Landing-Page](https://github.com/RQLS26/Landing-Page)
+#### Landing Page - Vercel
+Despliegue automático del contenido estático mediante la integración con Vercel tras cada merge a la rama `main`.
+* **URL:** [https://landing-page-bay-iota.vercel.app/](https://landing-page-bay-iota.vercel.app/)
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -282,7 +282,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes a la presencia di
 
 #### 5.2.1.7. Software Deployment Evidence
 <p>
-  <strong>URL de Producción:</strong> <a href="https://github.com/RQLS26/Landing-Page">https://github.com/RQLS26/Landing-Page/</a>
+  <strong>URL de Producción:</strong> <a href="https://landing-page-bay-iota.vercel.app/">https://landing-page-bay-iota.vercel.app/</a>
 </p>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
@@ -386,8 +386,8 @@ En esta sección se documenta el avance del Sprint 2 del proyecto Buildline. El 
   </tbody>
 </table>
 <p>
-  <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26-Frontend</a><br>
-  <strong>Repositorio Landing Page v2:</strong> <a href="https://github.com/RQLS26/LandingPage">https://github.com/RQLS26-LandingPage</a>
+  <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26/Frontend</a><br>
+  <strong>Repositorio Landing Page v2:</strong> <a href="https://github.com/RQLS26/Landing-Page">https://github.com/RQLS26/Landing-Page</a>
 </p>
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
@@ -589,8 +589,21 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 
 <div align="center">
   <img src="./assets/chapter-05/sprint2-dashboard.png" alt="Financial Dashboard" width="90%">
-  <p><em>Figura: Financial Dashboard por proyecto (Skyline Tower, Alpha Wing, Beta Foundation).</em></p>
+  <p><em>Figura: Dashboard Overview (resumen).</em></p>
 </div>
+
+<h4>Video About The Product</h4>
+
+<p>En esta sección se presenta el video demostrativo oficial de la plataforma <strong>Buildline (Release v1.0.0)</strong>, elaborado para el cierre del Sprint 2. El propósito de este video es evidenciar la integración end-to-end de nuestra arquitectura, mostrando desde la gestión de requisiciones y el control de inventario hasta el impacto automático en el Dashboard Financiero. El material audiovisual ha sido alojado de forma segura en la plataforma institucional <strong>Microsoft Stream</strong>.</p>
+
+<div align="center">
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc_edu_pe/IQBmp9aQwMuLSLxjirNLDL3-ATVaXbe2IUg_aTtw3V59494?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y9T9qs" target="_blank">
+    <img src="./assets/chapter-05/video-screenshot.png" alt="Video Demostrativo Buildline en Microsoft Stream" width="90%" style="border: 1px solid #ccc; border-radius: 8px;">
+  </a>
+  <p><em>Figura: Video demostrativo en Microsoft Stream.</em></p>
+</div>
+
+Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc_edu_pe/IQBmp9aQwMuLSLxjirNLDL3-ATVaXbe2IUg_aTtw3V59494?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y9T9qs
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -599,6 +612,7 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 </p>
 
 <p><strong>URL del Mock API (local):</strong> <code>http://localhost:3000</code></p>
+<p><strong>URL del Mock API (Producción en Render):</strong> <code>https://buildline-json-server.onrender.com/</code></p>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
@@ -700,27 +714,28 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
   Durante el Sprint 2 se realizaron actividades de despliegue para dos productos: la nueva versión del <strong>Landing Page (v2)</strong> y la primera versión del <strong>Frontend Web Application</strong>.
 </p>
 
-<p><strong>Landing Page v2 (GitHub Pages)</strong></p>
+<p><strong>Landing Page v2 (Vercel)</strong></p>
 <ul>
   <li>Se incorporaron las mejoras de UI recomendadas en el feedback AV1 (jerarquía del Hero y CTAs del bloque de Planes).</li>
-  <li>El despliegue continúa automatizado mediante GitHub Actions sobre la rama <code>main</code> del repositorio del Landing Page.</li>
-  <li><strong>URL de Producción:</strong> <a href="https://github.com/RQLS26-LandingPage">https://github.com/RQLS26-LandingPage/</a></li>
+  <li>El despliegue fue migrado a la plataforma Vercel para asegurar integración nativa con Vite, automatizado en cada merge a <code>main</code>.</li>
+  <li><strong>URL de Producción:</strong> <a href="https://landing-page-bay-iota.vercel.app/">https://landing-page-bay-iota.vercel.app/</a></li>
 </ul>
 
 <p><strong>Frontend Web Application (primera versión)</strong></p>
 <ul>
-  <li>Se creó el repositorio <code>RQLS26-Frontend</code> con el proyecto Vue 3 + Vite + Pinia.</li>
-  <li>Se configuró un workflow de GitHub Actions que ejecuta <code>npm run build</code> y publica el artefacto estático generado en <code>dist/</code> a la plataforma de hosting seleccionada por el equipo.</li>
-  <li><strong>URL de Producción:</strong> <em>(reemplazar con la URL real del deploy, por ejemplo Vercel, Netlify o Azure Static Web Apps)</em></li>
+  <li>Se actualizó el repositorio <code>RQLS26-Frontend</code> con el proyecto Vue 3 + Vite + Pinia finalizado.</li>
+  <li>Se configuró el despliegue automático conectando el repositorio directamente a <strong>Vercel</strong>, añadiendo el archivo <code>vercel.json</code> para manejar las reglas del Single Page Application (SPA).</li>
+  <li>Se desplegó paralelamente el mock en <code>db.json</code> como un Web Service en <strong>Render</strong> para contar con persistencia remota.</li>
+  <li><strong>URL de Producción:</strong> <a href="https://buildline-3jcvvnh4t-team-project0.vercel.app/">https://buildline-3jcvvnh4t-team-project0.vercel.app/</a></li>
 </ul>
 
 <p><strong>Pasos realizados durante el Sprint:</strong></p>
 <ol>
-  <li>Inicialización del repositorio del Frontend y configuración del proyecto Vue 3 con Vite.</li>
-  <li>Configuración del <code>vite.config.js</code> y del <code>package.json</code>, incluyendo el script <code>dev</code> con <code>concurrently</code> para levantar el frontend y el mock service en paralelo.</li>
-  <li>Creación del archivo <code>server/db.json</code> con datos de muestra para soportar los flujos del Sprint.</li>
-  <li>Configuración del workflow CI/CD en GitHub Actions para build y deploy automático en cada merge a <code>main</code>.</li>
-  <li>Verificación post-despliegue del enrutamiento SPA (fallback a <code>index.html</code> para rutas profundas) y del funcionamiento de los guards de autenticación.</li>
+  <li>Configuración del frontend dinámico utilizando variables de entorno (<code>VITE_API_BASE_URL</code>) para apuntar a Render en producción y localhost en desarrollo.</li>
+  <li>Creación de un repositorio de backend para el `json-server` y despliegue a Render como servicio web.</li>
+  <li>Conexión e importación del repositorio de Frontend a Vercel con la configuración de History Mode.</li>
+  <li>Conexión de la Landing Page a Vercel, garantizando compatibilidad inmediata sin configuración adicional.</li>
+  <li>Verificación exitosa post-despliegue del cruce de datos y navegación integral de ambas plataformas.</li>
 </ol>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
@@ -747,8 +762,8 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 <ul>
   <li><strong>Story Points completados:</strong> 28 / 28</li>
   <li><strong>Total de Issues cerrados en Jira:</strong> 21</li>
-  <li><strong>Total de Pull Requests cerrados:</strong> <em>(reemplazar con dato real de GitHub Insights)</em></li>
-  <li><strong>Total de commits en el repositorio Frontend:</strong> <em>(reemplazar con dato real de GitHub Insights)</em></li>
+  <li><strong>Total de Pull Requests cerrados:</strong> 0</li>
+  <li><strong>Total de commits en el repositorio Frontend:</strong> 20</li>
 </ul>
 
 <p><strong>Aciertos del Sprint:</strong></p>
