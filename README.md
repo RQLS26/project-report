@@ -1,4 +1,4 @@
-# Buildline - Project Report (RQLS)
+
 <div align="center">
 <br>
 <img src="docs/assets/common/logo-upc.png"
@@ -214,10 +214,10 @@ This project addresses the operational inefficiencies and digital gap within mic
 # Resumen
 Este proyecto aborda las ineficiencias operativas y la brecha digital en las micro y pequeñas empresas (MYPES) del sector construcción en el Perú. Centrándose en la cadena de adquisiciones y logística, el desarrollo sigue el marco de trabajo Lean UX y metodologías ágiles para diseñar una plataforma especializada bajo el modelo Software as a Service (SaaS). El sistema centraliza las requisiciones, la comparativa de cotizaciones y los flujos de aprobación multinivel para reemplazar los canales de comunicación informales. La investigación preliminar y el descubrimiento de usuarios sugieren que la implementación de una solución de este tipo mejora significativamente la trazabilidad presupuestal y reduce los tiempos de espera administrativos. En última instancia, este trabajo contribuye a la madurez digital de la industria al proporcionar una herramienta accesible para la optimización operativa
 
-Este repositorio contiene la documentación técnica y el informe detallado del proyecto **Buildline**, desarrollado por la startup **RQLS** para el curso de Aplicaciones Web.
 
-## 🚀 Descripción del Proyecto
-**Buildline** es una solución SaaS diseñada para optimizar la cadena de abastecimiento y logística en micro y pequeñas empresas (MYPES) del sector construcción en Perú. La plataforma permite centralizar requerimientos de obra, comparar cotizaciones y gestionar aprobaciones jerárquicas, eliminando sobrecostos por gestión informal.
+# Buildline - Project Report (RQLS)
+
+Este repositorio contiene la documentación técnica y el informe detallado del proyecto **Buildline**, desarrollado por la startup **RQLS** para el curso de Aplicaciones Web.
 
 ## 📂 Estructura del Repositorio
 *   `/docs`: Contiene los archivos Markdown individuales del informe (Capítulos I - VI).
