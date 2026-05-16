@@ -82,7 +82,7 @@
 | VersiÃ³n | Fecha | Autores | DescripciÃ³n              |
 | :--- | :--- | :--- |:-------------------------|
 | 1.0.0 | 26/04/2026 | Mauricio SebastiÃ¡n Castillo Yataco, David Joel Morales Venegas, JesÃºs Fernando Paucar Zenteno, Marlon Packard Viza Quispe, Albino Florencio CÃ¡ceres Pizarro | VersiÃ³n inicial del avance AV1 (TB1) |
-| 2.0.0 | 16/05/2026 | Mauricio SebastiÃ¡n Castillo Yataco, David Joel Morales Venegas, JesÃºs Fernando Paucar Zenteno, Marlon Packard Viza Quispe, Albino Florencio CÃ¡ceres Pizarro | VersiÃ³n de entrega final TP1 (Frontend Vercel, Backend Render) |
+| 2.0.0 | 16/05/2026 | Mauricio SebastiÃ¡n Castillo Yataco, David Joel Morales Venegas, JesÃºs Fernando Paucar Zenteno, Marlon Packard Viza Quispe, Albino Florencio CÃ¡ceres Pizarro | Entrega de Trabajo Parcial (TP1) con despliegue de Frontend y Landing Page |
 
 <div class="page-break"></div>
 
@@ -182,15 +182,25 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
       Trabaja en equipo para proporcionar liderazgo en forma conjunta
     </td>
     <td>
-      <strong>Morales Venegas, David Joel</strong> â€” CreaciÃ³n del repositorio, DiseÃ±o de Landing Page, LiderÃ³ diseÃ±o/anÃ¡lisis de entrevistas. <strong>TP1:</strong> LiderÃ³ desarrollo de vistas de ComunicaciÃ³n, Perfil y Landing Page v2 en Vercel.<br>
-      <strong>Viza Quispe, Marlon Packard</strong> â€” Event Storming, Ubiquitous Language, Journey/Empathy Mapping. <strong>TP1:</strong> LiderÃ³ integraciÃ³n y desarrollo del directorio de Proveedores y visualizaciÃ³n de incidencias.<br>
-      <strong>Paucar Zenteno, JesÃºs Fernando</strong> â€” User Flow Diagrams, Web applications prototype. <strong>TP1:</strong> LiderÃ³ mÃ³dulos de RequisiciÃ³n de Materiales y Ã“rdenes de Compra (Procurement).<br>
-      <strong>Castillo Yataco, Mauricio SebastiÃ¡n</strong> â€” Lean UX Process, Segmentos Objetivo, Lean UX Canvas, Needfinding. <strong>TP1:</strong> LiderÃ³ configuraciÃ³n de Vue 3, Vite, Pinia, AutenticaciÃ³n (IAM) y mock JSON Server.<br>
-      <strong>CÃ¡ceres Pizarro, Albino Florencio</strong> â€” Arquitectura de software (C4 Context Diagrams y Class Diagrams). <strong>TP1:</strong> LiderÃ³ mÃ³dulo de Inventario y desarrollo del Dashboard Financiero con exportaciÃ³n PDF.<br>
+      <strong>Morales Venegas, David Joel</strong><br>
+      <strong>AV1:</strong> CreaciÃ³n del repositorio, DiseÃ±o de Landing Page, LiderÃ³ diseÃ±o/anÃ¡lisis de entrevistas.<br>
+      <strong>TP1:</strong> LiderÃ³ la implementaciÃ³n de la mensajerÃ­a interna, perfil de empresa y rediseÃ±o del Landing Page v2 (Vercel).<br><br>
+      <strong>Viza Quispe, Marlon Packard</strong><br>
+      <strong>AV1:</strong> Event Storming, Ubiquitous Language, Journey/Empathy Mapping.<br>
+      <strong>TP1:</strong> ImplementÃ³ el directorio de proveedores y el mÃ³dulo de incidencias en el Frontend.<br><br>
+      <strong>Paucar Zenteno, JesÃºs Fernando</strong><br>
+      <strong>AV1:</strong> User Flow Diagrams, Web applications prototype.<br>
+      <strong>TP1:</strong> LiderÃ³ la gestiÃ³n de requisiciones y Ã³rdenes de compra (Approval Inbox, Quotations Management).<br><br>
+      <strong>Castillo Yataco, Mauricio SebastiÃ¡n</strong><br>
+      <strong>AV1:</strong> Lean UX Process, Segmentos Objetivo, Lean UX Canvas, Needfinding.<br>
+      <strong>TP1:</strong> ConfigurÃ³ el proyecto base (Vue 3 + Vite), implementÃ³ IAM (Auth), mock API en Render y despliegue.<br><br>
+      <strong>CÃ¡ceres Pizarro, Albino Florencio</strong><br>
+      <strong>AV1:</strong> Arquitectura de software (C4 Context Diagrams y Class Diagrams).<br>
+      <strong>TP1:</strong> DesarrollÃ³ el control de inventarios, dashboard financiero y generaciÃ³n de reportes PDF.<br>
     </td>
     <td>
-      <strong>AV1/TB1:</strong> El equipo demostrÃ³ liderazgo compartido al asignar responsables especÃ­ficos basÃ¡ndose en las fortalezas tÃ©cnicas de cada integrante.<br>
-      <strong>TP1:</strong> La distribuciÃ³n de trabajo por Bounded Contexts bajo arquitectura DDD permitiÃ³ entregar el frontend funcional y los reportes a tiempo.<br>
+      <strong>AV1:</strong> El equipo demostrÃ³ liderazgo compartido al asignar responsables especÃ­ficos basÃ¡ndose en las fortalezas tÃ©cnicas de cada integrante.<br>
+      <strong>TP1:</strong> Se lideraron diferentes *bounded contexts* tÃ©cnicos del Frontend, logrando una entrega funcional de software desplegado en la nube de forma paralela.<br>
     </td>
   </tr>
   <tr>
@@ -198,15 +208,25 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
       Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos
     </td>
     <td>
-      <strong>Morales Venegas, David Joel</strong> â€” ColaborÃ³ en Wireframes, Wireflow y User Flow Diagrams. <strong>TP1:</strong> ApoyÃ³ en refactorizaciÃ³n de URLs e integraciÃ³n de vistas responsivas.<br>
-      <strong>Viza Quispe, Marlon Packard</strong> â€” DiseÃ±o de Landing Page, revisiÃ³n integradora y correcciones finales AV1. <strong>TP1:</strong> Testing funcional de endpoints simulados.<br>
-      <strong>Paucar Zenteno, JesÃºs Fernando</strong> â€” DiseÃ±o de Web Applications, revisiÃ³n integradora y correcciones finales AV1. <strong>TP1:</strong> ConfiguraciÃ³n y cruce de datos en las listas reactivas.<br>
-      <strong>Castillo Yataco, Mauricio SebastiÃ¡n</strong> â€” DiseÃ±o de arquitectura, RedacciÃ³n y documentaciÃ³n del CapÃ­tulo V (SCM, Sprint 1). <strong>TP1:</strong> DocumentaciÃ³n del despliegue en Vercel y Render (Sprint 2).<br>
-      <strong>CÃ¡ceres Pizarro, Albino Florencio</strong> â€” AnÃ¡lisis de competidores, diagrama de base de datos y artefactos de Needfinding. <strong>TP1:</strong> GeneraciÃ³n y correcciÃ³n del reporte final consolidado.<br>
+      <strong>Morales Venegas, David Joel</strong><br>
+      <strong>AV1:</strong> ColaborÃ³ en Wireframes, Wireflow y User Flow Diagrams.<br>
+      <strong>TP1:</strong> ColaborÃ³ en la integraciÃ³n del Frontend con el mock server y validaciÃ³n de componentes PrimeVue.<br><br>
+      <strong>Viza Quispe, Marlon Packard</strong><br>
+      <strong>AV1:</strong> DiseÃ±o de Landing Page, revisiÃ³n integradora y correcciones finales AV1.<br>
+      <strong>TP1:</strong> RevisiÃ³n integradora de cÃ³digo y pruebas de QA sobre los mÃ³dulos de proveedores y requisiciones.<br><br>
+      <strong>Paucar Zenteno, JesÃºs Fernando</strong><br>
+      <strong>AV1:</strong> DiseÃ±o de Web Applications, revisiÃ³n integradora y correcciones finales AV1.<br>
+      <strong>TP1:</strong> ValidÃ³ los flujos lÃ³gicos de las Ã³rdenes de compra (approval flows) contra los requisitos de dominio (DDD).<br><br>
+      <strong>Castillo Yataco, Mauricio SebastiÃ¡n</strong><br>
+      <strong>AV1:</strong> DiseÃ±o de arquitectura, RedacciÃ³n y documentaciÃ³n del CapÃ­tulo V (SCM, Sprint 1).<br>
+      <strong>TP1:</strong> RedactÃ³ la documentaciÃ³n del Sprint 2 y organizÃ³ la planificaciÃ³n de tareas en Jira.<br><br>
+      <strong>CÃ¡ceres Pizarro, Albino Florencio</strong><br>
+      <strong>AV1:</strong> AnÃ¡lisis de competidores, diagrama de base de datos y artefactos de Needfinding.<br>
+      <strong>TP1:</strong> ParticipÃ³ en la resoluciÃ³n de conflictos de ramas (merges) y diseÃ±o de filtros del dashboard.<br>
     </td>
     <td>
-      <strong>AV1/TB1:</strong> La planificaciÃ³n de tareas mediante un backlog inicial permitiÃ³ cumplir con todos los artefactos de Needfinding y Lean UX.<br>
-      <strong>TP1:</strong> Se migrÃ³ a un flujo de integraciÃ³n continua, estableciendo la meta de alcanzar el Release v1.0.0 con 100% de despliegues operativos.<br>
+      <strong>AV1:</strong> La planificaciÃ³n de tareas mediante un backlog inicial permitiÃ³ cumplir con todos los artefactos de Needfinding y Lean UX.<br>
+      <strong>TP1:</strong> La migraciÃ³n de tareas hacia Jira y el uso de un framework SPA permitiÃ³ cumplir con Ã©xito el primer despliegue funcional en Vercel.<br>
     </td>
   </tr>
 </table>

@@ -21,15 +21,25 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
       Trabaja en equipo para proporcionar liderazgo en forma conjunta
     </td>
     <td>
-      <strong>Morales Venegas, David Joel</strong> — Creación del repositorio, Diseño de Landing Page, Lideró diseño/análisis de entrevistas. <strong>TP1:</strong> Lideró desarrollo de vistas de Comunicación, Perfil y Landing Page v2 en Vercel.<br>
-      <strong>Viza Quispe, Marlon Packard</strong> — Event Storming, Ubiquitous Language, Journey/Empathy Mapping. <strong>TP1:</strong> Lideró integración y desarrollo del directorio de Proveedores y visualización de incidencias.<br>
-      <strong>Paucar Zenteno, Jesús Fernando</strong> — User Flow Diagrams, Web applications prototype. <strong>TP1:</strong> Lideró módulos de Requisición de Materiales y Órdenes de Compra (Procurement).<br>
-      <strong>Castillo Yataco, Mauricio Sebastián</strong> — Lean UX Process, Segmentos Objetivo, Lean UX Canvas, Needfinding. <strong>TP1:</strong> Lideró configuración de Vue 3, Vite, Pinia, Autenticación (IAM) y mock JSON Server.<br>
-      <strong>Cáceres Pizarro, Albino Florencio</strong> — Arquitectura de software (C4 Context Diagrams y Class Diagrams). <strong>TP1:</strong> Lideró módulo de Inventario y desarrollo del Dashboard Financiero con exportación PDF.<br>
+      <strong>Morales Venegas, David Joel</strong><br>
+      <strong>AV1:</strong> Creación del repositorio, Diseño de Landing Page, Lideró diseño/análisis de entrevistas.<br>
+      <strong>TP1:</strong> Lideró la implementación de la mensajería interna, perfil de empresa y rediseño del Landing Page v2 (Vercel).<br><br>
+      <strong>Viza Quispe, Marlon Packard</strong><br>
+      <strong>AV1:</strong> Event Storming, Ubiquitous Language, Journey/Empathy Mapping.<br>
+      <strong>TP1:</strong> Implementó el directorio de proveedores y el módulo de incidencias en el Frontend.<br><br>
+      <strong>Paucar Zenteno, Jesús Fernando</strong><br>
+      <strong>AV1:</strong> User Flow Diagrams, Web applications prototype.<br>
+      <strong>TP1:</strong> Lideró la gestión de requisiciones y órdenes de compra (Approval Inbox, Quotations Management).<br><br>
+      <strong>Castillo Yataco, Mauricio Sebastián</strong><br>
+      <strong>AV1:</strong> Lean UX Process, Segmentos Objetivo, Lean UX Canvas, Needfinding.<br>
+      <strong>TP1:</strong> Configuró el proyecto base (Vue 3 + Vite), implementó IAM (Auth), mock API en Render y despliegue.<br><br>
+      <strong>Cáceres Pizarro, Albino Florencio</strong><br>
+      <strong>AV1:</strong> Arquitectura de software (C4 Context Diagrams y Class Diagrams).<br>
+      <strong>TP1:</strong> Desarrolló el control de inventarios, dashboard financiero y generación de reportes PDF.<br>
     </td>
     <td>
-      <strong>AV1/TB1:</strong> El equipo demostró liderazgo compartido al asignar responsables específicos basándose en las fortalezas técnicas de cada integrante.<br>
-      <strong>TP1:</strong> La distribución de trabajo por Bounded Contexts bajo arquitectura DDD permitió entregar el frontend funcional y los reportes a tiempo.<br>
+      <strong>AV1:</strong> El equipo demostró liderazgo compartido al asignar responsables específicos basándose en las fortalezas técnicas de cada integrante.<br>
+      <strong>TP1:</strong> Se lideraron diferentes *bounded contexts* técnicos del Frontend, logrando una entrega funcional de software desplegado en la nube de forma paralela.<br>
     </td>
   </tr>
   <tr>
@@ -37,15 +47,25 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
       Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos
     </td>
     <td>
-      <strong>Morales Venegas, David Joel</strong> — Colaboró en Wireframes, Wireflow y User Flow Diagrams. <strong>TP1:</strong> Apoyó en refactorización de URLs e integración de vistas responsivas.<br>
-      <strong>Viza Quispe, Marlon Packard</strong> — Diseño de Landing Page, revisión integradora y correcciones finales AV1. <strong>TP1:</strong> Testing funcional de endpoints simulados.<br>
-      <strong>Paucar Zenteno, Jesús Fernando</strong> — Diseño de Web Applications, revisión integradora y correcciones finales AV1. <strong>TP1:</strong> Configuración y cruce de datos en las listas reactivas.<br>
-      <strong>Castillo Yataco, Mauricio Sebastián</strong> — Diseño de arquitectura, Redacción y documentación del Capítulo V (SCM, Sprint 1). <strong>TP1:</strong> Documentación del despliegue en Vercel y Render (Sprint 2).<br>
-      <strong>Cáceres Pizarro, Albino Florencio</strong> — Análisis de competidores, diagrama de base de datos y artefactos de Needfinding. <strong>TP1:</strong> Generación y corrección del reporte final consolidado.<br>
+      <strong>Morales Venegas, David Joel</strong><br>
+      <strong>AV1:</strong> Colaboró en Wireframes, Wireflow y User Flow Diagrams.<br>
+      <strong>TP1:</strong> Colaboró en la integración del Frontend con el mock server y validación de componentes PrimeVue.<br><br>
+      <strong>Viza Quispe, Marlon Packard</strong><br>
+      <strong>AV1:</strong> Diseño de Landing Page, revisión integradora y correcciones finales AV1.<br>
+      <strong>TP1:</strong> Revisión integradora de código y pruebas de QA sobre los módulos de proveedores y requisiciones.<br><br>
+      <strong>Paucar Zenteno, Jesús Fernando</strong><br>
+      <strong>AV1:</strong> Diseño de Web Applications, revisión integradora y correcciones finales AV1.<br>
+      <strong>TP1:</strong> Validó los flujos lógicos de las órdenes de compra (approval flows) contra los requisitos de dominio (DDD).<br><br>
+      <strong>Castillo Yataco, Mauricio Sebastián</strong><br>
+      <strong>AV1:</strong> Diseño de arquitectura, Redacción y documentación del Capítulo V (SCM, Sprint 1).<br>
+      <strong>TP1:</strong> Redactó la documentación del Sprint 2 y organizó la planificación de tareas en Jira.<br><br>
+      <strong>Cáceres Pizarro, Albino Florencio</strong><br>
+      <strong>AV1:</strong> Análisis de competidores, diagrama de base de datos y artefactos de Needfinding.<br>
+      <strong>TP1:</strong> Participó en la resolución de conflictos de ramas (merges) y diseño de filtros del dashboard.<br>
     </td>
     <td>
-      <strong>AV1/TB1:</strong> La planificación de tareas mediante un backlog inicial permitió cumplir con todos los artefactos de Needfinding y Lean UX.<br>
-      <strong>TP1:</strong> Se migró a un flujo de integración continua, estableciendo la meta de alcanzar el Release v1.0.0 con 100% de despliegues operativos.<br>
+      <strong>AV1:</strong> La planificación de tareas mediante un backlog inicial permitió cumplir con todos los artefactos de Needfinding y Lean UX.<br>
+      <strong>TP1:</strong> La migración de tareas hacia Jira y el uso de un framework SPA permitió cumplir con éxito el primer despliegue funcional en Vercel.<br>
     </td>
   </tr>
 </table>
