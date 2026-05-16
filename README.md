@@ -1,5 +1,6 @@
 # Buildline - Project Report (RQLS)
 
+
 Este repositorio contiene la documentación técnica y el informe detallado del proyecto **Buildline**, desarrollado por la startup **RQLS** para el curso de Aplicaciones Web.
 
 ## 🚀 Descripción del Proyecto
@@ -23,3 +24,11 @@ Este repositorio contiene la documentación técnica y el informe detallado del 
 
 ---
 © 2026 RQLS Team - Universidad Peruana de Ciencias Aplicadas
+Documentación inicial del proyecto:
+
+- [Title Page](docs/front-matter/01-title-page.md)
+- [Version Control Log](docs/front-matter/02-version-control-log.md)
+- [Collaboration Insights](docs/front-matter/03-collaboration-insights.md)
+- [Table of Contents](docs/front-matter/04-table-of-contents.md)
+- [Student Outcomes](docs/front-matter/05-student-outcomes.md)
+- [Abstract](docs/front-matter/06-abstract.md)
