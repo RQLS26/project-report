@@ -82,7 +82,7 @@
 | Versión | Fecha | Autores | Descripción              |
 | :--- | :--- | :--- |:-------------------------|
 | 1.0.0 | 26/04/2026 | Mauricio Sebastián Castillo Yataco, David Joel Morales Venegas, Jesús Fernando Paucar Zenteno, Marlon Packard Viza Quispe, Albino Florencio Cáceres Pizarro | Versión inicial del avance AV1 (TB1) |
-| 2.0.0 | 16/05/2026 | Mauricio Sebastián Castillo Yataco, David Joel Morales Venegas, Jesús Fernando Paucar Zenteno, Marlon Packard Viza Quispe, Albino Florencio Cáceres Pizarro | Entrega de Trabajo Parcial (TP1) con despliegue de Frontend y Landing Page |
+| 2.0.0 | 16/05/2026 | Mauricio Sebastián Castillo Yataco, David Joel Morales Venegas, Jesús Fernando Paucar Zenteno, Marlon Packard Viza Quispe, Albino Florencio Cáceres Pizarro | Entrega de Trabajo Parcial (TB1) con despliegue de Frontend y Landing Page |
 
 <div class="page-break"></div>
 
@@ -93,12 +93,12 @@ El presente apartado tiene como finalidad evidenciar el trabajo colaborativo rea
 
 A partir de este repositorio, se analiza la participación de los integrantes del equipo mediante indicadores como número de commits, frecuencia de contribuciones y actividad general registrada en la plataforma.
 
-En el contexto de la entrega correspondiente a la TB1, TP1, TB2 y TF1, se presenta un análisis de colaboración que permite visualizar el nivel de aporte individual de cada miembro del equipo, sustentado en los registros de GitHub. Este análisis busca demostrar la distribución del trabajo, la constancia en el desarrollo del informe y el cumplimiento de las actividades asignadas.
+En el contexto de la entrega correspondiente a la TB1, TB1, TB2 y TF1, se presenta un análisis de colaboración que permite visualizar el nivel de aporte individual de cada miembro del equipo, sustentado en los registros de GitHub. Este análisis busca demostrar la distribución del trabajo, la constancia en el desarrollo del informe y el cumplimiento de las actividades asignadas.
 
 ## TB1
 [pending content]
 
-## TP1
+## TB1
 [pending content]
 
 ## TB2
@@ -184,23 +184,23 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
     <td>
       <strong>Morales Venegas, David Joel</strong><br>
       <strong>AV1:</strong> Creación del repositorio, Diseño de Landing Page, Lideró diseño/análisis de entrevistas.<br>
-      <strong>TP1:</strong> Lideró la implementación de la mensajería interna, perfil de empresa y rediseño del Landing Page v2 (Vercel).<br><br>
+      <strong>TB1:</strong> Lideró la implementación de la mensajería interna, perfil de empresa y rediseño del Landing Page v2 (Vercel).<br><br>
       <strong>Viza Quispe, Marlon Packard</strong><br>
       <strong>AV1:</strong> Event Storming, Ubiquitous Language, Journey/Empathy Mapping.<br>
-      <strong>TP1:</strong> Implementó el directorio de proveedores y el módulo de incidencias en el Frontend.<br><br>
+      <strong>TB1:</strong> Implementó el directorio de proveedores y el módulo de incidencias en el Frontend.<br><br>
       <strong>Paucar Zenteno, Jesús Fernando</strong><br>
       <strong>AV1:</strong> User Flow Diagrams, Web applications prototype.<br>
-      <strong>TP1:</strong> Lideró la gestión de requisiciones y órdenes de compra (Approval Inbox, Quotations Management).<br><br>
+      <strong>TB1:</strong> Lideró la gestión de requisiciones y órdenes de compra (Approval Inbox, Quotations Management).<br><br>
       <strong>Castillo Yataco, Mauricio Sebastián</strong><br>
       <strong>AV1:</strong> Lean UX Process, Segmentos Objetivo, Lean UX Canvas, Needfinding.<br>
-      <strong>TP1:</strong> Configuró el proyecto base (Vue 3 + Vite), implementó IAM (Auth), mock API en Render y despliegue.<br><br>
+      <strong>TB1:</strong> Configuró el proyecto base (Vue 3 + Vite), implementó IAM (Auth), mock API en Render y despliegue.<br><br>
       <strong>Cáceres Pizarro, Albino Florencio</strong><br>
       <strong>AV1:</strong> Arquitectura de software (C4 Context Diagrams y Class Diagrams).<br>
-      <strong>TP1:</strong> Desarrolló el control de inventarios, dashboard financiero y generación de reportes PDF.<br>
+      <strong>TB1:</strong> Desarrolló el control de inventarios, dashboard financiero y generación de reportes PDF.<br>
     </td>
     <td>
       <strong>AV1:</strong> El equipo demostró liderazgo compartido al asignar responsables específicos basándose en las fortalezas técnicas de cada integrante.<br>
-      <strong>TP1:</strong> Se lideraron diferentes *bounded contexts* técnicos del Frontend, logrando una entrega funcional de software desplegado en la nube de forma paralela.<br>
+      <strong>TB1:</strong> Se lideraron diferentes *bounded contexts* técnicos del Frontend, logrando una entrega funcional de software desplegado en la nube de forma paralela.<br>
     </td>
   </tr>
   <tr>
@@ -210,23 +210,23 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
     <td>
       <strong>Morales Venegas, David Joel</strong><br>
       <strong>AV1:</strong> Colaboró en Wireframes, Wireflow y User Flow Diagrams.<br>
-      <strong>TP1:</strong> Colaboró en la integración del Frontend con el mock server y validación de componentes PrimeVue.<br><br>
+      <strong>TB1:</strong> Colaboró en la integración del Frontend con el mock server y validación de componentes PrimeVue.<br><br>
       <strong>Viza Quispe, Marlon Packard</strong><br>
       <strong>AV1:</strong> Diseño de Landing Page, revisión integradora y correcciones finales AV1.<br>
-      <strong>TP1:</strong> Revisión integradora de código y pruebas de QA sobre los módulos de proveedores y requisiciones.<br><br>
+      <strong>TB1:</strong> Revisión integradora de código y pruebas de QA sobre los módulos de proveedores y requisiciones.<br><br>
       <strong>Paucar Zenteno, Jesús Fernando</strong><br>
       <strong>AV1:</strong> Diseño de Web Applications, revisión integradora y correcciones finales AV1.<br>
-      <strong>TP1:</strong> Validó los flujos lógicos de las órdenes de compra (approval flows) contra los requisitos de dominio (DDD).<br><br>
+      <strong>TB1:</strong> Validó los flujos lógicos de las órdenes de compra (approval flows) contra los requisitos de dominio (DDD).<br><br>
       <strong>Castillo Yataco, Mauricio Sebastián</strong><br>
       <strong>AV1:</strong> Diseño de arquitectura, Redacción y documentación del Capítulo V (SCM, Sprint 1).<br>
-      <strong>TP1:</strong> Redactó la documentación del Sprint 2 y organizó la planificación de tareas en Jira.<br><br>
+      <strong>TB1:</strong> Redactó la documentación del Sprint 2 y organizó la planificación de tareas en Jira.<br><br>
       <strong>Cáceres Pizarro, Albino Florencio</strong><br>
       <strong>AV1:</strong> Análisis de competidores, diagrama de base de datos y artefactos de Needfinding.<br>
-      <strong>TP1:</strong> Participó en la resolución de conflictos de ramas (merges) y diseño de filtros del dashboard.<br>
+      <strong>TB1:</strong> Participó en la resolución de conflictos de ramas (merges) y diseño de filtros del dashboard.<br>
     </td>
     <td>
       <strong>AV1:</strong> La planificación de tareas mediante un backlog inicial permitió cumplir con todos los artefactos de Needfinding y Lean UX.<br>
-      <strong>TP1:</strong> La migración de tareas hacia Jira y el uso de un framework SPA permitió cumplir con éxito el primer despliegue funcional en Vercel.<br>
+      <strong>TB1:</strong> La migración de tareas hacia Jira y el uso de un framework SPA permitió cumplir con éxito el primer despliegue funcional en Vercel.<br>
     </td>
   </tr>
 </table>
@@ -251,7 +251,7 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
  | Imagen  | Apellidos y nombres                     |   Código   | Carrera                | Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 :-----------------:|:----------------------------------------|:----------:| :--------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |<img src="docs/assets/chapter-01/Castillo_Foto.jpg" alt="Foto de Castillo Yataco" width="120" />| **Castillo Yataco, Mauricio Sebastián** | U202113229 | Ingeniería de Software | Soy estudiante de Ingeniería de Software, apasionado por la creación de soluciones tecnológicas que mejoren la vida de las personas. Mi enfoque va más allá de la programación, ya que me interesa desarrollar experiencias digitales funcionales y agradables para el usuario. Poseo conocimientos básicos en C++, HTML y CSS, y destaco por mi responsabilidad, cooperación, comunicación, flexibilidad y adaptabilidad.                        |
-|<img src="docs/assets/chapter-01/david_foto.jpeg" alt="Foto de Morales Venegas" width="120" />| **Morales Venegas, David Joel**         | U20231B504 | Ingeniería de Software | Estudiante de Ingeniería de Software con formación intermedia en el desarrollo de aplicaciones web. Me adapto al trabajo técnico del equipo, priorizando código funcional, entendible y alineado a los requerimientos del proyecto, con disposición para mejorar y corregir en función de pruebas y resultados.                                                                                                                                   |
+|<img src="docs/assets/chapter-01/david_foto.jpeg" alt="Foto de Morales Venegas" width="120" />| **Morales Venegas, David Joel**         | U20231B504 | Ingeniería de Software | Estudiante de Ingeniería de Software con formación intermedia en el desarrollo de aplicaciones web. Me adapto al trabajo técnico del equipo, priorizando código funcional, entendible y alineado a los requisitos del proyecto, con disposición para mejorar y corregir en función de pruebas y resultados.                                                                                                                                   |
 |<img src="docs/assets/chapter-01/foto-fernando.jpg" alt="Foto de Fernando Paucar" width="120" />| **Paucar Zenteno, Jesús Fernando**      | U202316687 | Ingeniería de Software | Soy estudiante de Ingeniería de Software con gran pasión por la creación de soluciones innovadoras. Me considero una persona proactiva y orientada a resultados, con interés constante en aprender y aplicar nuevas tecnologías. Busco contribuir significativamente al proyecto, asegurando calidad y eficiencia en cada tarea.                                                                                                                  |
 |<img src="docs/assets/chapter-01/Marlon.jpg" alt="Foto Marlon Viza" width="120" />| **Viza Quispe, Marlon Packard**         | U202322849 | Ingeniería de Software | Estudiante de 20 años, responsable y proactivo, con sólida base técnica en C++. Destaco por mi capacidad de aportar soluciones creativas y mi compromiso con el aprendizaje continuo en entornos profesionales. Busco asumir retos que potencien mi desarrollo y contribuyan al éxito del equipo.                                                                                                                                                 |
 |<img src="docs/assets/chapter-01/caceres_foto.jpeg" alt="Foto de Albino" width="120" />| **Cáceres Pizarro, Albino Florencio**   | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo.                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -285,7 +285,7 @@ El retraso en la madurez digital del sector construcción se refleja en que el 4
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
-Las micro y pequeñas empresas (MYPES) constructoras de Lima Metropolitana gestionan los requerimientos de materiales mediante herramientas informales como WhatsApp o registros manuales en papel. Esta fragmentación de la información dificulta la trazabilidad de los pedidos, impide la comparación técnica de cotizaciones y retrasa la aprobación oportuna de compras por parte de la gerencia.
+Las micro y pequeñas empresas (MYPES) constructoras de Lima Metropolitana gestionan los requisitos de materiales mediante herramientas informales como WhatsApp o registros manuales en papel. Esta fragmentación de la información dificulta la trazabilidad de los pedidos, impide la comparación técnica de cotizaciones y retrasa la aprobación oportuna de compras por parte de la gerencia.
 
 Como consecuencia de esta gestión operativa deficiente, las organizaciones enfrentan sobrecostos por compras de emergencia y retrasos críticos en la ejecución de obra que erosionan su rentabilidad neta. Como equipo, nos comprometemos a resolver este desafío mediante una colaboración estrecha con el personal de campo y administrativo para diseñar un flujo de abastecimiento trazable y auditable.
 
@@ -296,11 +296,11 @@ Ante esto nos surge la siguiente pregunta:
 
 2. Customer Segments: Gerentes Generales (aprobadores), Ingenieros Residentes (solicitantes) y Jefes de Logística (compradores).
 
-3. Pain Points: Pérdida de trazabilidad de requerimientos, sobrecostos por emergencia y falta de comparación de cotizaciones.
+3. Pain Points: Pérdida de trazabilidad de requisitos, sobrecostos por emergencia y falta de comparación de cotizaciones.
 
 4. Gap: Inexistencia de un software SaaS económico diseñado para la pequeña constructora que cubra el espacio entre el Excel manual y ERPs de alta complejidad.
 
-5. Visión/Strategy: Digitalizar el 100% de los requerimientos de materiales mediante una plataforma en la nube que permita el control presupuestal en tiempo real.
+5. Visión/Strategy: Digitalizar el 100% de los requisitos de materiales mediante una plataforma en la nube que permita el control presupuestal en tiempo real.
 
 6. Initial Segment: Pequeñas empresas constructoras de edificaciones residenciales ubicadas en Lima Metropolitana.
 
@@ -326,7 +326,7 @@ Ante esto nos surge la siguiente pregunta:
 
 10. Se presume que el principal riesgo del producto es que el personal de campo mantenga el uso de canales informales si el flujo digital no reduce de forma clara el tiempo de coordinación frente a los canales actuales.
 
-11. Se plantea que este riesgo puede mitigarse mediante un sistema de requerimientos en “3 clics”, diseñado para smartphones y más ágil que redactar un mensaje de texto.
+11. Se plantea que este riesgo puede mitigarse mediante un sistema de requisitos en “3 clics”, diseñado para smartphones y más ágil que redactar un mensaje de texto.
 
 12. Se asume que, si se comprueba que las constructoras no están dispuestas a pagar por control digital pese a las pérdidas actuales, el proyecto no será viable.
 
@@ -369,7 +369,7 @@ Ante esto nos surge la siguiente pregunta:
 
 **Hypothesis 4** Creemos que al digitalizar el historial de proveedores y cotizaciones, facilitaremos la toma de decisiones gerenciales. Lo sabremos cuando el tiempo dedicado a la comparación manual de cotizaciones se reduzca de 4 horas semanales a solo 15 minutos.
 
-**Hypothesis 5** Creemos que digitalizar los requerimientos técnicos para los ingenieros de obra logrará una reducción del 50% en errores de pedido. Sabremos que es cierto cuando veamos que el 90% de los requerimientos registrados no requieren correcciones técnicas posteriores.
+**Hypothesis 5** Creemos que digitalizar los requisitos técnicos para los ingenieros de obra logrará una reducción del 50% en errores de pedido. Sabremos que es cierto cuando veamos que el 90% de los requisitos registrados no requieren correcciones técnicas posteriores.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -378,7 +378,7 @@ Ante esto nos surge la siguiente pregunta:
     <td valign="top">
       <strong>Business problem</strong>
       <br><br>
-      Las micro y pequeñas empresas (MYPES) constructoras de Lima Metropolitana gestionan los requerimientos de materiales mediante herramientas informales como WhatsApp o registros manuales en papel. Esta fragmentación dificulta la trazabilidad de los pedidos, limita la comparación técnica de cotizaciones y retrasa la aprobación de compras.
+      Las micro y pequeñas empresas (MYPES) constructoras de Lima Metropolitana gestionan los requisitos de materiales mediante herramientas informales como WhatsApp o registros manuales en papel. Esta fragmentación dificulta la trazabilidad de los pedidos, limita la comparación técnica de cotizaciones y retrasa la aprobación de compras.
       <br><br>
       Como consecuencia, se generan sobrecostos por compras de emergencia, duplicidad de pedidos y retrasos en la continuidad de obra que afectan directamente la rentabilidad del proyecto.
     </td>
@@ -387,7 +387,7 @@ Ante esto nos surge la siguiente pregunta:
       <br><br>
       - Plataforma web SaaS accesible desde dispositivos móviles orientada al entorno de obra
       <br><br>
-      - Registro digital de requerimientos con flujo de aprobación jerárquica
+      - Registro digital de requisitos con flujo de aprobación jerárquica
       <br><br>
       - Módulo de comparación de cotizaciones en tiempo real
       <br><br>
@@ -426,7 +426,7 @@ Ante esto nos surge la siguiente pregunta:
       <br><br>
       - Aprobación remota de materiales sin dependencia de la oficina
       <br><br>
-      - Visibilidad del estado de cada requerimiento en tiempo real
+      - Visibilidad del estado de cada requisito en tiempo real
       <br><br>
       - Reducción del tiempo dedicado a comparar cotizaciones
       <br><br>
@@ -447,7 +447,7 @@ Ante esto nos surge la siguiente pregunta:
       <br><br>
       - Si se digitaliza el historial de proveedores y cotizaciones, el tiempo de comparación manual se reducirá de 4 horas semanales a 15 minutos.
       <br><br>
-      - Si los requerimientos técnicos se registran digitalmente, los errores de pedido se reducirán en un 50%.
+      - Si los requisitos técnicos se registran digitalmente, los errores de pedido se reducirán en un 50%.
     </td>
     <td valign="top">
       <strong>What’s the most important thing we need to learn first?</strong>
@@ -759,7 +759,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
 10. ¿Cuántos proyectos u obras suele gestionar de manera simultánea en un mes promedio?
 11. ¿Podría describir el flujo de trabajo actual desde que se identifica la falta de un material en obra hasta que se emite el pago al proveedor?
 12. ¿Qué medios de comunicación utiliza para recibir las requisiciones de los ingenieros residentes?
-13. ¿Cómo gestiona y almacena las cotizaciones recibidas de diversos proveedores para un mismo requerimiento?
+13. ¿Cómo gestiona y almacena las cotizaciones recibidas de diversos proveedores para un mismo requisito?
 14. ¿Cómo realiza actualmente el control presupuestal de los materiales por cada proyecto?
 15. ¿Ha experimentado retrasos en el cronograma de obra debido a errores en la logística de abastecimiento?
 16. ¿Considera que el uso de herramientas genéricas (como Excel) es suficiente para mantener un control de costos eficiente en sus obras?
@@ -813,7 +813,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        El entrevistado es un jefe de departamento en el sector construcción con 20 años de experiencia que labora de forma independiente y para empresas privadas, operando principalmente en Juliaca, Puno, y zonas aledañas como Cusco y Arequipa. En su rutina digital utiliza predominantemente laptop y celular, apoyándose en herramientas como AutoCAD, Excel y Word para la elaboración de reportes técnicos, mientras que WhatsApp es su canal principal de comunicación y S10 su software para presupuestos. Su dinámica de trabajo implica la gestión de levantamientos topográficos y de carreteras que luego procesa en gabinete, siguiendo un flujo logístico que inicia con el requerimiento de materiales desde el campo hacia el almacén.
+        El entrevistado es un jefe de departamento en el sector construcción con 20 años de experiencia que labora de forma independiente y para empresas privadas, operando principalmente en Juliaca, Puno, y zonas aledañas como Cusco y Arequipa. En su rutina digital utiliza predominantemente laptop y celular, apoyándose en herramientas como AutoCAD, Excel y Word para la elaboración de reportes técnicos, mientras que WhatsApp es su canal principal de comunicación y S10 su software para presupuestos. Su dinámica de trabajo implica la gestión de levantamientos topográficos y de carreteras que luego procesa en gabinete, siguiendo un flujo logístico que inicia con el requisito de materiales desde el campo hacia el almacén.
 
 El proceso de aprobación de compras involucra al residente y al contratista general, pudiendo demorar hasta dos días, y actualmente enfrenta desafíos como la frustración por la demora en la llegada de materiales y la necesidad de actualizar constantemente los costos del mercado. Abdón señala que el uso de Excel es insuficiente para un control eficiente debido al riesgo de errores humanos y expresa un alto interés en automatizar la variación de costos y la gestión logística. Finalmente, destaca que la rapidez en la entrega de materiales es el factor más influyente en sus decisiones y considera fundamental contar con una plataforma móvil que permita supervisar y gestionar las operaciones directamente desde el campo.
       </td>
@@ -866,7 +866,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        El entrevistado es un Gerente de Proyecto con 18 años de experiencia en el sector construcción, gestionando actualmente obras de gran envergadura en provincias, como minería y carreteras. En su rutina digital, utiliza el celular para resolver urgencias operativas vía WhatsApp, mientras que reserva el uso de su laptop (con Windows y Chrome) para la revisión financiera, presupuestal y la aprobación de compras usando sistemas como SAP y MS Project.<br><br>El flujo logístico que supervisa involucra requerimientos del campo, cotizaciones de logística y su aprobación final. Carlos identifica los retrasos en el abastecimiento como uno de los problemas más críticos, ya que paralizar una obra genera altísimos sobrecostos. Además, señala un cuello de botella en la formalidad: aunque las requisiciones deberían procesarse en el sistema integrado, en la práctica las urgencias se manejan por mensajes directos. Finalmente, enfatiza que el uso de herramientas genéricas como Excel es "peligroso" para llevar el control de costos a nivel profesional debido al riesgo de errores humanos y la falta de trazabilidad, validando la necesidad de un sistema estructurado y seguro.
+        El entrevistado es un Gerente de Proyecto con 18 años de experiencia en el sector construcción, gestionando actualmente obras de gran envergadura en provincias, como minería y carreteras. En su rutina digital, utiliza el celular para resolver urgencias operativas vía WhatsApp, mientras que reserva el uso de su laptop (con Windows y Chrome) para la revisión financiera, presupuestal y la aprobación de compras usando sistemas como SAP y MS Project.<br><br>El flujo logístico que supervisa involucra requisitos del campo, cotizaciones de logística y su aprobación final. Carlos identifica los retrasos en el abastecimiento como uno de los problemas más críticos, ya que paralizar una obra genera altísimos sobrecostos. Además, señala un cuello de botella en la formalidad: aunque las requisiciones deberían procesarse en el sistema integrado, en la práctica las urgencias se manejan por mensajes directos. Finalmente, enfatiza que el uso de herramientas genéricas como Excel es "peligroso" para llevar el control de costos a nivel profesional debido al riesgo de errores humanos y la falta de trazabilidad, validando la necesidad de un sistema estructurado y seguro.
       </td>
     </tr>
   </tbody>
@@ -960,17 +960,17 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
       <td><strong>Residencia / ubicación</strong></td>
       <td>Jesús María, Lima – Proyectos en San Miguel, Surco y Ate</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>Uso parcial de Indusoft (consulta de stock y requerimientos), complementado con Excel, correo electrónico y WhatsApp</td>
+      <td>Uso parcial de Indusoft (consulta de stock y requisitos), complementado con Excel, correo electrónico y WhatsApp</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [pendiente de completar]</td>
+      <td colspan="2"><strong>Duración</strong>: 6:08</td>
       <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc_edu_pe/IQBlkNjTWHvGRrHWcVowxzt6Adx8YM62dFlnE9heBecX338?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mTp6gw" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
         La entrevistada, Lisset Paredes, jefa de logística con aproximadamente 10 años de experiencia, gestiona entre 2 y 3 proyectos de manera simultánea. Su trabajo se apoya principalmente en herramientas como WhatsApp para la comunicación diaria, el correo electrónico para formalizar información y Microsoft Excel para el control de costos. Además, utiliza parcialmente Indusoft para consultas de stock, aunque este presenta limitaciones como lentitud en su funcionamiento.
-El proceso de abastecimiento inicia con requerimientos enviados desde obra, generalmente a través de WhatsApp y muchas veces con información incompleta, lo que genera retrabajo y retrasos. Posteriormente, la búsqueda y comparación de cotizaciones se realiza de forma manual, almacenando la información en distintos medios sin un sistema centralizado.
+El proceso de abastecimiento inicia con requisitos enviados desde obra, generalmente a través de WhatsApp y muchas veces con información incompleta, lo que genera retrabajo y retrasos. Posteriormente, la búsqueda y comparación de cotizaciones se realiza de forma manual, almacenando la información en distintos medios sin un sistema centralizado.
 
 El control presupuestal también se gestiona en Excel, sin actualización en tiempo real, lo que ocasiona desfases entre los registros y la ejecución real de gastos. Esta falta de integración y trazabilidad contribuye a errores logísticos, pérdida de información y retrasos en obra.
 En general, la entrevistada considera que las herramientas actuales no son suficientes para gestionar eficientemente múltiples proyectos, evidenciando la necesidad de una solución digital más integrada y especializada.
@@ -1024,7 +1024,7 @@ En general, la entrevistada considera que las herramientas actuales no son sufic
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        Sebastián destaca que el mayor dolor administrativo es la pérdida de trazabilidad en las compras. Actualmente, recibe requerimientos por WhatsApp que se mezclan con fotos de obra y mensajes personales, lo que causa olvidos y compras de emergencia que elevan los costos hasta en un 18%.
+        Sebastián destaca que el mayor dolor administrativo es la pérdida de trazabilidad en las compras. Actualmente, recibe requisitos por WhatsApp que se mezclan con fotos de obra y mensajes personales, lo que causa olvidos y compras de emergencia que elevan los costos hasta en un 18%.
         Valida positivamente la solución, ya que actualmente debe revisar PDF's sueltos en el correo para decidir a qué proveedor comprar. Indica que su disposición a pagar por el SaaS depende de que el operario en campo (Residente) realmente use el sistema en lugar de llamar por teléfono. Sugiere que la interfaz sea extremadamente ligera debido a la baja señal en algunas obras de infraestructura.
       </td>
     </tr>
@@ -1043,7 +1043,7 @@ Este segmento agrupa a [descripción breve del grupo analizado]. A partir de las
 #### 2. Características objetivas del segmento
 | Característica              | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:----------------------------| :-- | :-- | :-- |
-| **Uso de mensajería informal para requerimientos** | 100% (5/5) | **Entrevistas 1, 2, 3, 4 y 5:** Todos afirman usar WhatsApp como canal principal para urgencias y requerimientos de obra, mezclando datos técnicos con mensajes personales. | Define el comportamiento actual del usuario y justifica la necesidad de crear un canal de comunicación centralizado y estructurado. |
+| **Uso de mensajería informal para requisitos** | 100% (5/5) | **Entrevistas 1, 2, 3, 4 y 5:** Todos afirman usar WhatsApp como canal principal para urgencias y requisitos de obra, mezclando datos técnicos con mensajes personales. | Define el comportamiento actual del usuario y justifica la necesidad de crear un canal de comunicación centralizado y estructurado. |
 | **Uso de MS Excel como herramienta base de control** | 80% (4/5) | **Entrevistas 1, 2, 3 y 4:** Abdón, Carlos, Leonardo y Lisset utilizan Excel para presupuestos y control de costos, pero reconocen que no se actualiza en tiempo real. | Establece la línea base de competencia tecnológica del usuario: están acostumbrados a tablas y grillas, por lo que la nueva interfaz debe ser familiar pero automatizada. |
 | **Operación dividida (Campo vs. Gabinete)** | 100% (5/5) | **Todas las entrevistas:** Evidencian un flujo logístico desconectado donde el campo (residente) pide y el gabinete (oficina/logística) procesa y aprueba. | Moldea el arquetipo en dos roles interactuantes, obligando a que la solución sea multiplataforma (móvil para campo, web para oficina). |
 | **Dependencia de dispositivos móviles con conectividad limitada** | 60% (3/5) | **Entrevistas 1, 2 y 5:** Abdón, Carlos y Sebastián priorizan el celular. Sebastián indica que la señal en obras de infraestructura es baja. | Dictamina que el arquetipo valora la inmediatez y requiere que la aplicación sea extremadamente ligera (Low-Data) para funcionar en campo. |
@@ -1051,7 +1051,7 @@ Este segmento agrupa a [descripción breve del grupo analizado]. A partir de las
 #### 3. Características subjetivas del segmento
 | Característica               | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:-----------------------------| :-- | :-- | :-- |
-| **Frustración por pérdida de trazabilidad** | 100% (5/5) | **Entrevistas 3, 4 y 5:** Leonardo, Lisset y Sebastián sufren por cotizaciones perdidas, PDFs sueltos y requerimientos incompletos enviados por WhatsApp. | Define el principal dolor (*pain point*) del arquetipo: la ansiedad administrativa y la carga cognitiva de buscar información dispersa. |
+| **Frustración por pérdida de trazabilidad** | 100% (5/5) | **Entrevistas 3, 4 y 5:** Leonardo, Lisset y Sebastián sufren por cotizaciones perdidas, PDFs sueltos y requisitos incompletos enviados por WhatsApp. | Define el principal dolor (*pain point*) del arquetipo: la ansiedad administrativa y la carga cognitiva de buscar información dispersa. |
 | **Percepción de riesgo ante procesos manuales** | 60% (3/5) | **Entrevistas 1, 2 y 3:** Carlos califica a Excel como "peligroso" a nivel profesional. Abdón y Leonardo señalan el alto riesgo de errores humanos. | Aporta a los objetivos del usuario: busca seguridad, formalidad y automatización para proteger su prestigio y el presupuesto de la obra. |
 | **Preocupación por sobrecostos logísticos** | 80% (4/5) | **Entrevistas 2, 3, 4 y 5:** Carlos y Leonardo afirman que los retrasos paralizan cuadrillas. Sebastián cuantifica que las compras de emergencia elevan costos hasta un 18%. | Establece la motivación de compra (*driver*) del usuario: adoptarán el sistema si este demuestra prevenir paralizaciones y reducir urgencias. |
 | **Condicionamiento de adopción tecnológica** | 40% (2/5) | **Entrevistas 1 y 5:** Sebastián condiciona el pago del SaaS a que el operario de campo realmente lo use y deje de llamar. Abdón exige poder gestionar desde campo. | Define las frustraciones potenciales frente a nuevas soluciones: el usuario teme pagar por un software que su equipo operativo se resista a utilizar. |
@@ -1101,7 +1101,7 @@ El User Task Matrix presenta las tareas clave que realizan los User Persona para
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left;">Generar requerimientos de materiales de obra</td>
+      <td style="text-align:left;">Generar requisitos de materiales de obra</td>
       <td>Often</td><td>High</td>
       <td>Rarely</td><td>Low</td>
     </tr>
@@ -1134,7 +1134,7 @@ El User Task Matrix presenta las tareas clave que realizan los User Persona para
 </table>
 
 **Análisis del Task Matrix:**
-Se observa una clara complementariedad entre ambos perfiles. La tarea de **"Generar requerimientos de materiales"** es de altísima frecuencia e importancia para Martín (Campo), mientras que **"Revisar cotizaciones y Aprobar"** es el "Core" de Roberto (Oficina). Esto confirma que RQLS debe priorizar un flujo bidireccional: una interfaz de creación de pedidos ultra rápida (Mobile) para el ejecutor, conectada automáticamente a un Dashboard de aprobación seguro y comparativo (Desktop) para el gerente. Adicionalmente, la tarea de rastrear despachos (**High** para Martín) valida la necesidad de un sistema de notificaciones de estados.
+Se observa una clara complementariedad entre ambos perfiles. La tarea de **"Generar requisitos de materiales"** es de altísima frecuencia e importancia para Martín (Campo), mientras que **"Revisar cotizaciones y Aprobar"** es el "Core" de Roberto (Oficina). Esto confirma que RQLS debe priorizar un flujo bidireccional: una interfaz de creación de pedidos ultra rápida (Mobile) para el ejecutor, conectada automáticamente a un Dashboard de aprobación seguro y comparativo (Desktop) para el gerente. Adicionalmente, la tarea de rastrear despachos (**High** para Martín) valida la necesidad de un sistema de notificaciones de estados.
 
 <div style="page-break-after: always;"></div>
 
@@ -1174,7 +1174,7 @@ En esta primera etapa, el equipo realizó una sesión de lluvia de ideas para ca
 
 **Step 2 – Structured Organization** 
 
-Después de listar los eventos en esta estructura nos permitió aislar los procesos clave, desde el requerimiento inicial en el frente de obra hasta la conciliación financiera final, resaltando las áreas de mejora que serán abordadas mediante nuestra solución digital.
+Después de listar los eventos en esta estructura nos permitió aislar los procesos clave, desde el requisito inicial en el frente de obra hasta la conciliación financiera final, resaltando las áreas de mejora que serán abordadas mediante nuestra solución digital.
 
 <img src="docs/assets/chapter-02/big-picture-event-storming2.png" alt="Big Picture EventStorming 2" width="auto" height="1900"/>
 
@@ -1215,7 +1215,7 @@ Jefes de Proyecto / Gerentes Generales
 
 | Fase | Doing (Qué hace) | Thinking (Qué piensa) | Feeling (Qué siente) |
 |------|----------------|----------------------|----------------------|
-| Evaluación de requerimientos | Revisa solicitudes de materiales con información consolidada, incluyendo prioridad, costo estimado e impacto en el proyecto, provenientes de obra y logística. | “Necesito entender rápidamente qué solicitudes son críticas y cuáles pueden optimizarse para no afectar el proyecto.” | Analítico y bajo presión por tomar decisiones rápidas. |
+| Evaluación de requisitos | Revisa solicitudes de materiales con información consolidada, incluyendo prioridad, costo estimado e impacto en el proyecto, provenientes de obra y logística. | “Necesito entender rápidamente qué solicitudes son críticas y cuáles pueden optimizarse para no afectar el proyecto.” | Analítico y bajo presión por tomar decisiones rápidas. |
 | Análisis y comparación | Evalúa cotizaciones de diferentes proveedores considerando variables como precio, tiempo de entrega, calidad y confiabilidad del proveedor. | “Debo elegir la mejor opción en términos de costo-beneficio sin comprometer el cronograma ni la calidad.” | Estratégico, cauteloso y enfocado en resultados. |
 | Toma de decisión | Aprueba o rechaza solicitudes de compra dentro del sistema basándose en información clara, validada y estructurada. | “Mi decisión debe estar bien fundamentada para evitar sobrecostos o retrasos en la obra.” | Responsable y con presión por el impacto de sus decisiones. |
 | Seguimiento y control | Monitorea el estado de pedidos, cumplimiento de entregas y ejecución presupuestal mediante dashboards, indicadores y alertas del sistema. | “Necesito asegurar que todo se esté ejecutando según lo planificado y dentro del presupuesto establecido.” | Vigilante, con mayor sensación de control y seguridad. |
@@ -1226,7 +1226,7 @@ Jefes de Proyecto / Gerentes Generales
 
 | EPIC ID | Titulo | Descripcion |
 |--------|--------|-------------|
-| EP-01 | Gestión de requerimientos | Permite registrar, visualizar, buscar y filtrar requerimientos de materiales desde obra, asegurando un flujo estructurado de solicitudes. |
+| EP-01 | Gestión de requisitos | Permite registrar, visualizar, buscar y filtrar requisitos de materiales desde obra, asegurando un flujo estructurado de solicitudes. |
 | EP-02 | Gestión de compras y abastecimiento | Permite gestionar el proceso completo de compras: cotizaciones, comparación, aprobación y generación de órdenes de compra. |
 | EP-03 | Gestión de inventario y almacén | Permite controlar el stock de materiales, registrar movimientos y confirmar la recepción de pedidos para mantener inventarios actualizados. |
 | EP-04 | Gestión de usuarios y seguridad | Permite registrar usuarios, gestionar roles y controlar accesos al sistema mediante autenticación segura. |
@@ -1238,12 +1238,12 @@ Jefes de Proyecto / Gerentes Generales
 
 | US ID | Título | Descripción | Criterio de Aceptación | Relacionado con (EPIC ID) |
 |------|--------|-------------|------------------------|--------------------------|
-| US 001 | Registrar requerimiento de material | **Como** ingeniero residente,<br>**Quiero** registrar un requerimiento de materiales desde obra,<br>**Para** iniciar el proceso de abastecimiento de forma estructurada. | **Escenario 1: Registro correcto**<br>**Dado** que el usuario completa los campos obligatorios (material, cantidad, proyecto y prioridad),<br>**Cuando** envía el requerimiento,<br>**Entonces** el sistema registra el requerimiento con un ID único, estado “Pendiente” y fecha de registro.<br><br>**Escenario 2: Datos incompletos**<br>**Dado** que faltan campos obligatorios,<br>**Cuando** intenta enviar el requerimiento,<br>**Entonces** el sistema bloquea el registro y muestra mensajes específicos por campo. | EP-01 |
-| US 002 | Adjuntar evidencia al requerimiento | **Como** ingeniero residente,<br>**Quiero** adjuntar fotos o documentos al requerimiento,<br>**Para** brindar mayor claridad sobre el material solicitado. | **Escenario 1: Archivo válido**<br>**Dado** que el usuario adjunta archivos JPG, PNG o PDF menores a 10MB,<br>**Cuando** envía el requerimiento,<br>**Entonces** los archivos se almacenan correctamente y se vinculan al requerimiento.<br><br>**Escenario 2: Archivo inválido**<br>**Dado** que el archivo excede el tamaño o el formato permitido,<br>**Cuando** intenta cargarlo,<br>**Entonces** el sistema muestra un error indicando la restricción. | EP-01 |
-| US 003 | Visualizar lista de requerimientos | **Como** analista de logística,<br>**Quiero** ver todos los requerimientos en una lista,<br>**Para** gestionarlos eficientemente. | **Escenario 1: Lista con datos**<br>**Dado** que existen requerimientos registrados,<br>**Cuando** accede a la lista,<br>**Entonces** el sistema muestra los requerimientos en una tabla con filtros, ordenados por fecha y prioridad.<br><br>**Escenario 2: Sin datos**<br>**Dado** que no existen requerimientos registrados,<br>**Cuando** accede a la lista,<br>**Entonces** el sistema muestra el mensaje “No hay requerimientos registrados”. | EP-01 |
-| US 004 | Filtrar requerimientos | **Como** analista de logística,<br>**Quiero** filtrar requerimientos por estado o proyecto,<br>**Para** encontrarlos rápidamente. | **Escenario 1: Filtro aplicado**<br>**Dado** que selecciona criterios como estado, proyecto o fecha,<br>**Cuando** aplica el filtro,<br>**Entonces** el sistema actualiza la lista mostrando solo las coincidencias.<br><br>**Escenario 2: Sin coincidencias**<br>**Dado** que no existen resultados que coincidan con los criterios,<br>**Cuando** aplica el filtro,<br>**Entonces** el sistema muestra un mensaje claro sin afectar la interfaz. | EP-01 |
-| US 005 | Generar solicitud de cotización | **Como** analista de logística,<br>**Quiero** generar solicitudes de cotización,<br>**Para** obtener precios de proveedores. | **Escenario 1: Generación correcta**<br>**Dado** que el requerimiento está aprobado,<br>**Cuando** genera la solicitud de cotización,<br>**Entonces** el sistema crea un documento con los detalles del requerimiento y lo deja listo para enviarse a los proveedores.<br><br>**Escenario 2: Error de validación**<br>**Dado** que faltan datos obligatorios,<br>**Cuando** intenta generar la solicitud,<br>**Entonces** el sistema notifica qué campos deben completarse. | EP-02 |
-| US 006 | Registrar cotizaciones | **Como** analista de logística,<br>**Quiero** registrar cotizaciones recibidas,<br>**Para** compararlas. | **Escenario 1: Registro válido**<br>**Dado** que ingresa proveedor, precio y tiempo de entrega,<br>**Cuando** guarda la cotización,<br>**Entonces** la cotización queda asociada al requerimiento.<br><br>**Escenario 2: Datos incompletos**<br>**Dado** que faltan campos obligatorios,<br>**Cuando** intenta guardar,<br>**Entonces** el sistema impide el registro y muestra las validaciones correspondientes. | EP-02 |
+| US 001 | Registrar requisito de material | **Como** ingeniero residente,<br>**Quiero** registrar un requisito de materiales desde obra,<br>**Para** iniciar el proceso de abastecimiento de forma estructurada. | **Escenario 1: Registro correcto**<br>**Dado** que el usuario completa los campos obligatorios (material, cantidad, proyecto y prioridad),<br>**Cuando** envía el requisito,<br>**Entonces** el sistema registra el requisito con un ID único, estado “Pendiente” y fecha de registro.<br><br>**Escenario 2: Datos incompletos**<br>**Dado** que faltan campos obligatorios,<br>**Cuando** intenta enviar el requisito,<br>**Entonces** el sistema bloquea el registro y muestra mensajes específicos por campo. | EP-01 |
+| US 002 | Adjuntar evidencia al requisito | **Como** ingeniero residente,<br>**Quiero** adjuntar fotos o documentos al requisito,<br>**Para** brindar mayor claridad sobre el material solicitado. | **Escenario 1: Archivo válido**<br>**Dado** que el usuario adjunta archivos JPG, PNG o PDF menores a 10MB,<br>**Cuando** envía el requisito,<br>**Entonces** los archivos se almacenan correctamente y se vinculan al requisito.<br><br>**Escenario 2: Archivo inválido**<br>**Dado** que el archivo excede el tamaño o el formato permitido,<br>**Cuando** intenta cargarlo,<br>**Entonces** el sistema muestra un error indicando la restricción. | EP-01 |
+| US 003 | Visualizar lista de requisitos | **Como** analista de logística,<br>**Quiero** ver todos los requisitos en una lista,<br>**Para** gestionarlos eficientemente. | **Escenario 1: Lista con datos**<br>**Dado** que existen requisitos registrados,<br>**Cuando** accede a la lista,<br>**Entonces** el sistema muestra los requisitos en una tabla con filtros, ordenados por fecha y prioridad.<br><br>**Escenario 2: Sin datos**<br>**Dado** que no existen requisitos registrados,<br>**Cuando** accede a la lista,<br>**Entonces** el sistema muestra el mensaje “No hay requisitos registrados”. | EP-01 |
+| US 004 | Filtrar requisitos | **Como** analista de logística,<br>**Quiero** filtrar requisitos por estado o proyecto,<br>**Para** encontrarlos rápidamente. | **Escenario 1: Filtro aplicado**<br>**Dado** que selecciona criterios como estado, proyecto o fecha,<br>**Cuando** aplica el filtro,<br>**Entonces** el sistema actualiza la lista mostrando solo las coincidencias.<br><br>**Escenario 2: Sin coincidencias**<br>**Dado** que no existen resultados que coincidan con los criterios,<br>**Cuando** aplica el filtro,<br>**Entonces** el sistema muestra un mensaje claro sin afectar la interfaz. | EP-01 |
+| US 005 | Generar solicitud de cotización | **Como** analista de logística,<br>**Quiero** generar solicitudes de cotización,<br>**Para** obtener precios de proveedores. | **Escenario 1: Generación correcta**<br>**Dado** que el requisito está aprobado,<br>**Cuando** genera la solicitud de cotización,<br>**Entonces** el sistema crea un documento con los detalles del requisito y lo deja listo para enviarse a los proveedores.<br><br>**Escenario 2: Error de validación**<br>**Dado** que faltan datos obligatorios,<br>**Cuando** intenta generar la solicitud,<br>**Entonces** el sistema notifica qué campos deben completarse. | EP-02 |
+| US 006 | Registrar cotizaciones | **Como** analista de logística,<br>**Quiero** registrar cotizaciones recibidas,<br>**Para** compararlas. | **Escenario 1: Registro válido**<br>**Dado** que ingresa proveedor, precio y tiempo de entrega,<br>**Cuando** guarda la cotización,<br>**Entonces** la cotización queda asociada al requisito.<br><br>**Escenario 2: Datos incompletos**<br>**Dado** que faltan campos obligatorios,<br>**Cuando** intenta guardar,<br>**Entonces** el sistema impide el registro y muestra las validaciones correspondientes. | EP-02 |
 | US 007 | Comparar cotizaciones | **Como** jefe de proyecto,<br>**Quiero** comparar cotizaciones,<br>**Para** elegir la mejor opción. | **Escenario 1: Comparación disponible**<br>**Dado** que existen múltiples cotizaciones registradas,<br>**Cuando** accede a la comparación,<br>**Entonces** el sistema muestra una tabla comparativa con precio, tiempo de entrega y proveedor.<br><br>**Escenario 2: Sin cotizaciones**<br>**Dado** que no existen cotizaciones registradas,<br>**Cuando** accede a la comparación,<br>**Entonces** el sistema muestra un mensaje indicando la ausencia de datos. | EP-02 |
 | US 008 | Aprobar compra | **Como** jefe de proyecto,<br>**Quiero** aprobar compras,<br>**Para** autorizar gastos dentro del sistema. | **Escenario 1: Aprobación**<br>**Dado** que revisa una cotización,<br>**Cuando** aprueba la compra,<br>**Entonces** el sistema cambia el estado a “Aprobado” y continúa el proceso.<br><br>**Escenario 2: Rechazo**<br>**Dado** que decide rechazar la compra,<br>**Cuando** registra la decisión,<br>**Entonces** el sistema solicita un motivo y notifica a logística. | EP-02 |
 | US 009 | Generar orden de compra | **Como** analista de logística,<br>**Quiero** generar órdenes de compra,<br>**Para** formalizar pedidos. | **Escenario 1: Generación correcta**<br>**Dado** que la compra está aprobada,<br>**Cuando** genera la orden de compra,<br>**Entonces** el sistema crea un documento con código único y datos completos.<br><br>**Escenario 2: Error de validación**<br>**Dado** que existen inconsistencias en los datos,<br>**Cuando** intenta generar la orden,<br>**Entonces** el sistema alerta sobre las inconsistencias detectadas. | EP-02 |
@@ -1292,10 +1292,10 @@ Jefes de Proyecto / Gerentes Generales
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------|--------------|--------|-------------|--------------|
-| 1 | US-001 | Registrar requerimiento de material | Como ingeniero residente, quiero registrar un requerimiento de materiales desde obra para iniciar el proceso de abastecimiento de forma estructurada. | 5 |
-| 2 | US-002 | Adjuntar evidencia al requerimiento | Como ingeniero residente, quiero adjuntar fotos o documentos al requerimiento para brindar mayor claridad sobre el material solicitado. | 3 |
-| 3 | US-003 | Visualizar lista de requerimientos | Como analista de logística, quiero ver todos los requerimientos en una lista para gestionarlos eficientemente. | 5 |
-| 4 | US-004 | Filtrar requerimientos | Como analista de logística, quiero filtrar requerimientos por estado o proyecto para encontrarlos rápidamente. | 3 |
+| 1 | US-001 | Registrar requisito de material | Como ingeniero residente, quiero registrar un requisito de materiales desde obra para iniciar el proceso de abastecimiento de forma estructurada. | 5 |
+| 2 | US-002 | Adjuntar evidencia al requisito | Como ingeniero residente, quiero adjuntar fotos o documentos al requisito para brindar mayor claridad sobre el material solicitado. | 3 |
+| 3 | US-003 | Visualizar lista de requisitos | Como analista de logística, quiero ver todos los requisitos en una lista para gestionarlos eficientemente. | 5 |
+| 4 | US-004 | Filtrar requisitos | Como analista de logística, quiero filtrar requisitos por estado o proyecto para encontrarlos rápidamente. | 3 |
 | 5 | US-005 | Generar solicitud de cotización | Como analista de logística, quiero generar solicitudes de cotización para obtener precios de proveedores. | 5 |
 | 6 | US-006 | Registrar cotizaciones | Como analista de logística, quiero registrar cotizaciones recibidas para compararlas. | 5 |
 | 7 | US-007 | Comparar cotizaciones | Como jefe de proyecto, quiero comparar cotizaciones para elegir la mejor opción. | 5 |
@@ -1360,7 +1360,7 @@ En este capítulo, detallaremos cada uno de los elementos visuales y de estilo q
 El logotipo principal de Buildline está compuesto por un isotipo que integra múltiples elementos semánticos de nuestro dominio técnico: 
 * **La Línea Continua:** Una 'B' estilizada formada por un trazo ininterrumpido que simboliza un flujo logístico eficiente y sin fin, respondiendo a la necesidad de trazabilidad absoluta.
 * **El Edificio Modular:** Integrado en la parte superior del bucle, evoca el progreso de la obra y la finalización exitosa del proyecto gracias a un abastecimiento oportuno.
-* **Nodos de Conexión:** Los pequeños círculos representan la integración digital de requerimientos, cotizaciones y órdenes de compra, eliminando el caos de aplicaciones informales como WhatsApp.
+* **Nodos de Conexión:** Los pequeños círculos representan la integración digital de requisitos, cotizaciones y órdenes de compra, eliminando el caos de aplicaciones informales como WhatsApp.
 
 <br>
 <p align="center">
@@ -1394,13 +1394,13 @@ Nuestra paleta de colores ha sido cuidadosamente seleccionada para evocar sensac
     * **Secundario (Vibrant Orange):** Representa la energía de la obra en campo y la velocidad logística. Utilizado para llamados a la acción (CTAs) y botones urgentes.
     * **Terciario (Tech Cyan):** Evoca la conectividad y la nube. Utilizado para marcadores de estado y trazabilidad.
     * **Fondo Claro:** Proporciona un entorno visual limpio para tablas de cotizaciones.
-    * **Fondo Blanco:** Fondos de tarjetas de requerimientos y paneles de control.
+    * **Fondo Blanco:** Fondos de tarjetas de requisitos y paneles de control.
 * **Paleta de Soporte:** Colores complementarios que añaden profundidad y contraste.
     * **Gris Neutro:** Para bordes sutiles, líneas divisorias y separadores de listas de materiales.
 * **Colores Funcionales:** Reservados para comunicar estados críticos al usuario.
     * **Éxito:** Verde para órdenes de compra aprobadas y materiales entregados.
     * **Error:** Rojo para presupuestos excedidos o alertas de retraso.
-    * **Advertencia:** Amarillo para quiebres de stock o requerimientos pendientes.
+    * **Advertencia:** Amarillo para quiebres de stock o requisitos pendientes.
 
 <p align="center">
   <img src="docs/assets/chapter-04/Color_guidelines.png" alt=Color Palette" width="800px" height="auto"/>
@@ -1412,7 +1412,7 @@ Esta combinación cromática refleja los valores de nuestra marca y busca transm
 
 El espaciado en Buildline sigue un sistema modular para garantizar un ritmo visual armonioso y una jerarquía clara. La consistencia en el espaciado ayuda a reducir el estrés administrativo del usuario frente a largas listas de inventario.
 * **Espaciado Básico:** Usamos un espaciado base en el sistema de grid, multiplicado para crear espacios mayores.
-* **Margen Interno (Padding) Generoso:** Las secciones principales utilizan un padding vertical de 5rem (50px) para crear pausas visuales. Los contenedores de requerimientos usan padding menor (30px - 40px) para agrupar datos lógicamente.
+* **Margen Interno (Padding) Generoso:** Las secciones principales utilizan un padding vertical de 5rem (50px) para crear pausas visuales. Los contenedores de requisitos usan padding menor (30px - 40px) para agrupar datos lógicamente.
 * **Espacio entre Elementos:** El espaciado entre tarjetas de obra o cotizaciones varía entre 3rem y 5rem, manteniendo una densidad de información adecuada sin abrumar visualmente al jefe de logística.
 * **Line Height del Texto:** Interlineado configurado en 1.6, facilitando la lectura de especificaciones técnicas de materiales.
 
@@ -1421,7 +1421,7 @@ El espaciado en Buildline sigue un sistema modular para garantizar un ritmo visu
 La voz y el tono de Buildline están diseñados para ser tan resolutivos y estructurados como nuestra plataforma. Nuestro objetivo es conectar tanto con Residentes de Obra (campo) como con Gerentes Generales (gabinete).
 * **Tono: Formal pero orientado a la acción.** Buscamos proyectar autoridad en el control de costos, manteniendo el dinamismo que exige el trabajo en obra.
 * **Actitud: Resolutiva y ágil.** El 90% de nuestra comunicación se orienta a la eficiencia ("Cero retrasos", "Aprobaciones en un clic"), mientras que el 10% es persuasiva para incentivar la adopción del sistema.
-* **Lenguaje: Técnico y directo.** Hablamos el idioma de la construcción (ej. Órdenes de Compra, Valorizaciones, Requerimientos, Cuadrillas, RFI). Nos enfocamos en la rentabilidad y la reducción de sobrecostos.
+* **Lenguaje: Técnico y directo.** Hablamos el idioma de la construcción (ej. Órdenes de Compra, Valorizaciones, Requisitos, Cuadrillas, RFI). Nos enfocamos en la rentabilidad y la reducción de sobrecostos.
 * **Voz: Experta y moderna.** Posicionamos a Buildline como el fin de la informalidad y la llegada de la Industria 4.0 a la construcción peruana.
 
 ### 4.1.2. Web Style Guidelines
@@ -1431,15 +1431,15 @@ Las directrices de estilo web de **Buildline** se centran en la velocidad operat
 **1) Layout**
 * **Sistema de Grid:** Utilizamos un diseño de cuadrícula flexible para garantizar que Buildline se adapte perfectamente. Esto permite que las tablas de cotizaciones complejas se condensen fluidamente en pantallas pequeñas.
 * **Headers y Footers:** El encabezado es fijo, proporcionando acceso a la navegación y botones de acceso. El pie de página centraliza enlaces, contacto y soporte técnico.
-* **Cards:** Las tarjetas estructuran información crítica, como los requerimientos de Obra pendientes. Cuentan con bordes redondeados y sombras suaves para facilitar la rápida lectura de prioridades.
+* **Cards:** Las tarjetas estructuran información crítica, como los requisitos de Obra pendientes. Cuentan con bordes redondeados y sombras suaves para facilitar la rápida lectura de prioridades.
 
 **2) Responsive Design**
 * **Desktop:** Optimizado para la oficina de logística y gerencia. Menús laterales completos y grillas de datos expansivas para comparar cotizaciones en pantallas grandes.
 * **Tablet:** Interfaz adaptada para supervisores de obra, con botones táctiles ampliados para el uso en movimiento.
-* **Mobile (Mobile-First para Campo):** La experiencia móvil es ultra-ligera (Low-Data). Menú de hamburguesa y botones masivos para generar requerimientos fácilmente incluso con una sola mano y guantes de obra.
+* **Mobile (Mobile-First para Campo):** La experiencia móvil es ultra-ligera (Low-Data). Menú de hamburguesa y botones masivos para generar requisitos fácilmente incluso con una sola mano y guantes de obra.
 
 **3) Interaction Design**
-* **Botones:** Llamativos utilizando el "Vibrant Orange" para acciones principales (Aprobar, Enviar Requerimiento). Efectos lineales al pasar el cursor confirman la interactividad.
+* **Botones:** Llamativos utilizando el "Vibrant Orange" para acciones principales (Aprobar, Enviar Requisito). Efectos lineales al pasar el cursor confirman la interactividad.
 * **Formularios:** Extremadamente simplificados. Los campos de solicitud de material utilizan autocompletado predictivo para evitar que el operario de campo escriba largos textos.
 
 **4) Images and Icons**
@@ -1459,7 +1459,7 @@ La arquitectura de la información de **Buildline** está diseñada para una nav
 * **Jerarquía de Contenidos:** La información va del impacto macro al detalle operativo. La Landing Page inicia con el dolor principal (retrasos) y la promesa de valor (trazabilidad).
 * **Secciones Principales de la Landing Page:**
     * **Hero:** El fin del caos logístico en la construcción.
-    * **What We Offer:** Visión general del flujo Requerimiento-Aprobación-Entrega.
+    * **What We Offer:** Visión general del flujo Requisito-Aprobación-Entrega.
     * **Features:** Aprobaciones móviles, control presupuestal, tracking de proveedores.
     * **Benefits:** Reducción de sobrecostos de emergencia (hasta 18%) y prevención de paralizaciones.
     * **About Us:** Nuestro compromiso con la formalización del sector.
@@ -1469,18 +1469,30 @@ La arquitectura de la información de **Buildline** está diseñada para una nav
 
 ### 4.2.2. Labeling Systems
 
-* **Nomenclatura:** Lenguaje 100% de la industria ("Crear Requerimiento", "Comparar Cotizaciones", "Emitir OC"). Botones claros como "Request Demo".
-* **Consistencia:** Unificación de términos en todo el SaaS (siempre se usa "Requerimiento", nunca se mezcla con "Pedido" u "Orden").
+* **Nomenclatura:** Lenguaje 100% de la industria ("Crear Requisito", "Comparar Cotizaciones", "Emitir OC"). Botones claros como "Request Demo".
+* **Consistencia:** Unificación de términos en todo el SaaS (siempre se usa "Requisito", nunca se mezcla con "Pedido" u "Orden").
 * **Lenguaje Adaptativo:** Accesible para operarios de campo sin jerga de software, pero con el rigor financiero que exige una gerencia.
 
-### 4.2.3. Searching Systems
+### 4.2.3. SEO Tags and Meta Tags
+
+Para asegurar el correcto posicionamiento orgánico de la Landing Page de **Buildline** en motores de búsqueda, se han definido y configurado los siguientes SEO tags y Meta tags, orientados específicamente al mercado de la construcción en Perú. Estos metadatos permiten que Google y otros buscadores indexen adecuadamente la propuesta de valor.
+
+* **Title Tag:** `<title>Buildline - Gestión Logística y Control de Materiales para Constructoras</title>`
+* **Meta Description:** `<meta name="description" content="Buildline es el SaaS logístico que elimina las compras de emergencia y centraliza los requisitos de materiales desde la obra hasta la gerencia en constructoras MYPES.">`
+* **Meta Keywords:** `<meta name="keywords" content="software logística construcción, control de obra, órdenes de compra construcción, SaaS MYPE construcción Perú, requisitos de materiales">`
+* **Open Graph (OG) Tags:** Utilizados para mejorar la previsualización de enlaces al compartir la plataforma en LinkedIn y WhatsApp:
+  * `<meta property="og:title" content="Buildline - Plataforma Logística para Obras">`
+  * `<meta property="og:type" content="website">`
+  * `<meta property="og:image" content="https://buildline.pe/og-image.jpg">`
+
+### 4.2.4. Searching Systems
 
 * **Barra de Búsqueda:** Dentro del SaaS, es la herramienta principal de la oficina. Ubicada en la parte superior para buscar por *Nombre de Proyecto*, *ID de Orden de Compra* o *Proveedor*.
 * **Filtros y Facetas:** Filtros críticos por Estado (Pendiente, Aprobado, Rechazado, En Tránsito), Fechas y Rango de Costos.
 * **Historial de Búsqueda:** Registro de materiales más solicitados para agilizar futuras cotizaciones.
-* **Resultados Relevantes:** Priorización de requerimientos con etiqueta de "Urgente" o aquellos que superan el presupuesto base.
+* **Resultados Relevantes:** Priorización de requisitos con etiqueta de "Urgente" o aquellos que superan el presupuesto base.
 
-### 4.2.4. Navigation Systems
+### 4.2.5. Navigation Systems
 
 * **Navegación Global:** Barra de navegación superior fija en la Landing Page (`Home`, `Soluciones`, `Beneficios`, `Planes`).
 * **Navegación Contextual:** Botones de llamado a la acción (CTAs naranjas) que guían al usuario fluidamente desde la lectura de un beneficio hasta la solicitud de una cuenta.
@@ -1602,11 +1614,11 @@ Wireframe del módulo de soporte para el restablecimiento de contraseñas. Propo
 
 <img src="docs/assets/chapter-04/Recuperación de Credenciales - Buildline -Web Wireframes.jpeg" alt="Recuperación de Credenciales - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
-**Gestión de Requerimientos de Materiales - Buildline**
+**Gestión de Requisitos de Materiales - Buildline**
 
 Pantalla técnica que centraliza las solicitudes provenientes de obra. Permite la visualización de la Prioridad (Critical/High) y el estado de la validación, integrando un buscador dinámico para la localización rápida de pedidos específicos.
 
-<img src="docs/assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Wireframes.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Gestión de Inventario y Requisitos - Buildline - Wireframes.jpeg" alt="Gestión de Inventario y Requisitos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Panel de Control de Requisiciones - Buildline**
 
@@ -1620,11 +1632,11 @@ Panel principal de análisis que consolida los KPIs críticos de la constructora
 
 <img src="docs/assets/chapter-04/Dashboard Overview - Buildline -Web Wireframes.jpeg" alt="Dashboard Overview - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
-**Registro de Nuevo Requerimiento - Buildline**
+**Registro de Nuevo Requisito - Buildline**
 
 Interfaz de formulario modal (New Material Request) diseñada para que el Ingeniero Residente registre pedidos de insumos de forma ágil. Contiene campos para seleccionar el proyecto, tipo de material, cantidad, unidad de medida y fecha requerida, además de un área de especificaciones técnicas.
 
-<img src="docs/assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Web Wireframes.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Registro de Nuevo Requisito - Buildline -Web Wireframes.jpeg" alt="Registro de Nuevo Requisito - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -1654,11 +1666,11 @@ Mock-up del flujo de soporte para el restablecimiento de credenciales. La interf
 
 <img src="docs/assets/chapter-04/Recuperación de Credenciales - Buildline -Applications Mock-ups.jpeg" alt="Recuperación de Credenciales - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
-**Gestión de Requerimientos de Materiales - Buildline**
+**Gestión de Requisitos de Materiales - Buildline**
 
 Mock-up del módulo operativo principal. Presenta una tabla de datos avanzada con estados de validación por colores (Pending, Approved, In Transit), permitiendo al Jefe de Logística supervisar la trazabilidad completa de los materiales desde la obra.
 
-<img src="docs/assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Applications Mock-ups.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Gestión de Inventario y Requisitos - Buildline - Applications Mock-ups.jpeg" alt="Gestión de Inventario y Requisitos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Panel de Control de Requisiciones - Buildline**
 
@@ -1672,11 +1684,11 @@ El dashboard centralizado de Buildline en alta fidelidad. Consolida indicadores 
 
 <img src="docs/assets/chapter-04/Dashboard Overview - Buildline -Applications Mock-ups.jpeg" alt="Dashboard Overview - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
-**Registro de Nuevo Requerimiento - Buildline**
+**Registro de Nuevo Requisito - Buildline**
 
 Interfaz de formulario modal (New Material Request) diseñada para que el Ingeniero Residente registre pedidos de insumos de forma ágil. Contiene campos para seleccionar el proyecto, tipo de material, cantidad, unidad de medida y fecha requerida, además de un área de especificaciones técnicas.
 
-<img src="docs/assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Applications Mock-ups.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Registro de Nuevo Requisito - Buildline -Applications Mock-ups.jpeg" alt="Registro de Nuevo Requisito - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Mock-ups Version Mobile**
 
@@ -1760,7 +1772,7 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
 3. Bounded Context **Requisition**
 
-   El bounded context Requisition representa el punto de inicio operativo en el frente de obra. Administra la creación, priorización y seguimiento de los requerimientos de materiales que realizan los Ingenieros Residentes, incluyendo la adjunción de evidencia técnica. Su propósito es digitalizar la necesidad de la obra, eliminando la informalidad de canales como WhatsApp y centralizando las solicitudes técnicas.
+   El bounded context Requisition representa el punto de inicio operativo en el frente de obra. Administra la creación, priorización y seguimiento de los requisitos de materiales que realizan los Ingenieros Residentes, incluyendo la adjunción de evidencia técnica. Su propósito es digitalizar la necesidad de la obra, eliminando la informalidad de canales como WhatsApp y centralizando las solicitudes técnicas.
    
    <img src="docs/assets/chapter-04/boundedrequisition.png" alt="Bounded Context Requisition" style="width:auto; height:auto; border:2px solid;">
 
@@ -1795,7 +1807,7 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
 8. Bounded Context **Communication**
 
-   El bounded context Communication gestiona el envío automatizado de notificaciones internas (alertas de requerimientos críticos, avisos de bajo stock) y correos electrónicos externos (envío formal de Órdenes de Compra a proveedores). Su propósito es asegurar una comunicación oportuna, trazable y estructurada que reduzca los cuellos de botella informativos entre la obra y la oficina central.
+   El bounded context Communication gestiona el envío automatizado de notificaciones internas (alertas de requisitos críticos, avisos de bajo stock) y correos electrónicos externos (envío formal de Órdenes de Compra a proveedores). Su propósito es asegurar una comunicación oportuna, trazable y estructurada que reduzca los cuellos de botella informativos entre la obra y la oficina central.
    
    <img src="docs/assets/chapter-04/boundedcommunication.png" alt="Bounded Context Communication" style="width:auto; height:auto; border:2px solid;">
 
@@ -1814,7 +1826,7 @@ En este nivel se presenta una vista de alto nivel de la arquitectura, donde el f
 
 El context diagram muestra al **Buildline Software System** como un recuadro en el centro, rodeado por los principales actores y sistemas con los que se comunica:
 
-- **Ingeniero Residente**: usuario interno operativo ubicado en el frente de obra. Interactúa con Buildline para registrar requerimientos de materiales, adjuntar evidencias técnicas y confirmar la recepción física de los despachos.
+- **Ingeniero Residente**: usuario interno operativo ubicado en el frente de obra. Interactúa con Buildline para registrar requisitos de materiales, adjuntar evidencias técnicas y confirmar la recepción física de los despachos.
 - **Analista de Logística**: usuario administrativo en oficina responsable de gestionar el ciclo de compras. Interactúa con la plataforma para solicitar cotizaciones, comparar precios y generar las órdenes de compra.
 - **Jefe de Proyecto / Gerente**: usuario estratégico que supervisa la viabilidad financiera del proyecto. Consulta la plataforma para monitorear el control de costos (APU) y aprobar o rechazar gastos críticos.
 - **SUNAT / Billing API**: sistema gubernamental (o proveedor PSE) externo utilizado para la validación de comprobantes de pago y el cumplimiento de la normativa tributaria local.
@@ -1836,7 +1848,7 @@ La arquitectura lógica de Buildline se estructura en los siguientes contenedore
 - **Landing Page**: aplicación web estática que presenta la propuesta de valor de Buildline orientada a MYPES constructoras, guía a nuevos usuarios y redirige a la aplicación principal. Está desarrollada con tecnologías web estándar (HTML, CSS y JavaScript) y se despliega en un entorno orientado a contenido estático.
 - **Single Page Application (SPA)**: aplicación web principal, implementada en **Angular**, donde interactúan el Ingeniero Residente, el Analista de Logística y el Gerente. Este contenedor concentra la experiencia de usuario, las vistas y la lógica de presentación para los diferentes contextos del dominio (iam, profiles, requisition, procurement, inventory, suppliers, analytics y communication).
 - **API Application**: backend implementado con **Spring Boot**, que expone una API REST y encapsula la lógica de negocio, reglas de validación y orquestación de procesos logísticos. Este contenedor agrupa los módulos backend por contexto (IAM Backend, Profiles Backend, Requisition Backend, Procurement Backend, Inventory Backend, Suppliers Backend, Analytics Backend, Communication Backend y Shared Backend).
-- **Database**: base de datos relacional **MySQL**, donde se persiste la información estructurada del sistema: usuarios, perfiles de constructoras, requerimientos, cotizaciones, órdenes de compra, inventarios, auditorías y métricas.
+- **Database**: base de datos relacional **MySQL**, donde se persiste la información estructurada del sistema: usuarios, perfiles de constructoras, requisitos, cotizaciones, órdenes de compra, inventarios, auditorías y métricas.
 
 En el diagrama se observa que:
 
@@ -1859,7 +1871,7 @@ El component diagram de la **API Application** agrupa la arquitectura interna si
 
 - **IAM Backend**: se encarga de la autenticación, gestión de usuarios, roles jerárquicos (Residente, Logística, Gerencia) y validaciones de acceso a la plataforma.
 - **Profiles Backend**: gestiona la información de la empresa constructora (MYPE) y los perfiles de los empleados, centralizando los datos de contacto y estructura organizacional.
-- **Requisition Backend**: implementa la lógica de las solicitudes de campo, permitiendo registrar requerimientos de materiales, adjuntar evidencias y establecer prioridades.
+- **Requisition Backend**: implementa la lógica de las solicitudes de campo, permitiendo registrar requisitos de materiales, adjuntar evidencias y establecer prioridades.
 - **Procurement Backend**: agrupa la funcionalidad del ciclo de compras en oficina, incluyendo la gestión de cotizaciones, generación de cuadros comparativos y emisión de Órdenes de Compra formales.
 - **Inventory Backend**: administra el control de almacén en obra, validando la recepción de materiales mediante el cruce de Guías de Remisión con Órdenes de Compra (Way Match) y registrando mermas.
 - **Suppliers Backend**: gestiona el directorio de proveedores de la constructora, almacenando historiales de confiabilidad, calificaciones e incidencias operativas.
@@ -1895,7 +1907,7 @@ Cómo se organizan los servicios de aplicación y las interfaces de repositorio 
 
 - **3. Diseño de Persistencia (Database)**
 
-Cómo las entidades del dominio se mapean a estructuras relacionales en la base de datos, garantizando la integridad de la información, la trazabilidad de las operaciones y el soporte a consultas clave del negocio, como el seguimiento de requerimientos, órdenes de compra y control presupuestal.
+Cómo las entidades del dominio se mapean a estructuras relacionales en la base de datos, garantizando la integridad de la información, la trazabilidad de las operaciones y el soporte a consultas clave del negocio, como el seguimiento de requisitos, órdenes de compra y control presupuestal.
 A nivel de backend, los diagramas de clases reflejan la implementación de la **API Application** siguiendo principios de *Domain-Driven Design (DDD)*, donde cada *bounded context* encapsula su lógica de negocio y su modelo de datos de forma independiente, manteniendo bajo acoplamiento y alta cohesión.
 
 **Backend completo**
@@ -2314,7 +2326,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes a la presencia di
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 <p>
-  Durante este primer sprint, el esfuerzo principal del equipo de RQLS se centró en la estructuración del proyecto, el diseño de UX/UI, la arquitectura de software y la elaboración de los requerimientos técnicos (Capítulos I al IV). Por lo tanto, las evidencias de colaboración de GitHub presentadas a continuación corresponden al repositorio del <strong>Project Report</strong>, sentando las bases documentales y de diseño para la posterior codificación de la plataforma Buildline.
+  Durante este primer sprint, el esfuerzo principal del equipo de RQLS se centró en la estructuración del proyecto, el diseño de UX/UI, la arquitectura de software y la elaboración de los requisitos técnicos (Capítulos I al IV). Por lo tanto, las evidencias de colaboración de GitHub presentadas a continuación corresponden al repositorio del <strong>Project Report</strong>, sentando las bases documentales y de diseño para la posterior codificación de la plataforma Buildline.
 </p>
 
 <p>
@@ -2829,7 +2841,7 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
     <strong>Hipótesis de Valor para Gerentes y Jefes de Proyecto:</strong> Se planteó que "Si proporcionamos paneles de control presupuestal y aprobaciones jerárquicas, los gerentes dejarán de aprobar compras 'a ciegas' y protegerán la rentabilidad". Los resultados obtenidos en la conceptualización validan esta hipótesis, siendo el control del APU el principal gatillo de interés comercial.
   </li> 
   <li> 
-    <strong>Hipótesis de Valor para Residentes y Logística:</strong> Se asumió que "La digitalización de los requerimientos y la validación automatizada de recepciones (Way Match) eliminarán los cuellos de botella". Esta hipótesis se mantiene validada a nivel conceptual, destacando la necesidad de adjuntar evidencia fotográfica en el flujo de abastecimiento.
+    <strong>Hipótesis de Valor para Residentes y Logística:</strong> Se asumió que "La digitalización de los requisitos y la validación automatizada de recepciones (Way Match) eliminarán los cuellos de botella". Esta hipótesis se mantiene validada a nivel conceptual, destacando la necesidad de adjuntar evidencia fotográfica en el flujo de abastecimiento.
   </li> 
 </ul> 
 
@@ -2847,7 +2859,7 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 </p> 
 <ul> 
   <li> 
-    <strong>Desarrollo del Backend API:</strong> Iniciar la codificación de los Web Services utilizando <strong>.NET 8 (C#)</strong> para gestionar la lógica de negocio fundamental: creación de requerimientos, control del presupuesto APU y validación de órdenes de compra.
+    <strong>Desarrollo del Backend API:</strong> Iniciar la codificación de los Web Services utilizando <strong>.NET 8 (C#)</strong> para gestionar la lógica de negocio fundamental: creación de requisitos, control del presupuesto APU y validación de órdenes de compra.
   </li> 
   <li> 
     <strong>Desarrollo del Frontend (SPA):</strong> Construir la aplicación web interactiva utilizando <strong>Vue.js</strong> para consumir la API, desarrollando inicialmente las vistas del Ingeniero Residente (creación de pedidos) y del Logístico (cuadro de cotizaciones).

@@ -1,6 +1,5 @@
 .idea/
-
-# Generated reports
-docs/Reporte-Final-*
-docs/generate_final*
-docs/style.css
+node_modules/
+.env
+*.log
+.DS_Store

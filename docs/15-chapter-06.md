@@ -18,7 +18,7 @@
     <strong>Hipótesis de Valor para Gerentes y Jefes de Proyecto:</strong> Se planteó que "Si proporcionamos paneles de control presupuestal y aprobaciones jerárquicas, los gerentes dejarán de aprobar compras 'a ciegas' y protegerán la rentabilidad". Los resultados obtenidos en la conceptualización validan esta hipótesis, siendo el control del APU el principal gatillo de interés comercial.
   </li> 
   <li> 
-    <strong>Hipótesis de Valor para Residentes y Logística:</strong> Se asumió que "La digitalización de los requerimientos y la validación automatizada de recepciones (Way Match) eliminarán los cuellos de botella". Esta hipótesis se mantiene validada a nivel conceptual, destacando la necesidad de adjuntar evidencia fotográfica en el flujo de abastecimiento.
+    <strong>Hipótesis de Valor para Residentes y Logística:</strong> Se asumió que "La digitalización de los requisitos y la validación automatizada de recepciones (Way Match) eliminarán los cuellos de botella". Esta hipótesis se mantiene validada a nivel conceptual, destacando la necesidad de adjuntar evidencia fotográfica en el flujo de abastecimiento.
   </li> 
 </ul> 
 
@@ -36,7 +36,7 @@
 </p> 
 <ul> 
   <li> 
-    <strong>Desarrollo del Backend API:</strong> Iniciar la codificación de los Web Services utilizando <strong>.NET 8 (C#)</strong> para gestionar la lógica de negocio fundamental: creación de requerimientos, control del presupuesto APU y validación de órdenes de compra.
+    <strong>Desarrollo del Backend API:</strong> Iniciar la codificación de los Web Services utilizando <strong>.NET 8 (C#)</strong> para gestionar la lógica de negocio fundamental: creación de requisitos, control del presupuesto APU y validación de órdenes de compra.
   </li> 
   <li> 
     <strong>Desarrollo del Frontend (SPA):</strong> Construir la aplicación web interactiva utilizando <strong>Vue.js</strong> para consumir la API, desarrollando inicialmente las vistas del Ingeniero Residente (creación de pedidos) y del Logístico (cuadro de cotizaciones).

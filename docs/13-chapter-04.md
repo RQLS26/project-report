@@ -15,7 +15,7 @@ En este capítulo, detallaremos cada uno de los elementos visuales y de estilo q
 El logotipo principal de Buildline está compuesto por un isotipo que integra múltiples elementos semánticos de nuestro dominio técnico: 
 * **La Línea Continua:** Una 'B' estilizada formada por un trazo ininterrumpido que simboliza un flujo logístico eficiente y sin fin, respondiendo a la necesidad de trazabilidad absoluta.
 * **El Edificio Modular:** Integrado en la parte superior del bucle, evoca el progreso de la obra y la finalización exitosa del proyecto gracias a un abastecimiento oportuno.
-* **Nodos de Conexión:** Los pequeños círculos representan la integración digital de requerimientos, cotizaciones y órdenes de compra, eliminando el caos de aplicaciones informales como WhatsApp.
+* **Nodos de Conexión:** Los pequeños círculos representan la integración digital de requisitos, cotizaciones y órdenes de compra, eliminando el caos de aplicaciones informales como WhatsApp.
 
 <br>
 <p align="center">
@@ -49,13 +49,13 @@ Nuestra paleta de colores ha sido cuidadosamente seleccionada para evocar sensac
     * **Secundario (Vibrant Orange):** Representa la energía de la obra en campo y la velocidad logística. Utilizado para llamados a la acción (CTAs) y botones urgentes.
     * **Terciario (Tech Cyan):** Evoca la conectividad y la nube. Utilizado para marcadores de estado y trazabilidad.
     * **Fondo Claro:** Proporciona un entorno visual limpio para tablas de cotizaciones.
-    * **Fondo Blanco:** Fondos de tarjetas de requerimientos y paneles de control.
+    * **Fondo Blanco:** Fondos de tarjetas de requisitos y paneles de control.
 * **Paleta de Soporte:** Colores complementarios que añaden profundidad y contraste.
     * **Gris Neutro:** Para bordes sutiles, líneas divisorias y separadores de listas de materiales.
 * **Colores Funcionales:** Reservados para comunicar estados críticos al usuario.
     * **Éxito:** Verde para órdenes de compra aprobadas y materiales entregados.
     * **Error:** Rojo para presupuestos excedidos o alertas de retraso.
-    * **Advertencia:** Amarillo para quiebres de stock o requerimientos pendientes.
+    * **Advertencia:** Amarillo para quiebres de stock o requisitos pendientes.
 
 <p align="center">
   <img src="../docs/assets/chapter-04/Color_guidelines.png" alt=Color Palette" width="800px" height="auto"/>
@@ -67,7 +67,7 @@ Esta combinación cromática refleja los valores de nuestra marca y busca transm
 
 El espaciado en Buildline sigue un sistema modular para garantizar un ritmo visual armonioso y una jerarquía clara. La consistencia en el espaciado ayuda a reducir el estrés administrativo del usuario frente a largas listas de inventario.
 * **Espaciado Básico:** Usamos un espaciado base en el sistema de grid, multiplicado para crear espacios mayores.
-* **Margen Interno (Padding) Generoso:** Las secciones principales utilizan un padding vertical de 5rem (50px) para crear pausas visuales. Los contenedores de requerimientos usan padding menor (30px - 40px) para agrupar datos lógicamente.
+* **Margen Interno (Padding) Generoso:** Las secciones principales utilizan un padding vertical de 5rem (50px) para crear pausas visuales. Los contenedores de requisitos usan padding menor (30px - 40px) para agrupar datos lógicamente.
 * **Espacio entre Elementos:** El espaciado entre tarjetas de obra o cotizaciones varía entre 3rem y 5rem, manteniendo una densidad de información adecuada sin abrumar visualmente al jefe de logística.
 * **Line Height del Texto:** Interlineado configurado en 1.6, facilitando la lectura de especificaciones técnicas de materiales.
 
@@ -76,7 +76,7 @@ El espaciado en Buildline sigue un sistema modular para garantizar un ritmo visu
 La voz y el tono de Buildline están diseñados para ser tan resolutivos y estructurados como nuestra plataforma. Nuestro objetivo es conectar tanto con Residentes de Obra (campo) como con Gerentes Generales (gabinete).
 * **Tono: Formal pero orientado a la acción.** Buscamos proyectar autoridad en el control de costos, manteniendo el dinamismo que exige el trabajo en obra.
 * **Actitud: Resolutiva y ágil.** El 90% de nuestra comunicación se orienta a la eficiencia ("Cero retrasos", "Aprobaciones en un clic"), mientras que el 10% es persuasiva para incentivar la adopción del sistema.
-* **Lenguaje: Técnico y directo.** Hablamos el idioma de la construcción (ej. Órdenes de Compra, Valorizaciones, Requerimientos, Cuadrillas, RFI). Nos enfocamos en la rentabilidad y la reducción de sobrecostos.
+* **Lenguaje: Técnico y directo.** Hablamos el idioma de la construcción (ej. Órdenes de Compra, Valorizaciones, Requisitos, Cuadrillas, RFI). Nos enfocamos en la rentabilidad y la reducción de sobrecostos.
 * **Voz: Experta y moderna.** Posicionamos a Buildline como el fin de la informalidad y la llegada de la Industria 4.0 a la construcción peruana.
 
 ### 4.1.2. Web Style Guidelines
@@ -86,15 +86,15 @@ Las directrices de estilo web de **Buildline** se centran en la velocidad operat
 **1) Layout**
 * **Sistema de Grid:** Utilizamos un diseño de cuadrícula flexible para garantizar que Buildline se adapte perfectamente. Esto permite que las tablas de cotizaciones complejas se condensen fluidamente en pantallas pequeñas.
 * **Headers y Footers:** El encabezado es fijo, proporcionando acceso a la navegación y botones de acceso. El pie de página centraliza enlaces, contacto y soporte técnico.
-* **Cards:** Las tarjetas estructuran información crítica, como los requerimientos de Obra pendientes. Cuentan con bordes redondeados y sombras suaves para facilitar la rápida lectura de prioridades.
+* **Cards:** Las tarjetas estructuran información crítica, como los requisitos de Obra pendientes. Cuentan con bordes redondeados y sombras suaves para facilitar la rápida lectura de prioridades.
 
 **2) Responsive Design**
 * **Desktop:** Optimizado para la oficina de logística y gerencia. Menús laterales completos y grillas de datos expansivas para comparar cotizaciones en pantallas grandes.
 * **Tablet:** Interfaz adaptada para supervisores de obra, con botones táctiles ampliados para el uso en movimiento.
-* **Mobile (Mobile-First para Campo):** La experiencia móvil es ultra-ligera (Low-Data). Menú de hamburguesa y botones masivos para generar requerimientos fácilmente incluso con una sola mano y guantes de obra.
+* **Mobile (Mobile-First para Campo):** La experiencia móvil es ultra-ligera (Low-Data). Menú de hamburguesa y botones masivos para generar requisitos fácilmente incluso con una sola mano y guantes de obra.
 
 **3) Interaction Design**
-* **Botones:** Llamativos utilizando el "Vibrant Orange" para acciones principales (Aprobar, Enviar Requerimiento). Efectos lineales al pasar el cursor confirman la interactividad.
+* **Botones:** Llamativos utilizando el "Vibrant Orange" para acciones principales (Aprobar, Enviar Requisito). Efectos lineales al pasar el cursor confirman la interactividad.
 * **Formularios:** Extremadamente simplificados. Los campos de solicitud de material utilizan autocompletado predictivo para evitar que el operario de campo escriba largos textos.
 
 **4) Images and Icons**
@@ -114,7 +114,7 @@ La arquitectura de la información de **Buildline** está diseñada para una nav
 * **Jerarquía de Contenidos:** La información va del impacto macro al detalle operativo. La Landing Page inicia con el dolor principal (retrasos) y la promesa de valor (trazabilidad).
 * **Secciones Principales de la Landing Page:**
     * **Hero:** El fin del caos logístico en la construcción.
-    * **What We Offer:** Visión general del flujo Requerimiento-Aprobación-Entrega.
+    * **What We Offer:** Visión general del flujo Requisito-Aprobación-Entrega.
     * **Features:** Aprobaciones móviles, control presupuestal, tracking de proveedores.
     * **Benefits:** Reducción de sobrecostos de emergencia (hasta 18%) y prevención de paralizaciones.
     * **About Us:** Nuestro compromiso con la formalización del sector.
@@ -124,18 +124,30 @@ La arquitectura de la información de **Buildline** está diseñada para una nav
 
 ### 4.2.2. Labeling Systems
 
-* **Nomenclatura:** Lenguaje 100% de la industria ("Crear Requerimiento", "Comparar Cotizaciones", "Emitir OC"). Botones claros como "Request Demo".
-* **Consistencia:** Unificación de términos en todo el SaaS (siempre se usa "Requerimiento", nunca se mezcla con "Pedido" u "Orden").
+* **Nomenclatura:** Lenguaje 100% de la industria ("Crear Requisito", "Comparar Cotizaciones", "Emitir OC"). Botones claros como "Request Demo".
+* **Consistencia:** Unificación de términos en todo el SaaS (siempre se usa "Requisito", nunca se mezcla con "Pedido" u "Orden").
 * **Lenguaje Adaptativo:** Accesible para operarios de campo sin jerga de software, pero con el rigor financiero que exige una gerencia.
 
-### 4.2.3. Searching Systems
+### 4.2.3. SEO Tags and Meta Tags
+
+Para asegurar el correcto posicionamiento orgánico de la Landing Page de **Buildline** en motores de búsqueda, se han definido y configurado los siguientes SEO tags y Meta tags, orientados específicamente al mercado de la construcción en Perú. Estos metadatos permiten que Google y otros buscadores indexen adecuadamente la propuesta de valor.
+
+* **Title Tag:** `<title>Buildline - Gestión Logística y Control de Materiales para Constructoras</title>`
+* **Meta Description:** `<meta name="description" content="Buildline es el SaaS logístico que elimina las compras de emergencia y centraliza los requisitos de materiales desde la obra hasta la gerencia en constructoras MYPES.">`
+* **Meta Keywords:** `<meta name="keywords" content="software logística construcción, control de obra, órdenes de compra construcción, SaaS MYPE construcción Perú, requisitos de materiales">`
+* **Open Graph (OG) Tags:** Utilizados para mejorar la previsualización de enlaces al compartir la plataforma en LinkedIn y WhatsApp:
+  * `<meta property="og:title" content="Buildline - Plataforma Logística para Obras">`
+  * `<meta property="og:type" content="website">`
+  * `<meta property="og:image" content="https://buildline.pe/og-image.jpg">`
+
+### 4.2.4. Searching Systems
 
 * **Barra de Búsqueda:** Dentro del SaaS, es la herramienta principal de la oficina. Ubicada en la parte superior para buscar por *Nombre de Proyecto*, *ID de Orden de Compra* o *Proveedor*.
 * **Filtros y Facetas:** Filtros críticos por Estado (Pendiente, Aprobado, Rechazado, En Tránsito), Fechas y Rango de Costos.
 * **Historial de Búsqueda:** Registro de materiales más solicitados para agilizar futuras cotizaciones.
-* **Resultados Relevantes:** Priorización de requerimientos con etiqueta de "Urgente" o aquellos que superan el presupuesto base.
+* **Resultados Relevantes:** Priorización de requisitos con etiqueta de "Urgente" o aquellos que superan el presupuesto base.
 
-### 4.2.4. Navigation Systems
+### 4.2.5. Navigation Systems
 
 * **Navegación Global:** Barra de navegación superior fija en la Landing Page (`Home`, `Soluciones`, `Beneficios`, `Planes`).
 * **Navegación Contextual:** Botones de llamado a la acción (CTAs naranjas) que guían al usuario fluidamente desde la lectura de un beneficio hasta la solicitud de una cuenta.
@@ -257,11 +269,11 @@ Wireframe del módulo de soporte para el restablecimiento de contraseñas. Propo
 
 <img src="./assets/chapter-04/Recuperación de Credenciales - Buildline -Web Wireframes.jpeg" alt="Recuperación de Credenciales - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
-**Gestión de Requerimientos de Materiales - Buildline**
+**Gestión de Requisitos de Materiales - Buildline**
 
 Pantalla técnica que centraliza las solicitudes provenientes de obra. Permite la visualización de la Prioridad (Critical/High) y el estado de la validación, integrando un buscador dinámico para la localización rápida de pedidos específicos.
 
-<img src="./assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Wireframes.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Gestión de Inventario y Requisitos - Buildline - Wireframes.jpeg" alt="Gestión de Inventario y Requisitos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Panel de Control de Requisiciones - Buildline**
 
@@ -275,11 +287,11 @@ Panel principal de análisis que consolida los KPIs críticos de la constructora
 
 <img src="./assets/chapter-04/Dashboard Overview - Buildline -Web Wireframes.jpeg" alt="Dashboard Overview - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
-**Registro de Nuevo Requerimiento - Buildline**
+**Registro de Nuevo Requisito - Buildline**
 
 Interfaz de formulario modal (New Material Request) diseñada para que el Ingeniero Residente registre pedidos de insumos de forma ágil. Contiene campos para seleccionar el proyecto, tipo de material, cantidad, unidad de medida y fecha requerida, además de un área de especificaciones técnicas.
 
-<img src="./assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Web Wireframes.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Registro de Nuevo Requisito - Buildline -Web Wireframes.jpeg" alt="Registro de Nuevo Requisito - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -309,11 +321,11 @@ Mock-up del flujo de soporte para el restablecimiento de credenciales. La interf
 
 <img src="./assets/chapter-04/Recuperación de Credenciales - Buildline -Applications Mock-ups.jpeg" alt="Recuperación de Credenciales - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
-**Gestión de Requerimientos de Materiales - Buildline**
+**Gestión de Requisitos de Materiales - Buildline**
 
 Mock-up del módulo operativo principal. Presenta una tabla de datos avanzada con estados de validación por colores (Pending, Approved, In Transit), permitiendo al Jefe de Logística supervisar la trazabilidad completa de los materiales desde la obra.
 
-<img src="./assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Applications Mock-ups.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Gestión de Inventario y Requisitos - Buildline - Applications Mock-ups.jpeg" alt="Gestión de Inventario y Requisitos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Panel de Control de Requisiciones - Buildline**
 
@@ -327,11 +339,11 @@ El dashboard centralizado de Buildline en alta fidelidad. Consolida indicadores 
 
 <img src="./assets/chapter-04/Dashboard Overview - Buildline -Applications Mock-ups.jpeg" alt="Dashboard Overview - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
-**Registro de Nuevo Requerimiento - Buildline**
+**Registro de Nuevo Requisito - Buildline**
 
 Interfaz de formulario modal (New Material Request) diseñada para que el Ingeniero Residente registre pedidos de insumos de forma ágil. Contiene campos para seleccionar el proyecto, tipo de material, cantidad, unidad de medida y fecha requerida, además de un área de especificaciones técnicas.
 
-<img src="./assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Applications Mock-ups.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Registro de Nuevo Requisito - Buildline -Applications Mock-ups.jpeg" alt="Registro de Nuevo Requisito - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Mock-ups Version Mobile**
 
@@ -415,7 +427,7 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
 3. Bounded Context **Requisition**
 
-   El bounded context Requisition representa el punto de inicio operativo en el frente de obra. Administra la creación, priorización y seguimiento de los requerimientos de materiales que realizan los Ingenieros Residentes, incluyendo la adjunción de evidencia técnica. Su propósito es digitalizar la necesidad de la obra, eliminando la informalidad de canales como WhatsApp y centralizando las solicitudes técnicas.
+   El bounded context Requisition representa el punto de inicio operativo en el frente de obra. Administra la creación, priorización y seguimiento de los requisitos de materiales que realizan los Ingenieros Residentes, incluyendo la adjunción de evidencia técnica. Su propósito es digitalizar la necesidad de la obra, eliminando la informalidad de canales como WhatsApp y centralizando las solicitudes técnicas.
    
    <img src="./assets/chapter-04/boundedrequisition.png" alt="Bounded Context Requisition" style="width:auto; height:auto; border:2px solid;">
 
@@ -450,7 +462,7 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
 8. Bounded Context **Communication**
 
-   El bounded context Communication gestiona el envío automatizado de notificaciones internas (alertas de requerimientos críticos, avisos de bajo stock) y correos electrónicos externos (envío formal de Órdenes de Compra a proveedores). Su propósito es asegurar una comunicación oportuna, trazable y estructurada que reduzca los cuellos de botella informativos entre la obra y la oficina central.
+   El bounded context Communication gestiona el envío automatizado de notificaciones internas (alertas de requisitos críticos, avisos de bajo stock) y correos electrónicos externos (envío formal de Órdenes de Compra a proveedores). Su propósito es asegurar una comunicación oportuna, trazable y estructurada que reduzca los cuellos de botella informativos entre la obra y la oficina central.
    
    <img src="./assets/chapter-04/boundedcommunication.png" alt="Bounded Context Communication" style="width:auto; height:auto; border:2px solid;">
 
@@ -469,7 +481,7 @@ En este nivel se presenta una vista de alto nivel de la arquitectura, donde el f
 
 El context diagram muestra al **Buildline Software System** como un recuadro en el centro, rodeado por los principales actores y sistemas con los que se comunica:
 
-- **Ingeniero Residente**: usuario interno operativo ubicado en el frente de obra. Interactúa con Buildline para registrar requerimientos de materiales, adjuntar evidencias técnicas y confirmar la recepción física de los despachos.
+- **Ingeniero Residente**: usuario interno operativo ubicado en el frente de obra. Interactúa con Buildline para registrar requisitos de materiales, adjuntar evidencias técnicas y confirmar la recepción física de los despachos.
 - **Analista de Logística**: usuario administrativo en oficina responsable de gestionar el ciclo de compras. Interactúa con la plataforma para solicitar cotizaciones, comparar precios y generar las órdenes de compra.
 - **Jefe de Proyecto / Gerente**: usuario estratégico que supervisa la viabilidad financiera del proyecto. Consulta la plataforma para monitorear el control de costos (APU) y aprobar o rechazar gastos críticos.
 - **SUNAT / Billing API**: sistema gubernamental (o proveedor PSE) externo utilizado para la validación de comprobantes de pago y el cumplimiento de la normativa tributaria local.
@@ -491,7 +503,7 @@ La arquitectura lógica de Buildline se estructura en los siguientes contenedore
 - **Landing Page**: aplicación web estática que presenta la propuesta de valor de Buildline orientada a MYPES constructoras, guía a nuevos usuarios y redirige a la aplicación principal. Está desarrollada con tecnologías web estándar (HTML, CSS y JavaScript) y se despliega en un entorno orientado a contenido estático.
 - **Single Page Application (SPA)**: aplicación web principal, implementada en **Angular**, donde interactúan el Ingeniero Residente, el Analista de Logística y el Gerente. Este contenedor concentra la experiencia de usuario, las vistas y la lógica de presentación para los diferentes contextos del dominio (iam, profiles, requisition, procurement, inventory, suppliers, analytics y communication).
 - **API Application**: backend implementado con **Spring Boot**, que expone una API REST y encapsula la lógica de negocio, reglas de validación y orquestación de procesos logísticos. Este contenedor agrupa los módulos backend por contexto (IAM Backend, Profiles Backend, Requisition Backend, Procurement Backend, Inventory Backend, Suppliers Backend, Analytics Backend, Communication Backend y Shared Backend).
-- **Database**: base de datos relacional **MySQL**, donde se persiste la información estructurada del sistema: usuarios, perfiles de constructoras, requerimientos, cotizaciones, órdenes de compra, inventarios, auditorías y métricas.
+- **Database**: base de datos relacional **MySQL**, donde se persiste la información estructurada del sistema: usuarios, perfiles de constructoras, requisitos, cotizaciones, órdenes de compra, inventarios, auditorías y métricas.
 
 En el diagrama se observa que:
 
@@ -514,7 +526,7 @@ El component diagram de la **API Application** agrupa la arquitectura interna si
 
 - **IAM Backend**: se encarga de la autenticación, gestión de usuarios, roles jerárquicos (Residente, Logística, Gerencia) y validaciones de acceso a la plataforma.
 - **Profiles Backend**: gestiona la información de la empresa constructora (MYPE) y los perfiles de los empleados, centralizando los datos de contacto y estructura organizacional.
-- **Requisition Backend**: implementa la lógica de las solicitudes de campo, permitiendo registrar requerimientos de materiales, adjuntar evidencias y establecer prioridades.
+- **Requisition Backend**: implementa la lógica de las solicitudes de campo, permitiendo registrar requisitos de materiales, adjuntar evidencias y establecer prioridades.
 - **Procurement Backend**: agrupa la funcionalidad del ciclo de compras en oficina, incluyendo la gestión de cotizaciones, generación de cuadros comparativos y emisión de Órdenes de Compra formales.
 - **Inventory Backend**: administra el control de almacén en obra, validando la recepción de materiales mediante el cruce de Guías de Remisión con Órdenes de Compra (Way Match) y registrando mermas.
 - **Suppliers Backend**: gestiona el directorio de proveedores de la constructora, almacenando historiales de confiabilidad, calificaciones e incidencias operativas.
@@ -550,7 +562,7 @@ Cómo se organizan los servicios de aplicación y las interfaces de repositorio 
 
 - **3. Diseño de Persistencia (Database)**
 
-Cómo las entidades del dominio se mapean a estructuras relacionales en la base de datos, garantizando la integridad de la información, la trazabilidad de las operaciones y el soporte a consultas clave del negocio, como el seguimiento de requerimientos, órdenes de compra y control presupuestal.
+Cómo las entidades del dominio se mapean a estructuras relacionales en la base de datos, garantizando la integridad de la información, la trazabilidad de las operaciones y el soporte a consultas clave del negocio, como el seguimiento de requisitos, órdenes de compra y control presupuestal.
 A nivel de backend, los diagramas de clases reflejan la implementación de la **API Application** siguiendo principios de *Domain-Driven Design (DDD)*, donde cada *bounded context* encapsula su lógica de negocio y su modelo de datos de forma independiente, manteniendo bajo acoplamiento y alta cohesión.
 
 **Backend completo**
