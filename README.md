@@ -1618,7 +1618,7 @@ Wireframe del módulo de soporte para el restablecimiento de contraseñas. Propo
 
 Pantalla técnica que centraliza las solicitudes provenientes de obra. Permite la visualización de la Prioridad (Critical/High) y el estado de la validación, integrando un buscador dinámico para la localización rápida de pedidos específicos.
 
-<img src="docs/assets/chapter-04/Gestión de Inventario y Requisitos - Buildline - Wireframes.jpeg" alt="Gestión de Inventario y Requisitos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Wireframes.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Panel de Control de Requisiciones - Buildline**
 
@@ -1636,7 +1636,7 @@ Panel principal de análisis que consolida los KPIs críticos de la constructora
 
 Interfaz de formulario modal (New Material Request) diseñada para que el Ingeniero Residente registre pedidos de insumos de forma ágil. Contiene campos para seleccionar el proyecto, tipo de material, cantidad, unidad de medida y fecha requerida, además de un área de especificaciones técnicas.
 
-<img src="docs/assets/chapter-04/Registro de Nuevo Requisito - Buildline -Web Wireframes.jpeg" alt="Registro de Nuevo Requisito - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Web Wireframes.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -1670,7 +1670,7 @@ Mock-up del flujo de soporte para el restablecimiento de credenciales. La interf
 
 Mock-up del módulo operativo principal. Presenta una tabla de datos avanzada con estados de validación por colores (Pending, Approved, In Transit), permitiendo al Jefe de Logística supervisar la trazabilidad completa de los materiales desde la obra.
 
-<img src="docs/assets/chapter-04/Gestión de Inventario y Requisitos - Buildline - Applications Mock-ups.jpeg" alt="Gestión de Inventario y Requisitos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Applications Mock-ups.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Applications Mock-ups" style="width:auto; height:auto; border:2px solid;">
 
 **Panel de Control de Requisiciones - Buildline**
 
@@ -1688,7 +1688,7 @@ El dashboard centralizado de Buildline en alta fidelidad. Consolida indicadores 
 
 Interfaz de formulario modal (New Material Request) diseñada para que el Ingeniero Residente registre pedidos de insumos de forma ágil. Contiene campos para seleccionar el proyecto, tipo de material, cantidad, unidad de medida y fecha requerida, además de un área de especificaciones técnicas.
 
-<img src="docs/assets/chapter-04/Registro de Nuevo Requisito - Buildline -Applications Mock-ups.jpeg" alt="Registro de Nuevo Requisito - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Applications Mock-ups.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Applications Mock-ups" style="width:auto; height:auto; border:2px solid;">
 
 **Mock-ups Version Mobile**
 
