@@ -76,6 +76,42 @@ Jefes de Proyecto / Gerentes Generales
 | TS-11 | Autenticación de usuario | **Como** desarrollador,<br>**Quiero** autenticar usuarios,<br>**Para** garantizar acceso seguro al sistema. | **Escenario 1: Credenciales válidas**<br>**Dado** que el usuario envía credenciales correctas,<br>**Cuando** realiza un POST a `/api/v1/auth/sign-in`,<br>**Entonces** el sistema retorna status 200 con un token JWT válido y su tiempo de expiración.<br><br>**Escenario 2: Credenciales inválidas**<br>**Dado** que las credenciales son incorrectas,<br>**Cuando** intenta iniciar sesión,<br>**Entonces** el sistema retorna status 401 con un mensaje claro. | EP-04 |
 | TS-12 | Registro de usuario | **Como** desarrollador,<br>**Quiero** registrar nuevos usuarios,<br>**Para** permitir acceso controlado. | **Escenario 1: Registro exitoso**<br>**Dado** que el request POST a `/api/v1/auth/sign-up` contiene datos válidos,<br>**Cuando** se envía la solicitud,<br>**Entonces** el sistema retorna status 201 y crea el usuario.<br><br>**Escenario 2: Email duplicado**<br>**Dado** que el correo ya existe en el sistema,<br>**Cuando** se intenta registrar el usuario,<br>**Entonces** el sistema retorna status 400 indicando conflicto de registro. | EP-04 |
      
+### API Endpoint Coverage for Backend Web Services
+
+La siguiente matriz consolida los contratos REST esperados para la primera versión de los Web Services en .NET 8. Los endpoints se derivan de las Technical Stories existentes, del Product Backlog y de los recursos consumidos por el Frontend Web Application durante Sprint 2.
+
+| Endpoint | Métodos esperados | Fuente de requisito | Contexto frontend / backend |
+|------|-------------------|---------------------|-----------------------------|
+| `/api/v1/auth/sign-in` | POST | TS-11 / US-023 | IAM |
+| `/api/v1/auth/sign-up` | POST | TS-12 / US-022 | IAM |
+| `/api/v1/users` | GET, POST | US-022 / US-024 | IAM |
+| `/api/v1/users/{id}` | GET, PATCH | US-024 / US-025 | IAM |
+| `/api/v1/profiles` | GET | TS-03 | Profiles |
+| `/api/v1/profiles/{id}` | GET, PUT/PATCH | TS-01 / TS-02 | Profiles |
+| `/api/v1/projects` | GET | US-004 / US-017 / US-019 | Shared / Analytics & Budgeting |
+| `/api/v1/projects/{id}` | GET | US-004 / US-017 / US-019 | Shared / Analytics & Budgeting |
+| `/api/v1/materials` | GET, POST | TS-04 / TS-05 | Shared / Requisition |
+| `/api/v1/materials/{id}` | GET, PUT/PATCH, DELETE | TS-06 / TS-07 / TS-08 | Shared / Inventory |
+| `/api/v1/categories` | GET | TS-09 | Shared / Inventory |
+| `/api/v1/categories/{id}` | GET | TS-10 | Shared / Inventory |
+| `/api/v1/requisitions` | GET, POST | US-001 / US-003 / US-004 | Requisition |
+| `/api/v1/requisitions/{id}` | GET, PATCH | US-003 / US-004 / US-008 | Requisition |
+| `/api/v1/quotations` | GET, POST | US-005 / US-006 / US-007 | Procurement |
+| `/api/v1/quotations/{id}` | GET, PATCH | US-006 / US-007 | Procurement |
+| `/api/v1/purchaseOrders` | GET, POST | US-008 / US-009 / US-016 | Procurement |
+| `/api/v1/purchaseOrders/{id}` | GET, PATCH | US-008 / US-009 / US-016 | Procurement |
+| `/api/v1/inventory` | GET, POST | US-014 / US-015 | Inventory |
+| `/api/v1/inventory/{id}` | GET, PATCH | US-014 / US-015 | Inventory |
+| `/api/v1/deliveries` | GET, POST | US-011 / US-012 | Delivery & Tracking / Inventory |
+| `/api/v1/deliveries/{id}` | GET, PATCH | US-011 / US-012 | Delivery & Tracking / Inventory |
+| `/api/v1/suppliers` | GET, POST | US-029 / US-030 | Suppliers |
+| `/api/v1/suppliers/{id}` | GET, PATCH, DELETE | US-029 / US-030 | Suppliers |
+| `/api/v1/incidents` | GET, POST | US-013 | Suppliers |
+| `/api/v1/incidents/{id}` | GET, PATCH | US-013 | Suppliers |
+| `/api/v1/budgets` | GET | US-017 / US-018 / US-019 | Analytics & Budgeting |
+| `/api/v1/messages` | GET | US-010 / US-021 | Communication |
+| `/api/v1/messages/{id}` | GET, PATCH | US-010 / US-021 | Communication |
+
 ## 3.2. Impact Mapping
 <img src="../docs/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
 ## 3.3. Product Backlog

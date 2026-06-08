@@ -27,25 +27,25 @@
   Durante el Sprint 1, el desarrollo de software se limitó estrictamente a la capa de presentación estática. Se logró implementar y desplegar exitosamente la Landing Page informativa de Buildline mediante GitHub Pages, cumpliendo con los criterios de aceptación definidos: navegación responsiva, presentación clara de la propuesta de valor, visualización de planes y perfiles del equipo.
 </p> 
 <p>
-  Al tratarse de un primer incremento enfocado exclusivamente en la web pública de marketing y la documentación arquitectónica (Capítulos I al IV), aún no se han validado métricas operativas del sistema central (como la reducción de tiempos de cotización), las cuales serán evaluadas una vez se inicie la codificación de la plataforma.
+  Tras el avance del Sprint 2, la solución ya cuenta con una primera versión navegable del Frontend Web Application conectada a un mock API, por lo que las métricas operativas del sistema central (como la reducción de tiempos de cotización) podrán validarse progresivamente cuando los Web Services reales de Sprint 3 sustituyan los contratos simulados.
 </p> 
 
 <p><strong>Recomendaciones (Roadmap):</strong></p> 
 <p>
-  Considerando que actualmente solo se cuenta con la Landing Page estática, se recomiendan las siguientes líneas de acción técnicas para los próximos Sprints orientadas a construir el prototipo funcional:
+  Considerando que ya se cuenta con Landing Page, Frontend Web Application y contratos de mock API, se recomiendan las siguientes líneas de acción técnicas para consolidar el segundo entregable y preparar la primera versión real de Web Services:
 </p> 
 <ul> 
   <li> 
-    <strong>Desarrollo del Backend API:</strong> Iniciar la codificación de los Web Services utilizando <strong>.NET 8 (C#)</strong> para gestionar la lógica de negocio fundamental: creación de requisitos, control del presupuesto APU y validación de órdenes de compra.
+    <strong>Desarrollo del Backend API:</strong> Implementar la primera versión de los Web Services utilizando <strong>.NET 8 (C#)</strong>, priorizando los endpoints requeridos por el Frontend para autenticación, usuarios, proyectos, requisiciones, cotizaciones, órdenes de compra, inventario, entregas, proveedores, incidencias, presupuestos y mensajes.
   </li> 
   <li> 
-    <strong>Desarrollo del Frontend (SPA):</strong> Construir la aplicación web interactiva utilizando <strong>Vue.js</strong> para consumir la API, desarrollando inicialmente las vistas del Ingeniero Residente (creación de pedidos) y del Logístico (cuadro de cotizaciones).
+    <strong>Evolución del Frontend (SPA):</strong> Integrar progresivamente la aplicación en <strong>Vue.js</strong> con la API real, reemplazando el mock API por servicios desplegados y conservando los flujos ya implementados durante Sprint 2.
   </li> 
   <li> 
-    <strong>Modelado de la Base de Datos:</strong> Implementar localmente la base de datos relacional (MySQL o SQL Server) diseñada en el diagrama de contenedores, asegurando la integridad de las tablas de usuarios, proyectos, APUs y materiales.
+    <strong>Modelado de la Base de Datos:</strong> Implementar la base de datos relacional diseñada para usuarios, perfiles, proyectos, materiales, requisiciones, cotizaciones, órdenes de compra, inventario, entregas, proveedores, incidencias, presupuestos y mensajes, asegurando trazabilidad entre obra, logística y gerencia.
   </li> 
   <li> 
-    <strong>Integración de Entornos Locales:</strong> Establecer una comunicación fluida entre el frontend en Vue.js y el backend en .NET en los entornos de desarrollo locales del equipo, realizando pruebas de integración (API Testing) antes de evaluar cualquier futuro despliegue en servidores.
+    <strong>Integración y validación de servicios:</strong> Establecer una comunicación fluida entre el frontend en Vue.js y el backend en .NET, documentar los contratos mediante Swagger/OpenAPI y realizar pruebas de integración antes del despliegue de Web Services.
   </li> 
 </ul>
 

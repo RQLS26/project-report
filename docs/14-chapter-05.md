@@ -91,7 +91,6 @@ En esta sección se establecen las convenciones de estilo y nomenclatura adoptad
 | JavaScript | [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) |
 | TypeScript / Vue.js | [Vue.js Priority A Guide](https://vuejs.org/style-guide/rules-essential.html) |
 | C# / .NET | [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) |
-| Java | [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) 
 | Gherkin | [Gherkin Reference](https://cucumber.io/docs/gherkin/reference/) |
 
 Se utiliza nomenclatura en inglés relacionada con las entidades del dominio logístico (ej. Requisition, Quote, Inventory, Provider).
@@ -379,7 +378,7 @@ En esta sección se documenta el avance del Sprint 2 del proyecto Buildline. El 
     </tr>
     <tr>
       <td colspan="2"><strong>Sprint 2 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
-<em>Our focus is on delivering the first navigable version of the Buildline Frontend Web Application, integrated with a mock services layer, covering the core flows of IAM, requisitions, suppliers, procurement, inventory and budget control.</em><br><br>
+<em>Our focus is on delivering the first navigable version of the Buildline Frontend Web Application, integrated with a mock services layer, covering the core flows of IAM, requisitions, suppliers, procurement, delivery tracking, inventory and budget control.</em><br><br>
 <em>We believe it delivers a tangible first product experience for Project Managers and General Managers of construction MYPES, demonstrating end-to-end requisition traceability and APU budget visibility.</em><br><br>
 <em>This will be confirmed when users can sign in, create a material requisition, browse the supplier directory, review inventory and visualize the financial dashboard without intervention from the development team.</em>
       </td>
@@ -402,7 +401,7 @@ En esta sección se documenta el avance del Sprint 2 del proyecto Buildline. El 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
 <p>
-Para el Sprint 2 se identificaron seis aspectos funcionales que corresponden a los <em>bounded contexts</em> implementados en el frontend, más un aspecto transversal de Project Setup (Vue 3 + Vite + Pinia + i18n + json-server) y un aspecto para la versión v2 del Landing Page. La siguiente matriz <strong>LACX</strong> identifica los aspectos principales del Sprint y asigna responsabilidades (Líder/Colaborador) al equipo de RQLS, alineadas con las fortalezas técnicas evidenciadas durante el Sprint 1.
+Para el Sprint 2 se identificaron aspectos funcionales que corresponden a los <em>bounded contexts</em> implementados en el frontend, más un aspecto transversal de Project Setup (Vue 3 + Vite + Pinia + i18n + json-server) y un aspecto para la versión v2 del Landing Page. La siguiente matriz <strong>LACX</strong> identifica los aspectos principales del Sprint y asigna responsabilidades (Líder/Colaborador) al equipo de RQLS, alineadas con las fortalezas técnicas evidenciadas durante el Sprint 1.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0" align="center">
@@ -412,7 +411,7 @@ Para el Sprint 2 se identificaron seis aspectos funcionales que corresponden a l
       <th>Aspect: IAM & Project Setup</th>
       <th>Aspect: Requisition & Procurement</th>
       <th>Aspect: Suppliers</th>
-      <th>Aspect: Inventory</th>
+      <th>Aspect: Inventory & Delivery</th>
       <th>Aspect: Analytics & Profiles</th>
       <th>Aspect: Communication</th>
       <th>Aspect: Landing Page v2</th>
@@ -451,6 +450,7 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 | **US04** | Purchase Order Management | T402 | Quotations Management View | Vista para gestionar y comparar cotizaciones recibidas. | 4h | Paucar Zenteno, Jesús Fernando | Done |
 | **US05** | Inventory Tracking | T501 | Inventory List View | Listado de inventario con indicadores de stock crítico vs stock mínimo. | 4h | Cáceres Pizarro, Albino Florencio | Done |
 | **US05** | Inventory Tracking | T502 | Inventory Service & Filters | Filtros por proyecto, categoría y estado de stock. | 3h | Cáceres Pizarro, Albino Florencio | Done |
+| **US11** | Delivery Tracking | T503 | Delivery Tracking View & Service | Vista y store para consultar entregas, crear registros de despacho y actualizar estados de entrega desde el mock `/deliveries`. | 4h | Cáceres Pizarro, Albino Florencio | Done |
 | **US06** | Financial Dashboard | T601 | Financial Dashboard View | Dashboard de presupuesto vs gasto por proyecto con estados *On Track / At Risk / Over Budget*. | 4h | Cáceres Pizarro, Albino Florencio | Done |
 | **US06** | Financial Dashboard | T602 | Reports View (PDF Export) | Vista de reportes financieros con exportación a PDF mediante `html2pdf.js`. | 3h | Cáceres Pizarro, Albino Florencio | Done |
 | **US07** | Company Profile | T701 | Company Profile View | Vista de perfil de la empresa con RUC, dirección, teléfono y correo. | 2h | Morales Venegas, David Joel | Done |
@@ -561,6 +561,7 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
   <li><strong>Requisition:</strong> Listado y creación de requisiciones de materiales vinculadas a proyectos.</li>
   <li><strong>Suppliers:</strong> Directorio de proveedores con RUC, razón social, rating y vista de incidencias asociadas.</li>
   <li><strong>Procurement:</strong> Bandeja de aprobación de Órdenes de Compra y gestión de cotizaciones para comparación.</li>
+  <li><strong>Delivery & Tracking:</strong> Seguimiento de entregas asociadas a órdenes de compra, con estados de despacho, tránsito, demora y entrega.</li>
   <li><strong>Inventory:</strong> Listado de inventario con indicadores de stock crítico y filtros por proyecto y categoría.</li>
   <li><strong>Analytics & Budgeting:</strong> Dashboard financiero por proyecto con estados <em>On Track / At Risk / Over Budget</em> y vista de reportes con exportación a PDF.</li>
   <li><strong>Profiles:</strong> Perfil de la empresa con datos legales y de contacto.</li>
@@ -705,6 +706,12 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
       <td><code>GET /budgets</code></td>
       <td><code>[{ "id":"1","project":"Skyline Tower","totalAmount":500000,"spentAmount":120000,"status":"On Track" }, ...]</code></td>
     </tr>
+    <tr>
+      <td><code>/deliveries</code></td>
+      <td>GET listado, GET /:id, POST creación y PATCH /:id actualización de estado de entrega.</td>
+      <td><code>PATCH /deliveries/1</code> con <code>{ "status":"Delivered" }</code></td>
+      <td><code>{ "id":"1","trackingId":"TRK-0048","purchaseOrder":"PO-2026-0015","status":"Delivered" }</code></td>
+    </tr>
   </tbody>
 </table>
 
@@ -770,14 +777,14 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 <p><strong>Métricas de colaboración del Sprint 2:</strong></p>
 <ul>
   <li><strong>Story Points completados:</strong> 28 / 28</li>
-  <li><strong>Total de Issues cerrados en Jira:</strong> 21</li>
+  <li><strong>Total de Issues cerrados en Jira:</strong> 22</li>
   <li><strong>Total de Pull Requests cerrados:</strong> 0</li>
   <li><strong>Total de commits en el repositorio Frontend:</strong> 20</li>
 </ul>
 
 <p><strong>Aciertos del Sprint:</strong></p>
 <ul>
-  <li>La estructura DDD por <em>bounded contexts</em> en el frontend (<code>iam</code>, <code>requisition</code>, <code>suppliers</code>, <code>procurement</code>, <code>inventory</code>, <code>analytics-budgeting</code>, <code>profiles</code>, <code>communication</code>) permitió trabajar en paralelo sin conflictos significativos de merge.</li>
+  <li>La estructura DDD por <em>bounded contexts</em> en el frontend (<code>iam</code>, <code>requisition</code>, <code>suppliers</code>, <code>procurement</code>, <code>inventory</code>, <code>delivery</code>, <code>analytics-budgeting</code>, <code>profiles</code>, <code>communication</code>) permitió trabajar en paralelo sin conflictos significativos de merge.</li>
   <li>El uso de json-server como mock alineó al equipo en torno a contratos de API tempranos, lo que facilitará la futura integración con los Web Services en .NET 8.</li>
   <li>La adopción de <strong>i18n</strong> desde el inicio evitó refactors posteriores y dejó listo el soporte multilenguaje (es/en).</li>
 </ul>
@@ -788,3 +795,164 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
   <li>Documentar explícitamente la convención de nombres de stores Pinia y de servicios Axios para mantener consistencia entre bounded contexts.</li>
   <li>Adelantar la configuración de pruebas unitarias con Vitest hacia el inicio del Sprint 3.</li>
 </ul>
+
+### 5.2.3. Sprint 3
+
+En esta sección se planifica el avance del Sprint 3 del proyecto Buildline. A diferencia del Sprint 1, centrado en la Landing Page, y del Sprint 2, centrado en la primera versión navegable del Frontend Web Application con mock API, el Sprint 3 se orienta a la primera versión de los **Backend Web Services** implementados con **.NET 8 / C#**.
+
+Tras revisar el Sprint Backlog 1, el Sprint Backlog 2, las Technical Stories definidas en el Capítulo III y los endpoints consumidos por el Frontend local, no se identificó un Sprint Backlog previo específico para Backend. Por ello, este Sprint Backlog 3 toma como base las Technical Stories existentes (`TS-01` a `TS-12`) y las complementa con User Stories ya registradas en el Product Backlog para cubrir los contratos requeridos por la aplicación frontend y el mock documentado: `users`, `profiles`, `projects`, `materials`, `requisitions`, `suppliers`, `incidents`, `purchaseOrders`, `quotations`, `inventory`, `budgets`, `messages` y `deliveries`.
+
+#### 5.2.3.1. Sprint Planning 3.
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>07/06/2026</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>09:00 p.m.</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Discord / Whatsapp</td>
+    </tr>
+    <tr>
+      <td>Prepared By</td>
+      <td>Morales Venegas, David Joel</td>
+    </tr>
+    <tr>
+      <td>Attendees</td>
+      <td>
+        Castillo Yataco, Mauricio Sebastián<br>
+        Morales Venegas, David Joel<br>
+        Paucar Zenteno, Jesús Fernando<br>
+        Viza Quispe, Marlon Packard<br>
+        Cáceres Pizarro, Albino Florencio
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 2 Review Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        Se entregó la primera versión navegable del Frontend Web Application de Buildline, conectada a un mock API mediante json-server y organizada por bounded contexts. El equipo validó los flujos principales de autenticación, requisiciones, proveedores, compras, seguimiento de entregas, inventario, analítica, perfiles y comunicación.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 2 Retrospective Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        El uso del mock API permitió avanzar rápido en frontend, pero dejó como riesgo la falta de Web Services reales, persistencia transaccional y documentación Swagger definitiva. Para Sprint 3 se acordó priorizar la implementación de contratos backend compatibles con el frontend existente y mantener el tablero de Jira como fuente de seguimiento.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint 3 Goal (Outcome-Impact-Customer-Confirmation):</strong><br><br>
+<em>Our focus is on delivering the first functional version of Buildline Backend Web Services using .NET 8 / C#, replacing the mock services layer with REST endpoints aligned to the current Frontend Web Application contracts.</em><br><br>
+<em>We believe it will reduce integration uncertainty for the development team and provide a deployable service foundation for construction MYPES that need secure, traceable requisition, procurement and inventory workflows.</em><br><br>
+<em>This will be confirmed when Swagger exposes the prioritized API contracts, the frontend can consume the deployed backend for the selected flows, and the team can demonstrate authenticated access plus basic CRUD operations for the main bounded contexts.</em>
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 3 Velocity</td>
+      <td>34 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>34 Story Points</td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  <strong>Repositorio Backend:</strong> <a href="https://github.com/RQLS26/Backend">https://github.com/RQLS26/Backend</a><br>
+  <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26/Frontend</a>
+</p>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+<p>
+Para el Sprint 3 se identificaron aspectos backend alineados con los bounded contexts del diseño de arquitectura y con los endpoints esperados por el frontend. La siguiente matriz <strong>LACX</strong> distribuye liderazgo y colaboración para equilibrar la carga técnica de la implementación en C#.
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>Aspect: API Setup, IAM & Security</th>
+      <th>Aspect: Profiles, Projects & Shared Catalog</th>
+      <th>Aspect: Requisition & Procurement</th>
+      <th>Aspect: Inventory & Delivery</th>
+      <th>Aspect: Suppliers & Incidents</th>
+      <th>Aspect: Analytics, Communication & Deployment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Castillo Yataco, Mauricio Sebastián</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td><td>C</td></tr>
+    <tr><td>Morales Venegas, David Joel</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td><td>L</td></tr>
+    <tr><td>Paucar Zenteno, Jesús Fernando</td><td>C</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td></tr>
+    <tr><td>Viza Quispe, Marlon Packard</td><td>C</td><td>C</td><td>C</td><td>C</td><td>L</td><td>C</td></tr>
+    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>C</td><td>C</td><td>C</td><td>L</td><td>C</td><td>C</td></tr>
+  </tbody>
+</table>
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+El Sprint Backlog 3 agrupa las tareas priorizadas para construir la primera versión de Web Services reales. La planificación respeta las Technical Stories ya definidas en el Capítulo III y evita crear historias técnicas paralelas con nombres diferentes; cuando se requiere cubrir endpoints no incluidos en `TS-01` a `TS-12`, se referencia la User Story correspondiente del Product Backlog.
+
+| Sprint # | User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sprint 3** | **Tech** | Backend Foundation | T300 | .NET 8 Web API Project Setup | Crear solución backend en C# con arquitectura por bounded contexts, configuración base, health check, CORS para Vercel y versionado `/api/v1`. | 5h | Castillo Yataco, Mauricio Sebastián | To-do |
+| **Sprint 3** | **Tech** | Backend Foundation | T301 | EF Core Persistence & Seed Data | Configurar Entity Framework Core, DbContext, entidades base y seed data equivalente al mock `db.json` para pruebas de integración. | 6h | Morales Venegas, David Joel | To-do |
+| **Sprint 3** | **TS-11 / TS-12** | Autenticación y Registro de Usuario | T302 | IAM Auth Endpoints | Implementar `POST /api/v1/auth/sign-in`, `POST /api/v1/auth/sign-up` y compatibilidad inicial con `/api/v1/users` para el frontend actual. | 6h | Castillo Yataco, Mauricio Sebastián | To-do |
+| **Sprint 3** | **US-022 / US-024** | Registro de Usuarios y Gestión de Roles | T303 | Users & Roles API | Implementar listado, creación y actualización de rol/estado de usuarios mediante `GET`, `POST` y `PATCH /api/v1/users/{id}`. | 5h | Castillo Yataco, Mauricio Sebastián | To-do |
+| **Sprint 3** | **TS-01 / TS-02 / TS-03** | Gestión de Perfiles | T304 | Profiles API | Implementar `GET /api/v1/profiles`, `GET /api/v1/profiles/{id}` y `PUT/PATCH /api/v1/profiles/{id}` para perfil de empresa y usuarios. | 4h | Morales Venegas, David Joel | To-do |
+| **Sprint 3** | **Tech** | Shared Project Data | T304A | Projects API | Implementar `GET /api/v1/projects` y `GET /api/v1/projects/{id}` para mantener los filtros por proyecto usados en requisiciones, inventario, compras y dashboard. | 3h | Morales Venegas, David Joel | To-do |
+| **Sprint 3** | **TS-04 / TS-05 / TS-06 / TS-07 / TS-08** | Gestión de Materiales | T305 | Materials Catalog API | Implementar CRUD inicial de materiales con validaciones de unidad, stock mínimo y stock máximo, alineado al catálogo usado en requisiciones. | 6h | Cáceres Pizarro, Albino Florencio | To-do |
+| **Sprint 3** | **TS-09 / TS-10** | Gestión de Categorías | T306 | Categories API | Implementar consulta de categorías de materiales y detalle por ID para clasificar inventario y filtros del frontend. | 3h | Cáceres Pizarro, Albino Florencio | To-do |
+| **Sprint 3** | **US-001 / US-003 / US-004** | Gestión de Requerimientos | T307 | Requisitions API | Implementar `GET /api/v1/requisitions`, `POST /api/v1/requisitions` y actualización de estado para requisiciones de materiales. | 7h | Paucar Zenteno, Jesús Fernando | To-do |
+| **Sprint 3** | **US-005 / US-006 / US-007** | Gestión de Cotizaciones | T308 | Quotations API | Implementar endpoints de cotizaciones (`GET`, `POST`, `PATCH`) para registro, comparación y selección preliminar de ofertas. | 5h | Paucar Zenteno, Jesús Fernando | To-do |
+| **Sprint 3** | **US-008 / US-009 / US-016** | Órdenes de Compra | T309 | Purchase Orders API | Implementar `GET`, `POST` y cambio de estado de órdenes de compra, manteniendo trazabilidad de aprobación/rechazo. | 6h | Paucar Zenteno, Jesús Fernando | To-do |
+| **Sprint 3** | **US-014 / US-015** | Control de Inventario | T310 | Inventory API | Implementar listado, creación y actualización de stock en `/api/v1/inventory`, incluyendo validación de stock crítico. | 6h | Cáceres Pizarro, Albino Florencio | To-do |
+| **Sprint 3** | **US-011 / US-012** | Seguimiento y Recepción de Pedidos | T311 | Deliveries API | Implementar `GET /api/v1/deliveries`, `POST /api/v1/deliveries` y `PATCH /api/v1/deliveries/{id}` para tracking y recepción. | 5h | Cáceres Pizarro, Albino Florencio | To-do |
+| **Sprint 3** | **US-029 / US-030** | Gestión de Proveedores | T312 | Suppliers API | Implementar CRUD inicial de proveedores, rating y estado activo/inactivo mediante `/api/v1/suppliers`. | 5h | Viza Quispe, Marlon Packard | To-do |
+| **Sprint 3** | **US-013** | Registro de Incidencias | T313 | Incidents API | Implementar registro, listado y actualización de estado de incidencias asociadas a proveedor y orden de compra. | 4h | Viza Quispe, Marlon Packard | To-do |
+| **Sprint 3** | **US-017 / US-018 / US-019** | Control Presupuestal y Dashboard | T314 | Budgets & Dashboard API | Implementar `GET /api/v1/budgets` y cálculo básico de estado presupuestal (`On Track`, `At Risk`, `Over Budget`). | 4h | Morales Venegas, David Joel | To-do |
+| **Sprint 3** | **US-010 / US-021** | Comunicación y Notificaciones | T315 | Messages API | Implementar `GET /api/v1/messages` y `PATCH /api/v1/messages/{id}` para marcar leído y destacar mensajes del centro de comunicación. | 4h | Viza Quispe, Marlon Packard | To-do |
+| **Sprint 3** | **Tech** | API Documentation | T316 | Swagger / OpenAPI Documentation | Documentar contratos REST, modelos request/response, códigos HTTP y ejemplos para que Frontend pueda reemplazar el mock API progresivamente. | 4h | Morales Venegas, David Joel | To-do |
+| **Sprint 3** | **Tech** | Backend Deployment | T317 | Backend Cloud Deployment | Preparar variables de entorno, configuración de producción y despliegue inicial del Backend Web Services. | 5h | Morales Venegas, David Joel | To-do |
+| **Sprint 3** | **Tech** | Integration Validation | T318 | Frontend API Integration Smoke Test | Validar desde el frontend los flujos priorizados de sign-in, requisitions, suppliers, purchase orders, inventory, deliveries y dashboard contra la API desplegada. | 5h | Castillo Yataco, Mauricio Sebastián | To-do |
+
+<p><strong>Endpoint coverage planned for Sprint 3:</strong> <code>/api/v1/auth/sign-in</code>, <code>/api/v1/auth/sign-up</code>, <code>/api/v1/users</code>, <code>/api/v1/profiles</code>, <code>/api/v1/projects</code>, <code>/api/v1/materials</code>, <code>/api/v1/categories</code>, <code>/api/v1/requisitions</code>, <code>/api/v1/quotations</code>, <code>/api/v1/purchaseOrders</code>, <code>/api/v1/inventory</code>, <code>/api/v1/deliveries</code>, <code>/api/v1/suppliers</code>, <code>/api/v1/incidents</code>, <code>/api/v1/budgets</code> y <code>/api/v1/messages</code>.</p>
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+
+[pending content]
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+
+[pending content]
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+[pending content]
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+[pending content]
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+[pending content]
