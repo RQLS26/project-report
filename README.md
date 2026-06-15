@@ -1273,54 +1273,56 @@ Jefes de Proyecto / Gerentes Generales
 
 | TS ID | Título | Descripción | Criterios de Aceptación | Relacionado con (EPIC ID) |
 |------|--------|-------------|------------------------|--------------------------|
-| TS-01 | Obtener perfil por ID | **Como** desarrollador,<br>**Quiero** obtener el perfil de un usuario por su ID,<br>**Para** recuperar información detallada del usuario dentro del sistema. | **Escenario 1: Perfil existente**<br>**Dado** que el endpoint `/api/v1/profiles/{id}` está disponible y el usuario existe,<br>**Cuando** se envía un request GET con un ID válido,<br>**Entonces** el sistema responde con status 200, retorna los datos completos del perfil (nombre, apellidos, email, rol) y un tiempo de respuesta menor a 2 segundos.<br><br>**Escenario 2: Perfil inexistente**<br>**Dado** que el ID no existe,<br>**Cuando** se realiza la consulta,<br>**Entonces** el sistema responde con status 404 y un mensaje claro: “Perfil de usuario no encontrado”. | EP-06 |
-| TS-02 | Actualizar perfil por ID | **Como** desarrollador,<br>**Quiero** actualizar los datos de un perfil de usuario,<br>**Para** mantener la información actualizada en el sistema. | **Escenario 1: Actualización válida**<br>**Dado** que el endpoint `/api/v1/profiles/{id}` está disponible y el usuario existe,<br>**Cuando** se envía un request PUT con datos válidos (nombre, email, dirección),<br>**Entonces** el sistema valida los campos, actualiza la información y responde con status 200 mostrando el perfil actualizado.<br><br>**Escenario 2: Usuario inexistente**<br>**Dado** que el ID no está registrado,<br>**Cuando** se intenta actualizar,<br>**Entonces** el sistema responde con status 404 y un mensaje de error. | EP-06 |
-| TS-03 | Obtener todos los perfiles | **Como** desarrollador,<br>**Quiero** listar todos los perfiles de usuario,<br>**Para** permitir su visualización y gestión. | **Escenario 1: Lista con datos**<br>**Dado** que existen usuarios registrados,<br>**Cuando** se envía un request GET a `/api/v1/profiles`,<br>**Entonces** el sistema retorna status 200 con una lista estructurada de perfiles.<br><br>**Escenario 2: Lista vacía**<br>**Dado** que no existen usuarios registrados,<br>**Cuando** se envía el request GET,<br>**Entonces** el sistema retorna status 204 indicando ausencia de datos. | EP-06 |
-| TS-04 | Obtener materiales | **Como** desarrollador,<br>**Quiero** obtener todos los materiales registrados,<br>**Para** visualizar el inventario disponible en el sistema. | **Escenario 1: Materiales disponibles**<br>**Dado** que existen registros en `/api/v1/materials`,<br>**Cuando** se realiza un GET,<br>**Entonces** se retorna status 200 con la lista de materiales incluyendo nombre, stock y unidad.<br><br>**Escenario 2: Sin materiales**<br>**Dado** que no existen materiales registrados,<br>**Cuando** se consulta el endpoint,<br>**Entonces** se retorna status 204 con mensaje informativo. | EP-01 |
-| TS-05 | Crear material | **Como** desarrollador,<br>**Quiero** registrar un nuevo material,<br>**Para** ampliar el catálogo disponible. | **Escenario 1: Creación válida**<br>**Dado** que se envían datos completos (nombre, unidad, stock inicial),<br>**Cuando** se hace POST a `/api/v1/materials`,<br>**Entonces** el sistema valida los datos, crea el registro y retorna status 201.<br><br>**Escenario 2: Datos incompletos**<br>**Dado** que faltan campos obligatorios,<br>**Cuando** se realiza el POST,<br>**Entonces** el sistema retorna status 400 con mensaje indicando los campos faltantes. | EP-03 |
-| TS-06 | Obtener material por ID | **Como** desarrollador,<br>**Quiero** obtener un material específico por su ID,<br>**Para** visualizar su información detallada. | **Escenario 1: Material existente**<br>**Dado** que el material existe,<br>**Cuando** se consulta `/api/v1/materials/{id}`,<br>**Entonces** el sistema responde con status 200 y los datos del material.<br><br>**Escenario 2: No existe**<br>**Dado** que el material no está registrado,<br>**Cuando** se consulta el endpoint,<br>**Entonces** responde con status 404 y mensaje “Material no encontrado”. | EP-01 |
-| TS-07 | Actualizar material | **Como** desarrollador,<br>**Quiero** actualizar un material,<br>**Para** mantener la información correcta en el inventario. | **Escenario 1: Actualización correcta**<br>**Dado** que se envía un PUT con datos válidos,<br>**Cuando** se actualiza el material,<br>**Entonces** el sistema retorna status 200 y confirma la actualización.<br><br>**Escenario 2: Error**<br>**Dado** que el material no existe,<br>**Cuando** se intenta actualizar,<br>**Entonces** el sistema retorna status 404. | EP-03 |
-| TS-08 | Eliminar material | **Como** desarrollador,<br>**Quiero** eliminar materiales,<br>**Para** mantener el inventario limpio y actualizado. | **Escenario 1: Eliminación válida**<br>**Dado** que se envía un DELETE con un ID existente,<br>**Cuando** se ejecuta la operación,<br>**Entonces** el sistema retorna status 204 y elimina el registro.<br><br>**Escenario 2: No existe**<br>**Dado** que el ID no está registrado,<br>**Cuando** se intenta eliminar,<br>**Entonces** el sistema retorna status 404. | EP-03 |
-| TS-09 | Obtener categorías | **Como** desarrollador,<br>**Quiero** obtener categorías de materiales,<br>**Para** clasificar los recursos del sistema. | **Escenario 1: Con datos**<br>**Dado** que existen categorías registradas,<br>**Cuando** se realiza GET a `/api/v1/categories`,<br>**Entonces** el sistema retorna status 200 con la lista.<br><br>**Escenario 2: Sin datos**<br>**Dado** que no existen categorías registradas,<br>**Cuando** se consulta el endpoint,<br>**Entonces** el sistema retorna status 204. | EP-01 |
-| TS-10 | Obtener categoría por ID | **Como** desarrollador,<br>**Quiero** obtener una categoría específica,<br>**Para** ver su detalle. | **Escenario 1: Existe**<br>**Dado** que la categoría existe,<br>**Cuando** se consulta el endpoint por ID,<br>**Entonces** el sistema retorna status 200 con nombre e información.<br><br>**Escenario 2: No existe**<br>**Dado** que la categoría no está registrada,<br>**Cuando** se realiza la consulta,<br>**Entonces** el sistema retorna status 404. | EP-01 |
-| TS-11 | Autenticación de usuario | **Como** desarrollador,<br>**Quiero** autenticar usuarios,<br>**Para** garantizar acceso seguro al sistema. | **Escenario 1: Credenciales válidas**<br>**Dado** que el usuario envía credenciales correctas,<br>**Cuando** realiza un POST a `/api/v1/auth/sign-in`,<br>**Entonces** el sistema retorna status 200 con un token JWT válido y su tiempo de expiración.<br><br>**Escenario 2: Credenciales inválidas**<br>**Dado** que las credenciales son incorrectas,<br>**Cuando** intenta iniciar sesión,<br>**Entonces** el sistema retorna status 401 con un mensaje claro. | EP-04 |
-| TS-12 | Registro de usuario | **Como** desarrollador,<br>**Quiero** registrar nuevos usuarios,<br>**Para** permitir acceso controlado. | **Escenario 1: Registro exitoso**<br>**Dado** que el request POST a `/api/v1/auth/sign-up` contiene datos válidos,<br>**Cuando** se envía la solicitud,<br>**Entonces** el sistema retorna status 201 y crea el usuario.<br><br>**Escenario 2: Email duplicado**<br>**Dado** que el correo ya existe en el sistema,<br>**Cuando** se intenta registrar el usuario,<br>**Entonces** el sistema retorna status 400 indicando conflicto de registro. | EP-04 |
+| TS-01 | Backend foundation, seguridad y documentación OpenAPI | **Como** desarrollador,<br>**Quiero** configurar la API .NET/C# con versionado, CORS, JWT, Problem Details, XML documentation y Swagger,<br>**Para** que todos los bounded contexts expongan contratos seguros, trazables y documentados. | **Escenario 1: API base disponible**<br>**Dado** que la solución backend se ejecuta,<br>**Cuando** se consulta `GET /api/v1/health`,<br>**Entonces** responde 200 y Swagger incluye documentación XML de controllers, resources, parámetros y respuestas.<br><br>**Escenario 2: Endpoint protegido**<br>**Dado** que un endpoint operativo se invoca sin token,<br>**Cuando** se realiza la solicitud,<br>**Entonces** la API responde 401 y no expone datos sensibles. | EP-04 / EP-06 |
+| TS-02 | iam y profiles Web Services | **Como** desarrollador,<br>**Quiero** implementar autenticación, usuarios, roles y perfil de empresa,<br>**Para** reemplazar el mock de `users` y `profiles` con servicios seguros. | **Escenario 1: Inicio de sesión**<br>**Dado** que existen credenciales válidas,<br>**Cuando** se envía `POST /api/v1/auth/sign-in`,<br>**Entonces** se retorna un JWT válido y datos del usuario.<br><br>**Escenario 2: Gestión de usuarios y perfil**<br>**Dado** que el usuario está autenticado,<br>**Cuando** consulta o actualiza `/api/v1/users` y `/api/v1/profiles`,<br>**Entonces** recibe recursos compatibles con el frontend. | EP-04 |
+| TS-03 | Shared catalog y project reference services | **Como** desarrollador,<br>**Quiero** exponer proyectos, materiales y categorías como datos compartidos,<br>**Para** alimentar filtros, requisiciones, inventario, compras y dashboard sin duplicar catálogos. | **Escenario 1: Datos compartidos disponibles**<br>**Dado** que existen seeds de proyectos, materiales y categorías,<br>**Cuando** el frontend consulta `/api/v1/projects`, `/api/v1/materials` o `/api/v1/categories`,<br>**Entonces** recibe listas consistentes con los contratos del mock.<br><br>**Escenario 2: Catálogo de materiales mutable**<br>**Dado** que logística registra o modifica materiales,<br>**Cuando** usa POST, PUT/PATCH o DELETE en `/api/v1/materials`,<br>**Entonces** la API persiste el cambio y mantiene auditoría. | EP-01 / EP-03 / EP-05 |
+| TS-04 | requisition Web Services | **Como** desarrollador,<br>**Quiero** implementar el bounded context `requisition`,<br>**Para** registrar, listar y actualizar solicitudes de materiales creadas desde obra. | **Escenario 1: Registro desde obra**<br>**Dado** que el residente envía material, proyecto, cantidad, unidad, prioridad y fecha requerida,<br>**Cuando** se ejecuta `POST /api/v1/requisitions`,<br>**Entonces** se crea una requisición con código, estado inicial y auditoría.<br><br>**Escenario 2: Seguimiento por logística**<br>**Dado** que existen requisiciones,<br>**Cuando** se consulta o actualiza `/api/v1/requisitions`,<br>**Entonces** la respuesta conserva estado, prioridad, solicitante y proyecto. | EP-01 |
+| TS-05 | procurement Web Services | **Como** desarrollador,<br>**Quiero** implementar cotizaciones y órdenes de compra,<br>**Para** soportar comparación de proveedores, aprobación y trazabilidad del gasto. | **Escenario 1: Cotizaciones**<br>**Dado** que logística recibe ofertas,<br>**Cuando** usa `/api/v1/quotations`,<br>**Entonces** puede listar, registrar y actualizar cotizaciones con proveedor, material, monto y estado.<br><br>**Escenario 2: Órdenes de compra**<br>**Dado** que una compra requiere aprobación,<br>**Cuando** se usa `/api/v1/purchaseOrders`,<br>**Entonces** la API permite crear órdenes y cambiar su estado sin perder el monto ni proveedor. | EP-02 |
+| TS-06 | inventory Web Services | **Como** desarrollador,<br>**Quiero** implementar control de stock por proyecto,<br>**Para** detectar bajo stock, stock agotado y actualizaciones de almacén. | **Escenario 1: Consulta de inventario**<br>**Dado** que existen items de stock,<br>**Cuando** se consulta `GET /api/v1/inventory`,<br>**Entonces** se retorna SKU, material, proyecto, categoría, stock actual, máximo, mínimo y fecha de actualización.<br><br>**Escenario 2: Actualización de stock**<br>**Dado** que almacén registra un movimiento,<br>**Cuando** ejecuta `PATCH /api/v1/inventory/{id}`,<br>**Entonces** se actualiza el stock y la fecha de actualización. | EP-03 |
+| TS-07 | delivery Web Services | **Como** desarrollador,<br>**Quiero** implementar tracking de entregas vinculadas a órdenes de compra,<br>**Para** dar visibilidad de despacho, tránsito, demora y recepción. | **Escenario 1: Seguimiento de entrega**<br>**Dado** que existen despachos,<br>**Cuando** se consulta `GET /api/v1/deliveries`,<br>**Entonces** se retorna trackingId, orden de compra, proveedor, origen, destino, estado, ETA e items.<br><br>**Escenario 2: Cambio de estado**<br>**Dado** que una entrega cambia a Delivered o Delayed,<br>**Cuando** se ejecuta `PATCH /api/v1/deliveries/{id}`,<br>**Entonces** la API persiste el nuevo estado. | EP-02 / EP-03 |
+| TS-08 | suppliers and incidents Web Services | **Como** desarrollador,<br>**Quiero** implementar proveedores e incidencias,<br>**Para** sostener el directorio, rating, validación operativa y registro de problemas. | **Escenario 1: Directorio de proveedores**<br>**Dado** que existen proveedores,<br>**Cuando** se consume `/api/v1/suppliers`,<br>**Entonces** la API permite listar, crear, actualizar y eliminar proveedores con RUC, rating, categoría y delivery rate.<br><br>**Escenario 2: Incidencias**<br>**Dado** que se reporta un problema de entrega o calidad,<br>**Cuando** se usa `/api/v1/incidents`,<br>**Entonces** queda registrada la severidad, estado, proveedor y orden asociada. | EP-07 |
+| TS-09 | analytics-budgeting Web Services | **Como** desarrollador,<br>**Quiero** implementar presupuestos por proyecto,<br>**Para** que gerencia visualice gasto real, presupuesto total, asignado y estado de desviación. | **Escenario 1: Dashboard financiero**<br>**Dado** que existen presupuestos por proyecto,<br>**Cuando** se consulta `GET /api/v1/budgets`,<br>**Entonces** se retorna totalBudget, spent, allocated y status compatible con el dashboard.<br><br>**Escenario 2: Actualización presupuestal**<br>**Dado** que cambia el gasto ejecutado,<br>**Cuando** se ejecuta `PATCH /api/v1/budgets/{id}`,<br>**Entonces** se actualizan los valores para recalcular KPIs de frontend. | EP-05 |
+| TS-10 | communication Web Services | **Como** desarrollador,<br>**Quiero** implementar mensajes y alertas internas,<br>**Para** comunicar aprobaciones, bajo stock, entregas e incidencias entre obra y oficina. | **Escenario 1: Bandeja de mensajes**<br>**Dado** que existen alertas y actualizaciones,<br>**Cuando** se consulta `GET /api/v1/messages`,<br>**Entonces** se retornan sender, subject, preview, category, icon, read state y starred state.<br><br>**Escenario 2: Estado de lectura**<br>**Dado** que el usuario marca un mensaje,<br>**Cuando** ejecuta `PATCH /api/v1/messages/{id}`,<br>**Entonces** la API actualiza `isRead` o `starred`. | EP-06 |
+| TS-11 | EF Core persistence, migrations and seed data | **Como** desarrollador,<br>**Quiero** modelar tablas, constraints, auditoría y seed data por bounded context,<br>**Para** que los Web Services tengan persistencia transaccional y datos iniciales equivalentes al mock. | **Escenario 1: Migraciones versionadas**<br>**Dado** que se agregan nuevos aggregates,<br>**Cuando** se genera la migración EF Core,<br>**Entonces** se crean tablas para IAM, Profiles, Shared, Requisition, Procurement, Inventory, Delivery, Suppliers, Analytics y Communication.<br><br>**Escenario 2: Seed compatible**<br>**Dado** que el frontend reemplaza json-server,<br>**Cuando** consulta la API,<br>**Entonces** encuentra datos iniciales equivalentes a `server/db.json`. | EP-01 / EP-02 / EP-03 / EP-05 / EP-07 |
+| TS-12 | Deployment readiness and frontend integration contract | **Como** desarrollador,<br>**Quiero** preparar Docker, configuración de producción, variables de entorno y ejemplos HTTP,<br>**Para** desplegar los Web Services y validar la sustitución progresiva del mock API. | **Escenario 1: Build y publish**<br>**Dado** que el backend se compila en modo Release,<br>**Cuando** se ejecuta build/publish o Docker build,<br>**Entonces** la aplicación queda lista para despliegue con connection string y JWT secret configurables.<br><br>**Escenario 2: Smoke test de integración**<br>**Dado** que el frontend apunta a la API versionada,<br>**Cuando** ejecuta los flujos de auth, requisitions, suppliers, procurement, inventory, delivery, budgets y messages,<br>**Entonces** los recursos responden con contratos esperados. | EP-06 |
      
 ### API Endpoint Coverage for Backend Web Services
 
-La siguiente matriz consolida los contratos REST esperados para la primera versión de los Web Services en .NET 8. Los endpoints se derivan de las Technical Stories existentes, del Product Backlog y de los recursos consumidos por el Frontend Web Application durante Sprint 2.
+La siguiente matriz consolida los contratos REST esperados para la primera versión de los Web Services en .NET / C#. Los endpoints se derivan de las Technical Stories actualizadas, de los bounded contexts del Capítulo IV, del Product Backlog y de los recursos consumidos por el Frontend Web Application durante Sprint 2.
 
 | Endpoint | Métodos esperados | Fuente de requisito | Contexto frontend / backend |
 |------|-------------------|---------------------|-----------------------------|
-| `/api/v1/auth/sign-in` | POST | TS-11 / US-023 | IAM |
-| `/api/v1/auth/sign-up` | POST | TS-12 / US-022 | IAM |
-| `/api/v1/users` | GET, POST | US-022 / US-024 | IAM |
-| `/api/v1/users/{id}` | GET, PATCH | US-024 / US-025 | IAM |
-| `/api/v1/profiles` | GET | TS-03 | Profiles |
-| `/api/v1/profiles/{id}` | GET, PUT/PATCH | TS-01 / TS-02 | Profiles |
-| `/api/v1/projects` | GET | US-004 / US-017 / US-019 | Shared / Analytics & Budgeting |
-| `/api/v1/projects/{id}` | GET | US-004 / US-017 / US-019 | Shared / Analytics & Budgeting |
-| `/api/v1/materials` | GET, POST | TS-04 / TS-05 | Shared / Requisition |
-| `/api/v1/materials/{id}` | GET, PUT/PATCH, DELETE | TS-06 / TS-07 / TS-08 | Shared / Inventory |
-| `/api/v1/categories` | GET | TS-09 | Shared / Inventory |
-| `/api/v1/categories/{id}` | GET | TS-10 | Shared / Inventory |
-| `/api/v1/requisitions` | GET, POST | US-001 / US-003 / US-004 | Requisition |
-| `/api/v1/requisitions/{id}` | GET, PATCH | US-003 / US-004 / US-008 | Requisition |
-| `/api/v1/quotations` | GET, POST | US-005 / US-006 / US-007 | Procurement |
-| `/api/v1/quotations/{id}` | GET, PATCH | US-006 / US-007 | Procurement |
-| `/api/v1/purchaseOrders` | GET, POST | US-008 / US-009 / US-016 | Procurement |
-| `/api/v1/purchaseOrders/{id}` | GET, PATCH | US-008 / US-009 / US-016 | Procurement |
-| `/api/v1/inventory` | GET, POST | US-014 / US-015 | Inventory |
-| `/api/v1/inventory/{id}` | GET, PATCH | US-014 / US-015 | Inventory |
-| `/api/v1/deliveries` | GET, POST | US-011 / US-012 | Delivery & Tracking / Inventory |
-| `/api/v1/deliveries/{id}` | GET, PATCH | US-011 / US-012 | Delivery & Tracking / Inventory |
-| `/api/v1/suppliers` | GET, POST | US-029 / US-030 | Suppliers |
-| `/api/v1/suppliers/{id}` | GET, PATCH, DELETE | US-029 / US-030 | Suppliers |
-| `/api/v1/incidents` | GET, POST | US-013 | Suppliers |
-| `/api/v1/incidents/{id}` | GET, PATCH | US-013 | Suppliers |
-| `/api/v1/budgets` | GET | US-017 / US-018 / US-019 | Analytics & Budgeting |
-| `/api/v1/messages` | GET | US-010 / US-021 | Communication |
-| `/api/v1/messages/{id}` | GET, PATCH | US-010 / US-021 | Communication |
+| `/api/v1/health` | GET | TS-01 | shared / platform |
+| `/api/v1/auth/sign-in` | POST | TS-02 / US-023 | iam |
+| `/api/v1/auth/sign-up` | POST | TS-02 / US-022 | iam |
+| `/api/v1/users` | GET, POST | TS-02 / US-022 / US-024 | iam |
+| `/api/v1/users/{id}` | GET, PATCH | TS-02 / US-024 / US-025 | iam |
+| `/api/v1/profiles` | GET | TS-02 | profiles |
+| `/api/v1/profiles/{id}` | GET, PUT/PATCH | TS-02 | profiles |
+| `/api/v1/projects` | GET | TS-03 / US-004 / US-017 / US-019 | shared / projects |
+| `/api/v1/projects/{id}` | GET | TS-03 / US-004 / US-017 / US-019 | shared / projects |
+| `/api/v1/materials` | GET, POST | TS-03 / US-001 / US-014 | shared / materials |
+| `/api/v1/materials/{id}` | GET, PUT/PATCH, DELETE | TS-03 / US-014 / US-015 | shared / materials |
+| `/api/v1/categories` | GET | TS-03 | shared / categories |
+| `/api/v1/categories/{id}` | GET | TS-03 | shared / categories |
+| `/api/v1/requisitions` | GET, POST | TS-04 / US-001 / US-003 / US-004 | requisition |
+| `/api/v1/requisitions/{id}` | GET, PATCH | TS-04 / US-003 / US-004 / US-008 | requisition |
+| `/api/v1/quotations` | GET, POST | TS-05 / US-005 / US-006 / US-007 | procurement |
+| `/api/v1/quotations/{id}` | GET, PATCH | TS-05 / US-006 / US-007 | procurement |
+| `/api/v1/purchaseOrders` | GET, POST | TS-05 / US-008 / US-009 / US-016 | procurement |
+| `/api/v1/purchaseOrders/{id}` | GET, PATCH | TS-05 / US-008 / US-009 / US-016 | procurement |
+| `/api/v1/inventory` | GET, POST | TS-06 / US-014 / US-015 | inventory |
+| `/api/v1/inventory/{id}` | GET, PATCH | TS-06 / US-014 / US-015 | inventory |
+| `/api/v1/deliveries` | GET, POST | TS-07 / US-011 / US-012 | delivery |
+| `/api/v1/deliveries/{id}` | GET, PATCH | TS-07 / US-011 / US-012 | delivery |
+| `/api/v1/suppliers` | GET, POST | TS-08 / US-029 / US-030 | suppliers |
+| `/api/v1/suppliers/{id}` | GET, PATCH, DELETE | TS-08 / US-029 / US-030 | suppliers |
+| `/api/v1/incidents` | GET, POST | TS-08 / US-013 | suppliers |
+| `/api/v1/incidents/{id}` | GET, PATCH | TS-08 / US-013 | suppliers |
+| `/api/v1/budgets` | GET, POST | TS-09 / US-017 / US-018 / US-019 | analytics-budgeting |
+| `/api/v1/budgets/{id}` | GET, PATCH | TS-09 / US-017 / US-018 / US-019 | analytics-budgeting |
+| `/api/v1/messages` | GET, POST | TS-10 / US-010 / US-021 | communication |
+| `/api/v1/messages/{id}` | GET, PATCH, DELETE | TS-10 / US-010 / US-021 | communication |
 
 ## 3.2. Impact Mapping
 <img src="docs/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
@@ -1358,18 +1360,18 @@ La siguiente matriz consolida los contratos REST esperados para la primera versi
 | 28 | US-028 | Carga masiva de datos | Como analista de logística, quiero subir datos de forma masiva para ahorrar tiempo en registros. | 5 |
 | 29 | US-029 | Gestión de proveedores | Como analista de logística, quiero registrar proveedores para tener una base de datos organizada. | 3 |
 | 30 | US-030 | Evaluación de proveedores | Como jefe de proyecto, quiero calificar proveedores para mejorar decisiones futuras. | 3 |
-| 31 | TS-01 | Obtener perfil por ID | Como desarrollador, quiero obtener el perfil de un usuario por su ID para recuperar información detallada del usuario. | 3 |
-| 32 | TS-02 | Actualizar perfil por ID | Como desarrollador, quiero actualizar los datos de un perfil de usuario para mantener la información actualizada. | 4 |
-| 33 | TS-03 | Obtener todos los perfiles | Como desarrollador, quiero listar todos los perfiles de usuario para su visualización y gestión. | 4 |
-| 34 | TS-04 | Obtener materiales | Como desarrollador, quiero obtener todos los materiales registrados para visualizar el inventario disponible. | 3 |
-| 35 | TS-05 | Crear material | Como desarrollador, quiero registrar nuevos materiales para ampliar el catálogo. | 4 |
-| 36 | TS-06 | Obtener material por ID | Como desarrollador, quiero obtener un material específico por su ID para ver su información detallada. | 4 |
-| 37 | TS-07 | Actualizar material | Como desarrollador, quiero actualizar un material para mantener información correcta en el inventario. | 5 |
-| 38 | TS-08 | Eliminar material | Como desarrollador, quiero eliminar materiales para mantener el inventario limpio. | 4 |
-| 39 | TS-09 | Obtener categorías | Como desarrollador, quiero obtener categorías de materiales para clasificarlos. | 3 |
-| 40 | TS-10 | Obtener categoría por ID | Como desarrollador, quiero obtener una categoría específica para ver su detalle. | 5 |
-| 41 | TS-11 | Autenticación de usuario | Como desarrollador, quiero autenticar usuarios para garantizar acceso seguro al sistema. | 3 |
-| 42 | TS-12 | Registro de usuario | Como desarrollador, quiero registrar nuevos usuarios para permitir acceso controlado. | 3 |
+| 31 | TS-01 | Backend foundation, seguridad y documentación OpenAPI | Como desarrollador, quiero configurar la API .NET/C# con versionado, CORS, JWT, Problem Details, XML documentation y Swagger para exponer contratos seguros y documentados. | 5 |
+| 32 | TS-02 | iam y profiles Web Services | Como desarrollador, quiero implementar autenticación, usuarios, roles y perfil de empresa para reemplazar el mock de users/profiles con servicios seguros. | 5 |
+| 33 | TS-03 | Shared catalog y project reference services | Como desarrollador, quiero exponer proyectos, materiales y categorías como datos compartidos para alimentar filtros, requisiciones, inventario, compras y dashboard. | 5 |
+| 34 | TS-04 | requisition Web Services | Como desarrollador, quiero implementar el bounded context `requisition` para registrar, listar y actualizar solicitudes de materiales creadas desde obra. | 5 |
+| 35 | TS-05 | procurement Web Services | Como desarrollador, quiero implementar cotizaciones y órdenes de compra para soportar comparación de proveedores, aprobación y trazabilidad del gasto. | 8 |
+| 36 | TS-06 | inventory Web Services | Como desarrollador, quiero implementar control de stock por proyecto para detectar bajo stock, stock agotado y actualizaciones de almacén. | 5 |
+| 37 | TS-07 | delivery Web Services | Como desarrollador, quiero implementar tracking de entregas vinculadas a órdenes de compra para dar visibilidad de despacho, tránsito, demora y recepción. | 5 |
+| 38 | TS-08 | suppliers and incidents Web Services | Como desarrollador, quiero implementar proveedores e incidencias para sostener el directorio, rating, validación operativa y registro de problemas. | 8 |
+| 39 | TS-09 | analytics-budgeting Web Services | Como desarrollador, quiero implementar presupuestos por proyecto para que gerencia visualice gasto real, presupuesto total, asignado y estado de desviación. | 5 |
+| 40 | TS-10 | communication Web Services | Como desarrollador, quiero implementar mensajes y alertas internas para comunicar aprobaciones, bajo stock, entregas e incidencias entre obra y oficina. | 3 |
+| 41 | TS-11 | EF Core persistence, migrations and seed data | Como desarrollador, quiero modelar tablas, constraints, auditoría y seed data por bounded context para tener persistencia transaccional y datos iniciales equivalentes al mock. | 5 |
+| 42 | TS-12 | Deployment readiness and frontend integration contract | Como desarrollador, quiero preparar Docker, configuración de producción, variables de entorno y ejemplos HTTP para desplegar los Web Services y validar la sustitución del mock API. | 5 |
 
 <div align="center">
   <img src="docs/assets/chapter-03/jira1.png" alt="Evidence Product Backlog" width="90%">
@@ -2868,9 +2870,9 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 
 ### 5.2.3. Sprint 3
 
-En esta sección se planifica el avance del Sprint 3 del proyecto Buildline. A diferencia del Sprint 1, centrado en la Landing Page, y del Sprint 2, centrado en la primera versión navegable del Frontend Web Application con mock API, el Sprint 3 se orienta a la primera versión de los **Backend Web Services** implementados con **.NET 8 / C#**.
+En esta sección se planifica el avance del Sprint 3 del proyecto Buildline. A diferencia del Sprint 1, centrado en la Landing Page, y del Sprint 2, centrado en la primera versión navegable del Frontend Web Application con mock API, el Sprint 3 se orienta a la primera versión de los **Backend Web Services** implementados con **ASP.NET Core / C#**.
 
-Tras revisar el Sprint Backlog 1, el Sprint Backlog 2, las Technical Stories definidas en el Capítulo III y los endpoints consumidos por el Frontend local, no se identificó un Sprint Backlog previo específico para Backend. Por ello, este Sprint Backlog 3 toma como base las Technical Stories existentes (`TS-01` a `TS-12`) y las complementa con User Stories ya registradas en el Product Backlog para cubrir los contratos requeridos por la aplicación frontend y el mock documentado: `users`, `profiles`, `projects`, `materials`, `requisitions`, `suppliers`, `incidents`, `purchaseOrders`, `quotations`, `inventory`, `budgets`, `messages` y `deliveries`.
+Tras revisar el Sprint Backlog 1, el Sprint Backlog 2, las Technical Stories del Capítulo III, los diagramas de arquitectura del Capítulo IV y los endpoints consumidos por el Frontend local, se identificó que el backlog técnico anterior era demasiado limitado y estaba concentrado en perfiles/materiales. Por ello, el Sprint Backlog 3 toma como base las Technical Stories actualizadas (`TS-01` a `TS-12`), reorganizadas por capacidades backend y bounded contexts del Frontend: `iam`, `profiles`, `shared`, `requisition`, `procurement`, `inventory`, `delivery`, `suppliers`, `analytics-budgeting` y `communication`.
 
 #### 5.2.3.1. Sprint Planning 3.
 
@@ -2931,7 +2933,7 @@ Tras revisar el Sprint Backlog 1, el Sprint Backlog 2, las Technical Stories def
     </tr>
     <tr>
       <td colspan="2"><strong>Sprint 3 Goal (Outcome-Impact-Customer-Confirmation):</strong><br><br>
-<em>Our focus is on delivering the first functional version of Buildline Backend Web Services using .NET 8 / C#, replacing the mock services layer with REST endpoints aligned to the current Frontend Web Application contracts.</em><br><br>
+<em>Our focus is on delivering the first functional version of Buildline Backend Web Services using ASP.NET Core / C#, replacing the mock services layer with REST endpoints aligned to the current Frontend Web Application contracts.</em><br><br>
 <em>We believe it will reduce integration uncertainty for the development team and provide a deployable service foundation for construction MYPES that need secure, traceable requisition, procurement and inventory workflows.</em><br><br>
 <em>This will be confirmed when Swagger exposes the prioritized API contracts, the frontend can consume the deployed backend for the selected flows, and the team can demonstrate authenticated access plus basic CRUD operations for the main bounded contexts.</em>
       </td>
@@ -2951,22 +2953,24 @@ Tras revisar el Sprint Backlog 1, el Sprint Backlog 2, las Technical Stories def
   <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26/Frontend</a>
 </p>
 
+<p><strong>Planned backend branch evidence:</strong> <code>feature/iam-profiles-web-services</code>, <code>feature/shared-catalog-web-services</code>, <code>feature/requisition-web-services</code>, <code>feature/procurement-web-services</code>, <code>feature/inventory-web-services</code>, <code>feature/delivery-web-services</code>, <code>feature/suppliers-web-services</code>, <code>feature/analytics-budgeting-web-services</code>, <code>feature/communication-web-services</code> y <code>feature/deployment-hardening</code>.</p>
+
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
 <p>
-Para el Sprint 3 se identificaron aspectos backend alineados con los bounded contexts del diseño de arquitectura y con los endpoints esperados por el frontend. La siguiente matriz <strong>LACX</strong> distribuye liderazgo y colaboración para equilibrar la carga técnica de la implementación en C#.
+Para el Sprint 3 se identificaron aspectos backend alineados con los bounded contexts del diseño de arquitectura y con los nombres utilizados por el Frontend Web Application. `materials` y `categories` se mantienen como catálogos compartidos dentro de `shared`, no como bounded contexts principales independientes. La siguiente matriz <strong>LACX</strong> distribuye liderazgo y colaboración para equilibrar la carga técnica de la implementación en C#.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0" align="center">
   <thead>
     <tr>
       <th>Team Member</th>
-      <th>Aspect: API Setup, IAM & Security</th>
-      <th>Aspect: Profiles, Projects & Shared Catalog</th>
-      <th>Aspect: Requisition & Procurement</th>
-      <th>Aspect: Inventory & Delivery</th>
-      <th>Aspect: Suppliers & Incidents</th>
-      <th>Aspect: Analytics, Communication & Deployment</th>
+      <th>Aspect: iam & security</th>
+      <th>Aspect: profiles & shared catalog</th>
+      <th>Aspect: requisition & procurement</th>
+      <th>Aspect: inventory & delivery</th>
+      <th>Aspect: suppliers & incidents</th>
+      <th>Aspect: analytics-budgeting, communication & deployment</th>
     </tr>
   </thead>
   <tbody>
@@ -2980,30 +2984,22 @@ Para el Sprint 3 se identificaron aspectos backend alineados con los bounded con
 
 #### 5.2.3.3. Sprint Backlog 3.
 
-El Sprint Backlog 3 agrupa las tareas priorizadas para construir la primera versión de Web Services reales. La planificación respeta las Technical Stories ya definidas en el Capítulo III y evita crear historias técnicas paralelas con nombres diferentes; cuando se requiere cubrir endpoints no incluidos en `TS-01` a `TS-12`, se referencia la User Story correspondiente del Product Backlog.
+El Sprint Backlog 3 agrupa las tareas priorizadas para construir la primera versión de Web Services reales. La planificación respeta las Technical Stories actualizadas del Capítulo III y evita crear historias técnicas paralelas con nombres diferentes; cada work-item se vincula a una TS de arquitectura/backend y a las User Stories funcionales que justifican el endpoint.
 
 | Sprint # | User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Sprint 3** | **Tech** | Backend Foundation | T300 | .NET 8 Web API Project Setup | Crear solución backend en C# con arquitectura por bounded contexts, configuración base, health check, CORS para Vercel y versionado `/api/v1`. | 5h | Castillo Yataco, Mauricio Sebastián | To-do |
-| **Sprint 3** | **Tech** | Backend Foundation | T301 | EF Core Persistence & Seed Data | Configurar Entity Framework Core, DbContext, entidades base y seed data equivalente al mock `db.json` para pruebas de integración. | 6h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **TS-11 / TS-12** | Autenticación y Registro de Usuario | T302 | IAM Auth Endpoints | Implementar `POST /api/v1/auth/sign-in`, `POST /api/v1/auth/sign-up` y compatibilidad inicial con `/api/v1/users` para el frontend actual. | 6h | Castillo Yataco, Mauricio Sebastián | To-do |
-| **Sprint 3** | **US-022 / US-024** | Registro de Usuarios y Gestión de Roles | T303 | Users & Roles API | Implementar listado, creación y actualización de rol/estado de usuarios mediante `GET`, `POST` y `PATCH /api/v1/users/{id}`. | 5h | Castillo Yataco, Mauricio Sebastián | To-do |
-| **Sprint 3** | **TS-01 / TS-02 / TS-03** | Gestión de Perfiles | T304 | Profiles API | Implementar `GET /api/v1/profiles`, `GET /api/v1/profiles/{id}` y `PUT/PATCH /api/v1/profiles/{id}` para perfil de empresa y usuarios. | 4h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **Tech** | Shared Project Data | T304A | Projects API | Implementar `GET /api/v1/projects` y `GET /api/v1/projects/{id}` para mantener los filtros por proyecto usados en requisiciones, inventario, compras y dashboard. | 3h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **TS-04 / TS-05 / TS-06 / TS-07 / TS-08** | Gestión de Materiales | T305 | Materials Catalog API | Implementar CRUD inicial de materiales con validaciones de unidad, stock mínimo y stock máximo, alineado al catálogo usado en requisiciones. | 6h | Cáceres Pizarro, Albino Florencio | To-do |
-| **Sprint 3** | **TS-09 / TS-10** | Gestión de Categorías | T306 | Categories API | Implementar consulta de categorías de materiales y detalle por ID para clasificar inventario y filtros del frontend. | 3h | Cáceres Pizarro, Albino Florencio | To-do |
-| **Sprint 3** | **US-001 / US-003 / US-004** | Gestión de Requerimientos | T307 | Requisitions API | Implementar `GET /api/v1/requisitions`, `POST /api/v1/requisitions` y actualización de estado para requisiciones de materiales. | 7h | Paucar Zenteno, Jesús Fernando | To-do |
-| **Sprint 3** | **US-005 / US-006 / US-007** | Gestión de Cotizaciones | T308 | Quotations API | Implementar endpoints de cotizaciones (`GET`, `POST`, `PATCH`) para registro, comparación y selección preliminar de ofertas. | 5h | Paucar Zenteno, Jesús Fernando | To-do |
-| **Sprint 3** | **US-008 / US-009 / US-016** | Órdenes de Compra | T309 | Purchase Orders API | Implementar `GET`, `POST` y cambio de estado de órdenes de compra, manteniendo trazabilidad de aprobación/rechazo. | 6h | Paucar Zenteno, Jesús Fernando | To-do |
-| **Sprint 3** | **US-014 / US-015** | Control de Inventario | T310 | Inventory API | Implementar listado, creación y actualización de stock en `/api/v1/inventory`, incluyendo validación de stock crítico. | 6h | Cáceres Pizarro, Albino Florencio | To-do |
-| **Sprint 3** | **US-011 / US-012** | Seguimiento y Recepción de Pedidos | T311 | Deliveries API | Implementar `GET /api/v1/deliveries`, `POST /api/v1/deliveries` y `PATCH /api/v1/deliveries/{id}` para tracking y recepción. | 5h | Cáceres Pizarro, Albino Florencio | To-do |
-| **Sprint 3** | **US-029 / US-030** | Gestión de Proveedores | T312 | Suppliers API | Implementar CRUD inicial de proveedores, rating y estado activo/inactivo mediante `/api/v1/suppliers`. | 5h | Viza Quispe, Marlon Packard | To-do |
-| **Sprint 3** | **US-013** | Registro de Incidencias | T313 | Incidents API | Implementar registro, listado y actualización de estado de incidencias asociadas a proveedor y orden de compra. | 4h | Viza Quispe, Marlon Packard | To-do |
-| **Sprint 3** | **US-017 / US-018 / US-019** | Control Presupuestal y Dashboard | T314 | Budgets & Dashboard API | Implementar `GET /api/v1/budgets` y cálculo básico de estado presupuestal (`On Track`, `At Risk`, `Over Budget`). | 4h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **US-010 / US-021** | Comunicación y Notificaciones | T315 | Messages API | Implementar `GET /api/v1/messages` y `PATCH /api/v1/messages/{id}` para marcar leído y destacar mensajes del centro de comunicación. | 4h | Viza Quispe, Marlon Packard | To-do |
-| **Sprint 3** | **Tech** | API Documentation | T316 | Swagger / OpenAPI Documentation | Documentar contratos REST, modelos request/response, códigos HTTP y ejemplos para que Frontend pueda reemplazar el mock API progresivamente. | 4h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **Tech** | Backend Deployment | T317 | Backend Cloud Deployment | Preparar variables de entorno, configuración de producción y despliegue inicial del Backend Web Services. | 5h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **Tech** | Integration Validation | T318 | Frontend API Integration Smoke Test | Validar desde el frontend los flujos priorizados de sign-in, requisitions, suppliers, purchase orders, inventory, deliveries y dashboard contra la API desplegada. | 5h | Castillo Yataco, Mauricio Sebastián | To-do |
+| **Sprint 3** | **TS-01** | Backend foundation, seguridad y documentación OpenAPI | T300 | Platform API Setup | Crear solución backend en C# con health check, CORS, JWT Bearer, Problem Details, XML documentation, Swagger auth y versionado `/api/v1`. | 6h | Castillo Yataco, Mauricio Sebastián | To-do |
+| **Sprint 3** | **TS-11** | EF Core persistence, migrations and seed data | T301 | Persistence, Migrations & Seed Data | Configurar EF Core, DbContext, auditoría, constraints y seed data equivalente al mock `db.json` para los bounded contexts priorizados. | 7h | Morales Venegas, David Joel | To-do |
+| **Sprint 3** | **TS-02 / US-022 / US-023 / US-024** | iam y profiles Web Services | T302 | iam & profiles API | Implementar `auth`, `users` y `profiles` con JWT, roles, registro, login, listado y actualización de datos de usuario/empresa. | 8h | Castillo Yataco, Mauricio Sebastián | To-do |
+| **Sprint 3** | **TS-03 / US-004 / US-014 / US-017** | Shared catalog y project reference services | T303 | shared catalog API | Implementar `projects`, `materials` y `categories` como catálogos compartidos para filtros, requisiciones, inventario, compras y dashboard. | 6h | Morales Venegas, David Joel | To-do |
+| **Sprint 3** | **TS-04 / US-001 / US-003 / US-004** | requisition Web Services | T304 | requisition API | Implementar `GET`, `POST` y `PATCH /api/v1/requisitions` con proyecto, material, cantidad, prioridad, solicitante, fecha requerida y estado. | 7h | Paucar Zenteno, Jesús Fernando | To-do |
+| **Sprint 3** | **TS-05 / US-005 / US-006 / US-007 / US-008 / US-009 / US-016** | procurement Web Services | T305 | procurement API | Implementar `quotations` y `purchaseOrders` para registro de ofertas, comparación, aprobación/rechazo de órdenes y trazabilidad de montos. | 8h | Paucar Zenteno, Jesús Fernando | To-do |
+| **Sprint 3** | **TS-06 / US-014 / US-015** | inventory Web Services | T306 | inventory API | Implementar `GET`, `POST` y `PATCH /api/v1/inventory` con stock actual, mínimo, máximo, proyecto, categoría y fecha de actualización. | 6h | Cáceres Pizarro, Albino Florencio | To-do |
+| **Sprint 3** | **TS-07 / US-011 / US-012** | delivery Web Services | T307 | delivery API | Implementar `GET`, `POST` y `PATCH /api/v1/deliveries` para trackingId, orden de compra, proveedor, origen, destino, ETA y estado. | 5h | Cáceres Pizarro, Albino Florencio | To-do |
+| **Sprint 3** | **TS-08 / US-013 / US-029 / US-030** | suppliers and incidents Web Services | T308 | suppliers API | Implementar `suppliers` e `incidents` con RUC, rating, delivery rate, estado activo, severidad, estado de incidencia y orden asociada. | 7h | Viza Quispe, Marlon Packard | To-do |
+| **Sprint 3** | **TS-09 / US-017 / US-018 / US-019** | analytics-budgeting Web Services | T309 | analytics-budgeting API | Implementar `GET`, `POST` y `PATCH /api/v1/budgets` con totalBudget, spent, allocated y estados `On Track`, `At Risk`, `Over Budget`. | 5h | Morales Venegas, David Joel | To-do |
+| **Sprint 3** | **TS-10 / US-010 / US-021** | communication Web Services | T310 | communication API | Implementar `GET`, `POST`, `PATCH` y `DELETE /api/v1/messages` para alertas, actualizaciones, leído/no leído y mensajes destacados. | 4h | Viza Quispe, Marlon Packard | To-do |
+| **Sprint 3** | **TS-12** | Deployment readiness and frontend integration contract | T311 | Deployment & Integration Smoke Test | Preparar Docker, configuración de producción, variables de entorno, ejemplos HTTP y smoke test con frontend reemplazando json-server. | 6h | Castillo Yataco, Mauricio Sebastián | To-do |
 
 <p><strong>Endpoint coverage planned for Sprint 3:</strong> <code>/api/v1/auth/sign-in</code>, <code>/api/v1/auth/sign-up</code>, <code>/api/v1/users</code>, <code>/api/v1/profiles</code>, <code>/api/v1/projects</code>, <code>/api/v1/materials</code>, <code>/api/v1/categories</code>, <code>/api/v1/requisitions</code>, <code>/api/v1/quotations</code>, <code>/api/v1/purchaseOrders</code>, <code>/api/v1/inventory</code>, <code>/api/v1/deliveries</code>, <code>/api/v1/suppliers</code>, <code>/api/v1/incidents</code>, <code>/api/v1/budgets</code> y <code>/api/v1/messages</code>.</p>
 

@@ -798,9 +798,9 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 
 ### 5.2.3. Sprint 3
 
-En esta sección se planifica el avance del Sprint 3 del proyecto Buildline. A diferencia del Sprint 1, centrado en la Landing Page, y del Sprint 2, centrado en la primera versión navegable del Frontend Web Application con mock API, el Sprint 3 se orienta a la primera versión de los **Backend Web Services** implementados con **.NET 8 / C#**.
+En esta sección se planifica el avance del Sprint 3 del proyecto Buildline. A diferencia del Sprint 1, centrado en la Landing Page, y del Sprint 2, centrado en la primera versión navegable del Frontend Web Application con mock API, el Sprint 3 se orienta a la primera versión de los **Backend Web Services** implementados con **ASP.NET Core / C#**.
 
-Tras revisar el Sprint Backlog 1, el Sprint Backlog 2, las Technical Stories definidas en el Capítulo III y los endpoints consumidos por el Frontend local, no se identificó un Sprint Backlog previo específico para Backend. Por ello, este Sprint Backlog 3 toma como base las Technical Stories existentes (`TS-01` a `TS-12`) y las complementa con User Stories ya registradas en el Product Backlog para cubrir los contratos requeridos por la aplicación frontend y el mock documentado: `users`, `profiles`, `projects`, `materials`, `requisitions`, `suppliers`, `incidents`, `purchaseOrders`, `quotations`, `inventory`, `budgets`, `messages` y `deliveries`.
+Tras revisar el Sprint Backlog 1, el Sprint Backlog 2, las Technical Stories del Capítulo III, los diagramas de arquitectura del Capítulo IV y los endpoints consumidos por el Frontend local, se identificó que el backlog técnico anterior era demasiado limitado y estaba concentrado en perfiles/materiales. Por ello, el Sprint Backlog 3 toma como base las Technical Stories actualizadas (`TS-01` a `TS-12`), reorganizadas por capacidades backend y bounded contexts del Frontend: `iam`, `profiles`, `shared`, `requisition`, `procurement`, `inventory`, `delivery`, `suppliers`, `analytics-budgeting` y `communication`.
 
 #### 5.2.3.1. Sprint Planning 3.
 
@@ -861,7 +861,7 @@ Tras revisar el Sprint Backlog 1, el Sprint Backlog 2, las Technical Stories def
     </tr>
     <tr>
       <td colspan="2"><strong>Sprint 3 Goal (Outcome-Impact-Customer-Confirmation):</strong><br><br>
-<em>Our focus is on delivering the first functional version of Buildline Backend Web Services using .NET 8 / C#, replacing the mock services layer with REST endpoints aligned to the current Frontend Web Application contracts.</em><br><br>
+<em>Our focus is on delivering the first functional version of Buildline Backend Web Services using ASP.NET Core / C#, replacing the mock services layer with REST endpoints aligned to the current Frontend Web Application contracts.</em><br><br>
 <em>We believe it will reduce integration uncertainty for the development team and provide a deployable service foundation for construction MYPES that need secure, traceable requisition, procurement and inventory workflows.</em><br><br>
 <em>This will be confirmed when Swagger exposes the prioritized API contracts, the frontend can consume the deployed backend for the selected flows, and the team can demonstrate authenticated access plus basic CRUD operations for the main bounded contexts.</em>
       </td>
@@ -881,22 +881,24 @@ Tras revisar el Sprint Backlog 1, el Sprint Backlog 2, las Technical Stories def
   <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26/Frontend</a>
 </p>
 
+<p><strong>Planned backend branch evidence:</strong> <code>feature/iam-profiles-web-services</code>, <code>feature/shared-catalog-web-services</code>, <code>feature/requisition-web-services</code>, <code>feature/procurement-web-services</code>, <code>feature/inventory-web-services</code>, <code>feature/delivery-web-services</code>, <code>feature/suppliers-web-services</code>, <code>feature/analytics-budgeting-web-services</code>, <code>feature/communication-web-services</code> y <code>feature/deployment-hardening</code>.</p>
+
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
 <p>
-Para el Sprint 3 se identificaron aspectos backend alineados con los bounded contexts del diseño de arquitectura y con los endpoints esperados por el frontend. La siguiente matriz <strong>LACX</strong> distribuye liderazgo y colaboración para equilibrar la carga técnica de la implementación en C#.
+Para el Sprint 3 se identificaron aspectos backend alineados con los bounded contexts del diseño de arquitectura y con los nombres utilizados por el Frontend Web Application. `materials` y `categories` se mantienen como catálogos compartidos dentro de `shared`, no como bounded contexts principales independientes. La siguiente matriz <strong>LACX</strong> distribuye liderazgo y colaboración para equilibrar la carga técnica de la implementación en C#.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0" align="center">
   <thead>
     <tr>
       <th>Team Member</th>
-      <th>Aspect: API Setup, IAM & Security</th>
-      <th>Aspect: Profiles, Projects & Shared Catalog</th>
-      <th>Aspect: Requisition & Procurement</th>
-      <th>Aspect: Inventory & Delivery</th>
-      <th>Aspect: Suppliers & Incidents</th>
-      <th>Aspect: Analytics, Communication & Deployment</th>
+      <th>Aspect: iam & security</th>
+      <th>Aspect: profiles & shared catalog</th>
+      <th>Aspect: requisition & procurement</th>
+      <th>Aspect: inventory & delivery</th>
+      <th>Aspect: suppliers & incidents</th>
+      <th>Aspect: analytics-budgeting, communication & deployment</th>
     </tr>
   </thead>
   <tbody>
@@ -910,30 +912,22 @@ Para el Sprint 3 se identificaron aspectos backend alineados con los bounded con
 
 #### 5.2.3.3. Sprint Backlog 3.
 
-El Sprint Backlog 3 agrupa las tareas priorizadas para construir la primera versión de Web Services reales. La planificación respeta las Technical Stories ya definidas en el Capítulo III y evita crear historias técnicas paralelas con nombres diferentes; cuando se requiere cubrir endpoints no incluidos en `TS-01` a `TS-12`, se referencia la User Story correspondiente del Product Backlog.
+El Sprint Backlog 3 agrupa las tareas priorizadas para construir la primera versión de Web Services reales. La planificación respeta las Technical Stories actualizadas del Capítulo III y evita crear historias técnicas paralelas con nombres diferentes; cada work-item se vincula a una TS de arquitectura/backend y a las User Stories funcionales que justifican el endpoint.
 
 | Sprint # | User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Sprint 3** | **Tech** | Backend Foundation | T300 | .NET 8 Web API Project Setup | Crear solución backend en C# con arquitectura por bounded contexts, configuración base, health check, CORS para Vercel y versionado `/api/v1`. | 5h | Castillo Yataco, Mauricio Sebastián | To-do |
-| **Sprint 3** | **Tech** | Backend Foundation | T301 | EF Core Persistence & Seed Data | Configurar Entity Framework Core, DbContext, entidades base y seed data equivalente al mock `db.json` para pruebas de integración. | 6h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **TS-11 / TS-12** | Autenticación y Registro de Usuario | T302 | IAM Auth Endpoints | Implementar `POST /api/v1/auth/sign-in`, `POST /api/v1/auth/sign-up` y compatibilidad inicial con `/api/v1/users` para el frontend actual. | 6h | Castillo Yataco, Mauricio Sebastián | To-do |
-| **Sprint 3** | **US-022 / US-024** | Registro de Usuarios y Gestión de Roles | T303 | Users & Roles API | Implementar listado, creación y actualización de rol/estado de usuarios mediante `GET`, `POST` y `PATCH /api/v1/users/{id}`. | 5h | Castillo Yataco, Mauricio Sebastián | To-do |
-| **Sprint 3** | **TS-01 / TS-02 / TS-03** | Gestión de Perfiles | T304 | Profiles API | Implementar `GET /api/v1/profiles`, `GET /api/v1/profiles/{id}` y `PUT/PATCH /api/v1/profiles/{id}` para perfil de empresa y usuarios. | 4h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **Tech** | Shared Project Data | T304A | Projects API | Implementar `GET /api/v1/projects` y `GET /api/v1/projects/{id}` para mantener los filtros por proyecto usados en requisiciones, inventario, compras y dashboard. | 3h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **TS-04 / TS-05 / TS-06 / TS-07 / TS-08** | Gestión de Materiales | T305 | Materials Catalog API | Implementar CRUD inicial de materiales con validaciones de unidad, stock mínimo y stock máximo, alineado al catálogo usado en requisiciones. | 6h | Cáceres Pizarro, Albino Florencio | To-do |
-| **Sprint 3** | **TS-09 / TS-10** | Gestión de Categorías | T306 | Categories API | Implementar consulta de categorías de materiales y detalle por ID para clasificar inventario y filtros del frontend. | 3h | Cáceres Pizarro, Albino Florencio | To-do |
-| **Sprint 3** | **US-001 / US-003 / US-004** | Gestión de Requerimientos | T307 | Requisitions API | Implementar `GET /api/v1/requisitions`, `POST /api/v1/requisitions` y actualización de estado para requisiciones de materiales. | 7h | Paucar Zenteno, Jesús Fernando | To-do |
-| **Sprint 3** | **US-005 / US-006 / US-007** | Gestión de Cotizaciones | T308 | Quotations API | Implementar endpoints de cotizaciones (`GET`, `POST`, `PATCH`) para registro, comparación y selección preliminar de ofertas. | 5h | Paucar Zenteno, Jesús Fernando | To-do |
-| **Sprint 3** | **US-008 / US-009 / US-016** | Órdenes de Compra | T309 | Purchase Orders API | Implementar `GET`, `POST` y cambio de estado de órdenes de compra, manteniendo trazabilidad de aprobación/rechazo. | 6h | Paucar Zenteno, Jesús Fernando | To-do |
-| **Sprint 3** | **US-014 / US-015** | Control de Inventario | T310 | Inventory API | Implementar listado, creación y actualización de stock en `/api/v1/inventory`, incluyendo validación de stock crítico. | 6h | Cáceres Pizarro, Albino Florencio | To-do |
-| **Sprint 3** | **US-011 / US-012** | Seguimiento y Recepción de Pedidos | T311 | Deliveries API | Implementar `GET /api/v1/deliveries`, `POST /api/v1/deliveries` y `PATCH /api/v1/deliveries/{id}` para tracking y recepción. | 5h | Cáceres Pizarro, Albino Florencio | To-do |
-| **Sprint 3** | **US-029 / US-030** | Gestión de Proveedores | T312 | Suppliers API | Implementar CRUD inicial de proveedores, rating y estado activo/inactivo mediante `/api/v1/suppliers`. | 5h | Viza Quispe, Marlon Packard | To-do |
-| **Sprint 3** | **US-013** | Registro de Incidencias | T313 | Incidents API | Implementar registro, listado y actualización de estado de incidencias asociadas a proveedor y orden de compra. | 4h | Viza Quispe, Marlon Packard | To-do |
-| **Sprint 3** | **US-017 / US-018 / US-019** | Control Presupuestal y Dashboard | T314 | Budgets & Dashboard API | Implementar `GET /api/v1/budgets` y cálculo básico de estado presupuestal (`On Track`, `At Risk`, `Over Budget`). | 4h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **US-010 / US-021** | Comunicación y Notificaciones | T315 | Messages API | Implementar `GET /api/v1/messages` y `PATCH /api/v1/messages/{id}` para marcar leído y destacar mensajes del centro de comunicación. | 4h | Viza Quispe, Marlon Packard | To-do |
-| **Sprint 3** | **Tech** | API Documentation | T316 | Swagger / OpenAPI Documentation | Documentar contratos REST, modelos request/response, códigos HTTP y ejemplos para que Frontend pueda reemplazar el mock API progresivamente. | 4h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **Tech** | Backend Deployment | T317 | Backend Cloud Deployment | Preparar variables de entorno, configuración de producción y despliegue inicial del Backend Web Services. | 5h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **Tech** | Integration Validation | T318 | Frontend API Integration Smoke Test | Validar desde el frontend los flujos priorizados de sign-in, requisitions, suppliers, purchase orders, inventory, deliveries y dashboard contra la API desplegada. | 5h | Castillo Yataco, Mauricio Sebastián | To-do |
+| **Sprint 3** | **TS-01** | Backend foundation, seguridad y documentación OpenAPI | T300 | Platform API Setup | Crear solución backend en C# con health check, CORS, JWT Bearer, Problem Details, XML documentation, Swagger auth y versionado `/api/v1`. | 6h | Castillo Yataco, Mauricio Sebastián | To-do |
+| **Sprint 3** | **TS-11** | EF Core persistence, migrations and seed data | T301 | Persistence, Migrations & Seed Data | Configurar EF Core, DbContext, auditoría, constraints y seed data equivalente al mock `db.json` para los bounded contexts priorizados. | 7h | Morales Venegas, David Joel | To-do |
+| **Sprint 3** | **TS-02 / US-022 / US-023 / US-024** | iam y profiles Web Services | T302 | iam & profiles API | Implementar `auth`, `users` y `profiles` con JWT, roles, registro, login, listado y actualización de datos de usuario/empresa. | 8h | Castillo Yataco, Mauricio Sebastián | To-do |
+| **Sprint 3** | **TS-03 / US-004 / US-014 / US-017** | Shared catalog y project reference services | T303 | shared catalog API | Implementar `projects`, `materials` y `categories` como catálogos compartidos para filtros, requisiciones, inventario, compras y dashboard. | 6h | Morales Venegas, David Joel | To-do |
+| **Sprint 3** | **TS-04 / US-001 / US-003 / US-004** | requisition Web Services | T304 | requisition API | Implementar `GET`, `POST` y `PATCH /api/v1/requisitions` con proyecto, material, cantidad, prioridad, solicitante, fecha requerida y estado. | 7h | Paucar Zenteno, Jesús Fernando | To-do |
+| **Sprint 3** | **TS-05 / US-005 / US-006 / US-007 / US-008 / US-009 / US-016** | procurement Web Services | T305 | procurement API | Implementar `quotations` y `purchaseOrders` para registro de ofertas, comparación, aprobación/rechazo de órdenes y trazabilidad de montos. | 8h | Paucar Zenteno, Jesús Fernando | To-do |
+| **Sprint 3** | **TS-06 / US-014 / US-015** | inventory Web Services | T306 | inventory API | Implementar `GET`, `POST` y `PATCH /api/v1/inventory` con stock actual, mínimo, máximo, proyecto, categoría y fecha de actualización. | 6h | Cáceres Pizarro, Albino Florencio | To-do |
+| **Sprint 3** | **TS-07 / US-011 / US-012** | delivery Web Services | T307 | delivery API | Implementar `GET`, `POST` y `PATCH /api/v1/deliveries` para trackingId, orden de compra, proveedor, origen, destino, ETA y estado. | 5h | Cáceres Pizarro, Albino Florencio | To-do |
+| **Sprint 3** | **TS-08 / US-013 / US-029 / US-030** | suppliers and incidents Web Services | T308 | suppliers API | Implementar `suppliers` e `incidents` con RUC, rating, delivery rate, estado activo, severidad, estado de incidencia y orden asociada. | 7h | Viza Quispe, Marlon Packard | To-do |
+| **Sprint 3** | **TS-09 / US-017 / US-018 / US-019** | analytics-budgeting Web Services | T309 | analytics-budgeting API | Implementar `GET`, `POST` y `PATCH /api/v1/budgets` con totalBudget, spent, allocated y estados `On Track`, `At Risk`, `Over Budget`. | 5h | Morales Venegas, David Joel | To-do |
+| **Sprint 3** | **TS-10 / US-010 / US-021** | communication Web Services | T310 | communication API | Implementar `GET`, `POST`, `PATCH` y `DELETE /api/v1/messages` para alertas, actualizaciones, leído/no leído y mensajes destacados. | 4h | Viza Quispe, Marlon Packard | To-do |
+| **Sprint 3** | **TS-12** | Deployment readiness and frontend integration contract | T311 | Deployment & Integration Smoke Test | Preparar Docker, configuración de producción, variables de entorno, ejemplos HTTP y smoke test con frontend reemplazando json-server. | 6h | Castillo Yataco, Mauricio Sebastián | To-do |
 
 <p><strong>Endpoint coverage planned for Sprint 3:</strong> <code>/api/v1/auth/sign-in</code>, <code>/api/v1/auth/sign-up</code>, <code>/api/v1/users</code>, <code>/api/v1/profiles</code>, <code>/api/v1/projects</code>, <code>/api/v1/materials</code>, <code>/api/v1/categories</code>, <code>/api/v1/requisitions</code>, <code>/api/v1/quotations</code>, <code>/api/v1/purchaseOrders</code>, <code>/api/v1/inventory</code>, <code>/api/v1/deliveries</code>, <code>/api/v1/suppliers</code>, <code>/api/v1/incidents</code>, <code>/api/v1/budgets</code> y <code>/api/v1/messages</code>.</p>
 
