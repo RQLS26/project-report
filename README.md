@@ -2177,15 +2177,15 @@ Se establecen los repositorios oficiales de la solución Buildline para garantiz
     </tr>
     <tr>
       <td>Landing Page</td>
-      <td><a href="https://github.com/RQLS26/Landing-Page">https://github.com/RQLS26/Landing-Page</a></td>
+      <td><a href="https://github.com/RQLS26/buildline-landing-page">https://github.com/RQLS26/buildline-landing-page</a></td>
     </tr>
     <tr>
       <td>Frontend Web Application</td>
-      <td><a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26/Frontend</a></td>
+      <td><a href="https://github.com/RQLS26/buildline-frontend">https://github.com/RQLS26/buildline-frontend</a></td>
     </tr>
     <tr>
       <td>Backend Web Services</td>
-      <td><a href="https://github.com/RQLS26/Backend">https://github.com/RQLS26/Backend</a></td>
+      <td><a href="https://github.com/RQLS26/buildline-platform">https://github.com/RQLS26/buildline-platform</a></td>
     </tr>
   </tbody>
 </table>
@@ -2299,7 +2299,7 @@ Despliegue automático del contenido estático mediante la integración con Verc
   </tbody>
 </table>
 <p>
-  <strong>Repositorio:</strong> <a href="https://github.com/RQLS26/Landing-Page">https://github.com/RQLS26/Landing-Page</a>
+  <strong>Repositorio:</strong> <a href="https://github.com/RQLS26/buildline-landing-page">https://github.com/RQLS26/buildline-landing-page</a>
 </p>
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
@@ -2507,8 +2507,8 @@ En esta sección se documenta el avance del Sprint 2 del proyecto Buildline. El 
   </tbody>
 </table>
 <p>
-  <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26/Frontend</a><br>
-  <strong>Repositorio Landing Page v2:</strong> <a href="https://github.com/RQLS26/Landing-Page">https://github.com/RQLS26/Landing-Page</a>
+  <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/buildline-frontend">https://github.com/RQLS26/buildline-frontend</a><br>
+  <strong>Repositorio Landing Page v2:</strong> <a href="https://github.com/RQLS26/buildline-landing-page">https://github.com/RQLS26/buildline-landing-page</a>
 </p>
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
@@ -2591,63 +2591,63 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
   </thead>
   <tbody>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>main</td>
       <td><code>1a2b3c4</code></td>
       <td>chore: initial Vue 3 + Vite project scaffold</td>
       <td>05-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/iam</td>
       <td><code>2b3c4d5</code></td>
       <td>feat(iam): sign-in, sign-up and forgot-password views</td>
       <td>07-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/requisition</td>
       <td><code>3c4d5e6</code></td>
       <td>feat(requisition): material request list and creation form</td>
       <td>09-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/suppliers</td>
       <td><code>4d5e6f7</code></td>
       <td>feat(suppliers): supplier directory and incidents list</td>
       <td>11-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/procurement</td>
       <td><code>5e6f7a8</code></td>
       <td>feat(procurement): approval inbox and quotations management</td>
       <td>13-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/inventory</td>
       <td><code>6f7a8b9</code></td>
       <td>feat(inventory): inventory list with stock indicators</td>
       <td>15-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/analytics-budgeting</td>
       <td><code>7a8b9c0</code></td>
       <td>feat(analytics): financial dashboard and reports view with PDF export</td>
       <td>17-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/communication-profiles</td>
       <td><code>8b9c0d1</code></td>
       <td>feat(communication): messages inbox and company profile</td>
       <td>19-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>main</td>
       <td><code>9c0d1e2</code></td>
       <td>chore: i18n es/en, PrimeVue theme and json-server mock</td>
@@ -2833,7 +2833,7 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 </p>
 
 <p>
-  <strong>Repositorio del Frontend (incluye el mock):</strong> <a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26-Frontend</a><br>
+  <strong>Repositorio del Frontend (incluye el mock):</strong> <a href="https://github.com/RQLS26/buildline-frontend">https://github.com/RQLS26/buildline-frontend</a><br>
   <strong>Commit relacionado con documentación del mock:</strong> <code>9c0d1e2</code>
 </p>
 
@@ -2852,7 +2852,7 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 
 <p><strong>Frontend Web Application (primera versión)</strong></p>
 <ul>
-  <li>Se actualizó el repositorio <code>RQLS26-Frontend</code> con el proyecto Vue 3 + Vite + Pinia finalizado.</li>
+  <li>Se actualizó el repositorio <code>buildline-frontend</code> con el proyecto Vue 3 + Vite + Pinia finalizado.</li>
   <li>Se configuró el despliegue automático conectando el repositorio directamente a <strong>Vercel</strong>, añadiendo el archivo <code>vercel.json</code> para manejar las reglas del Single Page Application (SPA).</li>
   <li>Se desplegó paralelamente el mock en <code>db.json</code> como un Web Service en <strong>Render</strong> para contar con persistencia remota.</li>
   <li><strong>URL de Producción:</strong> <a href="https://buildline-3jcvvnh4t-team-project0.vercel.app/">https://buildline-3jcvvnh4t-team-project0.vercel.app/</a></li>
@@ -2990,8 +2990,8 @@ Tras revisar el Sprint Backlog 1, el Sprint Backlog 2, las Technical Stories del
   </tbody>
 </table>
 <p>
-  <strong>Repositorio Backend:</strong> <a href="https://github.com/RQLS26/Backend">https://github.com/RQLS26/Backend</a><br>
-  <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26/Frontend</a>
+  <strong>Repositorio Backend:</strong> <a href="https://github.com/RQLS26/buildline-platform">https://github.com/RQLS26/buildline-platform</a><br>
+  <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/buildline-frontend">https://github.com/RQLS26/buildline-frontend</a>
 </p>
 
 <p><strong>Planned backend branch evidence:</strong> las Technical Stories de API se trabajan con ramas por endpoint/flujo, por ejemplo <code>feature/TS-IAM-001-sign-in-api</code>, <code>feature/TS-IAM-002-sign-up-api</code>, <code>feature/TS-REQ-001-create-requisition-api</code>, <code>feature/TS-PROC-003-purchase-orders-api</code>, <code>feature/TS-INV-002-inventory-stock-update-api</code>, <code>feature/TS-DEL-002-delivery-status-update-api</code>, <code>feature/TS-SUP-003-incidents-api</code>, <code>feature/TS-ANB-001-budget-dashboard-api</code> y <code>feature/TS-COM-001-messages-inbox-api</code>. Las mejoras transversales se separan como <code>feature/backend-foundations</code>, <code>feature/backend-persistence-migrations</code> y <code>feature/backend-deployment-readiness</code>.</p>
