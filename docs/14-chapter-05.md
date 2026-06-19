@@ -934,22 +934,261 @@ El Sprint Backlog 3 agrupa las tareas priorizadas para construir la primera vers
 
 <p><strong>Endpoint coverage planned for Sprint 3:</strong> <code>/api/v1/auth/sign-in</code>, <code>/api/v1/auth/sign-up</code>, <code>/api/v1/users</code>, <code>/api/v1/profiles</code>, <code>/api/v1/projects</code>, <code>/api/v1/materials</code>, <code>/api/v1/categories</code>, <code>/api/v1/requisitions</code>, <code>/api/v1/quotations</code>, <code>/api/v1/purchaseOrders</code>, <code>/api/v1/inventory</code>, <code>/api/v1/deliveries</code>, <code>/api/v1/suppliers</code>, <code>/api/v1/incidents</code>, <code>/api/v1/budgets</code> y <code>/api/v1/messages</code>.</p>
 
-#### 5.2.3.4. Development Evidence for Sprint Review.
+#### 5.2.3.4. Development Evidence for Sprint Review
 
-[pending content]
+<p>
+En esta sección se explican y presentan los avances en la implementación logrados durante el Sprint 3 en relación con los <strong>Backend Web Services</strong> de Buildline. A lo largo de este sprint se construyó la primera versión real de la API REST utilizando <strong>ASP.NET Core 8 / C#</strong>, reemplazando el mock service con una arquitectura robusta estructurada por Bounded Contexts, persistencia mediante Entity Framework Core y seguridad con JWT Bearer.
+</p>
 
-#### 5.2.3.5. Execution Evidence for Sprint Review.
+<p>
+La tabla siguiente resume los commits más relevantes realizados en el repositorio del Backend, indicando la rama, el mensaje asociado, una breve descripción del cambio introducido y la fecha de commit.
+</p>
 
-[pending content]
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="12">
+        <a href="https://github.com/RQLS26/buildline-platform">
+          buildline-platform
+        </a>
+      </td>
+      <td>feature/backend-foundations</td>
+      <td>feat(core): initial ASP.NET Core 8 Web API scaffold</td>
+      <td>Crea la solución base en C#, configurando CORS, Swagger, Problem Details y la estructura de carpetas por Bounded Contexts.</td>
+      <td>08-06-2026</td>
+    </tr>
+    <tr>
+      <td>feature/backend-persistence</td>
+      <td>feat(data): setup EF Core DbContext and base entities</td>
+      <td>Configura Entity Framework Core, agrega interfaces base (IAuditableEntity) y genera la migración inicial de la base de datos.</td>
+      <td>09-06-2026</td>
+    </tr>
+    <tr>
+      <td>feature/TS-IAM-001-auth</td>
+      <td>feat(iam): implement JWT authentication and AuthController</td>
+      <td>Implementa lógica de generación de tokens JWT, hashing de contraseñas (BCrypt) y endpoints de Sign-In y Sign-Up.</td>
+      <td>10-06-2026</td>
+    </tr>
+    <tr>
+      <td>feature/TS-PROF-001-profiles</td>
+      <td>feat(profiles): add profiles endpoints and facade</td>
+      <td>Crea controladores y servicios para gestionar perfiles y exponer el ProfilesContextFacade.</td>
+      <td>11-06-2026</td>
+    </tr>
+    <tr>
+      <td>feature/TS-REQ-001-requisition</td>
+      <td>feat(requisition): implement RequisitionsController and logic</td>
+      <td>Desarrolla el flujo completo para crear, listar y actualizar requisiciones y materiales asociados a proyectos.</td>
+      <td>12-06-2026</td>
+    </tr>
+    <tr>
+      <td>feature/TS-PROC-003-procurement</td>
+      <td>feat(procurement): add purchase orders and quotations endpoints</td>
+      <td>Implementa la gestión de órdenes de compra y cotizaciones con sus respectivos eventos de dominio (cambios de estado).</td>
+      <td>13-06-2026</td>
+    </tr>
+    <tr>
+      <td>feature/TS-INV-002-inventory</td>
+      <td>feat(inventory): implement inventory stock tracking</td>
+      <td>Crea los servicios para consultar inventario por categoría y registrar eventos de cambio de stock (StockLevel).</td>
+      <td>14-06-2026</td>
+    </tr>
+    <tr>
+      <td>feature/TS-DEL-002-delivery</td>
+      <td>feat(delivery): add delivery tracking management</td>
+      <td>Agrega endpoints para registrar despachos, códigos de seguimiento (TrackingCode) y modificar estados de entregas.</td>
+      <td>15-06-2026</td>
+    </tr>
+    <tr>
+      <td>feature/TS-SUP-001-suppliers</td>
+      <td>feat(suppliers): implement supplier directory and incidents</td>
+      <td>Desarrolla la gestión de proveedores, calificaciones (SupplierRating) y el registro de incidencias asociadas.</td>
+      <td>15-06-2026</td>
+    </tr>
+    <tr>
+      <td>feature/TS-ANB-001-analytics</td>
+      <td>feat(analytics): implement budget calculations API</td>
+      <td>Agrega lógica financiera para evaluar la salud del presupuesto (BudgetHealth) y exponerlo al dashboard analítico.</td>
+      <td>16-06-2026</td>
+    </tr>
+    <tr>
+      <td>feature/TS-COM-001-messages</td>
+      <td>feat(communication): add internal messages API</td>
+      <td>Implementa bandeja de entrada (InboxState) y lógica para enviar comunicaciones internas y gestionar su estado.</td>
+      <td>17-06-2026</td>
+    </tr>
+    <tr>
+      <td>feature/backend-deployment</td>
+      <td>build(deploy): prepare Dockerfile and appsettings</td>
+      <td>Configura el Dockerfile, docker-compose.yml y los appsettings de producción para el despliegue del API.</td>
+      <td>18-06-2026</td>
+    </tr>
+  </tbody>
+</table>
 
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.3.5. Execution Evidence for Sprint Review
 
-[pending content]
+<p>
+Durante el Sprint 3 se consolidó la transición del entorno simulado (mock) a un entorno backend transaccional real. La principal evidencia de ejecución se manifiesta en la correcta inicialización del proyecto ASP.NET Core, la conexión a la base de datos mediante Entity Framework y la ejecución de la interfaz de pruebas automatizada autogenerada.
+</p>
 
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+<p>A continuación, se presentan las capturas representativas de la plataforma operativa a nivel de servicios:</p>
 
-[pending content]
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-swagger-ui.png" alt="Swagger UI Execution Evidence" width="90%">
+  <p><em>Figura: Interfaz de Swagger UI generada automáticamente por ASP.NET Core, listando y documentando los endpoints V1 de los Bounded Contexts desarrollados (IAM, Procurement, Inventory, etc.).</em></p>
+</div>
 
-#### 5.2.3.8. Team Collaboration Insights during Sprint.
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-postman-test.png" alt="Postman Request Evidence" width="90%">
+  <p><em>Figura: Prueba de ejecución exitosa (HTTP 200 OK) de un endpoint seguro utilizando el token JWT Bearer desde un cliente REST (ej. Postman).</em></p>
+</div>
 
-[pending content]
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+<p>
+En el Sprint 3, la documentación de servicios evolucionó a un contrato formal e interactivo. Buildline ahora emplea <strong>Swagger / OpenAPI 3.0</strong>, configurado nativamente en ASP.NET Core. Este contrato sirve como única fuente de verdad para la integración con el Frontend.
+</p>
+<p>
+La tabla a continuación detalla los contratos de los servicios RESTful habilitados en la versión actual:
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Endpoint Base</th>
+      <th>Método HTTP</th>
+      <th>Descripción del Servicio</th>
+      <th>Request Payload / Params</th>
+      <th>Response Típico (Código)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2"><strong>/api/v1/authentication</strong></td>
+      <td><code>POST</code></td>
+      <td><strong>Sign-In:</strong> Valida credenciales y retorna un token JWT.</td>
+      <td><code>{ "email", "password" }</code></td>
+      <td><code>200 OK</code>: Token y datos de sesión.</td>
+    </tr>
+    <tr>
+      <td><code>POST</code></td>
+      <td><strong>Sign-Up:</strong> Crea un nuevo usuario y cifra la contraseña.</td>
+      <td><code>{ "firstName", "lastName", "email", "password" }</code></td>
+      <td><code>201 Created</code>: Mensaje de éxito.</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>/api/v1/requisitions</strong></td>
+      <td><code>GET</code></td>
+      <td>Lista todas las requisiciones filtradas por proyecto.</td>
+      <td>Query param: <code>?projectId=1</code></td>
+      <td><code>200 OK</code>: Lista de DTOs Requisition.</td>
+    </tr>
+    <tr>
+      <td><code>POST</code></td>
+      <td>Crea una nueva solicitud de materiales para la obra.</td>
+      <td><code>{ "projectId", "materialId", "priority" }</code></td>
+      <td><code>201 Created</code>: ID de la requisición.</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>/api/v1/purchaseOrders</strong></td>
+      <td><code>GET</code></td>
+      <td>Obtiene la bandeja de entrada de órdenes de compra pendientes.</td>
+      <td>-</td>
+      <td><code>200 OK</code>: Arreglo de órdenes de compra.</td>
+    </tr>
+    <tr>
+      <td><code>PUT</code></td>
+      <td>Actualiza el estado (Aprobado/Rechazado) de la orden.</td>
+      <td><code>{ "status": "Approved" }</code></td>
+      <td><code>200 OK</code>: Orden de compra actualizada.</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>/api/v1/inventory</strong></td>
+      <td><code>GET</code></td>
+      <td>Obtiene el inventario actual de materiales.</td>
+      <td>Query param: <code>?categoryId=2</code></td>
+      <td><code>200 OK</code>: Datos de stock actual vs mínimos.</td>
+    </tr>
+    <tr>
+      <td><code>POST</code></td>
+      <td>Registra entradas/salidas de almacén.</td>
+      <td><code>{ "materialId", "quantity", "type" }</code></td>
+      <td><code>200 OK</code>: Nuevo balance de stock.</td>
+    </tr>
+    <tr>
+      <td><strong>/api/v1/suppliers</strong></td>
+      <td><code>GET</code></td>
+      <td>Directorio de proveedores activos y su calificación.</td>
+      <td>-</td>
+      <td><code>200 OK</code>: Lista de proveedores.</td>
+    </tr>
+    <tr>
+      <td><strong>/api/v1/budgets</strong></td>
+      <td><code>GET</code></td>
+      <td>Métricas financieras: Gastos vs Presupuesto Total.</td>
+      <td>Query param: <code>?projectId=1</code></td>
+      <td><code>200 OK</code>: KPIs financieros (BudgetHealth).</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+<p>
+Para garantizar el acceso público y concurrente por parte del equipo Frontend y facilitar las pruebas de integración, los Backend Web Services fueron contenerizados mediante Docker y desplegados en un entorno en la nube.
+</p>
+
+<p><strong>Configuración de Producción:</strong></p>
+<ul>
+  <li>Se utilizó el <code>Dockerfile</code> definido en la raíz del proyecto para construir la imagen del API en .NET 8.</li>
+  <li>Las migraciones de Entity Framework fueron aplicadas a la base de datos de producción para generar el esquema de tablas actualizado.</li>
+  <li>Se configuraron variables de entorno críticas y secretos (como la cadena de conexión y la llave secreta JWT) directamente en los ajustes (<code>appsettings.Production.json</code> / Variables de entorno del servidor).</li>
+</ul>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-deployment-evidence.png" alt="Backend Deployment Evidence" width="90%">
+  <p><em>Figura: Panel de control del entorno de nube evidenciando el estado de ejecución (Running) del contenedor del servicio Web API de Buildline.</em></p>
+</div>
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+<p>
+Durante el Sprint 3, la dinámica de trabajo del equipo se adaptó a las necesidades técnicas del proyecto. Dado que el esfuerzo principal fue la creación de la arquitectura Backend desde cero utilizando C# y ASP.NET Core, los <em>commits</em> en el repositorio <code>buildline-platform</code> fueron realizados principalmente por los desarrolladores asignados específicamente a esta capa lógica.
+</p>
+
+<p>
+Esta centralización de los <em>commits</em> en el repositorio no implica una falta de colaboración, sino una <strong>división estratégica de roles funcionales</strong>. Mientras los encargados del Backend implementaban los controladores, repositorios y la seguridad JWT, el resto del equipo se enfocó en tareas transversales críticas para el éxito del sprint:
+</p>
+
+<ul>
+  <li><strong>Integración Frontend:</strong> Adaptación de las llamadas Axios en la aplicación Vue.js para consumir los nuevos endpoints reales en lugar del mock server.</li>
+  <li><strong>Diseño y Modelado:</strong> Estructuración del diagrama de base de datos relacional que guio la creación de las entidades en Entity Framework Core.</li>
+  <li><strong>Aseguramiento de Calidad (QA):</strong> Pruebas manuales exhaustivas de las rutas de la API a través de Postman y Swagger.</li>
+  <li><strong>Documentación y Despliegue:</strong> Preparación del entorno Docker y redacción técnica de los reportes del proyecto.</li>
+</ul>
+
+<div align="center">
+  <img src="../docs/assets/chapter-05/sprint3-network-graph.png" alt="Network Graph Sprint 3" width="90%">
+  <p><em>Figura: Network Graph del repositorio evidenciando la estructura de ramas (GitFlow) utilizada para aislar el desarrollo de cada Bounded Context antes de su integración.</em></p>
+</div>
+
+<p><strong>Aciertos del Sprint 3:</strong></p>
+<ul>
+  <li>La correcta separación en Bounded Contexts (IAM, Procurement, Inventory, etc.) permitió tener un código altamente modular, facilitando el mantenimiento y evitando conflictos graves al momento de fusionar ramas.</li>
+  <li>La especialización de roles permitió avanzar en paralelo en el despliegue de la API, las pruebas del Frontend y la documentación, sin generar cuellos de botella.</li>
+</ul>
+
+<p><strong>Oportunidades de mejora identificadas:</strong></p>
+<ul>
+  <li>Será beneficioso implementar un sistema de CI/CD automatizado (ej. GitHub Actions) que integre pruebas unitarias para cada <em>Pull Request</em> antes de llegar a la rama principal.</li>
+</ul>
