@@ -1,6 +1,6 @@
 <div align="center">
 <br>
-<img src="../assets/common/logo-upc.png" width="180" alt="Logo UPC">
+<img src="docs/assets/common/logo-upc.png" width="180" alt="Logo UPC">
 <br><br>
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS {-}
@@ -108,7 +108,7 @@ Las contribuciones principales se distribuyeron de la siguiente manera:
 - Cáceres Pizarro, Albino Florencio: revisión de inventario, delivery tracking, analytics-budgeting, dashboards y evidencias de despliegue.
 
 <div align="center">
-  <img src="../docs/assets/front-matter/collaboration-insights-av2.png" alt="AV2 Collaboration Insights" width="90%">
+  <img src="docs/assets/front-matter/collaboration-insights-av2.png" alt="AV2 Collaboration Insights" width="90%">
   <p><em>Figura: Evidencia sugerida de GitHub Insights, commits y actividad colaborativa del equipo durante AV2.</em></p>
 </div>
 
@@ -274,11 +274,11 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 ### 1.1.2. Perfiles de integrantes del equipo
  | Imagen  | Apellidos y nombres                     |   Código   | Carrera                | Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 :-----------------:|:----------------------------------------|:----------:| :--------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|<img src="./assets/chapter-01/Castillo_Foto.jpg" alt="Foto de Castillo Yataco" width="120" />| **Castillo Yataco, Mauricio Sebastián** | U202113229 | Ingeniería de Software | Soy estudiante de Ingeniería de Software, apasionado por la creación de soluciones tecnológicas que mejoren la vida de las personas. Mi enfoque va más allá de la programación, ya que me interesa desarrollar experiencias digitales funcionales y agradables para el usuario. Poseo conocimientos básicos en C++, HTML y CSS, y destaco por mi responsabilidad, cooperación, comunicación, flexibilidad y adaptabilidad.                        |
-|<img src="./assets/chapter-01/david_foto.jpeg" alt="Foto de Morales Venegas" width="120" />| **Morales Venegas, David Joel**         | U20231B504 | Ingeniería de Software | Estudiante de Ingeniería de Software con formación intermedia en el desarrollo de aplicaciones web. Me adapto al trabajo técnico del equipo, priorizando código funcional, entendible y alineado a los requisitos del proyecto, con disposición para mejorar y corregir en función de pruebas y resultados.                                                                                                                                   |
-|<img src="./assets/chapter-01/foto-fernando.jpg" alt="Foto de Fernando Paucar" width="120" />| **Paucar Zenteno, Jesús Fernando**      | U202316687 | Ingeniería de Software | Soy estudiante de Ingeniería de Software con gran pasión por la creación de soluciones innovadoras. Me considero una persona proactiva y orientada a resultados, con interés constante en aprender y aplicar nuevas tecnologías. Busco contribuir significativamente al proyecto, asegurando calidad y eficiencia en cada tarea.                                                                                                                  |
-|<img src="./assets/chapter-01/Marlon.jpg" alt="Foto Marlon Viza" width="120" />| **Viza Quispe, Marlon Packard**         | U202322849 | Ingeniería de Software | Estudiante de 20 años, responsable y proactivo, con sólida base técnica en C++. Destaco por mi capacidad de aportar soluciones creativas y mi compromiso con el aprendizaje continuo en entornos profesionales. Busco asumir retos que potencien mi desarrollo y contribuyan al éxito del equipo.                                                                                                                                                 |
-|<img src="./assets/chapter-01/caceres_foto.jpeg" alt="Foto de Albino" width="120" />| **Cáceres Pizarro, Albino Florencio**   | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo.                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|<img src="docs/assets/chapter-01/Castillo_Foto.jpg" alt="Foto de Castillo Yataco" width="120" />| **Castillo Yataco, Mauricio Sebastián** | U202113229 | Ingeniería de Software | Soy estudiante de Ingeniería de Software, apasionado por la creación de soluciones tecnológicas que mejoren la vida de las personas. Mi enfoque va más allá de la programación, ya que me interesa desarrollar experiencias digitales funcionales y agradables para el usuario. Poseo conocimientos básicos en C++, HTML y CSS, y destaco por mi responsabilidad, cooperación, comunicación, flexibilidad y adaptabilidad.                        |
+|<img src="docs/assets/chapter-01/david_foto.jpeg" alt="Foto de Morales Venegas" width="120" />| **Morales Venegas, David Joel**         | U20231B504 | Ingeniería de Software | Estudiante de Ingeniería de Software con formación intermedia en el desarrollo de aplicaciones web. Me adapto al trabajo técnico del equipo, priorizando código funcional, entendible y alineado a los requisitos del proyecto, con disposición para mejorar y corregir en función de pruebas y resultados.                                                                                                                                   |
+|<img src="docs/assets/chapter-01/foto-fernando.jpg" alt="Foto de Fernando Paucar" width="120" />| **Paucar Zenteno, Jesús Fernando**      | U202316687 | Ingeniería de Software | Soy estudiante de Ingeniería de Software con gran pasión por la creación de soluciones innovadoras. Me considero una persona proactiva y orientada a resultados, con interés constante en aprender y aplicar nuevas tecnologías. Busco contribuir significativamente al proyecto, asegurando calidad y eficiencia en cada tarea.                                                                                                                  |
+|<img src="docs/assets/chapter-01/Marlon.jpg" alt="Foto Marlon Viza" width="120" />| **Viza Quispe, Marlon Packard**         | U202322849 | Ingeniería de Software | Estudiante de 20 años, responsable y proactivo, con sólida base técnica en C++. Destaco por mi capacidad de aportar soluciones creativas y mi compromiso con el aprendizaje continuo en entornos profesionales. Busco asumir retos que potencien mi desarrollo y contribuyan al éxito del equipo.                                                                                                                                                 |
+|<img src="docs/assets/chapter-01/caceres_foto.jpeg" alt="Foto de Albino" width="120" />| **Cáceres Pizarro, Albino Florencio**   | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo.                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 ---
 
@@ -521,10 +521,10 @@ Este análisis permite identificar cómo se posiciona Buildline frente a ERPs co
     </tr>
     <tr>
       <td colspan="2"><strong>Logotipos</strong></td>
-      <td><img src="assets/chapter-02/buildline-logo.png" alt="Buildline" height="50"></td>
-      <td><img src="assets/chapter-02/s10-logo.png" alt="S10 ERP" height="50"></td>
-      <td><img src="assets/chapter-02/iconstruye-logo.png" alt="ICONSTRUYE" height="50"></td>
-      <td><img src="assets/chapter-02/mawi-logo.png" alt="Mawi" height="50"></td>
+      <td><img src="docs/assets/chapter-02/buildline-logo.png" alt="Buildline" height="50"></td>
+      <td><img src="docs/assets/chapter-02/s10-logo.png" alt="S10 ERP" height="50"></td>
+      <td><img src="docs/assets/chapter-02/iconstruye-logo.png" alt="ICONSTRUYE" height="50"></td>
+      <td><img src="docs/assets/chapter-02/mawi-logo.png" alt="Mawi" height="50"></td>
     </tr>
     <tr>
       <td colspan="2"><strong>Software</strong></td>
@@ -796,7 +796,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="./assets/chapter-02/entrevista-01.png" alt="Buildline" height="350"></td>
+        <img src="docs/assets/chapter-02/entrevista-01.png" alt="Buildline" height="350"></td>
       </td>
     </tr>
     <tr>
@@ -850,7 +850,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-02.png" alt="Entrevista 2" height="350">
+        <img src="docs/assets/chapter-02/entrevista-02.png" alt="Entrevista 2" height="350">
       </td>
     </tr>
     <tr>
@@ -901,7 +901,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-03.png" alt="Entrevista 3 - Leonardo" height="350">
+        <img src="docs/assets/chapter-02/entrevista-03.png" alt="Entrevista 3 - Leonardo" height="350">
       </td>
     </tr>
     <tr>
@@ -953,7 +953,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 3 - Leonardo" height="350">
+        <img src="docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 3 - Leonardo" height="350">
       </td>
     </tr>
     <tr>
@@ -1008,7 +1008,7 @@ En general, la entrevistada considera que las herramientas actuales no son sufic
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="../docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5 - Sebastián" height="350">
+        <img src="docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5 - Sebastián" height="350">
       </td>
     </tr>
     <tr>
@@ -1093,7 +1093,7 @@ A partir del análisis de las entrevistas y la recolección de información sobr
 
 Para el área operativa se elaboró el User Persona **Donnie Ruiz**. Se consideraron factores como su rol en la supervisión física de las obras, su necesidad de cumplir cronogramas estrictos y su ritmo de trabajo altamente móvil. Sus principales frustraciones giran en torno a la burocracia logística que retrasa la llegada de materiales y la dependencia de canales informales como WhatsApp para presionar por urgencias. Su perfil refleja una necesidad crítica de contar con una plataforma móvil, rápida y responsiva, que le permita solicitar insumos y rastrear su estado de entrega en tiempo real sin abandonar el campo.
 
-<img src="../docs/assets/chapter-02/user-persona01.png" alt="User Persona 1 - Martín" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/user-persona01.png" alt="User Persona 1 - Martín" width="auto" height="1900"/>
 
 <br>
 
@@ -1101,7 +1101,7 @@ Para el área operativa se elaboró el User Persona **Donnie Ruiz**. Se consider
 
 Para el área de control y gerencia se elaboró el User Persona **Roberto Alcántara**. Se consideraron aspectos como su enfoque en la rentabilidad, la aprobación de presupuestos y la auditoría corporativa. Sus principales frustraciones están asociadas a la pérdida de dinero por "compras de emergencia" no planificadas, el desorden documentario y la inseguridad de usar hojas de Excel compartidas para llevar las finanzas. Su perfil requiere un entorno de escritorio (Dashboard) que centralice las cotizaciones, garantice la inmutabilidad de los datos y le permita aprobar órdenes de compra formales con un solo clic.
 
-<img src="../docs/assets/chapter-02/user-persona02.png" alt="User Persona 2 - Roberto" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/user-persona02.png" alt="User Persona 2 - Roberto" width="auto" height="1900"/>
 
 ### 2.3.2. User Task Matrix
 
@@ -1166,11 +1166,11 @@ El User Journey Mapping es una herramienta de diseño centrado en el usuario que
 
 **1) Perfil 1: Área operativa de campo**
 
-<img src="../docs/assets/chapter-02/user-journey-mapping2.png" alt="User Journey Mapping 1 - Martin" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/user-journey-mapping2.png" alt="User Journey Mapping 1 - Martin" width="auto" height="1900"/>
 
 **2) Perfil 2: Área de control y gerencia**
 
-<img src="../docs/assets/chapter-02/user-journey-mapping1.png" alt="User Journey Mapping 2 - Roberto" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/user-journey-mapping1.png" alt="User Journey Mapping 2 - Roberto" width="auto" height="1900"/>
 
 ### 2.3.4. Empathy Mapping
 
@@ -1178,11 +1178,11 @@ Para crear una solución que realmente se vincule con las personas, no es sufici
 
 **1) Perfil 1: Área operativa de campo**
 
-<img src="../docs/assets/chapter-02/empathy-mapping1.png" alt="Empathy Mapping 1 - Martin" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/empathy-mapping1.png" alt="Empathy Mapping 1 - Martin" width="auto" height="1900"/>
 
 **2) Perfil 2: Área de control y gerencia**
 
-<img src="../docs/assets/chapter-02/empathy-mapping2.png" alt="Empathy Mapping 2 - Roberto" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/empathy-mapping2.png" alt="Empathy Mapping 2 - Roberto" width="auto" height="1900"/>
 
 ## 2.4. Big Picture EventStorming
 
@@ -1192,13 +1192,13 @@ Para diseñar un sistema robusto, primero debemos entender el negocio como un to
 
 En esta primera etapa, el equipo realizó una sesión de lluvia de ideas para capturar todos los eventos de dominio relevantes, sin preocuparse inicialmente por el orden o la jerarquía. El objetivo principal fue representar los acontecimientos reales del negocio —como la detección de una falta de material o la negociación de un precio— de manera independiente a cualquier función técnica o arquitectura del sistema.
 
-<img src="../docs/assets/chapter-02/big-picture-event-storming1.png" alt="Big Picture EventStorming 1" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/big-picture-event-storming1.png" alt="Big Picture EventStorming 1" width="auto" height="1900"/>
 
 **Step 2 – Structured Organization** 
 
 Después de listar los eventos en esta estructura nos permitió aislar los procesos clave, desde el requisito inicial en el frente de obra hasta la conciliación financiera final, resaltando las áreas de mejora que serán abordadas mediante nuestra solución digital.
 
-<img src="../docs/assets/chapter-02/big-picture-event-storming2.png" alt="Big Picture EventStorming 2" width="auto" height="1900"/>
+<img src="docs/assets/chapter-02/big-picture-event-storming2.png" alt="Big Picture EventStorming 2" width="auto" height="1900"/>
 
 ## 2.5. Ubiquitous Language
 
@@ -1368,7 +1368,7 @@ La siguiente matriz consolida los contratos REST esperados para la primera versi
 | `/api/v1/companies/{companyId}/messages/{id}` | GET, PATCH, DELETE | TS-COM-002 / US-010 / US-021 | communication |
 
 ## 3.2. Impact Mapping
-<img src="../docs/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
+<img src="docs/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
 ## 3.3. Product Backlog
 
 | Orden | User Story ID | Título | Descripción | Story Points |
@@ -1437,7 +1437,7 @@ La siguiente matriz consolida los contratos REST esperados para la primera versi
 **Enlace directo al tablero:** [Tablero Jira - Proyecto Buildline](https://rqls26.atlassian.net/jira/software/projects/RQSL/boards/1/backlog?atlOrigin=eyJpIjoiYTI5N2Y0MTUyZjQ0NDdlZTg4ZjgzZWI2NjE4NTViMjIiLCJwIjoiaiJ9)
 
 <div align="center">
-  <img src="./assets/chapter-03/jira1.png" alt="Evidence Product Backlog" width="90%">
+  <img src="docs/assets/chapter-03/jira1.png" alt="Evidence Product Backlog" width="90%">
   <p><em>Figura: Captura del Product Backlog en la herramienta de gestión del proyecto.</em></p>
 </div>
 
@@ -1463,7 +1463,7 @@ El logotipo principal de Buildline está compuesto por un isotipo que integra m�
 
 <br>
 <p align="center">
-  <img src="../docs/assets/chapter-04/buildline_logo.jpg" alt="Buildline Logo" width="350px" height="auto"/>
+  <img src="docs/assets/chapter-04/buildline_logo.jpg" alt="Buildline Logo" width="350px" height="auto"/>
 </p>
 <br>
 
@@ -1479,7 +1479,7 @@ La jerarquía tipográfica se establece de la siguiente manera para garantizar c
 * **Botones y etiquetas (span):** 1.4rem (aprox. 14px) a 1.8rem (aprox. 18px).
 
 <p align="center">
-  <img src="../docs/assets/chapter-04/Style_guide.png" alt=" Typography Guide" width="500px" height="auto"/>
+  <img src="docs/assets/chapter-04/Style_guide.png" alt=" Typography Guide" width="500px" height="auto"/>
 </p>
 
 Esta distribución garantiza un contraste óptimo entre el texto y el fondo, superando un ratio mínimo de 4.5:1 según las WCAG 2.1 AA para una accesibilidad superior en entornos de campo.
@@ -1502,7 +1502,7 @@ Nuestra paleta de colores ha sido cuidadosamente seleccionada para evocar sensac
     * **Advertencia:** Amarillo para quiebres de stock o requisitos pendientes.
 
 <p align="center">
-  <img src="../docs/assets/chapter-04/Color_guidelines.png" alt=Color Palette" width="800px" height="auto"/>
+  <img src="docs/assets/chapter-04/Color_guidelines.png" alt=Color Palette" width="800px" height="auto"/>
 </p>
 
 Esta combinación cromática refleja los valores de nuestra marca y busca transmitir al público (constructoras y gerentes de proyecto) una imagen de rigor, velocidad y control financiero.
@@ -1606,43 +1606,43 @@ El wireframe de la landing page de Buildline ha sido diseñado para reflejar una
 
 Esta sección presenta el logotipo de Buildline y el menú de navegación. El titular principal comunica la misión de la startup: "El fin del caos logístico en la construcción". El diseño visual integra widgets de control en tiempo real que muestran el Presupuesto de Materiales, indicadores de Eficiencia de Suministro y estados de almacenamiento (Cemento, Acero). Incluye un campo de registro rápido para que los gerentes de MYPES soliciten un demo de inmediato.
 
-<img src="./assets/chapter-04/Nav-Hero-Wireframe.jpeg" alt="Nav-Hero-Wireframe" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Nav-Hero-Wireframe.jpeg" alt="Nav-Hero-Wireframe" style="width:auto; height:auto; border:2px solid;">
 
 **Workflow**
 
 Bajo el título "Todo lo que necesitas para gestionar y controlar tus proyectos", se detalla el flujo digital que reemplaza al WhatsApp/Excel en cuatro pasos:
 
-<img src="./assets/chapter-04/Workflow-Wireframe.jpeg" alt="Workflow-Wireframe" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Workflow-Wireframe.jpeg" alt="Workflow-Wireframe" style="width:auto; height:auto; border:2px solid;">
 
 **Dashboard y Control Operativo**
 
 Esta sección unifica las capacidades críticas de análisis de la plataforma. Permite visualizar las desviaciones presupuestales antes de que se conviertan en pérdidas, gestionar el centro de alertas para aprobaciones jerárquicas en tiempo real y mantener una trazabilidad de compras total. El diseño está optimizado para que el Jefe de Logística priorice compras críticas, reduciendo el 12% de sobrecostos por compras de emergencia y garantizando que el insumo en obra coincida con la especificación técnica.
 
-<img src="./assets/chapter-04/Dashboard-Control-Wireframe.jpeg" alt="Dashboard-Control-Operativo-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Dashboard-Control-Wireframe.jpeg" alt="Dashboard-Control-Operativo-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Testimonials**
 
 Bajo la sección "¿Por qué Buildline?", se presentan testimonios de roles clave (Dueños de obra, Supervisores de mercado y Gerentes de operaciones). Los mensajes validan la solución enfocándose en la eliminación de hojas de cálculo manuales, la reducción del estrés operativo y la capacidad de validar pedidos desde el campo sin necesidad de retornar a la oficina.
 
-<img src="./assets/chapter-04/Testimonials-Wireframe.jpeg" alt="Testimonials-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Testimonials-Wireframe.jpeg" alt="Testimonials-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Register** 
 
 Define los tres pilares de la experiencia Buildline: Setup (creación estructurada de pedidos), Monitor (seguimiento de cotizaciones) y Control (detección temprana de quiebres de stock). Finaliza con un formulario de registro limpio que permite el acceso mediante credenciales institucionales o redes sociales (Google/Apple), reduciendo la fricción de entrada para el personal operativo.
 
-<img src="./assets/chapter-04/Register-Wireframe.jpeg" alt="Register-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Register-Wireframe.jpeg" alt="Register-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Pricing** 
 
 Presenta la escalabilidad del modelo SaaS mediante dos planes: el Project Base Plan, ideal para MYPES con hasta 3 proyectos que buscan eliminar el desorden de WhatsApp, y el Multi-Project Enterprise, que ofrece escala ilimitada, reportes de rentabilidad avanzada e integración con sistemas contables locales para constructoras de mayor volumen.
 
-<img src="./assets/chapter-04/Princig-Wireframe.jpeg" alt="Princig-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Princig-Wireframe.jpeg" alt="Princig-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Footer** 
 
 Cierra la interfaz con una organización clara de recursos dividida en Producto, Soporte y Recursos. Incluye accesos a plantillas, guías de usuario, políticas de privacidad y canales de contacto directo, reforzando la seriedad y el soporte técnico que RQLS ofrece a sus clientes.
 
-<img src="./assets/chapter-04/Footer-Wireframe.jpeg" alt="Footer-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Footer-Wireframe.jpeg" alt="Footer-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -1652,43 +1652,43 @@ El mock-up de la página de inicio representa la versión final de alta fidelida
 
 Se observa el acabado final del logotipo de Buildline en la esquina superior izquierda. El diseño utiliza una composición limpia con un fondo claro para resaltar los widgets de datos. La tipografía Rubik en el titular principal presenta un contraste jerárquico que facilita la lectura. El botón de llamado a la acción (CTA) en azul tecnológico guía al usuario hacia la conversión inmediata, mientras que la imagen central humaniza la tecnología frente al operario de construcción.
 
-<img src="./assets/chapter-04/Nav-Hero-Landing Page Mock-up.jpeg" alt="Nav-Hero-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Nav-Hero-Landing Page Mock-up.jpeg" alt="Nav-Hero-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Workflow**
 
 En esta sección se aplican íconos planos con colores vibrantes para diferenciar las etapas de la cadena de suministro. El diseño utiliza tarjetas con sombras suaves (soft shadows) que generan profundidad, permitiendo que el flujo de Monitoreo, Registros, Alertas y Compliance se perciba como un proceso fluido y sencillo de seguir, alejándose de la complejidad visual de los ERP tradicionales.
 
-<img src="./assets/chapter-04/Workflow-Landing Page Mock-up.jpeg" alt="Workflow-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Workflow-Landing Page Mock-up.jpeg" alt="Workflow-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Dashboard y Control Operativo** 
 
 Este bloque integra de manera cohesiva el centro neurálgico de la plataforma. Se visualizan gráficos de anillos y líneas con la paleta de colores funcionales (Verde para éxito, Rojo para alertas de presupuesto). La interfaz del mock-up demuestra la alta densidad de datos de forma organizada, permitiendo que el Jefe de Proyecto identifique rápidamente desviaciones de costos y estados de sensores en almacén sin saturación visual.
 
-<img src="./assets/chapter-04/Dashboard-Control-Operativo-Landing Page Mock-up.jpeg" alt="Dashboard-Control-Operativo-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Dashboard-Control-Operativo-Landing Page Mock-up.jpeg" alt="Dashboard-Control-Operativo-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Testimonials** 
 
 El mock-up presenta las tarjetas de testimonios en un formato limpio y minimalista. Se utilizan avatares circulares y una tipografía ligera para las citas, reforzando la credibilidad. El uso de espacios en blanco (whitespace) entre cada testimonio asegura que la "prueba social" sea fácil de digerir, transmitiendo la seguridad que otros profesionales ya experimentan con Buildline.
 
-<img src="./assets/chapter-04/Testimonials-Landing Page Mock-up.jpeg" alt="Testimonials-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Testimonials-Landing Page Mock-up.jpeg" alt="Testimonials-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Register**
 
 Se muestra el diseño final del formulario de registro, el cual aparece como una capa superpuesta (overlay) con un desenfoque de fondo (backdrop blur). Los campos de entrada tienen estados visuales claros y los botones de registro social (Google/Apple) mantienen la estética minimalista del sistema, reduciendo la carga cognitiva del usuario al momento de crear su cuenta.
 
-<img src="./assets/chapter-04/Register-Landing Page Mock-up.jpeg" alt="Register-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Register-Landing Page Mock-up.jpeg" alt="Register-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Pricing**
 
 La interfaz de precios utiliza un selector de tiempo (Mensual/Anual) con una transición visual suave. Se aplica un contraste marcado entre el Project Base Plan (claro) y el Multi-Project Enterprise (oscuro/pizarra) para diferenciar visualmente los segmentos de cliente, destacando los beneficios mediante un sistema de check-list limpio y profesional.
 
-<img src="./assets/chapter-04/Pricing-Landing Page Mock-up.jpeg" alt="Princig-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Pricing-Landing Page Mock-up.jpeg" alt="Princig-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Footer**
 
 El pie de página final utiliza un tono gris pizarra oscuro para marcar el cierre de la navegación. Los íconos de redes sociales y los enlaces están distribuidos con un espaciado modular que garantiza la legibilidad, manteniendo la sobriedad institucional de la startup RQLS.
 
-<img src="./assets/chapter-04/Footer-Landing Page Mock-up.jpeg" alt="Footer-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Footer-Landing Page Mock-up.jpeg" alt="Footer-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
@@ -1699,49 +1699,49 @@ En esta sección se presentan los wireframes diseñados para la aplicación web 
 
 Pantalla principal de presentación donde se ofrecen las opciones de ingreso y registro de nuevas plantas industriales.
 
-<img src="./assets/chapter-04/Ingreso al Sistema - Buildline - Web Wireframes.jpeg" alt="Ingreso al Sistema - Buildline - Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Ingreso al Sistema - Buildline - Web Wireframes.jpeg" alt="Ingreso al Sistema - Buildline - Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Crear Cuenta - Buildline**
 
 Interfaz de registro inicial diseñada para capturar de forma estructurada los datos del responsable de la constructora, estableciendo los cimientos de la seguridad y el acceso jerárquico al sistema.
 
-<img src="./assets/chapter-04/Crear Cuenta - Buildline -Web Wireframes.jpeg" alt="Crear Cuenta - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Crear Cuenta - Buildline -Web Wireframes.jpeg" alt="Crear Cuenta - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Recuperación de Credenciales - Buildline**
 
 Wireframe del módulo de soporte para el restablecimiento de contraseñas. Proporciona un flujo directo que permite al usuario retomar sus actividades operativas mediante una verificación vía correo electrónico.
 
-<img src="./assets/chapter-04/Recuperación de Credenciales - Buildline -Web Wireframes.jpeg" alt="Recuperación de Credenciales - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Recuperación de Credenciales - Buildline -Web Wireframes.jpeg" alt="Recuperación de Credenciales - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Gestión de Requisitos de Materiales - Buildline**
 
 Pantalla técnica que centraliza las solicitudes provenientes de obra. Permite la visualización de la Prioridad (Critical/High) y el estado de la validación, integrando un buscador dinámico para la localización rápida de pedidos específicos.
 
-<img src="./assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Wireframes.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Wireframes.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Panel de Control de Requisiciones - Buildline**
 
 Vista alternativa del módulo de inventario con un enfoque en el seguimiento de estados (Pending Auth, In Transit, Processing, Delivered). Permite al Jefe de Logística tener una visión panorámica del flujo de suministros hacia las distintas obras.
 
-<img src="./assets/chapter-04/Panel de Control de Requisiciones - Buildline -Web Wireframes.jpeg" alt="Panel de Control de Requisiciones - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Panel de Control de Requisiciones - Buildline -Web Wireframes.jpeg" alt="Panel de Control de Requisiciones - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Dashboard Overview - Buildline**
 
 Panel principal de análisis que consolida los KPIs críticos de la constructora. Muestra métricas de Total Deliveries y Active Personnel, acompañadas de gráficos de tendencia para el monitoreo de la eficiencia operativa.
 
-<img src="./assets/chapter-04/Dashboard Overview - Buildline -Web Wireframes.jpeg" alt="Dashboard Overview - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Dashboard Overview - Buildline -Web Wireframes.jpeg" alt="Dashboard Overview - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Registro de Nuevo Requisito - Buildline**
 
 Interfaz de formulario modal (New Material Request) diseñada para que el Ingeniero Residente registre pedidos de insumos de forma ágil. Contiene campos para seleccionar el proyecto, tipo de material, cantidad, unidad de medida y fecha requerida, además de un área de especificaciones técnicas.
 
-<img src="./assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Web Wireframes.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Web Wireframes.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 Los Wireflows se utilizan, sobre todo, en el diseño de la experiencia del usuario (UX) y son particularmente beneficiosos para aplicaciones que contienen interacciones complejas y flujos de trabajo.
 
-<img src="./assets/chapter-04/Web applications wireflow diagrams.jpeg" alt="Web applications wireflow diagrams" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Web applications wireflow diagrams.jpeg" alt="Web applications wireflow diagrams" style="width:auto; height:auto; border:2px solid;">
 
 ### 4.4.3. Web Applications Mock-ups
 
@@ -1751,61 +1751,61 @@ En esta sección se presentan los mock-ups de alta fidelidad para la aplicación
 
 Esta interfaz representa el punto de acceso principal al ecosistema de Buildline. Utiliza una composición limpia y moderna que resalta el formulario de autenticación, permitiendo a los usuarios de la constructora ingresar de forma segura o iniciar el proceso de creación de cuenta nueva.
 
-<img src="./assets/chapter-04/Ingreso al Sistema - Buildline - Applications Mock-ups.jpeg" alt="Ingreso al Sistema - Buildline - Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Ingreso al Sistema - Buildline - Applications Mock-ups.jpeg" alt="Ingreso al Sistema - Buildline - Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Crear Cuenta - Buildline**
 
 Diseño final del formulario de registro organizacional. Esta pantalla permite recolectar los datos fundamentales de la constructora y el administrador principal, utilizando una jerarquía visual clara para asegurar la integridad de la información de seguridad.
 
-<img src="./assets/chapter-04/Crear Cuenta - Buildline -Applications Mock-ups.jpeg" alt="Crear Cuenta - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Crear Cuenta - Buildline -Applications Mock-ups.jpeg" alt="Crear Cuenta - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Recuperación de Credenciales - Buildline**
 
 Mock-up del flujo de soporte para el restablecimiento de credenciales. La interfaz ha sido diseñada para minimizar la fricción operativa, permitiendo al usuario solicitar un enlace de restauración mediante su correo institucional en pocos pasos.
 
-<img src="./assets/chapter-04/Recuperación de Credenciales - Buildline -Applications Mock-ups.jpeg" alt="Recuperación de Credenciales - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Recuperación de Credenciales - Buildline -Applications Mock-ups.jpeg" alt="Recuperación de Credenciales - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Gestión de Requisitos de Materiales - Buildline**
 
 Mock-up del módulo operativo principal. Presenta una tabla de datos avanzada con estados de validación por colores (Pending, Approved, In Transit), permitiendo al Jefe de Logística supervisar la trazabilidad completa de los materiales desde la obra.
 
-<img src="./assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Applications Mock-ups.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Applications Mock-ups" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Applications Mock-ups.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Applications Mock-ups" style="width:auto; height:auto; border:2px solid;">
 
 **Panel de Control de Requisiciones - Buildline**
 
 Vista alternativa del módulo de inventario con un enfoque en el seguimiento de estados (Pending Auth, In Transit, Processing, Delivered). Permite al Jefe de Logística tener una visión panorámica del flujo de suministros hacia las distintas obras.
 
-<img src="./assets/chapter-04/Panel de Control de Requisiciones - Buildline -Applications Mock-ups.jpeg" alt="Panel de Control de Requisiciones - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Panel de Control de Requisiciones - Buildline -Applications Mock-ups.jpeg" alt="Panel de Control de Requisiciones - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Dashboard Overview - Buildline**
 
 El dashboard centralizado de Buildline en alta fidelidad. Consolida indicadores críticos como Total Deliveries y Alertas de Inventario mediante tarjetas visuales y gráficos interactivos, facilitando la toma de decisiones estratégicas para la gerencia.
 
-<img src="./assets/chapter-04/Dashboard Overview - Buildline -Applications Mock-ups.jpeg" alt="Dashboard Overview - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Dashboard Overview - Buildline -Applications Mock-ups.jpeg" alt="Dashboard Overview - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Registro de Nuevo Requisito - Buildline**
 
 Interfaz de formulario modal (New Material Request) diseñada para que el Ingeniero Residente registre pedidos de insumos de forma ágil. Contiene campos para seleccionar el proyecto, tipo de material, cantidad, unidad de medida y fecha requerida, además de un área de especificaciones técnicas.
 
-<img src="./assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Applications Mock-ups.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Applications Mock-ups" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Applications Mock-ups.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Applications Mock-ups" style="width:auto; height:auto; border:2px solid;">
 
 **Mock-ups Version Mobile**
 
 La sección de Web Applications UX/UI Design presenta la propuesta visual, estructural y de interacción desarrollada para la experiencia móvil de Buildline, el ecosistema SaaS orientado a la gestión integral de adquisiciones, el control de suministros en tiempo real y la trazabilidad de materiales en el sector construcción.
 
-<img src="./assets/chapter-04/mobile1.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/mobile1.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
-<img src="./assets/chapter-04/mobile2.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/mobile2.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
-<img src="./assets/chapter-04/mobile3.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/mobile3.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
-<img src="./assets/chapter-04/mobile4.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/mobile4.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
-<img src="./assets/chapter-04/mobile5.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/mobile5.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
-<img src="./assets/chapter-04/mobile6.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/mobile6.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
-<img src="./assets/chapter-04/mobile7.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/mobile7.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
@@ -1813,31 +1813,31 @@ Para asegurar una navegación intuitiva y una curva de aprendizaje mínima para 
 
 **Leyenda Visual de Simbología**
 
-<img src="./assets/chapter-04/diagramaUF_leyenda.png" alt="diagramaUF_leyenda" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/diagramaUF_leyenda.png" alt="diagramaUF_leyenda" style="width:auto; height:auto; border:2px solid;">
 
 **Diagrama 1: Flujo de Autenticación**
 
 Este flujo garantiza que solo personal autorizado (Jefes de Proyecto y Gerentes) acceda a los datos financieros de las obras.
 
-<img src="./assets/chapter-04/diagramaUF_1.png" alt="diagramaUF_1" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/diagramaUF_1.png" alt="diagramaUF_1" style="width:auto; height:auto; border:2px solid;">
 
 **Diagrama 2: Flujo de Requisición de Materiales**
 
 Representa la interacción del Jefe de Proyecto en el frente de obra al detectar una necesidad de insumos, asegurando que la información llegue formalmente a la oficina.
 
-<img src="./assets/chapter-04/diagramaUF_2.png" alt="diagramaUF_2" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/diagramaUF_2.png" alt="diagramaUF_2" style="width:auto; height:auto; border:2px solid;">
 
 **Diagrama 3: Flujo Global de Abastecimiento**
 
 Representa el ciclo completo de negocio (Happy Path) que conecta la solicitud en campo con la aprobación gerencial y la emisión del documento de compra.
 
-<img src="./assets/chapter-04/diagramaUF_3.png" alt="diagramaUF_3" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/diagramaUF_3.png" alt="diagramaUF_3" style="width:auto; height:auto; border:2px solid;">
 
 ## 4.5. Web Applications Prototyping
 
 Para validar la arquitectura de información y la eficiencia del flujo de negocio de **Buildline**, se ha desarrollado un prototipo interactivo de alta fidelidad basado en los diagramas de interacción detallados en la sección anterior. Este artefacto permite verificar la fluidez de la interfaz y la respuesta del sistema ante las necesidades críticas del sector construcción.
 
-<img src="./assets/chapter-04/prototyping_captura.png" alt="prototyping_captura" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/prototyping_captura.png" alt="prototyping_captura" style="width:auto; height:auto; border:2px solid;">
 
 > [**🔗 Ver Video Prototipo Interactivo - Buildline**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316687_upc_edu_pe/IQDfG_KwrXxqSrKx5D7At2JHAb3kkmot9LW_fXuBca38Z_g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aRAlkn)
 
@@ -1859,63 +1859,63 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
    El bounded context IAM (Identity and Access Management) se encarga de la autenticación, autorización y seguridad dentro de Buildline. Administra el acceso de los diferentes perfiles (Residente de Obra, Analista de Logística y Jefe de Proyecto) garantizando que cada actor solo interactúe con los módulos que le corresponden. Su propósito es asegurar la integridad del acceso al sistema SaaS y gestionar los permisos jerárquicos de aprobación.
    
-   <img src="./assets/chapter-04/boundedIAM.png" alt="Bounded Context IAM" style="width:auto; height:auto; border:2px solid;">
+   <img src="docs/assets/chapter-04/boundedIAM.png" alt="Bounded Context IAM" style="width:auto; height:auto; border:2px solid;">
 
 
 2. Bounded Context **Profiles**
 
    El bounded context Profiles gestiona la información estática y de configuración de la empresa constructora (MYPE) y los perfiles laborales de su equipo. Administra la creación y actualización de datos de contacto y la estructura organizacional. Su propósito es centralizar la ficha de contacto operativa para que contextos como IAM, Requisition y Procurement sepan exactamente quién está solicitando o aprobando los recursos.
    
-   <img src="./assets/chapter-04/boundedprofile.png" alt="Bounded Context Profiles" style="width:auto; height:auto; border:2px solid;">
+   <img src="docs/assets/chapter-04/boundedprofile.png" alt="Bounded Context Profiles" style="width:auto; height:auto; border:2px solid;">
 
 
 3. Bounded Context **Requisition**
 
    El bounded context Requisition representa el punto de inicio operativo en el frente de obra. Administra la creación, priorización y seguimiento de los requisitos de materiales que realizan los Ingenieros Residentes, incluyendo la adjunción de evidencia técnica. Su propósito es digitalizar la necesidad de la obra, eliminando la informalidad de canales como WhatsApp y centralizando las solicitudes técnicas.
    
-   <img src="./assets/chapter-04/boundedrequisition.png" alt="Bounded Context Requisition" style="width:auto; height:auto; border:2px solid;">
+   <img src="docs/assets/chapter-04/boundedrequisition.png" alt="Bounded Context Requisition" style="width:auto; height:auto; border:2px solid;">
 
 
 4. Bounded Context **Procurement**
 
    El bounded context Procurement es el núcleo transaccional en gabinete. Gestiona el ciclo de compras completo: generación de solicitudes de cotización, comparación de ofertas de proveedores y la aprobación jerárquica de la Orden de Compra (PO) por parte de la gerencia. Su propósito es eliminar las compras de emergencia informales y asegurar que todo gasto esté debidamente sustentado y aprobado antes de su ejecución.
    
-   <img src="./assets/chapter-04/boundedprocurement.png" alt="Bounded Context Procurement" style="width:auto; height:auto; border:2px solid;">
+   <img src="docs/assets/chapter-04/boundedprocurement.png" alt="Bounded Context Procurement" style="width:auto; height:auto; border:2px solid;">
 
 
 5. Bounded Context **Inventory**
 
    El bounded context Inventory administra la recepción física de los materiales en la obra y el control de los saldos. Permite al personal en campo confirmar la llegada de insumos y registrar mermas o desperdicios. Se integra estrechamente con Procurement para realizar el cruce de información entre la Orden de Compra y la Guía de Remisión (Way Match), previniendo pérdidas por descontrol de almacén.
    
-   <img src="./assets/chapter-04/boundedinventory.png" alt="Bounded Context Inventory" style="width:auto; height:auto; border:2px solid;">
+   <img src="docs/assets/chapter-04/boundedinventory.png" alt="Bounded Context Inventory" style="width:auto; height:auto; border:2px solid;">
 
 
 6. Bounded Context **Suppliers**
 
    El bounded context Suppliers gestiona el directorio, historial de confiabilidad y evaluación de los proveedores de la constructora. Permite registrar nuevos ofertantes, calificar sus tiempos de entrega y documentar incidencias operativas. Su propósito es construir una base de datos confiable que agilice las cotizaciones en Procurement y evite la contratación de empresas con antecedentes deficientes.
    
-   <img src="./assets/chapter-04/boundedsupplier.png" alt="Bounded Context Suppliers" style="width:auto; height:auto; border:2px solid;">
+   <img src="docs/assets/chapter-04/boundedsupplier.png" alt="Bounded Context Suppliers" style="width:auto; height:auto; border:2px solid;">
 
 
 7. Bounded Context **Analytics & Budgeting**
 
    El bounded context Analytics & Budgeting procesa la información financiera cruzando el presupuesto planificado (APU) con los gastos reales derivados de las órdenes de compra. Permite la visualización de métricas y la detección de desviaciones presupuestales. Su propósito es brindar visibilidad gerencial en tiempo real mediante Dashboards, previniendo el impacto de los sobrecostos logísticos estructurales del sector.
    
-   <img src="./assets/chapter-04/boundedA&B.png" alt="Bounded Context Analytics" style="width:auto; height:auto; border:2px solid;">
+   <img src="docs/assets/chapter-04/boundedA&B.png" alt="Bounded Context Analytics" style="width:auto; height:auto; border:2px solid;">
 
 
 8. Bounded Context **Communication**
 
    El bounded context Communication gestiona el envío automatizado de notificaciones internas (alertas de requisitos críticos, avisos de bajo stock) y correos electrónicos externos (envío formal de Órdenes de Compra a proveedores). Su propósito es asegurar una comunicación oportuna, trazable y estructurada que reduzca los cuellos de botella informativos entre la obra y la oficina central.
    
-   <img src="./assets/chapter-04/boundedcommunication.png" alt="Bounded Context Communication" style="width:auto; height:auto; border:2px solid;">
+   <img src="docs/assets/chapter-04/boundedcommunication.png" alt="Bounded Context Communication" style="width:auto; height:auto; border:2px solid;">
 
 
 9. Bounded Context **Shared**
 
    El bounded context Shared contiene elementos transversales, utilidades, el catálogo maestro de materiales y registros de auditoría inmutables utilizados por todos los demás contextos. Su propósito es evitar la duplicidad de lógica de negocio, garantizar la trazabilidad total de las acciones de los usuarios en el sistema y mantener la coherencia semántica en toda la plataforma.
    
-   <img src="./assets/chapter-04/boundedshared.png" alt="Bounded Context Shared" style="width:auto; height:auto; border:2px solid;">
+   <img src="docs/assets/chapter-04/boundedshared.png" alt="Bounded Context Shared" style="width:auto; height:auto; border:2px solid;">
 
 <div style="page-break-after: always;"></div>
 
@@ -1934,7 +1934,7 @@ El context diagram muestra al **Buildline Software System** como un recuadro en 
 
 En el diagrama se representan las relaciones entre estos elementos, destacando que los actores humanos interactúan únicamente con Buildline, mientras que el sistema se encarga de orquestar las integraciones con los servicios externos (validación tributaria, correos y pagos). Esta vista permite entender el alcance del sistema, los límites de responsabilidad y el ecosistema logístico en el que se inserta Buildline antes de entrar a detalles de implementación.
 
-![ContextDiagram Diagram](../docs/assets/chapter-04/ContextDiagram.svg)
+![ContextDiagram Diagram](docs/assets/chapter-04/ContextDiagram.svg)
 
 ---
 
@@ -1958,7 +1958,7 @@ En el diagrama se observa que:
 
 Esta vista permite apreciar cómo se distribuyen las responsabilidades entre la capa de presentación (Landing y SPA), la capa de lógica de negocio (API Application) y la capa de persistencia (Database), así como las principales decisiones tecnológicas que se han tomado para cada contenedor.
 
-![ContainerDiagram Diagram](../docs/assets/chapter-04/ContainerDiagram.svg)
+![ContainerDiagram Diagram](docs/assets/chapter-04/ContainerDiagram.svg)
 
 ---
 
@@ -1988,7 +1988,7 @@ En el diagrama se refleja cómo:
 
 De esta forma, los component diagrams complementan los diagramas de clases del frontend, backend y base de datos, mostrando cómo los contenedores se descomponen en componentes coherentes con los bounded contexts del dominio y cómo estos colaboran entre sí para implementar la funcionalidad completa de Buildline.
 
-![ComponentsDiagram Diagram](../docs/assets/chapter-04/ComponentDiagram.svg)
+![ComponentsDiagram Diagram](docs/assets/chapter-04/ComponentDiagram.svg)
 
 <div style="page-break-after: always;"></div>
 
@@ -2058,45 +2058,45 @@ Incluye entidades como **Notification** y **Recipient**, junto con servicios que
 
 - **Diagrama Completo**
   
-<img src="./assets/chapter-04/diagramaBackend.svg" alt="Diagrama de Clases Backend" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/diagramaBackend.svg" alt="Diagrama de Clases Backend" style="width:auto; height:auto; border:2px solid;">
 
 ### Diagrama dividido por contextos ###
 
 - **Shared**
    
-  <img src="./assets/chapter-04/diagramaShared.png" alt="Diagrama BC Shared" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaShared.png" alt="Diagrama BC Shared" style="width:auto; height:auto; border:2px solid;">
 
 - **IAM**
    
-  <img src="./assets/chapter-04/diagramaIAM.png" alt="Diagrama BC IAM" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaIAM.png" alt="Diagrama BC IAM" style="width:auto; height:auto; border:2px solid;">
 
 - **Profiles**
    
-  <img src="./assets/chapter-04/diagramaProfiles.png" alt="Diagrama BC Profiles" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaProfiles.png" alt="Diagrama BC Profiles" style="width:auto; height:auto; border:2px solid;">
 
 - **Requisition**
   
-  <img src="./assets/chapter-04/diagramaRequisition.png" alt="Diagrama BC Requisition" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaRequisition.png" alt="Diagrama BC Requisition" style="width:auto; height:auto; border:2px solid;">
 
 - **Communication**
    
-  <img src="./assets/chapter-04/diagramaCommunication.png" alt="Diagrama BC Communication" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaCommunication.png" alt="Diagrama BC Communication" style="width:auto; height:auto; border:2px solid;">
 
 - **Inventory**
    
-  <img src="./assets/chapter-04/diagramaInventory.png" alt="Diagrama BC Inventory" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaInventory.png" alt="Diagrama BC Inventory" style="width:auto; height:auto; border:2px solid;">
 
 - **Analytics & Budgeting**
     
-  <img src="./assets/chapter-04/diagramaAnalytics.png" alt="Diagrama BC Analytics & Budgeting" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaAnalytics.png" alt="Diagrama BC Analytics & Budgeting" style="width:auto; height:auto; border:2px solid;">
 
 - **Procurement**
   
-  <img src="./assets/chapter-04/diagramaProcurement.png" alt="Diagrama BC Procurement" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaProcurement.png" alt="Diagrama BC Procurement" style="width:auto; height:auto; border:2px solid;">
 
 - **Suppliers**
   
-  <img src="./assets/chapter-04/diagramaSuppliers.png" alt="Diagrama BC Suppliers" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaSuppliers.png" alt="Diagrama BC Suppliers" style="width:auto; height:auto; border:2px solid;">
 
 ## 4.8. Database Design
 
@@ -2106,36 +2106,36 @@ Ilustra la estructura general del sistema a nivel relacional, organizada por *bo
 
 - **Diagrama Completo**
 
-<img src="./assets/chapter-04/diagramaBD.svg" alt="Diagrama de Base de Datos Completo" style="width:auto; height:auto; border:2px solid;">
+<img src="docs/assets/chapter-04/diagramaBD.svg" alt="Diagrama de Base de Datos Completo" style="width:auto; height:auto; border:2px solid;">
 
 ### Diagrama dividido por contextos
 
 - **Shared**  
-  <img src="./assets/chapter-04/diagramaBD_shared.png" alt="Diagrama BD Shared" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaBD_shared.png" alt="Diagrama BD Shared" style="width:auto; height:auto; border:2px solid;">
 
 - **IAM**  
-  <img src="./assets/chapter-04/diagramaDB_iam.png" alt="Diagrama BD IAM" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaDB_iam.png" alt="Diagrama BD IAM" style="width:auto; height:auto; border:2px solid;">
 
 - **Profiles**  
-  <img src="./assets/chapter-04/diagramaBD_profile.png" alt="Diagrama BD Profiles" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaBD_profile.png" alt="Diagrama BD Profiles" style="width:auto; height:auto; border:2px solid;">
 
 - **Requisition**  
-  <img src="./assets/chapter-04/diagramaBD_requisition.png" alt="Diagrama BD Requisition" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaBD_requisition.png" alt="Diagrama BD Requisition" style="width:auto; height:auto; border:2px solid;">
 
 - **Procurement**  
-  <img src="./assets/chapter-04/diagramaBD_procurement.png" alt="Diagrama BD Procurement" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaBD_procurement.png" alt="Diagrama BD Procurement" style="width:auto; height:auto; border:2px solid;">
 
 - **Inventory**  
-  <img src="./assets/chapter-04/diagramaBD_inventory.png" alt="Diagrama BD Inventory" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaBD_inventory.png" alt="Diagrama BD Inventory" style="width:auto; height:auto; border:2px solid;">
 
 - **Suppliers**  
-  <img src="./assets/chapter-04/diagramaBD_suppliers.png" alt="Diagrama BD Suppliers" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaBD_suppliers.png" alt="Diagrama BD Suppliers" style="width:auto; height:auto; border:2px solid;">
 
 - **Analytics & Budgeting**  
-  <img src="./assets/chapter-04/diagramaBD_analytics.png" alt="Diagrama BD Analytics & Budgeting" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaBD_analytics.png" alt="Diagrama BD Analytics & Budgeting" style="width:auto; height:auto; border:2px solid;">
 
 - **Communication**  
-  <img src="./assets/chapter-04/diagramaBD_communication.png" alt="Diagrama BD Communication" style="width:auto; height:auto; border:2px solid;">
+  <img src="docs/assets/chapter-04/diagramaBD_communication.png" alt="Diagrama BD Communication" style="width:auto; height:auto; border:2px solid;">
 
 
 # Capítulo V: Product Implementation, Validation & Deployment
@@ -2344,7 +2344,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
 El Sprint Backlog agrupa las tareas iniciales correspondientes a la presencia digital del proyecto Buildline.
 
 <div align="center">
-  <img src="./assets/chapter-05/jira1.png" alt="Sprint 1 Board Screenshot" width="100%">
+  <img src="docs/assets/chapter-05/jira1.png" alt="Sprint 1 Board Screenshot" width="100%">
   <p><em>Figura: Tablero del Sprint 1 en Jira Software (Proyecto Buildline)</em></p>
 </div>
 
@@ -2412,14 +2412,14 @@ Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maqueta
 **Evidencia 1: Hero Section y Propuesta de Valor**
 Se desarrolló la pantalla de inicio principal destacando el mensaje de mitigación de sobrecostos y control del APU. La navegación superior es completamente funcional y el diseño respeta los lineamientos *responsive* para dispositivos móviles.
 <div align="center">
-  <img src="./assets/chapter-05/execution-hero.png" alt="Hero Section Evidence" width="90%">
+  <img src="docs/assets/chapter-05/execution-hero.png" alt="Hero Section Evidence" width="90%">
   <p><em>Figura: Vista principal (Hero Section) desplegada en la Landing Page.</em></p>
 </div>
 
 **Evidencia 2: Sección de Beneficios y Trazabilidad**
 Se maquetó la sección informativa donde se detallan los módulos de control de obra y aprobaciones jerárquicas, aplicando la paleta de colores corporativa y el sistema de diseño definido en Figma.
 <div align="center">
-  <img src="./assets/chapter-05/execution-benefits.png" alt="Benefits Section Evidence" width="90%">
+  <img src="docs/assets/chapter-05/execution-benefits.png" alt="Benefits Section Evidence" width="90%">
   <p><em>Figura: Sección de características y propuesta de valor logístico.</em></p>
 </div>
 
@@ -2444,7 +2444,7 @@ Se maquetó la sección informativa donde se detallan los módulos de control de
 </p>
 
 <div align="center">
-  <img src="../docs/assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
+  <img src="docs/assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
   <p><em>Figura: Historial de commits demostrando la participación activa de los miembros del equipo RQLS.</em></p>
 </div>
 
@@ -2453,7 +2453,7 @@ Se maquetó la sección informativa donde se detallan los módulos de control de
 </p>
 
 <div align="center">
-  <img src="../docs/assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph">
+  <img src="docs/assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph">
   <p><em>Figura: Gráfica de visitantes mostrando la revisión constante del repositorio por parte del equipo.</em></p>
 </div>
 
@@ -2571,7 +2571,7 @@ Para el Sprint 2 se identificaron aspectos funcionales que corresponden a los <e
 El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que corresponden al primer release navegable del Frontend Web Application, organizados por bounded context. Se utilizó Jira Software como herramienta de control de estado.
 
 <div align="center">
-  <img src="./assets/chapter-05/jira2.png" alt="Sprint 2 Board Screenshot" width="100%">
+  <img src="docs/assets/chapter-05/jira2.png" alt="Sprint 2 Board Screenshot" width="100%">
   <p><em>Figura: Tablero del Sprint 2 en Jira Software (Proyecto Buildline)</em></p>
 </div>
 
@@ -2713,32 +2713,32 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 </p>
 
 <div align="center">
-  <img src="./assets/chapter-05/sprint2-signin.png" alt="Sign-In View" width="90%">
+  <img src="docs/assets/chapter-05/sprint2-signin.png" alt="Sign-In View" width="90%">
   <p><em>Figura: Vista Sign-In del bounded context IAM.</em></p>
 </div>
 
 <div align="center">
-  <img src="./assets/chapter-05/sprint2-requisitions.png" alt="Material Requests View" width="90%">
+  <img src="docs/assets/chapter-05/sprint2-requisitions.png" alt="Material Requests View" width="90%">
   <p><em>Figura: Listado de Material Requests con filtros por proyecto y prioridad.</em></p>
 </div>
 
 <div align="center">
-  <img src="./assets/chapter-05/sprint2-suppliers.png" alt="Supplier Directory" width="90%">
+  <img src="docs/assets/chapter-05/sprint2-suppliers.png" alt="Supplier Directory" width="90%">
   <p><em>Figura: Directorio de Proveedores con RUC, rating y estado.</em></p>
 </div>
 
 <div align="center">
-  <img src="./assets/chapter-05/sprint2-procurement.png" alt="Approval Inbox" width="90%">
+  <img src="docs/assets/chapter-05/sprint2-procurement.png" alt="Approval Inbox" width="90%">
   <p><em>Figura: Approval Inbox de Órdenes de Compra.</em></p>
 </div>
 
 <div align="center">
-  <img src="./assets/chapter-05/sprint2-inventory.png" alt="Inventory List" width="90%">
+  <img src="docs/assets/chapter-05/sprint2-inventory.png" alt="Inventory List" width="90%">
   <p><em>Figura: Inventory List con indicadores visuales de stock crítico.</em></p>
 </div>
 
 <div align="center">
-  <img src="./assets/chapter-05/sprint2-dashboard.png" alt="Financial Dashboard" width="90%">
+  <img src="docs/assets/chapter-05/sprint2-dashboard.png" alt="Financial Dashboard" width="90%">
   <p><em>Figura: Dashboard Overview (resumen).</em></p>
 </div>
 
@@ -2748,7 +2748,7 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 
 <div align="center">
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc_edu_pe/IQBmp9aQwMuLSLxjirNLDL3-ATVaXbe2IUg_aTtw3V59494?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y9T9qs" target="_blank">
-    <img src="./assets/chapter-05/video-screenshot.png" alt="Video Demostrativo Buildline en Microsoft Stream" width="90%" style="border: 1px solid #ccc; border-radius: 8px;">
+    <img src="docs/assets/chapter-05/video-screenshot.png" alt="Video Demostrativo Buildline en Microsoft Stream" width="90%" style="border: 1px solid #ccc; border-radius: 8px;">
   </a>
   <p><em>Figura: Video demostrativo en Microsoft Stream.</em></p>
 </div>
@@ -2905,12 +2905,12 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 </p>
 
 <div align="center">
-  <img src="../docs/assets/chapter-05/commit-history-sprint2.png" alt="Commit History Sprint 2" width="90%">
+  <img src="docs/assets/chapter-05/commit-history-sprint2.png" alt="Commit History Sprint 2" width="90%">
   <p><em>Figura: Historial de commits del repositorio Frontend, evidenciando la participación distribuida del equipo RQLS durante el Sprint 2.</em></p>
 </div>
 
 <div align="center">
-  <img src="../docs/assets/chapter-05/contributors-sprint2.png" alt="Contributors Insights Sprint 2" width="90%">
+  <img src="docs/assets/chapter-05/contributors-sprint2.png" alt="Contributors Insights Sprint 2" width="90%">
   <p><em>Figura: Gráfica de Contributors de GitHub Insights mostrando la distribución de contribuciones del Sprint 2.</em></p>
 </div>
 
@@ -3041,22 +3041,22 @@ El Sprint Backlog 3 agrupa las tareas necesarias para construir y desplegar la p
 <p>Durante el Sprint 3 se validó el reemplazo del mock por backend real. La evidencia debe mostrar que el servicio responde, que los endpoints protegidos requieren JWT, que la sesión devuelve datos reales del usuario, y que el frontend consume datos por compañía.</p>
 
 <div align="center">
-  <img src="./assets/chapter-05/sprint3-swagger-ui.png" alt="Swagger UI Execution Evidence" width="90%">
+  <img src="docs/assets/chapter-05/sprint3-swagger-ui.png" alt="Swagger UI Execution Evidence" width="90%">
   <p><em>Figura: Swagger UI desplegado en Railway mostrando controladores por bounded context y rutas V1 documentadas.</em></p>
 </div>
 
 <div align="center">
-  <img src="./assets/chapter-05/sprint3-auth-sign-in.png" alt="JWT Sign In Evidence" width="90%">
+  <img src="docs/assets/chapter-05/sprint3-auth-sign-in.png" alt="JWT Sign In Evidence" width="90%">
   <p><em>Figura: Ejecución de <code>POST /api/v1/auth/sign-in</code> con respuesta <code>200 OK</code>, token JWT, companyId y último inicio de sesión real.</em></p>
 </div>
 
 <div align="center">
-  <img src="./assets/chapter-05/sprint3-company-scoped-endpoint.png" alt="Company Scoped Endpoint Evidence" width="90%">
+  <img src="docs/assets/chapter-05/sprint3-company-scoped-endpoint.png" alt="Company Scoped Endpoint Evidence" width="90%">
   <p><em>Figura: Prueba de endpoint protegido bajo <code>/api/v1/companies/{companyId}</code> retornando datos filtrados por compañía autenticada.</em></p>
 </div>
 
 <div align="center">
-  <img src="./assets/chapter-05/sprint3-frontend-live-data.png" alt="Frontend Live Data Evidence" width="90%">
+  <img src="docs/assets/chapter-05/sprint3-frontend-live-data.png" alt="Frontend Live Data Evidence" width="90%">
   <p><em>Figura: Frontend desplegado en Vercel mostrando datos obtenidos desde el backend real y estados vacíos para compañías nuevas.</em></p>
 </div>
 
@@ -3103,12 +3103,12 @@ El Sprint Backlog 3 agrupa las tareas necesarias para construir y desplegar la p
 <p><strong>Variables críticas de producción:</strong> <code>ASPNETCORE_ENVIRONMENT=Production</code>, <code>ASPNETCORE_URLS=http://+:8080</code>, <code>BUILDLINE_JWT_SECRET</code> y variables MySQL provistas por Railway.</p>
 
 <div align="center">
-  <img src="./assets/chapter-05/sprint3-railway-deployment.png" alt="Backend Railway Deployment Evidence" width="90%">
+  <img src="docs/assets/chapter-05/sprint3-railway-deployment.png" alt="Backend Railway Deployment Evidence" width="90%">
   <p><em>Figura: Servicio Backend en Railway con deploy exitoso y contenedor en ejecución.</em></p>
 </div>
 
 <div align="center">
-  <img src="./assets/chapter-05/sprint3-vercel-frontend-deployment.png" alt="Frontend Vercel Deployment Evidence" width="90%">
+  <img src="docs/assets/chapter-05/sprint3-vercel-frontend-deployment.png" alt="Frontend Vercel Deployment Evidence" width="90%">
   <p><em>Figura: Frontend Web Application desplegado en Vercel y conectado a la API productiva.</em></p>
 </div>
 
@@ -3125,7 +3125,7 @@ El Sprint Backlog 3 agrupa las tareas necesarias para construir y desplegar la p
 </ul>
 
 <div align="center">
-  <img src="../docs/assets/chapter-05/sprint3-network-graph.png" alt="Network Graph Sprint 3" width="90%">
+  <img src="docs/assets/chapter-05/sprint3-network-graph.png" alt="Network Graph Sprint 3" width="90%">
   <p><em>Figura: Network Graph del repositorio evidenciando ramas feature/release y merges hacia main/develop para Sprint 3.</em></p>
 </div>
 
