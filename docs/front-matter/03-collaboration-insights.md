@@ -8,7 +8,11 @@ A partir de este repositorio, se analiza la participación de los integrantes de
 En el contexto de las entregas AV1, TB1, AV2, TB2 y TF1, se presenta un análisis de colaboración que permite visualizar el nivel de aporte individual de cada miembro del equipo, sustentado en los registros de GitHub. Este análisis busca demostrar la distribución del trabajo, la constancia en el desarrollo del informe y el cumplimiento de las actividades asignadas.
 
 ## TB1
-[pending content]
+Durante TB1, el equipo concentró el avance en la Landing Page y en la primera versión funcional del Frontend Web Application. En esta etapa no se implementó un backend productivo ni contratos definitivos de Web Services; la integración de datos se resolvió mediante una mock API basada en json-server y servicios frontend preparados para consumir endpoints REST en una etapa posterior.
+
+La colaboración se distribuyó por módulos funcionales del frontend. Se trabajaron las vistas de autenticación, dashboard, requisiciones, cotizaciones, órdenes de compra, proveedores, incidencias, inventario, reportes, mensajes internos, perfil de empresa y configuración. Cada integrante asumió responsabilidad sobre un conjunto de pantallas y apoyó la revisión cruzada de navegación, estados visuales, formularios, filtros y consistencia con los bounded contexts definidos en el informe.
+
+El uso de Jira y GitHub permitió ordenar el Sprint Backlog, registrar avances por ramas y consolidar los cambios hacia las ramas principales del proyecto. Como resultado, TB1 dejó una aplicación desplegada en Vercel, una base de componentes reutilizables en Vue 3 + Vite, servicios frontend conectados a datos simulados y una primera referencia funcional para preparar la futura integración con backend real durante AV2.
 
 ## AV2
 Durante AV2, el equipo concentró el trabajo en tres frentes: actualización del informe, integración del Frontend Web Application con Web Services reales y despliegue del backend en Railway. La coordinación se realizó sobre GitHub, Jira, Discord y revisiones cruzadas del documento.

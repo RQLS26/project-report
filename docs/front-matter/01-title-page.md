@@ -3,7 +3,7 @@
 <img src="../assets/common/logo-upc.png" width="180" alt="Logo UPC">
 <br><br>
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS {-}
+# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
 <br>
 
@@ -24,7 +24,7 @@
 
 <br>
 
-# Informe de Trabajo Final - AV1 {-}
+# Informe de Trabajo Final - AV1
 
 <br>
 

@@ -1,5 +1,5 @@
-# Contenido {-}
-## Tabla de contenidos {-}
+# Contenido
+## Tabla de contenidos
 
 - [Carátula](#informe-de-trabajo-final---av1)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)

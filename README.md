@@ -3,7 +3,7 @@
 <img src="docs/assets/common/logo-upc.png" width="180" alt="Logo UPC">
 <br><br>
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS {-}
+# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
 <br>
 
@@ -24,7 +24,7 @@
 
 <br>
 
-# Informe de Trabajo Final - AV1 {-}
+# Informe de Trabajo Final - AV1
 
 <br>
 
@@ -76,7 +76,7 @@
 **Lima, abril de 2026**
 </div>
 
-# Registro de versiones del informe {-}
+# Registro de versiones del informe
 | Versión | Fecha | Autores | Descripción              |
 | :--- | :--- | :--- |:-------------------------|
 | 1.0.0 | 26/04/2026 | Mauricio Sebastián Castillo Yataco, David Joel Morales Venegas, Jesús Fernando Paucar Zenteno, Marlon Packard Viza Quispe, Albino Florencio Cáceres Pizarro | Versión inicial del avance AV1 (TB1) |
@@ -94,7 +94,11 @@ A partir de este repositorio, se analiza la participación de los integrantes de
 En el contexto de las entregas AV1, TB1, AV2, TB2 y TF1, se presenta un análisis de colaboración que permite visualizar el nivel de aporte individual de cada miembro del equipo, sustentado en los registros de GitHub. Este análisis busca demostrar la distribución del trabajo, la constancia en el desarrollo del informe y el cumplimiento de las actividades asignadas.
 
 ## TB1
-[pending content]
+Durante TB1, el equipo concentró el avance en la Landing Page y en la primera versión funcional del Frontend Web Application. En esta etapa no se implementó un backend productivo ni contratos definitivos de Web Services; la integración de datos se resolvió mediante una mock API basada en json-server y servicios frontend preparados para consumir endpoints REST en una etapa posterior.
+
+La colaboración se distribuyó por módulos funcionales del frontend. Se trabajaron las vistas de autenticación, dashboard, requisiciones, cotizaciones, órdenes de compra, proveedores, incidencias, inventario, reportes, mensajes internos, perfil de empresa y configuración. Cada integrante asumió responsabilidad sobre un conjunto de pantallas y apoyó la revisión cruzada de navegación, estados visuales, formularios, filtros y consistencia con los bounded contexts definidos en el informe.
+
+El uso de Jira y GitHub permitió ordenar el Sprint Backlog, registrar avances por ramas y consolidar los cambios hacia las ramas principales del proyecto. Como resultado, TB1 dejó una aplicación desplegada en Vercel, una base de componentes reutilizables en Vue 3 + Vite, servicios frontend conectados a datos simulados y una primera referencia funcional para preparar la futura integración con backend real durante AV2.
 
 ## AV2
 Durante AV2, el equipo concentró el trabajo en tres frentes: actualización del informe, integración del Frontend Web Application con Web Services reales y despliegue del backend en Railway. La coordinación se realizó sobre GitHub, Jira, Discord y revisiones cruzadas del documento.
@@ -119,8 +123,8 @@ Las contribuciones principales se distribuyeron de la siguiente manera:
 [pending content]
 
 
-# Contenido {-}
-## Tabla de contenidos {-}
+# Contenido
+## Tabla de contenidos
 
 - [Carátula](#informe-de-trabajo-final---av1)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
@@ -173,7 +177,7 @@ Las contribuciones principales se distribuyeron de la siguiente manera:
     - [Anexo C: Fuentes de arquitectura backend](#anexo-c-fuentes-de-arquitectura-backend)
 
 
-# Student Outcome {-}
+# Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
 **ABET – EAC - Student Outcome 5**  
