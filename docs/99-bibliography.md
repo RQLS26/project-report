@@ -142,6 +142,24 @@
     Microsoft. (s.f.). <em>C# Coding Conventions</em>. Recuperado de <a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions">https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions</a>
   </li>
   <li>
+    Microsoft. (s.f.). <em>ASP.NET Core documentation</em>. Recuperado de <a href="https://learn.microsoft.com/en-us/aspnet/core/">https://learn.microsoft.com/en-us/aspnet/core/</a>
+  </li>
+  <li>
+    Microsoft. (s.f.). <em>Entity Framework Core documentation</em>. Recuperado de <a href="https://learn.microsoft.com/en-us/ef/core/">https://learn.microsoft.com/en-us/ef/core/</a>
+  </li>
+  <li>
+    Microsoft. (s.f.). <em>Authentication and authorization in ASP.NET Core</em>. Recuperado de <a href="https://learn.microsoft.com/en-us/aspnet/core/security/">https://learn.microsoft.com/en-us/aspnet/core/security/</a>
+  </li>
+  <li>
+    Swagger. (s.f.). <em>OpenAPI Specification</em>. Recuperado de <a href="https://swagger.io/specification/">https://swagger.io/specification/</a>
+  </li>
+  <li>
+    Railway. (s.f.). <em>Railway Documentation</em>. Recuperado de <a href="https://docs.railway.com/">https://docs.railway.com/</a>
+  </li>
+  <li>
+    Vercel. (s.f.). <em>Vercel Documentation</em>. Recuperado de <a href="https://vercel.com/docs">https://vercel.com/docs</a>
+  </li>
+  <li>
     SpecFlow. (s.f.). <em>Gherkin Conventions</em>. Recuperado de <a href="https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/">https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/</a>
   </li>
   <li>

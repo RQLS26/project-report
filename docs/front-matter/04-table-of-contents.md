@@ -45,3 +45,8 @@
     - [6.2. Video About-the-Team](#62-video-about-the-team)
 
 - [Bibliografía](#bibliografía)
+
+- [Anexos](#anexos)
+    - [Anexo A: Evidencias visuales requeridas para AV2](#anexo-a-evidencias-visuales-requeridas-para-av2)
+    - [Anexo B: URLs de despliegue](#anexo-b-urls-de-despliegue)
+    - [Anexo C: Fuentes de arquitectura backend](#anexo-c-fuentes-de-arquitectura-backend)

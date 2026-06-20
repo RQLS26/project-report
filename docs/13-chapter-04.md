@@ -502,7 +502,7 @@ La arquitectura lógica de Buildline se estructura en los siguientes contenedore
 
 - **Landing Page**: aplicación web estática que presenta la propuesta de valor de Buildline orientada a MYPES constructoras, guía a nuevos usuarios y redirige a la aplicación principal. Está desarrollada con tecnologías web estándar (HTML, CSS y JavaScript) y se despliega en un entorno orientado a contenido estático.
 - **Single Page Application (SPA)**: aplicación web principal, implementada en **Vue.js 3**, donde interactúan el Ingeniero Residente, el Analista de Logística y el Gerente. Este contenedor concentra la experiencia de usuario, las vistas y la lógica de presentación para los diferentes contextos del dominio (iam, profiles, requisition, procurement, inventory, delivery, suppliers, analytics y communication).
-- **API Application**: backend planificado con **.NET 8 / C#**, que expone una API REST y encapsula la lógica de negocio, reglas de validación y orquestación de procesos logísticos. Este contenedor agrupa los módulos backend por contexto (IAM Backend, Profiles Backend, Requisition Backend, Procurement Backend, Inventory Backend, Delivery Backend, Suppliers Backend, Analytics Backend, Communication Backend y Shared Backend).
+- **API Application**: backend implementado con **ASP.NET Core / C# sobre .NET 10**, que expone una API REST y encapsula la lógica de negocio, reglas de validación y orquestación de procesos logísticos. Este contenedor agrupa los módulos backend por contexto (IAM Backend, Profiles Backend, Requisition Backend, Procurement Backend, Inventory Backend, Delivery Backend, Suppliers Backend, Analytics Backend, Communication Backend y Shared Backend).
 - **Database**: base de datos relacional **MySQL**, donde se persiste la información estructurada del sistema: usuarios, perfiles de constructoras, proyectos, requisitos, cotizaciones, órdenes de compra, entregas, inventarios, auditorías y métricas.
 
 En el diagrama se observa que:
@@ -551,7 +551,7 @@ De esta forma, los component diagrams complementan los diagramas de clases del f
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 
-En esta sección se presenta el diseño orientado a objetos del sistema **Buildline**, el cual desarrolla con mayor detalle la implementación interna de los componentes identificados en los diagramas C4 del apartado anterior. A partir de los contenedores definidos (**API Application** en .NET 8 / C# y **Database** en MySQL), se derivan diagramas de clases específicos para cada *bounded context* del dominio, con el objetivo de mostrar:
+En esta sección se presenta el diseño orientado a objetos del sistema **Buildline**, el cual desarrolla con mayor detalle la implementación interna de los componentes identificados en los diagramas C4 del apartado anterior. A partir de los contenedores definidos (**API Application** en ASP.NET Core / C# sobre .NET 10 y **Database** en MySQL), se derivan diagramas de clases específicos para cada *bounded context* del dominio, con el objetivo de mostrar:
 
 - **1. Modelado del Dominio (Backend)**
 

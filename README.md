@@ -1,9 +1,9 @@
 <div align="center">
 <br>
-<img src="docs/assets/common/logo-upc.png" width="180" alt="Logo UPC">
+<img src="../assets/common/logo-upc.png" width="180" alt="Logo UPC">
 <br><br>
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS 
+# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS {-}
 
 <br>
 
@@ -24,7 +24,7 @@
 
 <br>
 
-# Informe de Trabajo Final - AV1 
+# Informe de Trabajo Final - AV1 {-}
 
 <br>
 
@@ -76,15 +76,13 @@
 **Lima, abril de 2026**
 </div>
 
-<div class="page-break"></div>
-
-# Registro de versiones del informe 
+# Registro de versiones del informe {-}
 | Versión | Fecha | Autores | Descripción              |
 | :--- | :--- | :--- |:-------------------------|
 | 1.0.0 | 26/04/2026 | Mauricio Sebastián Castillo Yataco, David Joel Morales Venegas, Jesús Fernando Paucar Zenteno, Marlon Packard Viza Quispe, Albino Florencio Cáceres Pizarro | Versión inicial del avance AV1 (TB1) |
 | 2.0.0 | 16/05/2026 | Mauricio Sebastián Castillo Yataco, David Joel Morales Venegas, Jesús Fernando Paucar Zenteno, Marlon Packard Viza Quispe, Albino Florencio Cáceres Pizarro | Entrega de Trabajo Parcial (TB1) con despliegue de Frontend y Landing Page |
+| 3.0.0 | 20/06/2026 | Mauricio Sebastián Castillo Yataco, David Joel Morales Venegas, Jesús Fernando Paucar Zenteno, Marlon Packard Viza Quispe, Albino Florencio Cáceres Pizarro | Entrega AV2 - Sprint Review Semana 12 con Landing Page actualizada, Frontend desplegado, primera versión de Backend Web Services en Railway, Swagger, Sprint 3, Validation Interviews, Video About-the-Product y Video About-the-Team |
 
-<div class="page-break"></div>
 
 # Project Report Collaboration Insights
 El presente apartado tiene como finalidad evidenciar el trabajo colaborativo realizado durante el desarrollo del informe. Para ello, se pone a disposición el repositorio oficial del proyecto, alojado en una organización pública de GitHub:
@@ -93,13 +91,26 @@ El presente apartado tiene como finalidad evidenciar el trabajo colaborativo rea
 
 A partir de este repositorio, se analiza la participación de los integrantes del equipo mediante indicadores como número de commits, frecuencia de contribuciones y actividad general registrada en la plataforma.
 
-En el contexto de la entrega correspondiente a la TB1, TB1, TB2 y TF1, se presenta un análisis de colaboración que permite visualizar el nivel de aporte individual de cada miembro del equipo, sustentado en los registros de GitHub. Este análisis busca demostrar la distribución del trabajo, la constancia en el desarrollo del informe y el cumplimiento de las actividades asignadas.
+En el contexto de las entregas AV1, TB1, AV2, TB2 y TF1, se presenta un análisis de colaboración que permite visualizar el nivel de aporte individual de cada miembro del equipo, sustentado en los registros de GitHub. Este análisis busca demostrar la distribución del trabajo, la constancia en el desarrollo del informe y el cumplimiento de las actividades asignadas.
 
 ## TB1
 [pending content]
 
-## TB1
-[pending content]
+## AV2
+Durante AV2, el equipo concentró el trabajo en tres frentes: actualización del informe, integración del Frontend Web Application con Web Services reales y despliegue del backend en Railway. La coordinación se realizó sobre GitHub, Jira, Discord y revisiones cruzadas del documento.
+
+Las contribuciones principales se distribuyeron de la siguiente manera:
+
+- Morales Venegas, David Joel: liderazgo de despliegue backend, documentación de Sprint 3, rutas company-scoped, Railway, Swagger y sincronización del README del informe.
+- Castillo Yataco, Mauricio Sebastián: soporte en IAM, autenticación, roles, permisos, users management y revisión de validaciones de acceso.
+- Paucar Zenteno, Jesús Fernando: validación de flujos de requisiciones, cotizaciones, órdenes de compra y consistencia de endpoints de procurement.
+- Viza Quispe, Marlon Packard: revisión de suppliers, incidents, messages, notificaciones y evidencias de QA funcional.
+- Cáceres Pizarro, Albino Florencio: revisión de inventario, delivery tracking, analytics-budgeting, dashboards y evidencias de despliegue.
+
+<div align="center">
+  <img src="../docs/assets/front-matter/collaboration-insights-av2.png" alt="AV2 Collaboration Insights" width="90%">
+  <p><em>Figura: Evidencia sugerida de GitHub Insights, commits y actividad colaborativa del equipo durante AV2.</em></p>
+</div>
 
 ## TB2
 [pending content]
@@ -107,10 +118,9 @@ En el contexto de la entrega correspondiente a la TB1, TB1, TB2 y TF1, se presen
 ## TF1
 [pending content]
 
-<div class="page-break"></div>
 
-# Contenido 
-## Tabla de contenidos 
+# Contenido {-}
+## Tabla de contenidos {-}
 
 - [Carátula](#informe-de-trabajo-final---av1)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
@@ -157,9 +167,13 @@ En el contexto de la entrega correspondiente a la TB1, TB1, TB2 y TF1, se presen
 
 - [Bibliografía](#bibliografía)
 
-<div class="page-break"></div>
+- [Anexos](#anexos)
+    - [Anexo A: Evidencias visuales requeridas para AV2](#anexo-a-evidencias-visuales-requeridas-para-av2)
+    - [Anexo B: URLs de despliegue](#anexo-b-urls-de-despliegue)
+    - [Anexo C: Fuentes de arquitectura backend](#anexo-c-fuentes-de-arquitectura-backend)
 
-# Student Outcome 
+
+# Student Outcome {-}
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
 **ABET – EAC - Student Outcome 5**  
@@ -184,23 +198,29 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
     <td>
       <strong>Morales Venegas, David Joel</strong><br>
       <strong>AV1:</strong> Creación del repositorio, Diseño de Landing Page, Lideró diseño/análisis de entrevistas.<br>
-      <strong>TB1:</strong> Lideró la implementación de la mensajería interna, perfil de empresa y rediseño del Landing Page v2 (Vercel).<br><br>
+      <strong>TB1:</strong> Lideró la implementación de la mensajería interna, perfil de empresa y rediseño del Landing Page v2 (Vercel).<br>
+      <strong>AV2:</strong> Lideró el despliegue de Web Services en Railway, la documentación de Sprint 3, la matriz de endpoints company-scoped y la sincronización del informe con backend/frontend.<br><br>
       <strong>Viza Quispe, Marlon Packard</strong><br>
       <strong>AV1:</strong> Event Storming, Ubiquitous Language, Journey/Empathy Mapping.<br>
-      <strong>TB1:</strong> Implementó el directorio de proveedores y el módulo de incidencias en el Frontend.<br><br>
+      <strong>TB1:</strong> Implementó el directorio de proveedores y el módulo de incidencias en el Frontend.<br>
+      <strong>AV2:</strong> Colaboró en la validación de proveedores, incidencias, mensajes internos, notificaciones y criterios de QA funcional para la integración con backend.<br><br>
       <strong>Paucar Zenteno, Jesús Fernando</strong><br>
       <strong>AV1:</strong> User Flow Diagrams, Web applications prototype.<br>
-      <strong>TB1:</strong> Lideró la gestión de requisiciones y órdenes de compra (Approval Inbox, Quotations Management).<br><br>
+      <strong>TB1:</strong> Lideró la gestión de requisiciones y órdenes de compra (Approval Inbox, Quotations Management).<br>
+      <strong>AV2:</strong> Lideró la revisión de contratos de requisiciones, cotizaciones y órdenes de compra para asegurar coherencia entre Product Backlog, Technical Stories y endpoints reales.<br><br>
       <strong>Castillo Yataco, Mauricio Sebastián</strong><br>
       <strong>AV1:</strong> Lean UX Process, Segmentos Objetivo, Lean UX Canvas, Needfinding.<br>
-      <strong>TB1:</strong> Configuró el proyecto base (Vue 3 + Vite), implementó IAM (Auth), mock API en Render y despliegue.<br><br>
+      <strong>TB1:</strong> Configuró el proyecto base (Vue 3 + Vite), implementó IAM (Auth), mock API en Render y despliegue.<br>
+      <strong>AV2:</strong> Apoyó la revisión de IAM, roles owner/admin/viewer, último inicio de sesión real, recuperación de errores y validaciones de autenticación.<br><br>
       <strong>Cáceres Pizarro, Albino Florencio</strong><br>
       <strong>AV1:</strong> Arquitectura de software (C4 Context Diagrams y Class Diagrams).<br>
       <strong>TB1:</strong> Desarrolló el control de inventarios, dashboard financiero y generación de reportes PDF.<br>
+      <strong>AV2:</strong> Colaboró en la revisión de inventario, delivery tracking, analytics-budgeting, dashboards, reportes y fuentes de arquitectura del backend.<br>
     </td>
     <td>
       <strong>AV1:</strong> El equipo demostró liderazgo compartido al asignar responsables específicos basándose en las fortalezas técnicas de cada integrante.<br>
       <strong>TB1:</strong> Se lideraron diferentes *bounded contexts* técnicos del Frontend, logrando una entrega funcional de software desplegado en la nube de forma paralela.<br>
+      <strong>AV2:</strong> El liderazgo se redistribuyó entre backend, frontend integration, QA y documentación, permitiendo entregar servicios desplegados y un informe alineado con la arquitectura real.<br>
     </td>
   </tr>
   <tr>
@@ -210,29 +230,33 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
     <td>
       <strong>Morales Venegas, David Joel</strong><br>
       <strong>AV1:</strong> Colaboró en Wireframes, Wireflow y User Flow Diagrams.<br>
-      <strong>TB1:</strong> Colaboró en la integración del Frontend con el mock server y validación de componentes PrimeVue.<br><br>
+      <strong>TB1:</strong> Colaboró en la integración del Frontend con el mock server y validación de componentes PrimeVue.<br>
+      <strong>AV2:</strong> Coordinó la actualización local del informe, la revisión de rutas por compañía y la preparación de evidencias de despliegue Railway/Vercel.<br><br>
       <strong>Viza Quispe, Marlon Packard</strong><br>
       <strong>AV1:</strong> Diseño de Landing Page, revisión integradora y correcciones finales AV1.<br>
-      <strong>TB1:</strong> Revisión integradora de código y pruebas de QA sobre los módulos de proveedores y requisiciones.<br><br>
+      <strong>TB1:</strong> Revisión integradora de código y pruebas de QA sobre los módulos de proveedores y requisiciones.<br>
+      <strong>AV2:</strong> Revisó consistencia de módulos de proveedores, incidencias y comunicación con criterios de validación de usuario final.<br><br>
       <strong>Paucar Zenteno, Jesús Fernando</strong><br>
       <strong>AV1:</strong> Diseño de Web Applications, revisión integradora y correcciones finales AV1.<br>
-      <strong>TB1:</strong> Validó los flujos lógicos de las órdenes de compra (approval flows) contra los requisitos de dominio (DDD).<br><br>
+      <strong>TB1:</strong> Validó los flujos lógicos de las órdenes de compra (approval flows) contra los requisitos de dominio (DDD).<br>
+      <strong>AV2:</strong> Contrastó User Stories, Technical Stories y endpoints para evitar que Sprint 3 agregue historias paralelas no alineadas al capítulo III.<br><br>
       <strong>Castillo Yataco, Mauricio Sebastián</strong><br>
       <strong>AV1:</strong> Diseño de arquitectura, Redacción y documentación del Capítulo V (SCM, Sprint 1).<br>
-      <strong>TB1:</strong> Redactó la documentación del Sprint 2 y organizó la planificación de tareas en Jira.<br><br>
+      <strong>TB1:</strong> Redactó la documentación del Sprint 2 y organizó la planificación de tareas en Jira.<br>
+      <strong>AV2:</strong> Participó en la validación de IAM, Settings, Users & Roles y criterios de permisos por rol para el backend.<br><br>
       <strong>Cáceres Pizarro, Albino Florencio</strong><br>
       <strong>AV1:</strong> Análisis de competidores, diagrama de base de datos y artefactos de Needfinding.<br>
       <strong>TB1:</strong> Participó en la resolución de conflictos de ramas (merges) y diseño de filtros del dashboard.<br>
+      <strong>AV2:</strong> Apoyó la revisión de evidencias de dashboard, delivery, inventory y reportes para la evaluación heurística AV2.<br>
     </td>
     <td>
       <strong>AV1:</strong> La planificación de tareas mediante un backlog inicial permitió cumplir con todos los artefactos de Needfinding y Lean UX.<br>
       <strong>TB1:</strong> La migración de tareas hacia Jira y el uso de un framework SPA permitió cumplir con éxito el primer despliegue funcional en Vercel.<br>
+      <strong>AV2:</strong> La coordinación por repositorios, ramas feature/release y revisión de endpoints permitió entregar una primera integración real entre frontend, backend, base de datos y despliegue cloud.<br>
     </td>
   </tr>
 </table>
 
-
-<div class="page-break"></div>
 
 # Capítulo I: Introducción
 
@@ -250,11 +274,11 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 ### 1.1.2. Perfiles de integrantes del equipo
  | Imagen  | Apellidos y nombres                     |   Código   | Carrera                | Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 :-----------------:|:----------------------------------------|:----------:| :--------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|<img src="docs/assets/chapter-01/Castillo_Foto.jpg" alt="Foto de Castillo Yataco" width="120" />| **Castillo Yataco, Mauricio Sebastián** | U202113229 | Ingeniería de Software | Soy estudiante de Ingeniería de Software, apasionado por la creación de soluciones tecnológicas que mejoren la vida de las personas. Mi enfoque va más allá de la programación, ya que me interesa desarrollar experiencias digitales funcionales y agradables para el usuario. Poseo conocimientos básicos en C++, HTML y CSS, y destaco por mi responsabilidad, cooperación, comunicación, flexibilidad y adaptabilidad.                        |
-|<img src="docs/assets/chapter-01/david_foto.jpeg" alt="Foto de Morales Venegas" width="120" />| **Morales Venegas, David Joel**         | U20231B504 | Ingeniería de Software | Estudiante de Ingeniería de Software con formación intermedia en el desarrollo de aplicaciones web. Me adapto al trabajo técnico del equipo, priorizando código funcional, entendible y alineado a los requisitos del proyecto, con disposición para mejorar y corregir en función de pruebas y resultados.                                                                                                                                   |
-|<img src="docs/assets/chapter-01/foto-fernando.jpg" alt="Foto de Fernando Paucar" width="120" />| **Paucar Zenteno, Jesús Fernando**      | U202316687 | Ingeniería de Software | Soy estudiante de Ingeniería de Software con gran pasión por la creación de soluciones innovadoras. Me considero una persona proactiva y orientada a resultados, con interés constante en aprender y aplicar nuevas tecnologías. Busco contribuir significativamente al proyecto, asegurando calidad y eficiencia en cada tarea.                                                                                                                  |
-|<img src="docs/assets/chapter-01/Marlon.jpg" alt="Foto Marlon Viza" width="120" />| **Viza Quispe, Marlon Packard**         | U202322849 | Ingeniería de Software | Estudiante de 20 años, responsable y proactivo, con sólida base técnica en C++. Destaco por mi capacidad de aportar soluciones creativas y mi compromiso con el aprendizaje continuo en entornos profesionales. Busco asumir retos que potencien mi desarrollo y contribuyan al éxito del equipo.                                                                                                                                                 |
-|<img src="docs/assets/chapter-01/caceres_foto.jpeg" alt="Foto de Albino" width="120" />| **Cáceres Pizarro, Albino Florencio**   | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo.                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|<img src="./assets/chapter-01/Castillo_Foto.jpg" alt="Foto de Castillo Yataco" width="120" />| **Castillo Yataco, Mauricio Sebastián** | U202113229 | Ingeniería de Software | Soy estudiante de Ingeniería de Software, apasionado por la creación de soluciones tecnológicas que mejoren la vida de las personas. Mi enfoque va más allá de la programación, ya que me interesa desarrollar experiencias digitales funcionales y agradables para el usuario. Poseo conocimientos básicos en C++, HTML y CSS, y destaco por mi responsabilidad, cooperación, comunicación, flexibilidad y adaptabilidad.                        |
+|<img src="./assets/chapter-01/david_foto.jpeg" alt="Foto de Morales Venegas" width="120" />| **Morales Venegas, David Joel**         | U20231B504 | Ingeniería de Software | Estudiante de Ingeniería de Software con formación intermedia en el desarrollo de aplicaciones web. Me adapto al trabajo técnico del equipo, priorizando código funcional, entendible y alineado a los requisitos del proyecto, con disposición para mejorar y corregir en función de pruebas y resultados.                                                                                                                                   |
+|<img src="./assets/chapter-01/foto-fernando.jpg" alt="Foto de Fernando Paucar" width="120" />| **Paucar Zenteno, Jesús Fernando**      | U202316687 | Ingeniería de Software | Soy estudiante de Ingeniería de Software con gran pasión por la creación de soluciones innovadoras. Me considero una persona proactiva y orientada a resultados, con interés constante en aprender y aplicar nuevas tecnologías. Busco contribuir significativamente al proyecto, asegurando calidad y eficiencia en cada tarea.                                                                                                                  |
+|<img src="./assets/chapter-01/Marlon.jpg" alt="Foto Marlon Viza" width="120" />| **Viza Quispe, Marlon Packard**         | U202322849 | Ingeniería de Software | Estudiante de 20 años, responsable y proactivo, con sólida base técnica en C++. Destaco por mi capacidad de aportar soluciones creativas y mi compromiso con el aprendizaje continuo en entornos profesionales. Busco asumir retos que potencien mi desarrollo y contribuyan al éxito del equipo.                                                                                                                                                 |
+|<img src="./assets/chapter-01/caceres_foto.jpeg" alt="Foto de Albino" width="120" />| **Cáceres Pizarro, Albino Florencio**   | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo.                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 ---
 
@@ -478,8 +502,6 @@ El segmento objetivo de Buildline se centra exclusivamente en los perfiles de li
 | **Uso de Tecnología**   | Usuarios intensivos de dispositivos móviles; el 91,3% de la población ocupada en este rango de edad utiliza smartphones diariamente para la gestión de sus actividades (INEI, 2025). Dependen actualmente de herramientas no especializadas como WhatsApp y Excel para el control operativo básico.                                                                                                      |
 
 
-<div class="page-break"></div>
-
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
 Este análisis permite identificar cómo se posiciona Buildline frente a ERPs consolidados en el mercado local, redes de abastecimiento regionales y plataformas SaaS de control financiero emergentes. A partir de ello, se define una ventaja competitiva basada en la reducción de la brecha tecnológica y la simplificación del flujo logístico para las MYPES peruanas.
@@ -499,10 +521,10 @@ Este análisis permite identificar cómo se posiciona Buildline frente a ERPs co
     </tr>
     <tr>
       <td colspan="2"><strong>Logotipos</strong></td>
-      <td><img src="docs/assets/chapter-02/buildline-logo.png" alt="Buildline" height="50"></td>
-      <td><img src="docs/assets/chapter-02/s10-logo.png" alt="S10 ERP" height="50"></td>
-      <td><img src="docs/assets/chapter-02/iconstruye-logo.png" alt="ICONSTRUYE" height="50"></td>
-      <td><img src="docs/assets/chapter-02/mawi-logo.png" alt="Mawi" height="50"></td>
+      <td><img src="assets/chapter-02/buildline-logo.png" alt="Buildline" height="50"></td>
+      <td><img src="assets/chapter-02/s10-logo.png" alt="S10 ERP" height="50"></td>
+      <td><img src="assets/chapter-02/iconstruye-logo.png" alt="ICONSTRUYE" height="50"></td>
+      <td><img src="assets/chapter-02/mawi-logo.png" alt="Mawi" height="50"></td>
     </tr>
     <tr>
       <td colspan="2"><strong>Software</strong></td>
@@ -774,7 +796,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-02/entrevista-01.png" alt="Buildline" height="350"></td>
+        <img src="./assets/chapter-02/entrevista-01.png" alt="Buildline" height="350"></td>
       </td>
     </tr>
     <tr>
@@ -807,7 +829,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 8:46</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/personal/u202322849_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202322849%5Fupc%5Fedu%5Fpe%2FDocuments%2FVideos%2FSegmento%2D1%2DJefes%20de%20Proyectos%20y%20Gerentes%20Generales%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E593e8b93%2Dc4f0%2D4a57%2D9f1e%2De92dc81c64bd" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
   </td>
     </tr>
     <tr>
@@ -828,7 +850,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-02/entrevista-02.png" alt="Entrevista 2" height="350">
+        <img src="../docs/assets/chapter-02/entrevista-02.png" alt="Entrevista 2" height="350">
       </td>
     </tr>
     <tr>
@@ -861,7 +883,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 12:14</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://drive.google.com/file/d/14m4jJwM0lSUNWYnrakp4qyTpgDP1KKJ8/view" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -879,7 +901,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-02/entrevista-03.png" alt="Entrevista 3 - Leonardo" height="350">
+        <img src="../docs/assets/chapter-02/entrevista-03.png" alt="Entrevista 3 - Leonardo" height="350">
       </td>
     </tr>
     <tr>
@@ -912,7 +934,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 05:58</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316687_upc_edu_pe/IQBWOpfi_6v_T7DTHOz0tzKIAbYe-kP_QcbvspNKOG6LOLQ?e=dSPEWH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -931,7 +953,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 3 - Leonardo" height="350">
+        <img src="../docs/assets/chapter-02/entrevista-04.png" alt="Entrevista 3 - Leonardo" height="350">
       </td>
     </tr>
     <tr>
@@ -964,7 +986,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 6:08</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc_edu_pe/IQBlkNjTWHvGRrHWcVowxzt6Adx8YM62dFlnE9heBecX338?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mTp6gw" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -986,7 +1008,7 @@ En general, la entrevistada considera que las herramientas actuales no son sufic
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5 - Sebastián" height="350">
+        <img src="../docs/assets/chapter-02/entrevista-05.png" alt="Entrevista 5 - Sebastián" height="350">
       </td>
     </tr>
     <tr>
@@ -1019,7 +1041,7 @@ En general, la entrevistada considera que las herramientas actuales no son sufic
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 14:54</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc_edu_pe/IQDfPqhAH-25T7AE0HENbnpTAZ2WTtY2YOFNkrarA_D8QgM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XxxnPg" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1071,7 +1093,7 @@ A partir del análisis de las entrevistas y la recolección de información sobr
 
 Para el área operativa se elaboró el User Persona **Donnie Ruiz**. Se consideraron factores como su rol en la supervisión física de las obras, su necesidad de cumplir cronogramas estrictos y su ritmo de trabajo altamente móvil. Sus principales frustraciones giran en torno a la burocracia logística que retrasa la llegada de materiales y la dependencia de canales informales como WhatsApp para presionar por urgencias. Su perfil refleja una necesidad crítica de contar con una plataforma móvil, rápida y responsiva, que le permita solicitar insumos y rastrear su estado de entrega en tiempo real sin abandonar el campo.
 
-<img src="docs/assets/chapter-02/user-persona01.png" alt="User Persona 1 - Martín" width="auto" height="1900"/>
+<img src="../docs/assets/chapter-02/user-persona01.png" alt="User Persona 1 - Martín" width="auto" height="1900"/>
 
 <br>
 
@@ -1079,7 +1101,7 @@ Para el área operativa se elaboró el User Persona **Donnie Ruiz**. Se consider
 
 Para el área de control y gerencia se elaboró el User Persona **Roberto Alcántara**. Se consideraron aspectos como su enfoque en la rentabilidad, la aprobación de presupuestos y la auditoría corporativa. Sus principales frustraciones están asociadas a la pérdida de dinero por "compras de emergencia" no planificadas, el desorden documentario y la inseguridad de usar hojas de Excel compartidas para llevar las finanzas. Su perfil requiere un entorno de escritorio (Dashboard) que centralice las cotizaciones, garantice la inmutabilidad de los datos y le permita aprobar órdenes de compra formales con un solo clic.
 
-<img src="docs/assets/chapter-02/user-persona02.png" alt="User Persona 2 - Roberto" width="auto" height="1900"/>
+<img src="../docs/assets/chapter-02/user-persona02.png" alt="User Persona 2 - Roberto" width="auto" height="1900"/>
 
 ### 2.3.2. User Task Matrix
 
@@ -1144,11 +1166,11 @@ El User Journey Mapping es una herramienta de diseño centrado en el usuario que
 
 **1) Perfil 1: Área operativa de campo**
 
-<img src="docs/assets/chapter-02/user-journey-mapping2.png" alt="User Journey Mapping 1 - Martin" width="auto" height="1900"/>
+<img src="../docs/assets/chapter-02/user-journey-mapping2.png" alt="User Journey Mapping 1 - Martin" width="auto" height="1900"/>
 
 **2) Perfil 2: Área de control y gerencia**
 
-<img src="docs/assets/chapter-02/user-journey-mapping1.png" alt="User Journey Mapping 2 - Roberto" width="auto" height="1900"/>
+<img src="../docs/assets/chapter-02/user-journey-mapping1.png" alt="User Journey Mapping 2 - Roberto" width="auto" height="1900"/>
 
 ### 2.3.4. Empathy Mapping
 
@@ -1156,11 +1178,11 @@ Para crear una solución que realmente se vincule con las personas, no es sufici
 
 **1) Perfil 1: Área operativa de campo**
 
-<img src="docs/assets/chapter-02/empathy-mapping1.png" alt="Empathy Mapping 1 - Martin" width="auto" height="1900"/>
+<img src="../docs/assets/chapter-02/empathy-mapping1.png" alt="Empathy Mapping 1 - Martin" width="auto" height="1900"/>
 
 **2) Perfil 2: Área de control y gerencia**
 
-<img src="docs/assets/chapter-02/empathy-mapping2.png" alt="Empathy Mapping 2 - Roberto" width="auto" height="1900"/>
+<img src="../docs/assets/chapter-02/empathy-mapping2.png" alt="Empathy Mapping 2 - Roberto" width="auto" height="1900"/>
 
 ## 2.4. Big Picture EventStorming
 
@@ -1170,13 +1192,13 @@ Para diseñar un sistema robusto, primero debemos entender el negocio como un to
 
 En esta primera etapa, el equipo realizó una sesión de lluvia de ideas para capturar todos los eventos de dominio relevantes, sin preocuparse inicialmente por el orden o la jerarquía. El objetivo principal fue representar los acontecimientos reales del negocio —como la detección de una falta de material o la negociación de un precio— de manera independiente a cualquier función técnica o arquitectura del sistema.
 
-<img src="docs/assets/chapter-02/big-picture-event-storming1.png" alt="Big Picture EventStorming 1" width="auto" height="1900"/>
+<img src="../docs/assets/chapter-02/big-picture-event-storming1.png" alt="Big Picture EventStorming 1" width="auto" height="1900"/>
 
 **Step 2 – Structured Organization** 
 
 Después de listar los eventos en esta estructura nos permitió aislar los procesos clave, desde el requisito inicial en el frente de obra hasta la conciliación financiera final, resaltando las áreas de mejora que serán abordadas mediante nuestra solución digital.
 
-<img src="docs/assets/chapter-02/big-picture-event-storming2.png" alt="Big Picture EventStorming 2" width="auto" height="1900"/>
+<img src="../docs/assets/chapter-02/big-picture-event-storming2.png" alt="Big Picture EventStorming 2" width="auto" height="1900"/>
 
 ## 2.5. Ubiquitous Language
 
@@ -1205,8 +1227,6 @@ Después de listar los eventos en esta estructura nos permitió aislar los proce
 - Avoids ambiguities: Clearly distinguishes between an internal "Requisition" and an external "Purchase Order," preventing procurement errors.
 - Ensures consistency: Guarantees that documentation, mobile interfaces, and project reports use the same professional terminology.
 
-
-<div class="page-break"></div>
 
 # Capítulo III: Requirements Specification
 
@@ -1275,31 +1295,31 @@ Jefes de Proyecto / Gerentes Generales
 |------|--------|-------------|------------------------|--------------------------|
 | TS-IAM-001 | Sign-in API | **Como** frontend developer,<br>**Quiero** autenticar usuarios con `POST /api/v1/auth/sign-in`,<br>**Para** obtener JWT y datos de sesión. | **Escenario 1: Credenciales válidas**<br>**Dado** username/email y password válidos,<br>**Cuando** la API valida las credenciales,<br>**Entonces** responde `200 OK` con usuario, rol y token.<br><br>**Escenario 2: Credenciales inválidas**<br>**Dado** credenciales incorrectas,<br>**Cuando** se solicita el login,<br>**Entonces** responde error controlado sin emitir token. | EP-04 |
 | TS-IAM-002 | Sign-up API | **Como** frontend developer,<br>**Quiero** registrar usuarios con `POST /api/v1/auth/sign-up`,<br>**Para** habilitar el onboarding y acceso controlado. | **Escenario 1: Registro válido**<br>**Dado** un payload con datos obligatorios,<br>**Cuando** la API crea el usuario,<br>**Entonces** responde confirmación y datos básicos.<br><br>**Escenario 2: Registro inválido**<br>**Dado** datos incompletos o duplicados,<br>**Cuando** la API valida el comando,<br>**Entonces** responde `400 Bad Request`. | EP-04 |
-| TS-IAM-003 | Users directory API | **Como** frontend developer,<br>**Quiero** consumir `GET` y `POST /api/v1/users`,<br>**Para** listar y crear usuarios administrativos. | **Escenario 1: Listado**<br>**Dado** usuarios registrados,<br>**Cuando** se consulta el endpoint,<br>**Entonces** responde una colección de users.<br><br>**Escenario 2: Creación**<br>**Dado** un payload válido,<br>**Cuando** la API persiste el usuario,<br>**Entonces** responde el recurso creado. | EP-04 |
-| TS-IAM-004 | User detail and update API | **Como** frontend developer,<br>**Quiero** usar `GET` y `PATCH /api/v1/users/{id}`,<br>**Para** mostrar detalle y actualizar rol/estado. | **Escenario 1: Usuario encontrado**<br>**Dado** un id existente,<br>**Cuando** se consulta el detalle,<br>**Entonces** responde `200 OK`.<br><br>**Escenario 2: Actualización**<br>**Dado** cambios válidos,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** persiste los campos editables. | EP-04 |
+| TS-IAM-003 | Users directory API | **Como** frontend developer,<br>**Quiero** consumir `GET` y `POST /api/v1/companies/{companyId}/users`,<br>**Para** listar y crear usuarios administrativos. | **Escenario 1: Listado**<br>**Dado** usuarios registrados,<br>**Cuando** se consulta el endpoint,<br>**Entonces** responde una colección de users.<br><br>**Escenario 2: Creación**<br>**Dado** un payload válido,<br>**Cuando** la API persiste el usuario,<br>**Entonces** responde el recurso creado. | EP-04 |
+| TS-IAM-004 | User detail and update API | **Como** frontend developer,<br>**Quiero** usar `GET` y `PATCH /api/v1/companies/{companyId}/users/{id}`,<br>**Para** mostrar detalle y actualizar rol/estado. | **Escenario 1: Usuario encontrado**<br>**Dado** un id existente,<br>**Cuando** se consulta el detalle,<br>**Entonces** responde `200 OK`.<br><br>**Escenario 2: Actualización**<br>**Dado** cambios válidos,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** persiste los campos editables. | EP-04 |
 | TS-PROF-001 | Profile read and update API | **Como** frontend developer,<br>**Quiero** consumir `/api/v1/profiles`,<br>**Para** mostrar y actualizar datos de empresa/perfil. | **Escenario 1: Perfil disponible**<br>**Dado** un perfil existente,<br>**Cuando** se consulta por id,<br>**Entonces** responde `ProfileResource`.<br><br>**Escenario 2: Perfil actualizado**<br>**Dado** datos válidos,<br>**Cuando** se ejecuta PUT/PATCH,<br>**Entonces** retorna el perfil actualizado. | EP-04 |
-| TS-SHARED-001 | Projects reference API | **Como** frontend developer,<br>**Quiero** consultar `GET /api/v1/projects`,<br>**Para** poblar filtros y formularios por proyecto. | **Escenario 1: Lista de proyectos**<br>**Dado** proyectos seed,<br>**Cuando** se consulta el endpoint,<br>**Entonces** responde una colección usable por requisiciones, inventario y dashboard. | EP-01 / EP-05 |
-| TS-SHARED-002 | Materials catalog API | **Como** frontend developer,<br>**Quiero** consumir `/api/v1/materials`,<br>**Para** seleccionar materiales desde requisiciones e inventario. | **Escenario 1: Listar catálogo**<br>**Dado** materiales registrados,<br>**Cuando** se consulta `GET`,<br>**Entonces** responde nombre, unidad y categoría.<br><br>**Escenario 2: Mantener catálogo**<br>**Dado** datos válidos,<br>**Cuando** se usa POST, PUT/PATCH o DELETE,<br>**Entonces** el catálogo compartido se actualiza. | EP-01 / EP-03 |
-| TS-SHARED-003 | Categories reference API | **Como** frontend developer,<br>**Quiero** consultar `/api/v1/categories`,<br>**Para** clasificar materiales, inventario y filtros. | **Escenario 1: Lista de categorías**<br>**Dado** categorías disponibles,<br>**Cuando** se consulta el endpoint,<br>**Entonces** responde datos de referencia estables. | EP-03 |
-| TS-REQ-001 | Create requisition API | **Como** frontend developer,<br>**Quiero** crear requisiciones con `POST /api/v1/requisitions`,<br>**Para** registrar solicitudes desde obra. | **Escenario 1: Creación válida**<br>**Dado** material, proyecto, cantidad, unidad, prioridad y fecha requerida,<br>**Cuando** la API valida el payload,<br>**Entonces** responde `201 Created` con código y estado inicial. | EP-01 |
-| TS-REQ-002 | List and detail requisitions API | **Como** frontend developer,<br>**Quiero** usar `GET /api/v1/requisitions` y `GET /api/v1/requisitions/{id}`,<br>**Para** implementar bandejas y detalle de solicitudes. | **Escenario 1: Listado**<br>**Dado** requisiciones existentes,<br>**Cuando** se consulta la lista,<br>**Entonces** responde colección con estado, prioridad y solicitante.<br><br>**Escenario 2: No encontrado**<br>**Dado** un id inexistente,<br>**Cuando** se consulta el detalle,<br>**Entonces** responde `404 Not Found`. | EP-01 |
-| TS-REQ-003 | Update requisition API | **Como** frontend developer,<br>**Quiero** actualizar requisiciones con `PATCH /api/v1/requisitions/{id}`,<br>**Para** reflejar cambios de estado y prioridad. | **Escenario 1: Actualización válida**<br>**Dado** cambios permitidos,<br>**Cuando** la API persiste el PATCH,<br>**Entonces** responde el recurso actualizado. | EP-01 |
-| TS-PROC-001 | Quotations list and create API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/quotations`,<br>**Para** registrar ofertas de proveedores. | **Escenario 1: Cotización creada**<br>**Dado** proveedor, material, monto y entrega,<br>**Cuando** se envía el POST,<br>**Entonces** responde `201 Created`.<br><br>**Escenario 2: Listado**<br>**Dado** cotizaciones registradas,<br>**Cuando** se consulta GET,<br>**Entonces** responde colección comparable. | EP-02 |
-| TS-PROC-002 | Quotation detail and update API | **Como** frontend developer,<br>**Quiero** consumir `GET` y `PATCH /api/v1/quotations/{id}`,<br>**Para** ver y actualizar estados de cotización. | **Escenario 1: Detalle**<br>**Dado** una cotización existente,<br>**Cuando** se consulta por id,<br>**Entonces** responde datos de proveedor, material y monto.<br><br>**Escenario 2: Cambio de estado**<br>**Dado** un estado permitido,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** persiste la decisión. | EP-02 |
-| TS-PROC-003 | Purchase orders list and create API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/purchaseOrders`,<br>**Para** formalizar compras aprobadas. | **Escenario 1: Orden creada**<br>**Dado** proveedor, proyecto, material y monto,<br>**Cuando** la API crea la orden,<br>**Entonces** responde `201 Created` con código de OC.<br><br>**Escenario 2: Historial**<br>**Dado** órdenes existentes,<br>**Cuando** se consulta GET,<br>**Entonces** responde historial para compras. | EP-02 / EP-05 |
-| TS-PROC-004 | Purchase order detail and update API | **Como** frontend developer,<br>**Quiero** usar `GET` y `PATCH /api/v1/purchaseOrders/{id}`,<br>**Para** consultar y aprobar/rechazar órdenes. | **Escenario 1: Detalle**<br>**Dado** una OC existente,<br>**Cuando** se consulta por id,<br>**Entonces** responde proveedor, monto y estado.<br><br>**Escenario 2: Aprobación o rechazo**<br>**Dado** una transición válida,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** actualiza estado sin perder trazabilidad. | EP-02 |
-| TS-INV-001 | Inventory list and create API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/inventory`,<br>**Para** visualizar y registrar stock por proyecto. | **Escenario 1: Listado de stock**<br>**Dado** items existentes,<br>**Cuando** se consulta GET,<br>**Entonces** responde stock actual, mínimo, máximo y categoría.<br><br>**Escenario 2: Nuevo item**<br>**Dado** datos válidos,<br>**Cuando** se envía POST,<br>**Entonces** crea el registro de inventario. | EP-03 |
-| TS-INV-002 | Inventory stock update API | **Como** frontend developer,<br>**Quiero** actualizar `PATCH /api/v1/inventory/{id}`,<br>**Para** reflejar movimientos de almacén. | **Escenario 1: Stock actualizado**<br>**Dado** un cambio de cantidad válido,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** actualiza stock y fecha de modificación. | EP-03 |
-| TS-DEL-001 | Delivery tracking list and create API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/deliveries`,<br>**Para** registrar y seguir despachos. | **Escenario 1: Entrega registrada**<br>**Dado** orden de compra, proveedor, origen, destino y ETA,<br>**Cuando** se crea la entrega,<br>**Entonces** responde trackingId y estado inicial.<br><br>**Escenario 2: Listado**<br>**Dado** entregas existentes,<br>**Cuando** se consulta GET,<br>**Entonces** responde tracking para obra y logística. | EP-02 / EP-03 |
-| TS-DEL-002 | Delivery status update API | **Como** frontend developer,<br>**Quiero** actualizar `PATCH /api/v1/deliveries/{id}`,<br>**Para** reflejar despacho, demora o recepción. | **Escenario 1: Estado actualizado**<br>**Dado** una transición válida,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** responde la entrega actualizada. | EP-02 / EP-03 |
-| TS-SUP-001 | Suppliers directory API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/suppliers`,<br>**Para** mantener el directorio de proveedores. | **Escenario 1: Proveedor creado**<br>**Dado** RUC, nombre, categoría y contacto,<br>**Cuando** se envía POST,<br>**Entonces** responde el proveedor creado.<br><br>**Escenario 2: Listado**<br>**Dado** proveedores existentes,<br>**Cuando** se consulta GET,<br>**Entonces** responde rating y delivery rate. | EP-07 |
-| TS-SUP-002 | Supplier update and delete API | **Como** frontend developer,<br>**Quiero** usar `PATCH` y `DELETE /api/v1/suppliers/{id}`,<br>**Para** actualizar o desactivar proveedores. | **Escenario 1: Actualización**<br>**Dado** campos válidos,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** responde el proveedor actualizado.<br><br>**Escenario 2: Eliminación lógica**<br>**Dado** un proveedor existente,<br>**Cuando** se ejecuta DELETE,<br>**Entonces** deja de aparecer como activo. | EP-07 |
-| TS-SUP-003 | Incidents list and create API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/incidents`,<br>**Para** registrar problemas con proveedores o entregas. | **Escenario 1: Incidencia creada**<br>**Dado** proveedor, orden, severidad y descripción,<br>**Cuando** se envía POST,<br>**Entonces** responde incidencia abierta.<br><br>**Escenario 2: Listado**<br>**Dado** incidencias existentes,<br>**Cuando** se consulta GET,<br>**Entonces** responde severidad y estado. | EP-07 |
-| TS-SUP-004 | Incident status update API | **Como** frontend developer,<br>**Quiero** actualizar `PATCH /api/v1/incidents/{id}`,<br>**Para** cerrar o escalar incidencias. | **Escenario 1: Estado actualizado**<br>**Dado** una incidencia existente,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** responde la incidencia con nuevo estado. | EP-07 |
-| TS-ANB-001 | Budget dashboard API | **Como** frontend developer,<br>**Quiero** consultar `GET /api/v1/budgets`,<br>**Para** alimentar dashboards de analytics-budgeting. | **Escenario 1: KPIs disponibles**<br>**Dado** presupuestos por proyecto,<br>**Cuando** se consulta GET,<br>**Entonces** responde totalBudget, spent, allocated y status. | EP-05 |
-| TS-ANB-002 | Budget update API | **Como** frontend developer,<br>**Quiero** actualizar `PATCH /api/v1/budgets/{id}`,<br>**Para** recalcular desviaciones presupuestales. | **Escenario 1: Presupuesto actualizado**<br>**Dado** cambios en spent o allocated,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** responde el presupuesto actualizado con estado recalculable. | EP-05 |
-| TS-COM-001 | Messages inbox API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/messages`,<br>**Para** mostrar bandeja y crear alertas internas. | **Escenario 1: Bandeja**<br>**Dado** mensajes existentes,<br>**Cuando** se consulta GET,<br>**Entonces** responde sender, subject, category, read y starred.<br><br>**Escenario 2: Mensaje creado**<br>**Dado** un payload válido,<br>**Cuando** se envía POST,<br>**Entonces** responde el mensaje creado. | EP-06 |
-| TS-COM-002 | Message state and delete API | **Como** frontend developer,<br>**Quiero** usar `PATCH` y `DELETE /api/v1/messages/{id}`,<br>**Para** marcar leído, destacar o eliminar mensajes. | **Escenario 1: Estado actualizado**<br>**Dado** un mensaje existente,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** cambia read/starred.<br><br>**Escenario 2: Eliminación**<br>**Dado** un mensaje existente,<br>**Cuando** se ejecuta DELETE,<br>**Entonces** ya no aparece en la bandeja. | EP-06 |
+| TS-ANB-003 | Projects reference API | **Como** frontend developer,<br>**Quiero** consultar `GET /api/v1/companies/{companyId}/projects`,<br>**Para** poblar filtros y formularios por proyecto. | **Escenario 1: Lista de proyectos**<br>**Dado** proyectos seed,<br>**Cuando** se consulta el endpoint,<br>**Entonces** responde una colección usable por requisiciones, inventario y dashboard. | EP-01 / EP-05 |
+| TS-REQ-004 | Materials catalog API | **Como** frontend developer,<br>**Quiero** consumir `/api/v1/companies/{companyId}/materials`,<br>**Para** seleccionar materiales desde requisiciones e inventario. | **Escenario 1: Listar catálogo**<br>**Dado** materiales registrados,<br>**Cuando** se consulta `GET`,<br>**Entonces** responde nombre, unidad y categoría.<br><br>**Escenario 2: Mantener catálogo**<br>**Dado** datos válidos,<br>**Cuando** se usa POST, PUT/PATCH o DELETE,<br>**Entonces** el catálogo compartido se actualiza. | EP-01 / EP-03 |
+| TS-INV-003 | Categories reference API | **Como** frontend developer,<br>**Quiero** consultar `/api/v1/companies/{companyId}/categories`,<br>**Para** clasificar materiales, inventario y filtros. | **Escenario 1: Lista de categorías**<br>**Dado** categorías disponibles,<br>**Cuando** se consulta el endpoint,<br>**Entonces** responde datos de referencia estables. | EP-03 |
+| TS-REQ-001 | Create requisition API | **Como** frontend developer,<br>**Quiero** crear requisiciones con `POST /api/v1/companies/{companyId}/requisitions`,<br>**Para** registrar solicitudes desde obra. | **Escenario 1: Creación válida**<br>**Dado** material, proyecto, cantidad, unidad, prioridad y fecha requerida,<br>**Cuando** la API valida el payload,<br>**Entonces** responde `201 Created` con código y estado inicial. | EP-01 |
+| TS-REQ-002 | List and detail requisitions API | **Como** frontend developer,<br>**Quiero** usar `GET /api/v1/companies/{companyId}/requisitions` y `GET /api/v1/companies/{companyId}/requisitions/{id}`,<br>**Para** implementar bandejas y detalle de solicitudes. | **Escenario 1: Listado**<br>**Dado** requisiciones existentes,<br>**Cuando** se consulta la lista,<br>**Entonces** responde colección con estado, prioridad y solicitante.<br><br>**Escenario 2: No encontrado**<br>**Dado** un id inexistente,<br>**Cuando** se consulta el detalle,<br>**Entonces** responde `404 Not Found`. | EP-01 |
+| TS-REQ-003 | Update requisition API | **Como** frontend developer,<br>**Quiero** actualizar requisiciones con `PATCH /api/v1/companies/{companyId}/requisitions/{id}`,<br>**Para** reflejar cambios de estado y prioridad. | **Escenario 1: Actualización válida**<br>**Dado** cambios permitidos,<br>**Cuando** la API persiste el PATCH,<br>**Entonces** responde el recurso actualizado. | EP-01 |
+| TS-PROC-001 | Quotations list and create API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/companies/{companyId}/quotations`,<br>**Para** registrar ofertas de proveedores. | **Escenario 1: Cotización creada**<br>**Dado** proveedor, material, monto y entrega,<br>**Cuando** se envía el POST,<br>**Entonces** responde `201 Created`.<br><br>**Escenario 2: Listado**<br>**Dado** cotizaciones registradas,<br>**Cuando** se consulta GET,<br>**Entonces** responde colección comparable. | EP-02 |
+| TS-PROC-002 | Quotation detail and update API | **Como** frontend developer,<br>**Quiero** consumir `GET` y `PATCH /api/v1/companies/{companyId}/quotations/{id}`,<br>**Para** ver y actualizar estados de cotización. | **Escenario 1: Detalle**<br>**Dado** una cotización existente,<br>**Cuando** se consulta por id,<br>**Entonces** responde datos de proveedor, material y monto.<br><br>**Escenario 2: Cambio de estado**<br>**Dado** un estado permitido,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** persiste la decisión. | EP-02 |
+| TS-PROC-003 | Purchase orders list and create API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/companies/{companyId}/purchaseOrders`,<br>**Para** formalizar compras aprobadas. | **Escenario 1: Orden creada**<br>**Dado** proveedor, proyecto, material y monto,<br>**Cuando** la API crea la orden,<br>**Entonces** responde `201 Created` con código de OC.<br><br>**Escenario 2: Historial**<br>**Dado** órdenes existentes,<br>**Cuando** se consulta GET,<br>**Entonces** responde historial para compras. | EP-02 / EP-05 |
+| TS-PROC-004 | Purchase order detail and update API | **Como** frontend developer,<br>**Quiero** usar `GET` y `PATCH /api/v1/companies/{companyId}/purchaseOrders/{id}`,<br>**Para** consultar y aprobar/rechazar órdenes. | **Escenario 1: Detalle**<br>**Dado** una OC existente,<br>**Cuando** se consulta por id,<br>**Entonces** responde proveedor, monto y estado.<br><br>**Escenario 2: Aprobación o rechazo**<br>**Dado** una transición válida,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** actualiza estado sin perder trazabilidad. | EP-02 |
+| TS-INV-001 | Inventory list and create API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/companies/{companyId}/inventory`,<br>**Para** visualizar y registrar stock por proyecto. | **Escenario 1: Listado de stock**<br>**Dado** items existentes,<br>**Cuando** se consulta GET,<br>**Entonces** responde stock actual, mínimo, máximo y categoría.<br><br>**Escenario 2: Nuevo item**<br>**Dado** datos válidos,<br>**Cuando** se envía POST,<br>**Entonces** crea el registro de inventario. | EP-03 |
+| TS-INV-002 | Inventory stock update API | **Como** frontend developer,<br>**Quiero** actualizar `PATCH /api/v1/companies/{companyId}/inventory/{id}`,<br>**Para** reflejar movimientos de almacén. | **Escenario 1: Stock actualizado**<br>**Dado** un cambio de cantidad válido,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** actualiza stock y fecha de modificación. | EP-03 |
+| TS-DEL-001 | Delivery tracking list and create API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/companies/{companyId}/deliveries`,<br>**Para** registrar y seguir despachos. | **Escenario 1: Entrega registrada**<br>**Dado** orden de compra, proveedor, origen, destino y ETA,<br>**Cuando** se crea la entrega,<br>**Entonces** responde trackingId y estado inicial.<br><br>**Escenario 2: Listado**<br>**Dado** entregas existentes,<br>**Cuando** se consulta GET,<br>**Entonces** responde tracking para obra y logística. | EP-02 / EP-03 |
+| TS-DEL-002 | Delivery status update API | **Como** frontend developer,<br>**Quiero** actualizar `PATCH /api/v1/companies/{companyId}/deliveries/{id}`,<br>**Para** reflejar despacho, demora o recepción. | **Escenario 1: Estado actualizado**<br>**Dado** una transición válida,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** responde la entrega actualizada. | EP-02 / EP-03 |
+| TS-SUP-001 | Suppliers directory API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/companies/{companyId}/suppliers`,<br>**Para** mantener el directorio de proveedores. | **Escenario 1: Proveedor creado**<br>**Dado** RUC, nombre, categoría y contacto,<br>**Cuando** se envía POST,<br>**Entonces** responde el proveedor creado.<br><br>**Escenario 2: Listado**<br>**Dado** proveedores existentes,<br>**Cuando** se consulta GET,<br>**Entonces** responde rating y delivery rate. | EP-07 |
+| TS-SUP-002 | Supplier update and delete API | **Como** frontend developer,<br>**Quiero** usar `PATCH` y `DELETE /api/v1/companies/{companyId}/suppliers/{id}`,<br>**Para** actualizar o desactivar proveedores. | **Escenario 1: Actualización**<br>**Dado** campos válidos,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** responde el proveedor actualizado.<br><br>**Escenario 2: Eliminación lógica**<br>**Dado** un proveedor existente,<br>**Cuando** se ejecuta DELETE,<br>**Entonces** deja de aparecer como activo. | EP-07 |
+| TS-SUP-003 | Incidents list and create API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/companies/{companyId}/incidents`,<br>**Para** registrar problemas con proveedores o entregas. | **Escenario 1: Incidencia creada**<br>**Dado** proveedor, orden, severidad y descripción,<br>**Cuando** se envía POST,<br>**Entonces** responde incidencia abierta.<br><br>**Escenario 2: Listado**<br>**Dado** incidencias existentes,<br>**Cuando** se consulta GET,<br>**Entonces** responde severidad y estado. | EP-07 |
+| TS-SUP-004 | Incident status update API | **Como** frontend developer,<br>**Quiero** actualizar `PATCH /api/v1/companies/{companyId}/incidents/{id}`,<br>**Para** cerrar o escalar incidencias. | **Escenario 1: Estado actualizado**<br>**Dado** una incidencia existente,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** responde la incidencia con nuevo estado. | EP-07 |
+| TS-ANB-001 | Budget dashboard API | **Como** frontend developer,<br>**Quiero** consultar `GET /api/v1/companies/{companyId}/budgets`,<br>**Para** alimentar dashboards de analytics-budgeting. | **Escenario 1: KPIs disponibles**<br>**Dado** presupuestos por proyecto,<br>**Cuando** se consulta GET,<br>**Entonces** responde totalBudget, spent, allocated y status. | EP-05 |
+| TS-ANB-002 | Budget update API | **Como** frontend developer,<br>**Quiero** actualizar `PATCH /api/v1/companies/{companyId}/budgets/{id}`,<br>**Para** recalcular desviaciones presupuestales. | **Escenario 1: Presupuesto actualizado**<br>**Dado** cambios en spent o allocated,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** responde el presupuesto actualizado con estado recalculable. | EP-05 |
+| TS-COM-001 | Messages inbox API | **Como** frontend developer,<br>**Quiero** usar `GET` y `POST /api/v1/companies/{companyId}/messages`,<br>**Para** mostrar bandeja y crear alertas internas. | **Escenario 1: Bandeja**<br>**Dado** mensajes existentes,<br>**Cuando** se consulta GET,<br>**Entonces** responde sender, subject, category, read y starred.<br><br>**Escenario 2: Mensaje creado**<br>**Dado** un payload válido,<br>**Cuando** se envía POST,<br>**Entonces** responde el mensaje creado. | EP-06 |
+| TS-COM-002 | Message state and delete API | **Como** frontend developer,<br>**Quiero** usar `PATCH` y `DELETE /api/v1/companies/{companyId}/messages/{id}`,<br>**Para** marcar leído, destacar o eliminar mensajes. | **Escenario 1: Estado actualizado**<br>**Dado** un mensaje existente,<br>**Cuando** se ejecuta PATCH,<br>**Entonces** cambia read/starred.<br><br>**Escenario 2: Eliminación**<br>**Dado** un mensaje existente,<br>**Cuando** se ejecuta DELETE,<br>**Entonces** ya no aparece en la bandeja. | EP-06 |
 
 ### Backend Technical Improvements
 
@@ -1308,7 +1328,7 @@ Jefes de Proyecto / Gerentes Generales
 | IMP-BE-001 | Backend foundations | Configurar ASP.NET Core/C# con health check, CORS, JWT Bearer, Problem Details, XML documentation, Swagger auth y versionado `/api/v1`. | Rama `feature/backend-foundations`, Swagger con XML docs y `GET /api/v1/health`. |
 | IMP-BE-002 | Persistence, migrations and seed data | Modelar DbContext, constraints, auditoría, migraciones EF Core y datos iniciales equivalentes al mock del frontend. | Rama `feature/backend-persistence-migrations`, migración versionada y seed data por contexto. |
 | IMP-BE-003 | Deployment and integration readiness | Preparar Docker, configuración de producción, variables de entorno, ejemplos HTTP y smoke test de integración con frontend. | Rama `feature/backend-deployment-readiness`, Dockerfile, appsettings de producción y colección HTTP. |
-     
+
 ### API Endpoint Coverage for Backend Web Services
 
 La siguiente matriz consolida los contratos REST esperados para la primera versión de los Web Services en .NET / C#. Los endpoints se derivan de las Technical Stories actualizadas, de los bounded contexts del Capítulo IV, del Product Backlog y de los recursos consumidos por el Frontend Web Application durante Sprint 2.
@@ -1318,37 +1338,37 @@ La siguiente matriz consolida los contratos REST esperados para la primera versi
 | `/api/v1/health` | GET | IMP-BE-001 | shared / platform |
 | `/api/v1/auth/sign-in` | POST | TS-IAM-001 / US-023 | iam |
 | `/api/v1/auth/sign-up` | POST | TS-IAM-002 / US-022 | iam |
-| `/api/v1/users` | GET, POST | TS-IAM-003 / US-022 / US-024 | iam |
-| `/api/v1/users/{id}` | GET, PATCH | TS-IAM-004 / US-024 / US-025 | iam |
+| `/api/v1/companies/{companyId}/users` | GET, POST | TS-IAM-003 / US-022 / US-024 | iam |
+| `/api/v1/companies/{companyId}/users/{id}` | GET, PATCH | TS-IAM-004 / US-024 / US-025 | iam |
 | `/api/v1/profiles` | GET | TS-PROF-001 | profiles |
 | `/api/v1/profiles/{id}` | GET, PUT/PATCH | TS-PROF-001 | profiles |
-| `/api/v1/projects` | GET | TS-SHARED-001 / US-004 / US-017 / US-019 | shared / projects |
-| `/api/v1/projects/{id}` | GET | TS-SHARED-001 / US-004 / US-017 / US-019 | shared / projects |
-| `/api/v1/materials` | GET, POST | TS-SHARED-002 / US-001 / US-014 | shared / materials |
-| `/api/v1/materials/{id}` | GET, PUT/PATCH, DELETE | TS-SHARED-002 / US-014 / US-015 | shared / materials |
-| `/api/v1/categories` | GET | TS-SHARED-003 | shared / categories |
-| `/api/v1/categories/{id}` | GET | TS-SHARED-003 | shared / categories |
-| `/api/v1/requisitions` | GET, POST | TS-REQ-001 / TS-REQ-002 / US-001 / US-003 / US-004 | requisition |
-| `/api/v1/requisitions/{id}` | GET, PATCH | TS-REQ-002 / TS-REQ-003 / US-003 / US-004 / US-008 | requisition |
-| `/api/v1/quotations` | GET, POST | TS-PROC-001 / US-005 / US-006 / US-007 | procurement |
-| `/api/v1/quotations/{id}` | GET, PATCH | TS-PROC-002 / US-006 / US-007 | procurement |
-| `/api/v1/purchaseOrders` | GET, POST | TS-PROC-003 / US-008 / US-009 / US-016 | procurement |
-| `/api/v1/purchaseOrders/{id}` | GET, PATCH | TS-PROC-004 / US-008 / US-009 / US-016 | procurement |
-| `/api/v1/inventory` | GET, POST | TS-INV-001 / US-014 / US-015 | inventory |
-| `/api/v1/inventory/{id}` | GET, PATCH | TS-INV-002 / US-014 / US-015 | inventory |
-| `/api/v1/deliveries` | GET, POST | TS-DEL-001 / US-011 / US-012 | delivery |
-| `/api/v1/deliveries/{id}` | GET, PATCH | TS-DEL-002 / US-011 / US-012 | delivery |
-| `/api/v1/suppliers` | GET, POST | TS-SUP-001 / US-029 / US-030 | suppliers |
-| `/api/v1/suppliers/{id}` | GET, PATCH, DELETE | TS-SUP-002 / US-029 / US-030 | suppliers |
-| `/api/v1/incidents` | GET, POST | TS-SUP-003 / US-013 | suppliers |
-| `/api/v1/incidents/{id}` | GET, PATCH | TS-SUP-004 / US-013 | suppliers |
-| `/api/v1/budgets` | GET, POST | TS-ANB-001 / US-017 / US-018 / US-019 | analytics-budgeting |
-| `/api/v1/budgets/{id}` | GET, PATCH | TS-ANB-002 / US-017 / US-018 / US-019 | analytics-budgeting |
-| `/api/v1/messages` | GET, POST | TS-COM-001 / US-010 / US-021 | communication |
-| `/api/v1/messages/{id}` | GET, PATCH, DELETE | TS-COM-002 / US-010 / US-021 | communication |
+| `/api/v1/companies/{companyId}/projects` | GET | TS-ANB-003 / US-004 / US-017 / US-019 | analytics-budgeting / projects reference |
+| `/api/v1/companies/{companyId}/projects/{id}` | GET | TS-ANB-003 / US-004 / US-017 / US-019 | analytics-budgeting / projects reference |
+| `/api/v1/companies/{companyId}/materials` | GET, POST | TS-REQ-004 / US-001 / US-014 | requisition / materials reference |
+| `/api/v1/companies/{companyId}/materials/{id}` | GET, PUT/PATCH, DELETE | TS-REQ-004 / US-014 / US-015 | requisition / materials reference |
+| `/api/v1/companies/{companyId}/categories` | GET | TS-INV-003 | inventory / categories reference |
+| `/api/v1/companies/{companyId}/categories/{id}` | GET | TS-INV-003 | inventory / categories reference |
+| `/api/v1/companies/{companyId}/requisitions` | GET, POST | TS-REQ-001 / TS-REQ-002 / US-001 / US-003 / US-004 | requisition |
+| `/api/v1/companies/{companyId}/requisitions/{id}` | GET, PATCH | TS-REQ-002 / TS-REQ-003 / US-003 / US-004 / US-008 | requisition |
+| `/api/v1/companies/{companyId}/quotations` | GET, POST | TS-PROC-001 / US-005 / US-006 / US-007 | procurement |
+| `/api/v1/companies/{companyId}/quotations/{id}` | GET, PATCH | TS-PROC-002 / US-006 / US-007 | procurement |
+| `/api/v1/companies/{companyId}/purchaseOrders` | GET, POST | TS-PROC-003 / US-008 / US-009 / US-016 | procurement |
+| `/api/v1/companies/{companyId}/purchaseOrders/{id}` | GET, PATCH | TS-PROC-004 / US-008 / US-009 / US-016 | procurement |
+| `/api/v1/companies/{companyId}/inventory` | GET, POST | TS-INV-001 / US-014 / US-015 | inventory |
+| `/api/v1/companies/{companyId}/inventory/{id}` | GET, PATCH | TS-INV-002 / US-014 / US-015 | inventory |
+| `/api/v1/companies/{companyId}/deliveries` | GET, POST | TS-DEL-001 / US-011 / US-012 | delivery |
+| `/api/v1/companies/{companyId}/deliveries/{id}` | GET, PATCH | TS-DEL-002 / US-011 / US-012 | delivery |
+| `/api/v1/companies/{companyId}/suppliers` | GET, POST | TS-SUP-001 / US-029 / US-030 | suppliers |
+| `/api/v1/companies/{companyId}/suppliers/{id}` | GET, PATCH, DELETE | TS-SUP-002 / US-029 / US-030 | suppliers |
+| `/api/v1/companies/{companyId}/incidents` | GET, POST | TS-SUP-003 / US-013 | suppliers |
+| `/api/v1/companies/{companyId}/incidents/{id}` | GET, PATCH | TS-SUP-004 / US-013 | suppliers |
+| `/api/v1/companies/{companyId}/budgets` | GET, POST | TS-ANB-001 / US-017 / US-018 / US-019 | analytics-budgeting |
+| `/api/v1/companies/{companyId}/budgets/{id}` | GET, PATCH | TS-ANB-002 / US-017 / US-018 / US-019 | analytics-budgeting |
+| `/api/v1/companies/{companyId}/messages` | GET, POST | TS-COM-001 / US-010 / US-021 | communication |
+| `/api/v1/companies/{companyId}/messages/{id}` | GET, PATCH, DELETE | TS-COM-002 / US-010 / US-021 | communication |
 
 ## 3.2. Impact Mapping
-<img src="docs/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
+<img src="../docs/assets/chapter-03/Impact_map.png" alt="Impact Mapping" width="auto" height="1900"/>
 ## 3.3. Product Backlog
 
 | Orden | User Story ID | Título | Descripción | Story Points |
@@ -1387,13 +1407,13 @@ La siguiente matriz consolida los contratos REST esperados para la primera versi
 | 32 | IMP-BE-002 | Persistence, migrations and seed data | Como desarrollador, quiero configurar EF Core, auditoría, migraciones y seed data para reemplazar el mock con persistencia real. | 5 |
 | 33 | TS-IAM-001 | Sign-in API | Como frontend developer, quiero autenticar usuarios mediante `POST /api/v1/auth/sign-in` para obtener JWT y sesión. | 2 |
 | 34 | TS-IAM-002 | Sign-up API | Como frontend developer, quiero registrar usuarios mediante `POST /api/v1/auth/sign-up` para habilitar onboarding. | 2 |
-| 35 | TS-IAM-003 | Users directory API | Como frontend developer, quiero listar y crear usuarios con `/api/v1/users` para administrar accesos. | 3 |
-| 36 | TS-IAM-004 | User detail and update API | Como frontend developer, quiero consultar y actualizar usuarios con `/api/v1/users/{id}` para gestionar roles y estados. | 3 |
+| 35 | TS-IAM-003 | Users directory API | Como frontend developer, quiero listar y crear usuarios con `/api/v1/companies/{companyId}/users` para administrar accesos. | 3 |
+| 36 | TS-IAM-004 | User detail and update API | Como frontend developer, quiero consultar y actualizar usuarios con `/api/v1/companies/{companyId}/users/{id}` para gestionar roles y estados. | 3 |
 | 37 | TS-PROF-001 | Profile read and update API | Como frontend developer, quiero consumir `/api/v1/profiles` para mostrar y actualizar datos de perfil/empresa. | 3 |
-| 38 | TS-SHARED-001 | Projects reference API | Como frontend developer, quiero consultar proyectos para alimentar filtros, requisiciones, inventario y dashboard. | 2 |
-| 39 | TS-SHARED-002 | Materials catalog API | Como frontend developer, quiero consumir el catálogo compartido de materiales para requisiciones e inventario. | 3 |
-| 40 | TS-SHARED-003 | Categories reference API | Como frontend developer, quiero consultar categorías para clasificar materiales e inventario. | 2 |
-| 41 | TS-REQ-001 | Create requisition API | Como frontend developer, quiero crear requisiciones con `POST /api/v1/requisitions` para registrar solicitudes desde obra. | 3 |
+| 38 | TS-ANB-003 | Projects reference API | Como frontend developer, quiero consultar proyectos para alimentar filtros, requisiciones, inventario y dashboard. | 2 |
+| 39 | TS-REQ-004 | Materials catalog API | Como frontend developer, quiero consumir el catálogo compartido de materiales para requisiciones e inventario. | 3 |
+| 40 | TS-INV-003 | Categories reference API | Como frontend developer, quiero consultar categorías para clasificar materiales e inventario. | 2 |
+| 41 | TS-REQ-001 | Create requisition API | Como frontend developer, quiero crear requisiciones con `POST /api/v1/companies/{companyId}/requisitions` para registrar solicitudes desde obra. | 3 |
 | 42 | TS-REQ-002 | List and detail requisitions API | Como frontend developer, quiero listar y consultar requisiciones para implementar bandejas y detalle. | 3 |
 | 43 | TS-REQ-003 | Update requisition API | Como frontend developer, quiero actualizar requisiciones para reflejar cambios de estado y prioridad. | 2 |
 | 44 | TS-PROC-001 | Quotations list and create API | Como frontend developer, quiero listar y registrar cotizaciones para comparar ofertas de proveedores. | 3 |
@@ -1414,13 +1434,13 @@ La siguiente matriz consolida los contratos REST esperados para la primera versi
 | 59 | TS-COM-002 | Message state and delete API | Como frontend developer, quiero actualizar o eliminar mensajes para gestionar lectura, destacados y limpieza. | 2 |
 | 60 | IMP-BE-003 | Deployment and integration readiness | Como desarrollador, quiero preparar Docker, configuración productiva y smoke tests para desplegar los Web Services. | 3 |
 
+**Enlace directo al tablero:** [Tablero Jira - Proyecto Buildline](https://rqls26.atlassian.net/jira/software/projects/RQSL/boards/1/backlog?atlOrigin=eyJpIjoiYTI5N2Y0MTUyZjQ0NDdlZTg4ZjgzZWI2NjE4NTViMjIiLCJwIjoiaiJ9)
+
 <div align="center">
-  <img src="docs/assets/chapter-03/jira1.png" alt="Evidence Product Backlog" width="90%">
+  <img src="./assets/chapter-03/jira1.png" alt="Evidence Product Backlog" width="90%">
   <p><em>Figura: Captura del Product Backlog en la herramienta de gestión del proyecto.</em></p>
 </div>
 
-
-<div class="page-break"></div>
 
 # Capítulo IV: Product Design
 
@@ -1443,7 +1463,7 @@ El logotipo principal de Buildline está compuesto por un isotipo que integra m�
 
 <br>
 <p align="center">
-  <img src="docs/assets/chapter-04/buildline_logo.jpg" alt="Buildline Logo" width="350px" height="auto"/>
+  <img src="../docs/assets/chapter-04/buildline_logo.jpg" alt="Buildline Logo" width="350px" height="auto"/>
 </p>
 <br>
 
@@ -1459,7 +1479,7 @@ La jerarquía tipográfica se establece de la siguiente manera para garantizar c
 * **Botones y etiquetas (span):** 1.4rem (aprox. 14px) a 1.8rem (aprox. 18px).
 
 <p align="center">
-  <img src="docs/assets/chapter-04/Style_guide.png" alt=" Typography Guide" width="500px" height="auto"/>
+  <img src="../docs/assets/chapter-04/Style_guide.png" alt=" Typography Guide" width="500px" height="auto"/>
 </p>
 
 Esta distribución garantiza un contraste óptimo entre el texto y el fondo, superando un ratio mínimo de 4.5:1 según las WCAG 2.1 AA para una accesibilidad superior en entornos de campo.
@@ -1482,7 +1502,7 @@ Nuestra paleta de colores ha sido cuidadosamente seleccionada para evocar sensac
     * **Advertencia:** Amarillo para quiebres de stock o requisitos pendientes.
 
 <p align="center">
-  <img src="docs/assets/chapter-04/Color_guidelines.png" alt=Color Palette" width="800px" height="auto"/>
+  <img src="../docs/assets/chapter-04/Color_guidelines.png" alt=Color Palette" width="800px" height="auto"/>
 </p>
 
 Esta combinación cromática refleja los valores de nuestra marca y busca transmitir al público (constructoras y gerentes de proyecto) una imagen de rigor, velocidad y control financiero.
@@ -1586,43 +1606,43 @@ El wireframe de la landing page de Buildline ha sido diseñado para reflejar una
 
 Esta sección presenta el logotipo de Buildline y el menú de navegación. El titular principal comunica la misión de la startup: "El fin del caos logístico en la construcción". El diseño visual integra widgets de control en tiempo real que muestran el Presupuesto de Materiales, indicadores de Eficiencia de Suministro y estados de almacenamiento (Cemento, Acero). Incluye un campo de registro rápido para que los gerentes de MYPES soliciten un demo de inmediato.
 
-<img src="docs/assets/chapter-04/Nav-Hero-Wireframe.jpeg" alt="Nav-Hero-Wireframe" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Nav-Hero-Wireframe.jpeg" alt="Nav-Hero-Wireframe" style="width:auto; height:auto; border:2px solid;">
 
 **Workflow**
 
 Bajo el título "Todo lo que necesitas para gestionar y controlar tus proyectos", se detalla el flujo digital que reemplaza al WhatsApp/Excel en cuatro pasos:
 
-<img src="docs/assets/chapter-04/Workflow-Wireframe.jpeg" alt="Workflow-Wireframe" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Workflow-Wireframe.jpeg" alt="Workflow-Wireframe" style="width:auto; height:auto; border:2px solid;">
 
 **Dashboard y Control Operativo**
 
 Esta sección unifica las capacidades críticas de análisis de la plataforma. Permite visualizar las desviaciones presupuestales antes de que se conviertan en pérdidas, gestionar el centro de alertas para aprobaciones jerárquicas en tiempo real y mantener una trazabilidad de compras total. El diseño está optimizado para que el Jefe de Logística priorice compras críticas, reduciendo el 12% de sobrecostos por compras de emergencia y garantizando que el insumo en obra coincida con la especificación técnica.
 
-<img src="docs/assets/chapter-04/Dashboard-Control-Wireframe.jpeg" alt="Dashboard-Control-Operativo-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Dashboard-Control-Wireframe.jpeg" alt="Dashboard-Control-Operativo-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Testimonials**
 
 Bajo la sección "¿Por qué Buildline?", se presentan testimonios de roles clave (Dueños de obra, Supervisores de mercado y Gerentes de operaciones). Los mensajes validan la solución enfocándose en la eliminación de hojas de cálculo manuales, la reducción del estrés operativo y la capacidad de validar pedidos desde el campo sin necesidad de retornar a la oficina.
 
-<img src="docs/assets/chapter-04/Testimonials-Wireframe.jpeg" alt="Testimonials-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Testimonials-Wireframe.jpeg" alt="Testimonials-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Register** 
 
 Define los tres pilares de la experiencia Buildline: Setup (creación estructurada de pedidos), Monitor (seguimiento de cotizaciones) y Control (detección temprana de quiebres de stock). Finaliza con un formulario de registro limpio que permite el acceso mediante credenciales institucionales o redes sociales (Google/Apple), reduciendo la fricción de entrada para el personal operativo.
 
-<img src="docs/assets/chapter-04/Register-Wireframe.jpeg" alt="Register-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Register-Wireframe.jpeg" alt="Register-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Pricing** 
 
 Presenta la escalabilidad del modelo SaaS mediante dos planes: el Project Base Plan, ideal para MYPES con hasta 3 proyectos que buscan eliminar el desorden de WhatsApp, y el Multi-Project Enterprise, que ofrece escala ilimitada, reportes de rentabilidad avanzada e integración con sistemas contables locales para constructoras de mayor volumen.
 
-<img src="docs/assets/chapter-04/Princig-Wireframe.jpeg" alt="Princig-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Princig-Wireframe.jpeg" alt="Princig-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Footer** 
 
 Cierra la interfaz con una organización clara de recursos dividida en Producto, Soporte y Recursos. Incluye accesos a plantillas, guías de usuario, políticas de privacidad y canales de contacto directo, reforzando la seriedad y el soporte técnico que RQLS ofrece a sus clientes.
 
-<img src="docs/assets/chapter-04/Footer-Wireframe.jpeg" alt="Footer-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Footer-Wireframe.jpeg" alt="Footer-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -1632,43 +1652,43 @@ El mock-up de la página de inicio representa la versión final de alta fidelida
 
 Se observa el acabado final del logotipo de Buildline en la esquina superior izquierda. El diseño utiliza una composición limpia con un fondo claro para resaltar los widgets de datos. La tipografía Rubik en el titular principal presenta un contraste jerárquico que facilita la lectura. El botón de llamado a la acción (CTA) en azul tecnológico guía al usuario hacia la conversión inmediata, mientras que la imagen central humaniza la tecnología frente al operario de construcción.
 
-<img src="docs/assets/chapter-04/Nav-Hero-Landing Page Mock-up.jpeg" alt="Nav-Hero-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Nav-Hero-Landing Page Mock-up.jpeg" alt="Nav-Hero-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Workflow**
 
 En esta sección se aplican íconos planos con colores vibrantes para diferenciar las etapas de la cadena de suministro. El diseño utiliza tarjetas con sombras suaves (soft shadows) que generan profundidad, permitiendo que el flujo de Monitoreo, Registros, Alertas y Compliance se perciba como un proceso fluido y sencillo de seguir, alejándose de la complejidad visual de los ERP tradicionales.
 
-<img src="docs/assets/chapter-04/Workflow-Landing Page Mock-up.jpeg" alt="Workflow-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Workflow-Landing Page Mock-up.jpeg" alt="Workflow-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Dashboard y Control Operativo** 
 
 Este bloque integra de manera cohesiva el centro neurálgico de la plataforma. Se visualizan gráficos de anillos y líneas con la paleta de colores funcionales (Verde para éxito, Rojo para alertas de presupuesto). La interfaz del mock-up demuestra la alta densidad de datos de forma organizada, permitiendo que el Jefe de Proyecto identifique rápidamente desviaciones de costos y estados de sensores en almacén sin saturación visual.
 
-<img src="docs/assets/chapter-04/Dashboard-Control-Operativo-Landing Page Mock-up.jpeg" alt="Dashboard-Control-Operativo-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Dashboard-Control-Operativo-Landing Page Mock-up.jpeg" alt="Dashboard-Control-Operativo-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Testimonials** 
 
 El mock-up presenta las tarjetas de testimonios en un formato limpio y minimalista. Se utilizan avatares circulares y una tipografía ligera para las citas, reforzando la credibilidad. El uso de espacios en blanco (whitespace) entre cada testimonio asegura que la "prueba social" sea fácil de digerir, transmitiendo la seguridad que otros profesionales ya experimentan con Buildline.
 
-<img src="docs/assets/chapter-04/Testimonials-Landing Page Mock-up.jpeg" alt="Testimonials-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Testimonials-Landing Page Mock-up.jpeg" alt="Testimonials-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Register**
 
 Se muestra el diseño final del formulario de registro, el cual aparece como una capa superpuesta (overlay) con un desenfoque de fondo (backdrop blur). Los campos de entrada tienen estados visuales claros y los botones de registro social (Google/Apple) mantienen la estética minimalista del sistema, reduciendo la carga cognitiva del usuario al momento de crear su cuenta.
 
-<img src="docs/assets/chapter-04/Register-Landing Page Mock-up.jpeg" alt="Register-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Register-Landing Page Mock-up.jpeg" alt="Register-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Pricing**
 
 La interfaz de precios utiliza un selector de tiempo (Mensual/Anual) con una transición visual suave. Se aplica un contraste marcado entre el Project Base Plan (claro) y el Multi-Project Enterprise (oscuro/pizarra) para diferenciar visualmente los segmentos de cliente, destacando los beneficios mediante un sistema de check-list limpio y profesional.
 
-<img src="docs/assets/chapter-04/Pricing-Landing Page Mock-up.jpeg" alt="Princig-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Pricing-Landing Page Mock-up.jpeg" alt="Princig-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 **Footer**
 
 El pie de página final utiliza un tono gris pizarra oscuro para marcar el cierre de la navegación. Los íconos de redes sociales y los enlaces están distribuidos con un espaciado modular que garantiza la legibilidad, manteniendo la sobriedad institucional de la startup RQLS.
 
-<img src="docs/assets/chapter-04/Footer-Landing Page Mock-up.jpeg" alt="Footer-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Footer-Landing Page Mock-up.jpeg" alt="Footer-Landing Page Mock-up" style="width:auto; height:auto; border:2px solid;">
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
@@ -1679,49 +1699,49 @@ En esta sección se presentan los wireframes diseñados para la aplicación web 
 
 Pantalla principal de presentación donde se ofrecen las opciones de ingreso y registro de nuevas plantas industriales.
 
-<img src="docs/assets/chapter-04/Ingreso al Sistema - Buildline - Web Wireframes.jpeg" alt="Ingreso al Sistema - Buildline - Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Ingreso al Sistema - Buildline - Web Wireframes.jpeg" alt="Ingreso al Sistema - Buildline - Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Crear Cuenta - Buildline**
 
 Interfaz de registro inicial diseñada para capturar de forma estructurada los datos del responsable de la constructora, estableciendo los cimientos de la seguridad y el acceso jerárquico al sistema.
 
-<img src="docs/assets/chapter-04/Crear Cuenta - Buildline -Web Wireframes.jpeg" alt="Crear Cuenta - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Crear Cuenta - Buildline -Web Wireframes.jpeg" alt="Crear Cuenta - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Recuperación de Credenciales - Buildline**
 
 Wireframe del módulo de soporte para el restablecimiento de contraseñas. Proporciona un flujo directo que permite al usuario retomar sus actividades operativas mediante una verificación vía correo electrónico.
 
-<img src="docs/assets/chapter-04/Recuperación de Credenciales - Buildline -Web Wireframes.jpeg" alt="Recuperación de Credenciales - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Recuperación de Credenciales - Buildline -Web Wireframes.jpeg" alt="Recuperación de Credenciales - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Gestión de Requisitos de Materiales - Buildline**
 
 Pantalla técnica que centraliza las solicitudes provenientes de obra. Permite la visualización de la Prioridad (Critical/High) y el estado de la validación, integrando un buscador dinámico para la localización rápida de pedidos específicos.
 
-<img src="docs/assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Wireframes.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Wireframes.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Panel de Control de Requisiciones - Buildline**
 
 Vista alternativa del módulo de inventario con un enfoque en el seguimiento de estados (Pending Auth, In Transit, Processing, Delivered). Permite al Jefe de Logística tener una visión panorámica del flujo de suministros hacia las distintas obras.
 
-<img src="docs/assets/chapter-04/Panel de Control de Requisiciones - Buildline -Web Wireframes.jpeg" alt="Panel de Control de Requisiciones - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Panel de Control de Requisiciones - Buildline -Web Wireframes.jpeg" alt="Panel de Control de Requisiciones - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Dashboard Overview - Buildline**
 
 Panel principal de análisis que consolida los KPIs críticos de la constructora. Muestra métricas de Total Deliveries y Active Personnel, acompañadas de gráficos de tendencia para el monitoreo de la eficiencia operativa.
 
-<img src="docs/assets/chapter-04/Dashboard Overview - Buildline -Web Wireframes.jpeg" alt="Dashboard Overview - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Dashboard Overview - Buildline -Web Wireframes.jpeg" alt="Dashboard Overview - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Registro de Nuevo Requisito - Buildline**
 
 Interfaz de formulario modal (New Material Request) diseñada para que el Ingeniero Residente registre pedidos de insumos de forma ágil. Contiene campos para seleccionar el proyecto, tipo de material, cantidad, unidad de medida y fecha requerida, además de un área de especificaciones técnicas.
 
-<img src="docs/assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Web Wireframes.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Web Wireframes.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 Los Wireflows se utilizan, sobre todo, en el diseño de la experiencia del usuario (UX) y son particularmente beneficiosos para aplicaciones que contienen interacciones complejas y flujos de trabajo.
 
-<img src="docs/assets/chapter-04/Web applications wireflow diagrams.jpeg" alt="Web applications wireflow diagrams" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Web applications wireflow diagrams.jpeg" alt="Web applications wireflow diagrams" style="width:auto; height:auto; border:2px solid;">
 
 ### 4.4.3. Web Applications Mock-ups
 
@@ -1731,61 +1751,61 @@ En esta sección se presentan los mock-ups de alta fidelidad para la aplicación
 
 Esta interfaz representa el punto de acceso principal al ecosistema de Buildline. Utiliza una composición limpia y moderna que resalta el formulario de autenticación, permitiendo a los usuarios de la constructora ingresar de forma segura o iniciar el proceso de creación de cuenta nueva.
 
-<img src="docs/assets/chapter-04/Ingreso al Sistema - Buildline - Applications Mock-ups.jpeg" alt="Ingreso al Sistema - Buildline - Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Ingreso al Sistema - Buildline - Applications Mock-ups.jpeg" alt="Ingreso al Sistema - Buildline - Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Crear Cuenta - Buildline**
 
 Diseño final del formulario de registro organizacional. Esta pantalla permite recolectar los datos fundamentales de la constructora y el administrador principal, utilizando una jerarquía visual clara para asegurar la integridad de la información de seguridad.
 
-<img src="docs/assets/chapter-04/Crear Cuenta - Buildline -Applications Mock-ups.jpeg" alt="Crear Cuenta - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Crear Cuenta - Buildline -Applications Mock-ups.jpeg" alt="Crear Cuenta - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Recuperación de Credenciales - Buildline**
 
 Mock-up del flujo de soporte para el restablecimiento de credenciales. La interfaz ha sido diseñada para minimizar la fricción operativa, permitiendo al usuario solicitar un enlace de restauración mediante su correo institucional en pocos pasos.
 
-<img src="docs/assets/chapter-04/Recuperación de Credenciales - Buildline -Applications Mock-ups.jpeg" alt="Recuperación de Credenciales - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Recuperación de Credenciales - Buildline -Applications Mock-ups.jpeg" alt="Recuperación de Credenciales - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Gestión de Requisitos de Materiales - Buildline**
 
 Mock-up del módulo operativo principal. Presenta una tabla de datos avanzada con estados de validación por colores (Pending, Approved, In Transit), permitiendo al Jefe de Logística supervisar la trazabilidad completa de los materiales desde la obra.
 
-<img src="docs/assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Applications Mock-ups.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Applications Mock-ups" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Gestión de Inventario y Requerimientos - Buildline - Applications Mock-ups.jpeg" alt="Gestión de Inventario y Requerimientos - Buildline - Applications Mock-ups" style="width:auto; height:auto; border:2px solid;">
 
 **Panel de Control de Requisiciones - Buildline**
 
 Vista alternativa del módulo de inventario con un enfoque en el seguimiento de estados (Pending Auth, In Transit, Processing, Delivered). Permite al Jefe de Logística tener una visión panorámica del flujo de suministros hacia las distintas obras.
 
-<img src="docs/assets/chapter-04/Panel de Control de Requisiciones - Buildline -Applications Mock-ups.jpeg" alt="Panel de Control de Requisiciones - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Panel de Control de Requisiciones - Buildline -Applications Mock-ups.jpeg" alt="Panel de Control de Requisiciones - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Dashboard Overview - Buildline**
 
 El dashboard centralizado de Buildline en alta fidelidad. Consolida indicadores críticos como Total Deliveries y Alertas de Inventario mediante tarjetas visuales y gráficos interactivos, facilitando la toma de decisiones estratégicas para la gerencia.
 
-<img src="docs/assets/chapter-04/Dashboard Overview - Buildline -Applications Mock-ups.jpeg" alt="Dashboard Overview - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Dashboard Overview - Buildline -Applications Mock-ups.jpeg" alt="Dashboard Overview - Buildline -Web Wireframes" style="width:auto; height:auto; border:2px solid;">
 
 **Registro de Nuevo Requisito - Buildline**
 
 Interfaz de formulario modal (New Material Request) diseñada para que el Ingeniero Residente registre pedidos de insumos de forma ágil. Contiene campos para seleccionar el proyecto, tipo de material, cantidad, unidad de medida y fecha requerida, además de un área de especificaciones técnicas.
 
-<img src="docs/assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Applications Mock-ups.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Applications Mock-ups" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/Registro de Nuevo Requerimiento - Buildline -Applications Mock-ups.jpeg" alt="Registro de Nuevo Requerimiento - Buildline -Applications Mock-ups" style="width:auto; height:auto; border:2px solid;">
 
 **Mock-ups Version Mobile**
 
 La sección de Web Applications UX/UI Design presenta la propuesta visual, estructural y de interacción desarrollada para la experiencia móvil de Buildline, el ecosistema SaaS orientado a la gestión integral de adquisiciones, el control de suministros en tiempo real y la trazabilidad de materiales en el sector construcción.
 
-<img src="docs/assets/chapter-04/mobile1.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/mobile1.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
-<img src="docs/assets/chapter-04/mobile2.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/mobile2.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
-<img src="docs/assets/chapter-04/mobile3.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/mobile3.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
-<img src="docs/assets/chapter-04/mobile4.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/mobile4.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
-<img src="docs/assets/chapter-04/mobile5.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/mobile5.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
-<img src="docs/assets/chapter-04/mobile6.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/mobile6.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
-<img src="docs/assets/chapter-04/mobile7.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/mobile7.jpeg" alt="mobile" style="width:auto; height:auto; border:2px solid;">
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
@@ -1793,31 +1813,31 @@ Para asegurar una navegación intuitiva y una curva de aprendizaje mínima para 
 
 **Leyenda Visual de Simbología**
 
-<img src="docs/assets/chapter-04/diagramaUF_leyenda.png" alt="diagramaUF_leyenda" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/diagramaUF_leyenda.png" alt="diagramaUF_leyenda" style="width:auto; height:auto; border:2px solid;">
 
 **Diagrama 1: Flujo de Autenticación**
 
 Este flujo garantiza que solo personal autorizado (Jefes de Proyecto y Gerentes) acceda a los datos financieros de las obras.
 
-<img src="docs/assets/chapter-04/diagramaUF_1.png" alt="diagramaUF_1" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/diagramaUF_1.png" alt="diagramaUF_1" style="width:auto; height:auto; border:2px solid;">
 
 **Diagrama 2: Flujo de Requisición de Materiales**
 
 Representa la interacción del Jefe de Proyecto en el frente de obra al detectar una necesidad de insumos, asegurando que la información llegue formalmente a la oficina.
 
-<img src="docs/assets/chapter-04/diagramaUF_2.png" alt="diagramaUF_2" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/diagramaUF_2.png" alt="diagramaUF_2" style="width:auto; height:auto; border:2px solid;">
 
 **Diagrama 3: Flujo Global de Abastecimiento**
 
 Representa el ciclo completo de negocio (Happy Path) que conecta la solicitud en campo con la aprobación gerencial y la emisión del documento de compra.
 
-<img src="docs/assets/chapter-04/diagramaUF_3.png" alt="diagramaUF_3" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/diagramaUF_3.png" alt="diagramaUF_3" style="width:auto; height:auto; border:2px solid;">
 
 ## 4.5. Web Applications Prototyping
 
 Para validar la arquitectura de información y la eficiencia del flujo de negocio de **Buildline**, se ha desarrollado un prototipo interactivo de alta fidelidad basado en los diagramas de interacción detallados en la sección anterior. Este artefacto permite verificar la fluidez de la interfaz y la respuesta del sistema ante las necesidades críticas del sector construcción.
 
-<img src="docs/assets/chapter-04/prototyping_captura.png" alt="prototyping_captura" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/prototyping_captura.png" alt="prototyping_captura" style="width:auto; height:auto; border:2px solid;">
 
 > [**🔗 Ver Video Prototipo Interactivo - Buildline**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316687_upc_edu_pe/IQDfG_KwrXxqSrKx5D7At2JHAb3kkmot9LW_fXuBca38Z_g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aRAlkn)
 
@@ -1839,63 +1859,63 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
    El bounded context IAM (Identity and Access Management) se encarga de la autenticación, autorización y seguridad dentro de Buildline. Administra el acceso de los diferentes perfiles (Residente de Obra, Analista de Logística y Jefe de Proyecto) garantizando que cada actor solo interactúe con los módulos que le corresponden. Su propósito es asegurar la integridad del acceso al sistema SaaS y gestionar los permisos jerárquicos de aprobación.
    
-   <img src="docs/assets/chapter-04/boundedIAM.png" alt="Bounded Context IAM" style="width:auto; height:auto; border:2px solid;">
+   <img src="./assets/chapter-04/boundedIAM.png" alt="Bounded Context IAM" style="width:auto; height:auto; border:2px solid;">
 
 
 2. Bounded Context **Profiles**
 
    El bounded context Profiles gestiona la información estática y de configuración de la empresa constructora (MYPE) y los perfiles laborales de su equipo. Administra la creación y actualización de datos de contacto y la estructura organizacional. Su propósito es centralizar la ficha de contacto operativa para que contextos como IAM, Requisition y Procurement sepan exactamente quién está solicitando o aprobando los recursos.
    
-   <img src="docs/assets/chapter-04/boundedprofile.png" alt="Bounded Context Profiles" style="width:auto; height:auto; border:2px solid;">
+   <img src="./assets/chapter-04/boundedprofile.png" alt="Bounded Context Profiles" style="width:auto; height:auto; border:2px solid;">
 
 
 3. Bounded Context **Requisition**
 
    El bounded context Requisition representa el punto de inicio operativo en el frente de obra. Administra la creación, priorización y seguimiento de los requisitos de materiales que realizan los Ingenieros Residentes, incluyendo la adjunción de evidencia técnica. Su propósito es digitalizar la necesidad de la obra, eliminando la informalidad de canales como WhatsApp y centralizando las solicitudes técnicas.
    
-   <img src="docs/assets/chapter-04/boundedrequisition.png" alt="Bounded Context Requisition" style="width:auto; height:auto; border:2px solid;">
+   <img src="./assets/chapter-04/boundedrequisition.png" alt="Bounded Context Requisition" style="width:auto; height:auto; border:2px solid;">
 
 
 4. Bounded Context **Procurement**
 
    El bounded context Procurement es el núcleo transaccional en gabinete. Gestiona el ciclo de compras completo: generación de solicitudes de cotización, comparación de ofertas de proveedores y la aprobación jerárquica de la Orden de Compra (PO) por parte de la gerencia. Su propósito es eliminar las compras de emergencia informales y asegurar que todo gasto esté debidamente sustentado y aprobado antes de su ejecución.
    
-   <img src="docs/assets/chapter-04/boundedprocurement.png" alt="Bounded Context Procurement" style="width:auto; height:auto; border:2px solid;">
+   <img src="./assets/chapter-04/boundedprocurement.png" alt="Bounded Context Procurement" style="width:auto; height:auto; border:2px solid;">
 
 
 5. Bounded Context **Inventory**
 
    El bounded context Inventory administra la recepción física de los materiales en la obra y el control de los saldos. Permite al personal en campo confirmar la llegada de insumos y registrar mermas o desperdicios. Se integra estrechamente con Procurement para realizar el cruce de información entre la Orden de Compra y la Guía de Remisión (Way Match), previniendo pérdidas por descontrol de almacén.
    
-   <img src="docs/assets/chapter-04/boundedinventory.png" alt="Bounded Context Inventory" style="width:auto; height:auto; border:2px solid;">
+   <img src="./assets/chapter-04/boundedinventory.png" alt="Bounded Context Inventory" style="width:auto; height:auto; border:2px solid;">
 
 
 6. Bounded Context **Suppliers**
 
    El bounded context Suppliers gestiona el directorio, historial de confiabilidad y evaluación de los proveedores de la constructora. Permite registrar nuevos ofertantes, calificar sus tiempos de entrega y documentar incidencias operativas. Su propósito es construir una base de datos confiable que agilice las cotizaciones en Procurement y evite la contratación de empresas con antecedentes deficientes.
    
-   <img src="docs/assets/chapter-04/boundedsupplier.png" alt="Bounded Context Suppliers" style="width:auto; height:auto; border:2px solid;">
+   <img src="./assets/chapter-04/boundedsupplier.png" alt="Bounded Context Suppliers" style="width:auto; height:auto; border:2px solid;">
 
 
 7. Bounded Context **Analytics & Budgeting**
 
    El bounded context Analytics & Budgeting procesa la información financiera cruzando el presupuesto planificado (APU) con los gastos reales derivados de las órdenes de compra. Permite la visualización de métricas y la detección de desviaciones presupuestales. Su propósito es brindar visibilidad gerencial en tiempo real mediante Dashboards, previniendo el impacto de los sobrecostos logísticos estructurales del sector.
    
-   <img src="docs/assets/chapter-04/boundedA&B.png" alt="Bounded Context Analytics" style="width:auto; height:auto; border:2px solid;">
+   <img src="./assets/chapter-04/boundedA&B.png" alt="Bounded Context Analytics" style="width:auto; height:auto; border:2px solid;">
 
 
 8. Bounded Context **Communication**
 
    El bounded context Communication gestiona el envío automatizado de notificaciones internas (alertas de requisitos críticos, avisos de bajo stock) y correos electrónicos externos (envío formal de Órdenes de Compra a proveedores). Su propósito es asegurar una comunicación oportuna, trazable y estructurada que reduzca los cuellos de botella informativos entre la obra y la oficina central.
    
-   <img src="docs/assets/chapter-04/boundedcommunication.png" alt="Bounded Context Communication" style="width:auto; height:auto; border:2px solid;">
+   <img src="./assets/chapter-04/boundedcommunication.png" alt="Bounded Context Communication" style="width:auto; height:auto; border:2px solid;">
 
 
 9. Bounded Context **Shared**
 
    El bounded context Shared contiene elementos transversales, utilidades, el catálogo maestro de materiales y registros de auditoría inmutables utilizados por todos los demás contextos. Su propósito es evitar la duplicidad de lógica de negocio, garantizar la trazabilidad total de las acciones de los usuarios en el sistema y mantener la coherencia semántica en toda la plataforma.
    
-   <img src="docs/assets/chapter-04/boundedshared.png" alt="Bounded Context Shared" style="width:auto; height:auto; border:2px solid;">
+   <img src="./assets/chapter-04/boundedshared.png" alt="Bounded Context Shared" style="width:auto; height:auto; border:2px solid;">
 
 <div style="page-break-after: always;"></div>
 
@@ -1914,7 +1934,7 @@ El context diagram muestra al **Buildline Software System** como un recuadro en 
 
 En el diagrama se representan las relaciones entre estos elementos, destacando que los actores humanos interactúan únicamente con Buildline, mientras que el sistema se encarga de orquestar las integraciones con los servicios externos (validación tributaria, correos y pagos). Esta vista permite entender el alcance del sistema, los límites de responsabilidad y el ecosistema logístico en el que se inserta Buildline antes de entrar a detalles de implementación.
 
-![ContextDiagram Diagram](docs/assets/chapter-04/ContextDiagram.svg)
+![ContextDiagram Diagram](../docs/assets/chapter-04/ContextDiagram.svg)
 
 ---
 
@@ -1926,7 +1946,7 @@ La arquitectura lógica de Buildline se estructura en los siguientes contenedore
 
 - **Landing Page**: aplicación web estática que presenta la propuesta de valor de Buildline orientada a MYPES constructoras, guía a nuevos usuarios y redirige a la aplicación principal. Está desarrollada con tecnologías web estándar (HTML, CSS y JavaScript) y se despliega en un entorno orientado a contenido estático.
 - **Single Page Application (SPA)**: aplicación web principal, implementada en **Vue.js 3**, donde interactúan el Ingeniero Residente, el Analista de Logística y el Gerente. Este contenedor concentra la experiencia de usuario, las vistas y la lógica de presentación para los diferentes contextos del dominio (iam, profiles, requisition, procurement, inventory, delivery, suppliers, analytics y communication).
-- **API Application**: backend planificado con **.NET 8 / C#**, que expone una API REST y encapsula la lógica de negocio, reglas de validación y orquestación de procesos logísticos. Este contenedor agrupa los módulos backend por contexto (IAM Backend, Profiles Backend, Requisition Backend, Procurement Backend, Inventory Backend, Delivery Backend, Suppliers Backend, Analytics Backend, Communication Backend y Shared Backend).
+- **API Application**: backend implementado con **ASP.NET Core / C# sobre .NET 10**, que expone una API REST y encapsula la lógica de negocio, reglas de validación y orquestación de procesos logísticos. Este contenedor agrupa los módulos backend por contexto (IAM Backend, Profiles Backend, Requisition Backend, Procurement Backend, Inventory Backend, Delivery Backend, Suppliers Backend, Analytics Backend, Communication Backend y Shared Backend).
 - **Database**: base de datos relacional **MySQL**, donde se persiste la información estructurada del sistema: usuarios, perfiles de constructoras, proyectos, requisitos, cotizaciones, órdenes de compra, entregas, inventarios, auditorías y métricas.
 
 En el diagrama se observa que:
@@ -1938,7 +1958,7 @@ En el diagrama se observa que:
 
 Esta vista permite apreciar cómo se distribuyen las responsabilidades entre la capa de presentación (Landing y SPA), la capa de lógica de negocio (API Application) y la capa de persistencia (Database), así como las principales decisiones tecnológicas que se han tomado para cada contenedor.
 
-![ContainerDiagram Diagram](docs/assets/chapter-04/ContainerDiagram.svg)
+![ContainerDiagram Diagram](../docs/assets/chapter-04/ContainerDiagram.svg)
 
 ---
 
@@ -1968,14 +1988,14 @@ En el diagrama se refleja cómo:
 
 De esta forma, los component diagrams complementan los diagramas de clases del frontend, backend y base de datos, mostrando cómo los contenedores se descomponen en componentes coherentes con los bounded contexts del dominio y cómo estos colaboran entre sí para implementar la funcionalidad completa de Buildline.
 
-![ComponentsDiagram Diagram](docs/assets/chapter-04/ComponentDiagram.svg)
+![ComponentsDiagram Diagram](../docs/assets/chapter-04/ComponentDiagram.svg)
 
 <div style="page-break-after: always;"></div>
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 
-En esta sección se presenta el diseño orientado a objetos del sistema **Buildline**, el cual desarrolla con mayor detalle la implementación interna de los componentes identificados en los diagramas C4 del apartado anterior. A partir de los contenedores definidos (**API Application** en .NET 8 / C# y **Database** en MySQL), se derivan diagramas de clases específicos para cada *bounded context* del dominio, con el objetivo de mostrar:
+En esta sección se presenta el diseño orientado a objetos del sistema **Buildline**, el cual desarrolla con mayor detalle la implementación interna de los componentes identificados en los diagramas C4 del apartado anterior. A partir de los contenedores definidos (**API Application** en ASP.NET Core / C# sobre .NET 10 y **Database** en MySQL), se derivan diagramas de clases específicos para cada *bounded context* del dominio, con el objetivo de mostrar:
 
 - **1. Modelado del Dominio (Backend)**
 
@@ -2038,45 +2058,45 @@ Incluye entidades como **Notification** y **Recipient**, junto con servicios que
 
 - **Diagrama Completo**
   
-<img src="docs/assets/chapter-04/diagramaBackend.svg" alt="Diagrama de Clases Backend" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/diagramaBackend.svg" alt="Diagrama de Clases Backend" style="width:auto; height:auto; border:2px solid;">
 
 ### Diagrama dividido por contextos ###
 
 - **Shared**
    
-  <img src="docs/assets/chapter-04/diagramaShared.png" alt="Diagrama BC Shared" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaShared.png" alt="Diagrama BC Shared" style="width:auto; height:auto; border:2px solid;">
 
 - **IAM**
    
-  <img src="docs/assets/chapter-04/diagramaIAM.png" alt="Diagrama BC IAM" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaIAM.png" alt="Diagrama BC IAM" style="width:auto; height:auto; border:2px solid;">
 
 - **Profiles**
    
-  <img src="docs/assets/chapter-04/diagramaProfiles.png" alt="Diagrama BC Profiles" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaProfiles.png" alt="Diagrama BC Profiles" style="width:auto; height:auto; border:2px solid;">
 
 - **Requisition**
   
-  <img src="docs/assets/chapter-04/diagramaRequisition.png" alt="Diagrama BC Requisition" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaRequisition.png" alt="Diagrama BC Requisition" style="width:auto; height:auto; border:2px solid;">
 
 - **Communication**
    
-  <img src="docs/assets/chapter-04/diagramaCommunication.png" alt="Diagrama BC Communication" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaCommunication.png" alt="Diagrama BC Communication" style="width:auto; height:auto; border:2px solid;">
 
 - **Inventory**
    
-  <img src="docs/assets/chapter-04/diagramaInventory.png" alt="Diagrama BC Inventory" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaInventory.png" alt="Diagrama BC Inventory" style="width:auto; height:auto; border:2px solid;">
 
 - **Analytics & Budgeting**
     
-  <img src="docs/assets/chapter-04/diagramaAnalytics.png" alt="Diagrama BC Analytics & Budgeting" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaAnalytics.png" alt="Diagrama BC Analytics & Budgeting" style="width:auto; height:auto; border:2px solid;">
 
 - **Procurement**
   
-  <img src="docs/assets/chapter-04/diagramaProcurement.png" alt="Diagrama BC Procurement" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaProcurement.png" alt="Diagrama BC Procurement" style="width:auto; height:auto; border:2px solid;">
 
 - **Suppliers**
   
-  <img src="docs/assets/chapter-04/diagramaSuppliers.png" alt="Diagrama BC Suppliers" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaSuppliers.png" alt="Diagrama BC Suppliers" style="width:auto; height:auto; border:2px solid;">
 
 ## 4.8. Database Design
 
@@ -2086,39 +2106,37 @@ Ilustra la estructura general del sistema a nivel relacional, organizada por *bo
 
 - **Diagrama Completo**
 
-<img src="docs/assets/chapter-04/diagramaBD.svg" alt="Diagrama de Base de Datos Completo" style="width:auto; height:auto; border:2px solid;">
+<img src="./assets/chapter-04/diagramaBD.svg" alt="Diagrama de Base de Datos Completo" style="width:auto; height:auto; border:2px solid;">
 
 ### Diagrama dividido por contextos
 
 - **Shared**  
-  <img src="docs/assets/chapter-04/diagramaBD_shared.png" alt="Diagrama BD Shared" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaBD_shared.png" alt="Diagrama BD Shared" style="width:auto; height:auto; border:2px solid;">
 
 - **IAM**  
-  <img src="docs/assets/chapter-04/diagramaDB_iam.png" alt="Diagrama BD IAM" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaDB_iam.png" alt="Diagrama BD IAM" style="width:auto; height:auto; border:2px solid;">
 
 - **Profiles**  
-  <img src="docs/assets/chapter-04/diagramaBD_profile.png" alt="Diagrama BD Profiles" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaBD_profile.png" alt="Diagrama BD Profiles" style="width:auto; height:auto; border:2px solid;">
 
 - **Requisition**  
-  <img src="docs/assets/chapter-04/diagramaBD_requisition.png" alt="Diagrama BD Requisition" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaBD_requisition.png" alt="Diagrama BD Requisition" style="width:auto; height:auto; border:2px solid;">
 
 - **Procurement**  
-  <img src="docs/assets/chapter-04/diagramaBD_procurement.png" alt="Diagrama BD Procurement" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaBD_procurement.png" alt="Diagrama BD Procurement" style="width:auto; height:auto; border:2px solid;">
 
 - **Inventory**  
-  <img src="docs/assets/chapter-04/diagramaBD_inventory.png" alt="Diagrama BD Inventory" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaBD_inventory.png" alt="Diagrama BD Inventory" style="width:auto; height:auto; border:2px solid;">
 
 - **Suppliers**  
-  <img src="docs/assets/chapter-04/diagramaBD_suppliers.png" alt="Diagrama BD Suppliers" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaBD_suppliers.png" alt="Diagrama BD Suppliers" style="width:auto; height:auto; border:2px solid;">
 
 - **Analytics & Budgeting**  
-  <img src="docs/assets/chapter-04/diagramaBD_analytics.png" alt="Diagrama BD Analytics & Budgeting" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaBD_analytics.png" alt="Diagrama BD Analytics & Budgeting" style="width:auto; height:auto; border:2px solid;">
 
 - **Communication**  
-  <img src="docs/assets/chapter-04/diagramaBD_communication.png" alt="Diagrama BD Communication" style="width:auto; height:auto; border:2px solid;">
+  <img src="./assets/chapter-04/diagramaBD_communication.png" alt="Diagrama BD Communication" style="width:auto; height:auto; border:2px solid;">
 
-
-<div class="page-break"></div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -2148,7 +2166,7 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
 2.  **WebStorm:** IDE especializado para el desarrollo del Frontend de Buildline, optimizando la codificación con Vue.js y la gestión de estilos.
 3.  **JetBrains Rider:** IDE principal para el desarrollo del Backend robusto basado en .NET/C#, facilitando la integración con servicios de base de datos y lógica de negocio.
 4.  **Vue.js Framework:** Framework progresivo de JavaScript elegido para construir la SPA de Buildline por su ligereza y velocidad de carga en condiciones de baja conectividad en obra.
-5.  **.NET 8 / C#:** Tecnología de backend para garantizar la escalabilidad, seguridad transaccional en las Órdenes de Compra y alto rendimiento.
+5.  **ASP.NET Core / C# sobre .NET 10:** Tecnología de backend para garantizar la escalabilidad, seguridad transaccional en las Órdenes de Compra y alto rendimiento.
 
 #### Software Testing
 * **Lenguaje Gherkin:** Utilizado para definir los criterios de aceptación en formato Given-When-Then, asegurando que las validaciones de "Way Match" y presupuestos funcionen correctamente.
@@ -2190,23 +2208,20 @@ Se establecen los repositorios oficiales de la solución Buildline para garantiz
   </tbody>
 </table>
 
-#### GitFlow Workflow
-* **main:** Código estable y auditado desplegado en producción.
-* **develop:** Rama base para integración de nuevas características.
-* **feature/&lt;módulo&gt;:** Ej: `feature/procurement-comparison-sheet`.
-* **hotfix/&lt;issue&gt;:** Parches rápidos para errores críticos en el cálculo de APU.
+#### GitFlow Workflow and Collaboration Strategy
+Para asegurar una colaboración organizada, evitar conflictos en el código y mantener la integración continua, el equipo RQLS aplica estrictamente **GitFlow** como flujo de trabajo de ramificación (Branching Workflow). La estrategia de colaboración se define de la siguiente manera:
 
-<h4>Conventional Commits</h4>
-<pre><code>feat(tracking): implement IoT telemetry ingestion endpoint
-fix(compliance): resolve stock update discrepancy on partial receipt
-docs(readme): update swagger definitions for supplier endpoints
-build(deps): migrate to .NET 8.0 SDK
-</code></pre>
+* **main:** Rama que contiene el código de producción estable y auditado. Solo recibe integraciones a través de un proceso formal de Merge desde `release` o `hotfix`.
+* **develop:** Rama de integración principal. Aquí se unifica el trabajo de los desarrolladores para preparar el próximo despliegue.
+* **feature/&lt;módulo&gt;:** Ramas temporales creadas a partir de `develop` para aislar el desarrollo de nuevas Historias de Usuario (Ej: `feature/landing-hero-section`). La colaboración exige que estas ramas se integren a `develop` exclusivamente mediante **Pull Requests (PR)** en GitHub, requiriendo revisión de código (Code Review) antes de ser aprobadas.
+* **hotfix/&lt;issue&gt;:** Ramas de corrección rápida creadas desde `main` para resolver bugs críticos o parches de emergencia.
+
+El ciclo de vida del proyecto se apoya en Jira para asignar las tareas, asociando cada commit al ID de la tarea mediante Conventional Commits para una trazabilidad completa.
 
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto Buildline: HTML, CSS, JavaScript, TypeScript (Vue.js), C# (.NET 8) y Gherkin. Se aplica nomenclatura en inglés para todos los elementos del código, siguiendo el Ubiquitous Language definido para el dominio logístico de la construcción.
+En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto Buildline: HTML, CSS, JavaScript, TypeScript (Vue.js), C# (.NET 10) y Gherkin. Se aplica nomenclatura en inglés para todos los elementos del código, siguiendo el Ubiquitous Language definido para el dominio logístico de la construcción.
 
 #### Referencias de Guías de Estilo Adoptadas
 
@@ -2324,12 +2339,12 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
   </tbody>
 </table>
 
-### 5.2.1.3. Sprint Backlog 1  
+### 5.2.1.3. Sprint Backlog 1
 
 El Sprint Backlog agrupa las tareas iniciales correspondientes a la presencia digital del proyecto Buildline.
 
 <div align="center">
-  <img src="docs/assets/chapter-05/jira1.png" alt="Sprint 1 Board Screenshot" width="100%">
+  <img src="./assets/chapter-05/jira1.png" alt="Sprint 1 Board Screenshot" width="100%">
   <p><em>Figura: Tablero del Sprint 1 en Jira Software (Proyecto Buildline)</em></p>
 </div>
 
@@ -2392,9 +2407,21 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes a la presencia di
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-<p>
-  Se completó la implementación y el diseño de la Landing Page.
-</p>
+Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y despliegue de la Landing Page estática. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas:
+
+**Evidencia 1: Hero Section y Propuesta de Valor**
+Se desarrolló la pantalla de inicio principal destacando el mensaje de mitigación de sobrecostos y control del APU. La navegación superior es completamente funcional y el diseño respeta los lineamientos *responsive* para dispositivos móviles.
+<div align="center">
+  <img src="./assets/chapter-05/execution-hero.png" alt="Hero Section Evidence" width="90%">
+  <p><em>Figura: Vista principal (Hero Section) desplegada en la Landing Page.</em></p>
+</div>
+
+**Evidencia 2: Sección de Beneficios y Trazabilidad**
+Se maquetó la sección informativa donde se detallan los módulos de control de obra y aprobaciones jerárquicas, aplicando la paleta de colores corporativa y el sistema de diseño definido en Figma.
+<div align="center">
+  <img src="./assets/chapter-05/execution-benefits.png" alt="Benefits Section Evidence" width="90%">
+  <p><em>Figura: Sección de características y propuesta de valor logístico.</em></p>
+</div>
 
 #### 5.2.1.6. Services Documentation Evidence
 <p>
@@ -2417,7 +2444,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes a la presencia di
 </p>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
+  <img src="../docs/assets/chapter-05/commit-history-sprint1.png" alt="Commit History Evidence" width="90%">
   <p><em>Figura: Historial de commits demostrando la participación activa de los miembros del equipo RQLS.</em></p>
 </div>
 
@@ -2426,7 +2453,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes a la presencia di
 </p>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph">
+  <img src="../docs/assets/chapter-05/visitors-sprint1.png" alt="Traffic Visitors Graph">
   <p><em>Figura: Gráfica de visitantes mostrando la revisión constante del repositorio por parte del equipo.</em></p>
 </div>
 
@@ -2544,7 +2571,7 @@ Para el Sprint 2 se identificaron aspectos funcionales que corresponden a los <e
 El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que corresponden al primer release navegable del Frontend Web Application, organizados por bounded context. Se utilizó Jira Software como herramienta de control de estado.
 
 <div align="center">
-  <img src="docs/assets/chapter-05/jira2.png" alt="Sprint 2 Board Screenshot" width="100%">
+  <img src="./assets/chapter-05/jira2.png" alt="Sprint 2 Board Screenshot" width="100%">
   <p><em>Figura: Tablero del Sprint 2 en Jira Software (Proyecto Buildline)</em></p>
 </div>
 
@@ -2686,32 +2713,32 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 </p>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-signin.png" alt="Sign-In View" width="90%">
+  <img src="./assets/chapter-05/sprint2-signin.png" alt="Sign-In View" width="90%">
   <p><em>Figura: Vista Sign-In del bounded context IAM.</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-requisitions.png" alt="Material Requests View" width="90%">
+  <img src="./assets/chapter-05/sprint2-requisitions.png" alt="Material Requests View" width="90%">
   <p><em>Figura: Listado de Material Requests con filtros por proyecto y prioridad.</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-suppliers.png" alt="Supplier Directory" width="90%">
+  <img src="./assets/chapter-05/sprint2-suppliers.png" alt="Supplier Directory" width="90%">
   <p><em>Figura: Directorio de Proveedores con RUC, rating y estado.</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-procurement.png" alt="Approval Inbox" width="90%">
+  <img src="./assets/chapter-05/sprint2-procurement.png" alt="Approval Inbox" width="90%">
   <p><em>Figura: Approval Inbox de Órdenes de Compra.</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-inventory.png" alt="Inventory List" width="90%">
+  <img src="./assets/chapter-05/sprint2-inventory.png" alt="Inventory List" width="90%">
   <p><em>Figura: Inventory List con indicadores visuales de stock crítico.</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/sprint2-dashboard.png" alt="Financial Dashboard" width="90%">
+  <img src="./assets/chapter-05/sprint2-dashboard.png" alt="Financial Dashboard" width="90%">
   <p><em>Figura: Dashboard Overview (resumen).</em></p>
 </div>
 
@@ -2721,7 +2748,7 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 
 <div align="center">
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc_edu_pe/IQBmp9aQwMuLSLxjirNLDL3-ATVaXbe2IUg_aTtw3V59494?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y9T9qs" target="_blank">
-    <img src="docs/assets/chapter-05/video-screenshot.png" alt="Video Demostrativo Buildline en Microsoft Stream" width="90%" style="border: 1px solid #ccc; border-radius: 8px;">
+    <img src="./assets/chapter-05/video-screenshot.png" alt="Video Demostrativo Buildline en Microsoft Stream" width="90%" style="border: 1px solid #ccc; border-radius: 8px;">
   </a>
   <p><em>Figura: Video demostrativo en Microsoft Stream.</em></p>
 </div>
@@ -2731,7 +2758,7 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 <p>
-  Durante el Sprint 2 no se implementaron aún los Web Services productivos en .NET (planificados para el Sprint 3 según el cronograma del curso). Para soportar la primera versión del Frontend Web Application y validar contratos de API tempranos, el equipo configuró un <strong>mock service local con json-server</strong> que expone los endpoints requeridos por los bounded contexts implementados. Esta documentación servirá como contrato base para los Web Services definitivos en .NET 8.
+  Durante el Sprint 2 no se implementaron aún los Web Services productivos en .NET (planificados para el Sprint 3 según el cronograma del curso). Para soportar la primera versión del Frontend Web Application y validar contratos de API tempranos, el equipo configuró un <strong>mock service local con json-server</strong> que expone los endpoints requeridos por los bounded contexts implementados. Esta documentación sirvió como contrato base para los Web Services definitivos en ASP.NET Core / C#.
 </p>
 
 <p><strong>URL del Mock API (local):</strong> <code>http://localhost:3000</code></p>
@@ -2829,7 +2856,7 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 </table>
 
 <p>
-  La documentación <strong>OpenAPI/Swagger</strong> definitiva se elaborará y desplegará junto con los Web Services en .NET 8 durante el Sprint 3.
+  La documentación <strong>OpenAPI/Swagger</strong> definitiva se elaboró y desplegó junto con los Web Services en ASP.NET Core / C# durante el Sprint 3.
 </p>
 
 <p>
@@ -2878,12 +2905,12 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 </p>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/commit-history-sprint2.png" alt="Commit History Sprint 2" width="90%">
+  <img src="../docs/assets/chapter-05/commit-history-sprint2.png" alt="Commit History Sprint 2" width="90%">
   <p><em>Figura: Historial de commits del repositorio Frontend, evidenciando la participación distribuida del equipo RQLS durante el Sprint 2.</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/assets/chapter-05/contributors-sprint2.png" alt="Contributors Insights Sprint 2" width="90%">
+  <img src="../docs/assets/chapter-05/contributors-sprint2.png" alt="Contributors Insights Sprint 2" width="90%">
   <p><em>Figura: Gráfica de Contributors de GitHub Insights mostrando la distribución de contribuciones del Sprint 2.</em></p>
 </div>
 
@@ -2898,7 +2925,7 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 <p><strong>Aciertos del Sprint:</strong></p>
 <ul>
   <li>La estructura DDD por <em>bounded contexts</em> en el frontend (<code>iam</code>, <code>requisition</code>, <code>suppliers</code>, <code>procurement</code>, <code>inventory</code>, <code>delivery</code>, <code>analytics-budgeting</code>, <code>profiles</code>, <code>communication</code>) permitió trabajar en paralelo sin conflictos significativos de merge.</li>
-  <li>El uso de json-server como mock alineó al equipo en torno a contratos de API tempranos, lo que facilitará la futura integración con los Web Services en .NET 8.</li>
+  <li>El uso de json-server como mock alineó al equipo en torno a contratos de API tempranos, lo que facilitó la integración posterior con los Web Services en ASP.NET Core / C#.</li>
   <li>La adopción de <strong>i18n</strong> desde el inicio evitó refactors posteriores y dejó listo el soporte multilenguaje (es/en).</li>
 </ul>
 
@@ -2911,107 +2938,57 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 
 ### 5.2.3. Sprint 3
 
-En esta sección se planifica el avance del Sprint 3 del proyecto Buildline. A diferencia del Sprint 1, centrado en la Landing Page, y del Sprint 2, centrado en la primera versión navegable del Frontend Web Application con mock API, el Sprint 3 se orienta a la primera versión de los **Backend Web Services** implementados con **ASP.NET Core / C#**.
+En esta sección se documenta el avance del Sprint 3 del proyecto Buildline. A diferencia del Sprint 1, centrado en la Landing Page, y del Sprint 2, centrado en la primera versión navegable del Frontend Web Application con mock API, el Sprint 3 consolida la primera versión desplegada de los **Backend Web Services** implementados con **ASP.NET Core / C#** y conectados al Frontend Web Application.
 
-Tras revisar el Sprint Backlog 1, el Sprint Backlog 2, las Technical Stories del Capítulo III, los diagramas de arquitectura del Capítulo IV y los endpoints consumidos por el Frontend local, se identificó que el backlog técnico anterior era demasiado limitado y estaba concentrado en perfiles/materiales. Por ello, el Sprint Backlog 3 toma como base Technical Stories de API granulares (`TS-IAM`, `TS-PROF`, `TS-SHARED`, `TS-REQ`, `TS-PROC`, `TS-INV`, `TS-DEL`, `TS-SUP`, `TS-ANB` y `TS-COM`) más mejoras transversales (`IMP-BE`) para foundation, persistencia y despliegue.
+Tras revisar el Sprint Backlog 1, el Sprint Backlog 2, las Technical Stories del Capítulo III, los diagramas del Capítulo IV y los endpoints consumidos por el frontend, el equipo actualizó el backlog técnico para reflejar APIs reales, persistencia, autenticación JWT, documentación Swagger y rutas operativas con alcance por compañía. Por ello, el Sprint Backlog 3 toma como base Technical Stories granulares (`TS-IAM`, `TS-PROF`, `TS-REQ`, `TS-PROC`, `TS-INV`, `TS-DEL`, `TS-SUP`, `TS-ANB` y `TS-COM`) más mejoras transversales (`IMP-BE`).
 
 #### 5.2.3.1. Sprint Planning 3.
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
-    <tr>
-      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 3</th>
-    </tr>
+    <tr><th colspan="2" style="text-align: center;">Sprint Planning Sprint 3</th></tr>
   </thead>
   <tbody>
-    <tr>
-      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
-    </tr>
-    <tr>
-      <td>Date</td>
-      <td>07/06/2026</td>
-    </tr>
-    <tr>
-      <td>Time</td>
-      <td>09:00 p.m.</td>
-    </tr>
-    <tr>
-      <td>Location</td>
-      <td>Discord / Whatsapp</td>
-    </tr>
-    <tr>
-      <td>Prepared By</td>
-      <td>Morales Venegas, David Joel</td>
-    </tr>
-    <tr>
-      <td>Attendees</td>
-      <td>
-        Castillo Yataco, Mauricio Sebastián<br>
-        Morales Venegas, David Joel<br>
-        Paucar Zenteno, Jesús Fernando<br>
-        Viza Quispe, Marlon Packard<br>
-        Cáceres Pizarro, Albino Florencio
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="text-align: center;"><strong>Sprint 2 Review Summary</strong></td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        Se entregó la primera versión navegable del Frontend Web Application de Buildline, conectada a un mock API mediante json-server y organizada por bounded contexts. El equipo validó los flujos principales de autenticación, requisiciones, proveedores, compras, seguimiento de entregas, inventario, analítica, perfiles y comunicación.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="text-align: center;"><strong>Sprint 2 Retrospective Summary</strong></td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        El uso del mock API permitió avanzar rápido en frontend, pero dejó como riesgo la falta de Web Services reales, persistencia transaccional y documentación Swagger definitiva. Para Sprint 3 se acordó priorizar la implementación de contratos backend compatibles con el frontend existente y mantener el tablero de Jira como fuente de seguimiento.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
-    </tr>
-    <tr>
-      <td colspan="2"><strong>Sprint 3 Goal (Outcome-Impact-Customer-Confirmation):</strong><br><br>
-<em>Our focus is on delivering the first functional version of Buildline Backend Web Services using ASP.NET Core / C#, replacing the mock services layer with REST endpoints aligned to the current Frontend Web Application contracts.</em><br><br>
-<em>We believe it will reduce integration uncertainty for the development team and provide a deployable service foundation for construction MYPES that need secure, traceable requisition, procurement and inventory workflows.</em><br><br>
-<em>This will be confirmed when Swagger exposes the prioritized API contracts, the frontend can consume the deployed backend for the selected flows, and the team can demonstrate authenticated access plus basic CRUD operations for the main bounded contexts.</em>
-      </td>
-    </tr>
-    <tr>
-      <td>Sprint 3 Velocity</td>
-      <td>34 Story Points</td>
-    </tr>
-    <tr>
-      <td>Sum of Story Points</td>
-      <td>34 Story Points</td>
-    </tr>
+    <tr><td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td></tr>
+    <tr><td>Date</td><td>07/06/2026</td></tr>
+    <tr><td>Time</td><td>09:00 p.m.</td></tr>
+    <tr><td>Location</td><td>Discord / WhatsApp</td></tr>
+    <tr><td>Prepared By</td><td>Morales Venegas, David Joel</td></tr>
+    <tr><td>Attendees</td><td>Castillo Yataco, Mauricio Sebastián<br>Morales Venegas, David Joel<br>Paucar Zenteno, Jesús Fernando<br>Viza Quispe, Marlon Packard<br>Cáceres Pizarro, Albino Florencio</td></tr>
+    <tr><td colspan="2" style="text-align: center;"><strong>Sprint 2 Review Summary</strong></td></tr>
+    <tr><td colspan="2">Se entregó la primera versión navegable del Frontend Web Application de Buildline, desplegada en Vercel y organizada por bounded contexts. El equipo validó los flujos principales de autenticación, requisiciones, compras, proveedores, entregas, inventario, analítica, perfiles, usuarios y comunicación usando mock API.</td></tr>
+    <tr><td colspan="2" style="text-align: center;"><strong>Sprint 2 Retrospective Summary</strong></td></tr>
+    <tr><td colspan="2">El mock API permitió validar interfaz y navegación, pero generó el riesgo de mantener datos hardcodeados y contratos no persistentes. Para Sprint 3 se priorizó construir el backend real, desplegarlo, documentarlo en Swagger y ajustar el frontend para consumir datos por compañía.</td></tr>
+    <tr><td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td></tr>
+    <tr><td colspan="2"><strong>Sprint 3 Goal (Outcome-Impact-Customer-Confirmation):</strong><br><br><em>Our focus is on delivering the first production-ready version of Buildline Backend Web Services using ASP.NET Core / C#, replacing mock services with company-scoped REST endpoints aligned to the deployed Frontend Web Application.</em><br><br><em>We believe it will reduce integration uncertainty for the development team and provide a secure, deployable service foundation for construction MYPES that need traceable requisition, procurement, inventory, supplier and budgeting workflows.</em><br><br><em>This will be confirmed when Swagger exposes the prioritized API contracts, Railway hosts the backend, Vercel hosts the frontend, JWT authentication works, and company-scoped endpoints return operational data only for the authenticated user's company.</em></td></tr>
+    <tr><td>Sprint 3 Velocity</td><td>34 Story Points</td></tr>
+    <tr><td>Sum of Story Points</td><td>34 Story Points</td></tr>
   </tbody>
 </table>
+
 <p>
   <strong>Repositorio Backend:</strong> <a href="https://github.com/RQLS26/buildline-platform">https://github.com/RQLS26/buildline-platform</a><br>
-  <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/buildline-frontend">https://github.com/RQLS26/buildline-frontend</a>
+  <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/buildline-frontend">https://github.com/RQLS26/buildline-frontend</a><br>
+  <strong>Backend desplegado:</strong> <a href="https://buildline-platform.up.railway.app/swagger/index.html">https://buildline-platform.up.railway.app/swagger/index.html</a><br>
+  <strong>Frontend desplegado:</strong> <a href="https://buildline-delta.vercel.app/">https://buildline-delta.vercel.app/</a>
 </p>
 
-<p><strong>Planned backend branch evidence:</strong> las Technical Stories de API se trabajan con ramas por endpoint/flujo, por ejemplo <code>feature/TS-IAM-001-sign-in-api</code>, <code>feature/TS-IAM-002-sign-up-api</code>, <code>feature/TS-REQ-001-create-requisition-api</code>, <code>feature/TS-PROC-003-purchase-orders-api</code>, <code>feature/TS-INV-002-inventory-stock-update-api</code>, <code>feature/TS-DEL-002-delivery-status-update-api</code>, <code>feature/TS-SUP-003-incidents-api</code>, <code>feature/TS-ANB-001-budget-dashboard-api</code> y <code>feature/TS-COM-001-messages-inbox-api</code>. Las mejoras transversales se separan como <code>feature/backend-foundations</code>, <code>feature/backend-persistence-migrations</code> y <code>feature/backend-deployment-readiness</code>.</p>
+<p><strong>Branch strategy:</strong> las Technical Stories de API se planificaron con ramas por endpoint/flujo, por ejemplo <code>feature/TS-IAM-001-sign-in-api</code>, <code>feature/TS-IAM-002-sign-up-api</code>, <code>feature/TS-REQ-001-create-requisition-api</code>, <code>feature/TS-PROC-003-purchase-orders-api</code>, <code>feature/TS-INV-002-inventory-stock-update-api</code>, <code>feature/TS-DEL-002-delivery-status-update-api</code>, <code>feature/TS-SUP-003-incidents-api</code>, <code>feature/TS-ANB-001-budget-dashboard-api</code> y <code>feature/TS-COM-001-messages-inbox-api</code>. Las mejoras transversales se separaron como <code>feature/backend-foundations</code>, <code>feature/backend-persistence-migrations</code> y <code>feature/backend-deployment-readiness</code>.</p>
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
-<p>
-Para el Sprint 3 se identificaron aspectos backend alineados con los bounded contexts del diseño de arquitectura y con los nombres utilizados por el Frontend Web Application. `materials` y `categories` se mantienen como catálogos compartidos dentro de `shared`, no como bounded contexts principales independientes. La siguiente matriz <strong>LACX</strong> distribuye liderazgo y colaboración para equilibrar la carga técnica de la implementación en C#.
-</p>
+<p>Para el Sprint 3 se identificaron aspectos backend alineados con los bounded contexts del diseño de arquitectura y con los nombres utilizados por el Frontend Web Application. <code>materials</code>, <code>categories</code> y <code>projects</code> se mantienen como recursos de referencia dentro de los contextos funcionales correspondientes, no como bounded contexts independientes. La matriz LACX distribuye liderazgo y colaboración para equilibrar implementación, QA, documentación y despliegue.</p>
 
 <table border="1" cellpadding="4" cellspacing="0" align="center">
   <thead>
     <tr>
       <th>Team Member</th>
-      <th>Aspect: iam & security</th>
-      <th>Aspect: profiles & shared catalog</th>
+      <th>Aspect: IAM, roles & security</th>
+      <th>Aspect: profiles, company scope & reference data</th>
       <th>Aspect: requisition & procurement</th>
       <th>Aspect: inventory & delivery</th>
       <th>Aspect: suppliers & incidents</th>
-      <th>Aspect: analytics-budgeting, communication & deployment</th>
+      <th>Aspect: analytics, communication & deployment</th>
     </tr>
   </thead>
   <tbody>
@@ -3025,50 +3002,228 @@ Para el Sprint 3 se identificaron aspectos backend alineados con los bounded con
 
 #### 5.2.3.3. Sprint Backlog 3.
 
-El Sprint Backlog 3 agrupa las tareas priorizadas para construir la primera versión de Web Services reales. La planificación respeta las Technical Stories actualizadas del Capítulo III y evita crear historias técnicas paralelas con nombres diferentes; cada work-item se vincula a TS de API concretas, orientadas a endpoints o flujos pequeños, y a las User Stories funcionales que justifican el contrato.
+El Sprint Backlog 3 agrupa las tareas necesarias para construir y desplegar la primera versión de Web Services reales. La tabla mantiene la estructura de control de estado definida para los sprints anteriores.
 
 | Sprint # | User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Sprint 3** | **IMP-BE-001** | Backend foundations | T300 | backend-foundations | Crear solución backend en C# con health check, CORS, JWT Bearer, Problem Details, XML documentation, Swagger auth y versionado `/api/v1`. | 5h | Castillo Yataco, Mauricio Sebastián | To-do |
-| **Sprint 3** | **IMP-BE-002** | Persistence, migrations and seed data | T301 | backend-persistence-migrations | Configurar EF Core, DbContext, auditoría, constraints y seed data equivalente al mock `db.json` para los bounded contexts priorizados. | 6h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **TS-IAM-001 / TS-IAM-002 / US-022 / US-023** | Sign-in API / Sign-up API | T302 | iam authentication API | Implementar `POST /api/v1/auth/sign-in` y `POST /api/v1/auth/sign-up` con JWT, validaciones y respuestas compatibles con frontend. | 6h | Castillo Yataco, Mauricio Sebastián | To-do |
-| **Sprint 3** | **TS-IAM-003 / TS-IAM-004 / TS-PROF-001 / US-024** | Users and profiles APIs | T303 | users-profiles API | Implementar `GET/POST /api/v1/users`, `GET/PATCH /api/v1/users/{id}` y lectura/actualización de `profiles`. | 6h | Castillo Yataco, Mauricio Sebastián | To-do |
-| **Sprint 3** | **TS-SHARED-001 / TS-SHARED-002 / TS-SHARED-003 / US-004 / US-014** | Shared reference APIs | T304 | shared reference data API | Implementar `projects`, `materials` y `categories` como módulos de referencia dentro de `shared`, no como bounded contexts principales. | 5h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **TS-REQ-001 / TS-REQ-002 / TS-REQ-003 / US-001 / US-003 / US-004** | Requisition APIs | T305 | requisition API | Implementar creación, listado, detalle y actualización de `/api/v1/requisitions` con estado, prioridad, solicitante y proyecto. | 7h | Paucar Zenteno, Jesús Fernando | To-do |
-| **Sprint 3** | **TS-PROC-001 / TS-PROC-002 / US-005 / US-006 / US-007** | Quotation APIs | T306 | quotations API | Implementar listado, creación, detalle y actualización de `/api/v1/quotations` para comparación de ofertas. | 5h | Paucar Zenteno, Jesús Fernando | To-do |
-| **Sprint 3** | **TS-PROC-003 / TS-PROC-004 / US-008 / US-009 / US-016** | Purchase order APIs | T307 | purchase-orders API | Implementar listado, creación, detalle y actualización de `/api/v1/purchaseOrders` para compras aprobadas y trazabilidad. | 6h | Paucar Zenteno, Jesús Fernando | To-do |
-| **Sprint 3** | **TS-INV-001 / TS-INV-002 / US-014 / US-015** | Inventory APIs | T308 | inventory API | Implementar listado, creación y actualización de stock en `/api/v1/inventory` con mínimos, máximos, proyecto y categoría. | 5h | Cáceres Pizarro, Albino Florencio | To-do |
-| **Sprint 3** | **TS-DEL-001 / TS-DEL-002 / US-011 / US-012** | Delivery APIs | T309 | delivery API | Implementar listado, creación y actualización de entregas en `/api/v1/deliveries` con trackingId, proveedor, ETA y estado. | 5h | Cáceres Pizarro, Albino Florencio | To-do |
-| **Sprint 3** | **TS-SUP-001 / TS-SUP-002 / US-029 / US-030** | Suppliers APIs | T310 | suppliers API | Implementar directorio, actualización y eliminación lógica de proveedores en `/api/v1/suppliers`. | 5h | Viza Quispe, Marlon Packard | To-do |
-| **Sprint 3** | **TS-SUP-003 / TS-SUP-004 / US-013** | Incidents APIs | T311 | incidents API | Implementar creación, listado y actualización de incidencias en `/api/v1/incidents` con severidad, estado, proveedor y orden asociada. | 4h | Viza Quispe, Marlon Packard | To-do |
-| **Sprint 3** | **TS-ANB-001 / TS-ANB-002 / US-017 / US-018 / US-019** | Budget APIs | T312 | analytics-budgeting API | Implementar lectura y actualización de `/api/v1/budgets` con totalBudget, spent, allocated y estados presupuestales. | 4h | Morales Venegas, David Joel | To-do |
-| **Sprint 3** | **TS-COM-001 / TS-COM-002 / US-010 / US-021** | Messages APIs | T313 | communication API | Implementar bandeja, creación, actualización y eliminación de `/api/v1/messages` para alertas y mensajes internos. | 4h | Viza Quispe, Marlon Packard | To-do |
-| **Sprint 3** | **IMP-BE-003** | Deployment and integration readiness | T314 | backend-deployment-readiness | Preparar Docker, configuración de producción, variables de entorno, ejemplos HTTP y smoke test con frontend reemplazando json-server. | 5h | Morales Venegas, David Joel | To-do |
+| **Sprint 3** | **IMP-BE-001** | Backend foundations | T300 | backend-foundations | Crear solución backend en C# con health check, CORS, JWT Bearer, Problem Details, XML documentation, Swagger auth y versionado `/api/v1`. | 5h | Castillo Yataco, Mauricio Sebastián | Done |
+| **Sprint 3** | **IMP-BE-002** | Persistence, migrations and seed data | T301 | backend-persistence-migrations | Configurar EF Core, DbContext, auditoría, constraints y seed data inicial compatible con el frontend. | 6h | Morales Venegas, David Joel | Done |
+| **Sprint 3** | **TS-IAM-001 / TS-IAM-002 / US-022 / US-023** | Sign-in API / Sign-up API | T302 | iam authentication API | Implementar `POST /api/v1/auth/sign-in` y `POST /api/v1/auth/sign-up` con JWT, validaciones, mensajes de error y último inicio de sesión real. | 6h | Castillo Yataco, Mauricio Sebastián | Done |
+| **Sprint 3** | **TS-IAM-003 / TS-IAM-004 / TS-PROF-001 / US-024** | Users and profiles APIs | T303 | users-profiles API | Implementar `GET/POST /api/v1/companies/{companyId}/users`, `GET/PATCH /api/v1/companies/{companyId}/users/{id}`, cambio de contraseña, 2FA flag, perfiles y membresías de compañía. | 6h | Castillo Yataco, Mauricio Sebastián | Done |
+| **Sprint 3** | **TS-ANB-003 / TS-REQ-004 / TS-INV-003 / US-004 / US-014** | Reference data APIs | T304 | reference data API | Implementar proyectos, materiales y categorías como recursos company-scoped para formularios, filtros, inventario y dashboard. | 5h | Morales Venegas, David Joel | Done |
+| **Sprint 3** | **TS-REQ-001 / TS-REQ-002 / TS-REQ-003 / US-001 / US-003 / US-004** | Requisition APIs | T305 | requisition API | Implementar creación, listado, detalle y actualización de `/api/v1/companies/{companyId}/requisitions`. | 7h | Paucar Zenteno, Jesús Fernando | Done |
+| **Sprint 3** | **TS-PROC-001 / TS-PROC-002 / TS-PROC-003 / TS-PROC-004 / US-005 / US-009** | Procurement APIs | T306 | procurement API | Implementar cotizaciones y órdenes de compra bajo `/api/v1/companies/{companyId}`. | 11h | Paucar Zenteno, Jesús Fernando | Done |
+| **Sprint 3** | **TS-INV-001 / TS-INV-002 / TS-DEL-001 / TS-DEL-002** | Inventory and delivery APIs | T307 | inventory-delivery API | Implementar inventario, stock, entregas y tracking con scope por compañía. | 10h | Cáceres Pizarro, Albino Florencio | Done |
+| **Sprint 3** | **TS-SUP-001 / TS-SUP-002 / TS-SUP-003 / TS-SUP-004** | Suppliers and incidents APIs | T308 | suppliers-incidents API | Implementar proveedores, edición, eliminación e incidencias con estados. | 9h | Viza Quispe, Marlon Packard | Done |
+| **Sprint 3** | **TS-ANB-001 / TS-ANB-002 / TS-COM-001 / TS-COM-002** | Analytics and communication APIs | T309 | analytics-communication API | Implementar presupuestos, métricas, mensajes, invitaciones, destacados y archivo. | 8h | Morales Venegas, David Joel | Done |
+| **Sprint 3** | **IMP-BE-003** | Deployment and integration readiness | T310 | backend-deployment-readiness | Preparar Docker, variables productivas, Swagger público, Railway y smoke tests con frontend real. | 5h | Morales Venegas, David Joel | Done |
 
-<p><strong>Endpoint coverage planned for Sprint 3:</strong> <code>/api/v1/auth/sign-in</code>, <code>/api/v1/auth/sign-up</code>, <code>/api/v1/users</code>, <code>/api/v1/profiles</code>, <code>/api/v1/projects</code>, <code>/api/v1/materials</code>, <code>/api/v1/categories</code>, <code>/api/v1/requisitions</code>, <code>/api/v1/quotations</code>, <code>/api/v1/purchaseOrders</code>, <code>/api/v1/inventory</code>, <code>/api/v1/deliveries</code>, <code>/api/v1/suppliers</code>, <code>/api/v1/incidents</code>, <code>/api/v1/budgets</code> y <code>/api/v1/messages</code>.</p>
+<p><strong>Endpoint coverage delivered for Sprint 3:</strong> <code>/api/v1/auth/sign-in</code>, <code>/api/v1/auth/sign-up</code>, <code>/api/v1/users/me</code>, <code>/api/v1/profiles</code> y rutas operativas bajo <code>/api/v1/companies/{companyId}</code> para <code>users</code>, <code>projects</code>, <code>materials</code>, <code>categories</code>, <code>requisitions</code>, <code>quotations</code>, <code>purchaseOrders</code>, <code>inventory</code>, <code>deliveries</code>, <code>suppliers</code>, <code>incidents</code>, <code>budgets</code> y <code>messages</code>.</p>
 
-#### 5.2.3.4. Development Evidence for Sprint Review.
+#### 5.2.3.4. Development Evidence for Sprint Review
 
-[pending content]
+<p>Durante el Sprint 3 se construyó la primera versión real de la API REST con ASP.NET Core / C#, reemplazando el mock service por una arquitectura modular con bounded contexts, Entity Framework Core, migraciones, seed data, errores estandarizados, XML documentation, Swagger y seguridad JWT Bearer. La tabla resume commits verificables de backend y frontend que sustentan la integración del entregable.</p>
 
-#### 5.2.3.5. Execution Evidence for Sprint Review.
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [buildline-platform](https://github.com/RQLS26/buildline-platform) | main | `2599196` | feat(backend): align api security controls | Normaliza IAM, permisos, errores, Swagger, Docker y controles de seguridad necesarios para producción. | 20-06-2026 |
+| [buildline-platform](https://github.com/RQLS26/buildline-platform) | main | `1dd00d2` | feat(backend): scope company memberships | Agrega modelo de compañía/membresía para aislar usuarios, owners, admins y viewers por organización. | 20-06-2026 |
+| [buildline-platform](https://github.com/RQLS26/buildline-platform) | main | `689ce83` | feat(backend): scope operational APIs by company | Actualiza endpoints operativos para que requisiciones, compras, inventario, entregas, proveedores, presupuestos y mensajes respondan por companyId. | 20-06-2026 |
+| [buildline-platform](https://github.com/RQLS26/buildline-platform) | main | `4d50f45` | fix(backend): persist real user last login | Persiste el último inicio de sesión real al autenticar y lo expone en users/me y Users & Roles. | 20-06-2026 |
+| [buildline-frontend](https://github.com/RQLS26/buildline-frontend) | develop | `67adebe` | fix(frontend): consume company scoped API routes | Ajusta servicios frontend para consumir rutas bajo `/api/v1/companies/{companyId}`. | 20-06-2026 |
+| [buildline-frontend](https://github.com/RQLS26/buildline-frontend) | develop | `c2b9fb9` | fix(frontend): stabilize company views and empty states | Evita mezclar data entre compañías y agrega estados vacíos para tenants nuevos. | 20-06-2026 |
+| [buildline-frontend](https://github.com/RQLS26/buildline-frontend) | develop | `e0263d2` | fix(frontend): format real user last login | Formatea el último inicio de sesión real devuelto por backend según idioma. | 20-06-2026 |
 
-[pending content]
+<p><strong>Imagen sugerida para esta sección:</strong> agregar <code>./assets/chapter-05/sprint3-backend-commits.png</code> con el historial de commits del repositorio backend y <code>./assets/chapter-05/sprint3-frontend-integration-commits.png</code> con los commits de integración del frontend.</p>
 
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.3.5. Execution Evidence for Sprint Review
 
-[pending content]
+<p>Durante el Sprint 3 se validó el reemplazo del mock por backend real. La evidencia debe mostrar que el servicio responde, que los endpoints protegidos requieren JWT, que la sesión devuelve datos reales del usuario, y que el frontend consume datos por compañía.</p>
 
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-swagger-ui.png" alt="Swagger UI Execution Evidence" width="90%">
+  <p><em>Figura: Swagger UI desplegado en Railway mostrando controladores por bounded context y rutas V1 documentadas.</em></p>
+</div>
 
-[pending content]
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-auth-sign-in.png" alt="JWT Sign In Evidence" width="90%">
+  <p><em>Figura: Ejecución de <code>POST /api/v1/auth/sign-in</code> con respuesta <code>200 OK</code>, token JWT, companyId y último inicio de sesión real.</em></p>
+</div>
 
-#### 5.2.3.8. Team Collaboration Insights during Sprint.
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-company-scoped-endpoint.png" alt="Company Scoped Endpoint Evidence" width="90%">
+  <p><em>Figura: Prueba de endpoint protegido bajo <code>/api/v1/companies/{companyId}</code> retornando datos filtrados por compañía autenticada.</em></p>
+</div>
 
-[pending content]
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-frontend-live-data.png" alt="Frontend Live Data Evidence" width="90%">
+  <p><em>Figura: Frontend desplegado en Vercel mostrando datos obtenidos desde el backend real y estados vacíos para compañías nuevas.</em></p>
+</div>
 
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-<div class="page-break"></div>
+<p>La documentación de servicios evolucionó a un contrato OpenAPI interactivo, disponible públicamente en Swagger. Cada endpoint protegido requiere JWT Bearer y, para recursos operativos, utiliza el patrón <code>/api/v1/companies/{companyId}/...</code> para evitar mezcla de información entre compañías.</p>
+
+| Endpoint Base | Métodos | Descripción del Servicio | Seguridad / Scope | Respuesta esperada |
+| :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/health` | GET | Verifica disponibilidad del API. | Público | `200 OK` |
+| `/api/v1/auth/sign-in` | POST | Valida credenciales, actualiza último inicio de sesión y retorna token JWT. | Público | `200 OK` |
+| `/api/v1/auth/sign-up` | POST | Crea usuario, compañía propia o solicitud de membresía a compañía existente. | Público | `201 Created` |
+| `/api/v1/users/me` | GET | Devuelve la proyección del usuario autenticado. | JWT | `200 OK` |
+| `/api/v1/companies/{companyId}/users` | GET, POST | Lista y crea usuarios dentro de una compañía. | JWT + owner/admin | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/users/{id}` | GET, PATCH | Consulta y actualiza rol, estado, 2FA flag o membresía. | JWT + company scope | `200 OK` |
+| `/api/v1/profiles` | GET | Consulta perfiles/compañías disponibles para onboarding. | JWT | `200 OK` |
+| `/api/v1/profiles/{id}` | GET, PUT/PATCH | Consulta y actualiza datos de perfil de empresa. | JWT + company scope | `200 OK` |
+| `/api/v1/companies/{companyId}/projects` | GET | Referencia de proyectos para filtros, presupuestos y formularios. | JWT + company scope | `200 OK` |
+| `/api/v1/companies/{companyId}/materials` | GET, POST, PATCH, DELETE | Catálogo de materiales usado por requisiciones, compras e inventario. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/categories` | GET | Referencia de categorías para materiales e inventario. | JWT + company scope | `200 OK` |
+| `/api/v1/companies/{companyId}/requisitions` | GET, POST, PATCH | Gestión de solicitudes de material. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/quotations` | GET, POST, PATCH | Registro y evaluación de cotizaciones. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/purchaseOrders` | GET, POST, PATCH | Creación, historial y aprobación/rechazo de órdenes de compra. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/inventory` | GET, POST, PATCH | Control de stock, mínimos, máximos y estado de almacén. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/deliveries` | GET, POST, PATCH | Registro y seguimiento de entregas por trackingId y estado. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/suppliers` | GET, POST, PATCH, DELETE | Directorio, edición y baja de proveedores. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/incidents` | GET, POST, PATCH | Registro y actualización de incidencias de proveedores o entregas. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/budgets` | GET, POST, PATCH | Control presupuestal y métricas para analytics-budgeting. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/messages` | GET, POST, PATCH, DELETE | Bandeja, mensajes, invitaciones, destacados, lectura y archivo. | JWT + company scope | `200 OK` / `201 Created` |
+
+<p><strong>Imagen sugerida para esta sección:</strong> agregar <code>./assets/chapter-05/sprint3-swagger-services.png</code> con Swagger expandido en los controladores principales y <code>./assets/chapter-05/sprint3-services-docs-readme.png</code> con la documentación del README backend.</p>
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+<p>Los Backend Web Services fueron contenerizados con Docker y desplegados en Railway. La Web Application se desplegó en Vercel y quedó configurada para consumir el backend productivo mediante la variable de base URL correspondiente.</p>
+
+| Componente | Plataforma | URL / Configuración | Estado |
+| :--- | :--- | :--- | :--- |
+| Landing Page | Vercel | [https://landing-page-bay-iota.vercel.app/](https://landing-page-bay-iota.vercel.app/) | Deployed |
+| Frontend Web Application | Vercel | [https://buildline-delta.vercel.app/](https://buildline-delta.vercel.app/) | Deployed |
+| Backend Web Services | Railway | [https://buildline-platform.up.railway.app/swagger/index.html](https://buildline-platform.up.railway.app/swagger/index.html) | Deployed |
+| Database | Railway MySQL | `MYSQL_HOST`, `MYSQL_PORT`, `MYSQL_DATABASE`, `MYSQL_USER`, `MYSQL_PASSWORD` | Connected |
+
+<p><strong>Variables críticas de producción:</strong> <code>ASPNETCORE_ENVIRONMENT=Production</code>, <code>ASPNETCORE_URLS=http://+:8080</code>, <code>BUILDLINE_JWT_SECRET</code> y variables MySQL provistas por Railway.</p>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-railway-deployment.png" alt="Backend Railway Deployment Evidence" width="90%">
+  <p><em>Figura: Servicio Backend en Railway con deploy exitoso y contenedor en ejecución.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-vercel-frontend-deployment.png" alt="Frontend Vercel Deployment Evidence" width="90%">
+  <p><em>Figura: Frontend Web Application desplegado en Vercel y conectado a la API productiva.</em></p>
+</div>
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+<p>Durante el Sprint 3, el trabajo se distribuyó entre implementación backend, ajustes de integración frontend, QA funcional, despliegue y documentación. Aunque la mayor cantidad de commits de backend se concentró en los responsables técnicos de Web Services, los demás integrantes participaron en revisión de contratos, validación de pantallas, pruebas manuales y actualización de evidencias del informe.</p>
+
+<ul>
+  <li><strong>IAM y seguridad:</strong> validación de JWT, roles <code>owner</code>, <code>admin</code>, <code>viewer</code>, último login real, cambio de contraseña y 2FA flag.</li>
+  <li><strong>Company scope:</strong> revisión de que cada endpoint operativo utilice <code>companyId</code> y no mezcle data entre compañías.</li>
+  <li><strong>Frontend integration:</strong> reemplazo de mocks por servicios Axios contra backend productivo y estados vacíos para compañías nuevas.</li>
+  <li><strong>QA:</strong> pruebas en Swagger, Railway logs, Vercel preview y navegación real por pantallas.</li>
+  <li><strong>Documentación:</strong> actualización de README backend/frontend, Sprint 3, Technical Stories y matriz de endpoints.</li>
+</ul>
+
+<div align="center">
+  <img src="../docs/assets/chapter-05/sprint3-network-graph.png" alt="Network Graph Sprint 3" width="90%">
+  <p><em>Figura: Network Graph del repositorio evidenciando ramas feature/release y merges hacia main/develop para Sprint 3.</em></p>
+</div>
+
+## 5.3. Validation Interviews
+
+La validación AV2 se orienta a comprobar que la primera versión integrada de Buildline mantiene coherencia entre la propuesta de valor, la navegación del frontend y los Web Services desplegados. Las entrevistas deben ejecutarse con usuarios cercanos a los segmentos definidos en capítulos anteriores: jefes de proyecto, residentes de obra, responsables logísticos y administradores de MYPE constructora.
+
+### 5.3.1. Diseño de Entrevistas.
+
+| Elemento | Diseño propuesto para AV2 |
+| :--- | :--- |
+| Objetivo | Evaluar si Buildline permite entender, registrar y monitorear procesos logísticos de obra con menor fricción que hojas de cálculo o comunicación informal. |
+| Perfil de participantes | Jefe de proyecto, residente de obra, encargado de logística y administrador de empresa constructora MYPE. |
+| Modalidad | Entrevista remota por videollamada con pantalla compartida y prueba guiada del producto desplegado. |
+| Duración estimada | 20 a 30 minutos por participante. |
+| Instrumento | Guía semiestructurada con tareas, observación de fricciones, preguntas de percepción y cierre con recomendaciones. |
+
+**Tareas evaluadas:** registro de usuario y compañía, inicio de sesión, requisiciones, órdenes de compra, entregas, proveedores, incidencias, presupuestos, reportes, notificaciones, usuarios y configuración.
+
+**Preguntas guía:** ¿qué información necesita ver primero?, ¿el flujo refleja su proceso actual?, ¿qué dato falta para decidir?, ¿los roles son comprensibles?, ¿qué pantalla generó claridad o fricción?
+
+### 5.3.2. Registro de Entrevistas.
+
+| Entrevista | Participante / Rol | Fecha | Modalidad | Video | Evidencia visual | Principales hallazgos |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| AV2-01 | Jefe de proyecto | [pending content] | Videollamada | [pending content] | `./assets/chapter-05/validation-interview-av2-01.png` | [pending content] |
+| AV2-02 | Encargado de logística | [pending content] | Videollamada | [pending content] | `./assets/chapter-05/validation-interview-av2-02.png` | [pending content] |
+| AV2-03 | Residente de obra | [pending content] | Videollamada | [pending content] | `./assets/chapter-05/validation-interview-av2-03.png` | [pending content] |
+
+<p><strong>Imágenes sugeridas:</strong> agregar capturas del consentimiento/participante, ejecución de tareas, feedback verbal y resumen de hallazgos por entrevista.</p>
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+**UX Heuristics & Principles Evaluation**
+**Usability - Inclusive Design - Information Architecture**
+
+| Campo | Valor |
+| :--- | :--- |
+| Carrera | Ingeniería de Software |
+| Curso | Aplicaciones Web |
+| Sección | [pending content] |
+| Profesores | Todos |
+| Auditor | RQLS26 |
+| Cliente(s) | Participantes de entrevistas AV2 |
+| Site o App a evaluar | Buildline Frontend Web Application |
+
+**Tareas incluidas en el alcance:** registro, login, requisición, compras, entregas, proveedores, incidencias, presupuesto, reportes, notificaciones, usuarios, roles y configuración.
+
+**Tareas no incluidas en esta versión:** pagos en línea, integración ERP/SUNAT, push móvil nativo y gestión documental avanzada.
+
+| Nivel | Descripción |
+| :--- | :--- |
+| 1 | Problema superficial: ocurre con baja frecuencia o puede superarse fácilmente. |
+| 2 | Problema menor: ocurre con cierta frecuencia y debe priorizarse en un siguiente release. |
+| 3 | Problema mayor: afecta el cumplimiento de tareas importantes y requiere prioridad alta. |
+| 4 | Problema muy grave: impide continuar con el uso de la herramienta y debe corregirse antes del lanzamiento. |
+
+| # | Problema | Escala de severidad | Heurística / Principio violado |
+| :--- | :--- | :--- | :--- |
+| 1 | Algunos estados vacíos deben explicar claramente que la compañía aún no tiene datos registrados. | 2 | Information Architecture: is it understandable? |
+| 2 | El registro de entregas requiere selects alimentados por datos existentes para evitar tipeo libre. | 3 | Usability: error prevention |
+| 3 | La administración de roles debe impedir múltiples owners por compañía. | 3 | Usability: consistency and standards |
+| 4 | Las configuraciones deben aplicarse solo después de confirmar Save Changes. | 2 | Usability: user control and freedom |
+| 5 | Los títulos traducidos deben conservar alturas consistentes en cards y gráficos. | 2 | Inclusive Design: comparable experience |
+
+**Problema #1: Estados vacíos poco explicativos**
+**Severidad:** 2
+**Heurística violada:** Information Architecture - is it understandable?
+**Problema:** En compañías nuevas, las pantallas sin datos pueden interpretarse como error de carga si no indican que todavía no existen requisiciones, órdenes, entregas, proveedores o mensajes registrados. Incluir captura: `./assets/chapter-05/heuristic-empty-states.png`.
+**Recomendación:** Mantener mensajes vacíos por módulo, con texto orientado a la siguiente acción disponible y sin insertar datos ficticios permanentes.
+
+**Problema #2: Formularios con tipeo libre donde existen datos maestros**
+**Severidad:** 3
+**Heurística violada:** Usability - error prevention
+**Problema:** Algunos formularios de entregas o incidencias pueden inducir errores si permiten escribir proveedor, PO o material en lugar de seleccionarlos desde endpoints existentes. Incluir captura: `./assets/chapter-05/heuristic-delivery-form.png`.
+**Recomendación:** Usar selects alimentados por purchase orders, suppliers y materials de la compañía.
+
+**Problema #3: Reglas de owner y membresía**
+**Severidad:** 3
+**Heurística violada:** Usability - consistency and standards
+**Problema:** La gestión de usuarios debe evitar que un owner asigne otro owner y debe mostrar solicitudes de ingreso a compañía de forma clara. Incluir captura: `./assets/chapter-05/heuristic-users-roles.png`.
+**Recomendación:** Mantener un único owner por compañía, permitir admin/viewer y procesar solicitudes desde Users & Roles o Notifications.
+
+## 5.4. Video About-the-Product
+
+La primera versión del Video About-the-Product debe presentar el problema logístico de las MYPES constructoras, la propuesta de valor de Buildline, la navegación por el frontend desplegado, el consumo del backend real y los flujos críticos del Sprint 3.
+
+| Elemento | Contenido AV2 |
+| :--- | :--- |
+| Título sugerido | Buildline - Digital Construction Logistics |
+| Duración sugerida | 3 a 5 minutos |
+| URL del video | [pending content] |
+| Producto mostrado | Landing Page, Frontend Web Application y Backend Swagger desplegado |
+| Flujo mínimo | Sign-in, dashboard, requisición, orden de compra, entrega, proveedor, presupuesto, users & roles |
+| Evidencia sugerida | `./assets/chapter-05/video-about-the-product-av2.png` |
+
+<p><strong>Guion sugerido:</strong> iniciar con el problema de sobrecostos y falta de trazabilidad, mostrar cómo Buildline centraliza requisiciones, compras, inventario, entregas, proveedores y presupuestos, y cerrar con la evidencia de despliegue en Vercel/Railway.</p>
+
 
 # Capítulo VI: Conclusions
 ## 6.1. Conclusiones y recomendaciones
@@ -3099,33 +3254,31 @@ El Sprint Backlog 3 agrupa las tareas priorizadas para construir la primera vers
   Durante el Sprint 1, el desarrollo de software se limitó estrictamente a la capa de presentación estática. Se logró implementar y desplegar exitosamente la Landing Page informativa de Buildline mediante GitHub Pages, cumpliendo con los criterios de aceptación definidos: navegación responsiva, presentación clara de la propuesta de valor, visualización de planes y perfiles del equipo.
 </p> 
 <p>
-  Tras el avance del Sprint 2, la solución ya cuenta con una primera versión navegable del Frontend Web Application conectada a un mock API, por lo que las métricas operativas del sistema central (como la reducción de tiempos de cotización) podrán validarse progresivamente cuando los Web Services reales de Sprint 3 sustituyan los contratos simulados.
+  Tras el avance de AV2, la solución ya cuenta con una Landing Page actualizada, una primera versión navegable del Frontend Web Application desplegada en Vercel y una primera versión de Backend Web Services desplegada en Railway. Esto permite validar progresivamente métricas operativas con datos persistidos, endpoints documentados en Swagger y rutas protegidas por JWT.
 </p> 
 
 <p><strong>Recomendaciones (Roadmap):</strong></p> 
 <p>
-  Considerando que ya se cuenta con Landing Page, Frontend Web Application y contratos de mock API, se recomiendan las siguientes líneas de acción técnicas para consolidar el segundo entregable y preparar la primera versión real de Web Services:
+  Considerando que ya se cuenta con Landing Page, Frontend Web Application y Web Services reales, se recomiendan las siguientes líneas de acción técnicas para consolidar el siguiente release:
 </p> 
 <ul> 
   <li> 
-    <strong>Desarrollo del Backend API:</strong> Implementar la primera versión de los Web Services utilizando <strong>.NET 8 (C#)</strong>, priorizando los endpoints requeridos por el Frontend para autenticación, usuarios, proyectos, requisiciones, cotizaciones, órdenes de compra, inventario, entregas, proveedores, incidencias, presupuestos y mensajes.
+    <strong>Pruebas automatizadas del Backend API:</strong> Incrementar cobertura de pruebas unitarias e integración para endpoints company-scoped, permisos por rol y flujos críticos de requisición, compra, entrega y presupuesto.
   </li> 
   <li> 
-    <strong>Evolución del Frontend (SPA):</strong> Integrar progresivamente la aplicación en <strong>Vue.js</strong> con la API real, reemplazando el mock API por servicios desplegados y conservando los flujos ya implementados durante Sprint 2.
+    <strong>Evolución del Frontend (SPA):</strong> Completar validaciones de formularios, estados vacíos por compañía, traducciones y acciones CRUD restantes sobre datos reales.
   </li> 
   <li> 
-    <strong>Modelado de la Base de Datos:</strong> Implementar la base de datos relacional diseñada para usuarios, perfiles, proyectos, materiales, requisiciones, cotizaciones, órdenes de compra, inventario, entregas, proveedores, incidencias, presupuestos y mensajes, asegurando trazabilidad entre obra, logística y gerencia.
+    <strong>Modelado de la Base de Datos:</strong> Refinar constraints, índices y reglas de integridad para asegurar que los datos de usuarios, perfiles, proyectos, materiales, requisiciones, cotizaciones, órdenes de compra, inventario, entregas, proveedores, incidencias, presupuestos y mensajes se mantengan aislados por compañía.
   </li> 
   <li> 
-    <strong>Integración y validación de servicios:</strong> Establecer una comunicación fluida entre el frontend en Vue.js y el backend en .NET, documentar los contratos mediante Swagger/OpenAPI y realizar pruebas de integración antes del despliegue de Web Services.
+    <strong>Integración y validación de servicios:</strong> Mantener Swagger/OpenAPI como contrato vivo, agregar smoke tests automáticos en CI/CD y documentar evidencias de Railway/Vercel por cada release.
   </li> 
 </ul>
 
 ## 6.2. Video About-the-Team
-[pending content]
+**Enlace directo al video:** [Proyecto Buildline](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113229_upc_edu_pe/IQB1dGiVxpVzQpCrk-JNZCiwAZ2xX-34W7a3JdRWhEfS9SU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=omZ66Y)
 
-
-<div class="page-break"></div>
 
 # Bibliografía
 <ul>
@@ -3271,6 +3424,24 @@ El Sprint Backlog 3 agrupa las tareas priorizadas para construir la primera vers
     Microsoft. (s.f.). <em>C# Coding Conventions</em>. Recuperado de <a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions">https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions</a>
   </li>
   <li>
+    Microsoft. (s.f.). <em>ASP.NET Core documentation</em>. Recuperado de <a href="https://learn.microsoft.com/en-us/aspnet/core/">https://learn.microsoft.com/en-us/aspnet/core/</a>
+  </li>
+  <li>
+    Microsoft. (s.f.). <em>Entity Framework Core documentation</em>. Recuperado de <a href="https://learn.microsoft.com/en-us/ef/core/">https://learn.microsoft.com/en-us/ef/core/</a>
+  </li>
+  <li>
+    Microsoft. (s.f.). <em>Authentication and authorization in ASP.NET Core</em>. Recuperado de <a href="https://learn.microsoft.com/en-us/aspnet/core/security/">https://learn.microsoft.com/en-us/aspnet/core/security/</a>
+  </li>
+  <li>
+    Swagger. (s.f.). <em>OpenAPI Specification</em>. Recuperado de <a href="https://swagger.io/specification/">https://swagger.io/specification/</a>
+  </li>
+  <li>
+    Railway. (s.f.). <em>Railway Documentation</em>. Recuperado de <a href="https://docs.railway.com/">https://docs.railway.com/</a>
+  </li>
+  <li>
+    Vercel. (s.f.). <em>Vercel Documentation</em>. Recuperado de <a href="https://vercel.com/docs">https://vercel.com/docs</a>
+  </li>
+  <li>
     SpecFlow. (s.f.). <em>Gherkin Conventions</em>. Recuperado de <a href="https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/">https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/</a>
   </li>
   <li>
@@ -3282,5 +3453,43 @@ El Sprint Backlog 3 agrupa las tareas priorizadas para construir la primera vers
 <div style="page-break-after: always;"></div>
 
 
-<div class="page-break"></div>
+# Anexos
 
+## Anexo A: Evidencias visuales requeridas para AV2
+
+| Sección | Archivo sugerido | Descripción |
+| :--- | :--- | :--- |
+| Project Report Collaboration Insights | `docs/assets/front-matter/collaboration-insights-av2.png` | GitHub Insights, commits o actividad colaborativa del equipo durante AV2. |
+| Sprint 3 Development Evidence | `docs/assets/chapter-05/sprint3-backend-commits.png` | Historial de commits del backend. |
+| Sprint 3 Development Evidence | `docs/assets/chapter-05/sprint3-frontend-integration-commits.png` | Historial de commits de integración del frontend. |
+| Sprint 3 Execution Evidence | `docs/assets/chapter-05/sprint3-swagger-ui.png` | Swagger desplegado en Railway. |
+| Sprint 3 Execution Evidence | `docs/assets/chapter-05/sprint3-auth-sign-in.png` | Prueba de `POST /api/v1/auth/sign-in` con JWT y datos reales. |
+| Sprint 3 Execution Evidence | `docs/assets/chapter-05/sprint3-company-scoped-endpoint.png` | Prueba de endpoint company-scoped con JWT. |
+| Sprint 3 Execution Evidence | `docs/assets/chapter-05/sprint3-frontend-live-data.png` | Frontend desplegado consumiendo backend real. |
+| Sprint 3 Services Documentation | `docs/assets/chapter-05/sprint3-swagger-services.png` | Swagger expandido con endpoints principales. |
+| Sprint 3 Services Documentation | `docs/assets/chapter-05/sprint3-services-docs-readme.png` | README backend con documentación de servicios. |
+| Sprint 3 Deployment Evidence | `docs/assets/chapter-05/sprint3-railway-deployment.png` | Servicio backend en Railway. |
+| Sprint 3 Deployment Evidence | `docs/assets/chapter-05/sprint3-vercel-frontend-deployment.png` | Frontend en Vercel conectado al backend. |
+| Sprint 3 Collaboration | `docs/assets/chapter-05/sprint3-network-graph.png` | Network graph o ramas de GitFlow. |
+| Validation Interviews | `docs/assets/chapter-05/validation-interview-av2-01.png` | Evidencia de entrevista AV2-01. |
+| Validation Interviews | `docs/assets/chapter-05/validation-interview-av2-02.png` | Evidencia de entrevista AV2-02. |
+| Validation Interviews | `docs/assets/chapter-05/validation-interview-av2-03.png` | Evidencia de entrevista AV2-03. |
+| Heuristic Evaluation | `docs/assets/chapter-05/heuristic-empty-states.png` | Captura del problema de estados vacíos. |
+| Heuristic Evaluation | `docs/assets/chapter-05/heuristic-delivery-form.png` | Captura del formulario de entregas. |
+| Heuristic Evaluation | `docs/assets/chapter-05/heuristic-users-roles.png` | Captura de Users & Roles. |
+| Video About-the-Product | `docs/assets/chapter-05/video-about-the-product-av2.png` | Captura o portada del video del producto. |
+
+## Anexo B: URLs de despliegue
+
+| Producto | URL |
+| :--- | :--- |
+| Landing Page | [https://landing-page-bay-iota.vercel.app/](https://landing-page-bay-iota.vercel.app/) |
+| Frontend Web Application | [https://buildline-delta.vercel.app/](https://buildline-delta.vercel.app/) |
+| Backend Web Services Swagger | [https://buildline-platform.up.railway.app/swagger/index.html](https://buildline-platform.up.railway.app/swagger/index.html) |
+
+## Anexo C: Fuentes de arquitectura backend
+
+Los archivos fuente editables de arquitectura se mantienen en el repositorio backend, siguiendo el estilo del proyecto de referencia del curso:
+
+- `docs/class-diagram.puml`
+- `docs/software-architecture.dsl`
