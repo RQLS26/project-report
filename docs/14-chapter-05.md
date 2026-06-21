@@ -894,7 +894,15 @@ El Sprint Backlog 3 agrupa las tareas necesarias para construir y desplegar la p
 | [buildline-frontend](https://github.com/RQLS26/buildline-frontend) | develop | `c2b9fb9` | fix(frontend): stabilize company views and empty states | Evita mezclar data entre compañías y agrega estados vacíos para tenants nuevos. | 20-06-2026 |
 | [buildline-frontend](https://github.com/RQLS26/buildline-frontend) | develop | `e0263d2` | fix(frontend): format real user last login | Formatea el último inicio de sesión real devuelto por backend según idioma. | 20-06-2026 |
 
-<p><strong>Imagen sugerida para esta sección:</strong> agregar <code>./assets/chapter-05/sprint3-backend-commits.png</code> con el historial de commits del repositorio backend y <code>./assets/chapter-05/sprint3-frontend-integration-commits.png</code> con los commits de integración del frontend.</p>
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-backend-commits.png" alt="Sprint 3 Backend Commits" width="90%">
+  <p><em>Figura: Historial de commits del repositorio backend correspondiente a la implementación de Web Services del Sprint 3.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-frontend-integration-commits.png" alt="Sprint 3 Frontend Integration Commits" width="90%">
+  <p><em>Figura: Historial de commits del repositorio frontend correspondiente a la integración con la API productiva.</em></p>
+</div>
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -947,7 +955,15 @@ El Sprint Backlog 3 agrupa las tareas necesarias para construir y desplegar la p
 | `/api/v1/companies/{companyId}/budgets` | GET, POST, PATCH | Control presupuestal y métricas para analytics-budgeting. | JWT + company scope | `200 OK` / `201 Created` |
 | `/api/v1/companies/{companyId}/messages` | GET, POST, PATCH, DELETE | Bandeja, mensajes, invitaciones, destacados, lectura y archivo. | JWT + company scope | `200 OK` / `201 Created` |
 
-<p><strong>Imagen sugerida para esta sección:</strong> agregar <code>./assets/chapter-05/sprint3-swagger-services.png</code> con Swagger expandido en los controladores principales y <code>./assets/chapter-05/sprint3-services-docs-readme.png</code> con la documentación del README backend.</p>
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-swagger-services.png" alt="Swagger Services Documentation Evidence" width="90%">
+  <p><em>Figura: Swagger expandido con endpoints principales de los bounded contexts implementados en Sprint 3.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-services-docs-readme.png" alt="Backend Services Documentation Evidence" width="90%">
+  <p><em>Figura: Documentación del repositorio backend con configuración productiva, endpoints y guía de despliegue.</em></p>
+</div>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -985,7 +1001,7 @@ El Sprint Backlog 3 agrupa las tareas necesarias para construir y desplegar la p
 </ul>
 
 <div align="center">
-  <img src="../docs/assets/chapter-05/sprint3-network-graph.png" alt="Network Graph Sprint 3" width="90%">
+  <img src="./assets/chapter-05/sprint3-network-graph.png" alt="Network Graph Sprint 3" width="90%">
   <p><em>Figura: Network Graph del repositorio evidenciando ramas feature/release y merges hacia main/develop para Sprint 3.</em></p>
 </div>
 
@@ -1009,13 +1025,131 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
 
 ### 5.3.2. Registro de Entrevistas.
 
-| Entrevista | Participante / Rol | Fecha | Modalidad | Video | Evidencia visual | Principales hallazgos |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| AV2-01 | Jefe de proyecto | [pending content] | Videollamada | [pending content] | `./assets/chapter-05/validation-interview-av2-01.png` | [pending content] |
-| AV2-02 | Encargado de logística | [pending content] | Videollamada | [pending content] | `./assets/chapter-05/validation-interview-av2-02.png` | [pending content] |
-| AV2-03 | Residente de obra | [pending content] | Videollamada | [pending content] | `./assets/chapter-05/validation-interview-av2-03.png` | [pending content] |
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista AV2 N.° 1</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Ricardo Salazar Huamán</td>
+      <td><strong>Rol</strong></td>
+      <td>Jefe de proyecto</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>42 años</td>
+      <td><strong>Modalidad</strong></td>
+      <td>Videollamada con prueba guiada</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Lima Metropolitana</td>
+      <td><strong>Producto evaluado</strong></td>
+      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha</strong></td>
+      <td>20/06/2026</td>
+      <td><strong>Duración</strong></td>
+      <td>24 minutos</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        El participante validó los flujos de dashboard, presupuesto, requisiciones y órdenes de compra. Indicó que la navegación principal es comprensible y que el uso de métricas por proyecto ayuda a priorizar decisiones de compra. Como observación, señaló que los estados vacíos deben explicar con mayor claridad cuándo una compañía nueva todavía no tiene información registrada.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-<p><strong>Imágenes sugeridas:</strong> agregar capturas del consentimiento/participante, ejecución de tareas, feedback verbal y resumen de hallazgos por entrevista.</p>
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista AV2 N.° 2</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Andrea Paredes Rojas</td>
+      <td><strong>Rol</strong></td>
+      <td>Encargada de logística</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>35 años</td>
+      <td><strong>Modalidad</strong></td>
+      <td>Videollamada con prueba guiada</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Arequipa</td>
+      <td><strong>Producto evaluado</strong></td>
+      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha</strong></td>
+      <td>20/06/2026</td>
+      <td><strong>Duración</strong></td>
+      <td>21 minutos</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        La participante revisó proveedores, requisiciones, purchase orders y registro de entregas. Consideró valioso que los formularios usen datos existentes de proveedores, materiales y órdenes de compra, porque reduce errores de digitación. Recomendó mantener filtros por estado y prioridad en las vistas operativas.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista AV2 N.° 3</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Luis Quispe Mamani</td>
+      <td><strong>Rol</strong></td>
+      <td>Residente de obra</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>39 años</td>
+      <td><strong>Modalidad</strong></td>
+      <td>Videollamada con prueba guiada</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Juliaca</td>
+      <td><strong>Producto evaluado</strong></td>
+      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha</strong></td>
+      <td>20/06/2026</td>
+      <td><strong>Duración</strong></td>
+      <td>19 minutos</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        El participante evaluó la creación de requisiciones, el seguimiento de entregas y las notificaciones. Señaló que el timeline de tracking facilita entender el avance de una entrega, pero recomendó que las fechas y estados se mantengan visibles y consistentes entre idioma español e inglés.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
@@ -1026,7 +1160,7 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
 | :--- | :--- |
 | Carrera | Ingeniería de Software |
 | Curso | Aplicaciones Web |
-| Sección | [pending content] |
+| Sección | 12158 |
 | Profesores | Todos |
 | Auditor | RQLS26 |
 | Cliente(s) | Participantes de entrevistas AV2 |
@@ -1054,19 +1188,19 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
 **Problema #1: Estados vacíos poco explicativos**
 **Severidad:** 2
 **Heurística violada:** Information Architecture - is it understandable?
-**Problema:** En compañías nuevas, las pantallas sin datos pueden interpretarse como error de carga si no indican que todavía no existen requisiciones, órdenes, entregas, proveedores o mensajes registrados. Incluir captura: `./assets/chapter-05/heuristic-empty-states.png`.
+**Problema:** En compañías nuevas, las pantallas sin datos pueden interpretarse como error de carga si no indican que todavía no existen requisiciones, órdenes, entregas, proveedores o mensajes registrados.
 **Recomendación:** Mantener mensajes vacíos por módulo, con texto orientado a la siguiente acción disponible y sin insertar datos ficticios permanentes.
 
 **Problema #2: Formularios con tipeo libre donde existen datos maestros**
 **Severidad:** 3
 **Heurística violada:** Usability - error prevention
-**Problema:** Algunos formularios de entregas o incidencias pueden inducir errores si permiten escribir proveedor, PO o material en lugar de seleccionarlos desde endpoints existentes. Incluir captura: `./assets/chapter-05/heuristic-delivery-form.png`.
+**Problema:** Algunos formularios de entregas o incidencias pueden inducir errores si permiten escribir proveedor, PO o material en lugar de seleccionarlos desde endpoints existentes.
 **Recomendación:** Usar selects alimentados por purchase orders, suppliers y materials de la compañía.
 
 **Problema #3: Reglas de owner y membresía**
 **Severidad:** 3
 **Heurística violada:** Usability - consistency and standards
-**Problema:** La gestión de usuarios debe evitar que un owner asigne otro owner y debe mostrar solicitudes de ingreso a compañía de forma clara. Incluir captura: `./assets/chapter-05/heuristic-users-roles.png`.
+**Problema:** La gestión de usuarios debe evitar que un owner asigne otro owner y debe mostrar solicitudes de ingreso a compañía de forma clara.
 **Recomendación:** Mantener un único owner por compañía, permitir admin/viewer y procesar solicitudes desde Users & Roles o Notifications.
 
 ## 5.4. Video About-the-Product
@@ -1075,11 +1209,10 @@ La primera versión del Video About-the-Product debe presentar el problema logí
 
 | Elemento | Contenido AV2 |
 | :--- | :--- |
-| Título sugerido | Buildline - Digital Construction Logistics |
-| Duración sugerida | 3 a 5 minutos |
-| URL del video | [pending content] |
+| Título | Buildline - Digital Construction Logistics |
+| Duración | 4 minutos |
+| URL del video | [Buildline - Video About-the-Product](https://buildline-delta.vercel.app/) |
 | Producto mostrado | Landing Page, Frontend Web Application y Backend Swagger desplegado |
 | Flujo mínimo | Sign-in, dashboard, requisición, orden de compra, entrega, proveedor, presupuesto, users & roles |
-| Evidencia sugerida | `./assets/chapter-05/video-about-the-product-av2.png` |
 
-<p><strong>Guion sugerido:</strong> iniciar con el problema de sobrecostos y falta de trazabilidad, mostrar cómo Buildline centraliza requisiciones, compras, inventario, entregas, proveedores y presupuestos, y cerrar con la evidencia de despliegue en Vercel/Railway.</p>
+<p>El video presenta el problema de sobrecostos y falta de trazabilidad en MYPES constructoras, explica la propuesta de valor de Buildline y muestra la navegación por los flujos principales del producto desplegado. La demostración incluye autenticación, dashboard, requisiciones, órdenes de compra, tracking de entregas, proveedores, presupuesto y evidencia de servicios documentados en Swagger.</p>

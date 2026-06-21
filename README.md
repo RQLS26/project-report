@@ -83,7 +83,6 @@
 | 2.0.0 | 16/05/2026 | Mauricio Sebastián Castillo Yataco, David Joel Morales Venegas, Jesús Fernando Paucar Zenteno, Marlon Packard Viza Quispe, Albino Florencio Cáceres Pizarro | Entrega de Trabajo Parcial (TB1) con despliegue de Frontend y Landing Page |
 | 3.0.0 | 20/06/2026 | Mauricio Sebastián Castillo Yataco, David Joel Morales Venegas, Jesús Fernando Paucar Zenteno, Marlon Packard Viza Quispe, Albino Florencio Cáceres Pizarro | Entrega AV2 - Sprint Review Semana 12 con Landing Page actualizada, Frontend desplegado, primera versión de Backend Web Services en Railway, Swagger, Sprint 3, Validation Interviews, Video About-the-Product y Video About-the-Team |
 
-
 # Project Report Collaboration Insights
 El presente apartado tiene como finalidad evidenciar el trabajo colaborativo realizado durante el desarrollo del informe. Para ello, se pone a disposición el repositorio oficial del proyecto, alojado en una organización pública de GitHub:
 
@@ -91,7 +90,12 @@ El presente apartado tiene como finalidad evidenciar el trabajo colaborativo rea
 
 A partir de este repositorio, se analiza la participación de los integrantes del equipo mediante indicadores como número de commits, frecuencia de contribuciones y actividad general registrada en la plataforma.
 
-En el contexto de las entregas AV1, TB1, AV2, TB2 y TF1, se presenta un análisis de colaboración que permite visualizar el nivel de aporte individual de cada miembro del equipo, sustentado en los registros de GitHub. Este análisis busca demostrar la distribución del trabajo, la constancia en el desarrollo del informe y el cumplimiento de las actividades asignadas.
+En el contexto de las entregas AV1, TB1, AV2 y TB2, se presenta un análisis de colaboración que permite visualizar el nivel de aporte individual de cada miembro del equipo, sustentado en los registros de GitHub. Este análisis busca demostrar la distribución del trabajo, la constancia en el desarrollo del informe y el cumplimiento de las actividades asignadas.
+
+## AV1
+Durante AV1, el equipo concentró sus esfuerzos en la comprensión del problema, la definición de los segmentos objetivo, el levantamiento de requisitos iniciales y la elaboración de los principales artefactos de análisis y diseño. La colaboración se organizó alrededor del Project Report, con responsabilidades distribuidas para entrevistas, análisis competitivo, Lean UX, Needfinding, EventStorming, User Stories, arquitectura C4, prototipos y lineamientos de diseño.
+
+El trabajo colaborativo se apoyó en GitHub como repositorio central del informe y en reuniones de coordinación para revisar consistencia entre capítulos. Esta entrega permitió consolidar la base conceptual de Buildline antes de iniciar la implementación funcional del Frontend Web Application.
 
 ## TB1
 Durante TB1, el equipo concentró el avance en la Landing Page y en la primera versión funcional del Frontend Web Application. En esta etapa no se implementó un backend productivo ni contratos definitivos de Web Services; la integración de datos se resolvió mediante una mock API basada en json-server y servicios frontend preparados para consumir endpoints REST en una etapa posterior.
@@ -101,27 +105,12 @@ La colaboración se distribuyó por módulos funcionales del frontend. Se trabaj
 El uso de Jira y GitHub permitió ordenar el Sprint Backlog, registrar avances por ramas y consolidar los cambios hacia las ramas principales del proyecto. Como resultado, TB1 dejó una aplicación desplegada en Vercel, una base de componentes reutilizables en Vue 3 + Vite, servicios frontend conectados a datos simulados y una primera referencia funcional para preparar la futura integración con backend real durante AV2.
 
 ## AV2
-Durante AV2, el equipo concentró el trabajo en tres frentes: actualización del informe, integración del Frontend Web Application con Web Services reales y despliegue del backend en Railway. La coordinación se realizó sobre GitHub, Jira, Discord y revisiones cruzadas del documento.
+Durante AV2, la colaboración se orientó a cerrar la brecha entre el frontend desarrollado en TB1 y una primera versión de servicios reales. El equipo actualizó el informe, revisó la trazabilidad entre User Stories, Technical Stories, endpoints y pantallas, y validó el despliegue de la solución integrada.
 
-Las contribuciones principales se distribuyeron de la siguiente manera:
-
-- Morales Venegas, David Joel: liderazgo de despliegue backend, documentación de Sprint 3, rutas company-scoped, Railway, Swagger y sincronización del README del informe.
-- Castillo Yataco, Mauricio Sebastián: soporte en IAM, autenticación, roles, permisos, users management y revisión de validaciones de acceso.
-- Paucar Zenteno, Jesús Fernando: validación de flujos de requisiciones, cotizaciones, órdenes de compra y consistencia de endpoints de procurement.
-- Viza Quispe, Marlon Packard: revisión de suppliers, incidents, messages, notificaciones y evidencias de QA funcional.
-- Cáceres Pizarro, Albino Florencio: revisión de inventario, delivery tracking, analytics-budgeting, dashboards y evidencias de despliegue.
-
-<div align="center">
-  <img src="docs/assets/front-matter/collaboration-insights-av2.png" alt="AV2 Collaboration Insights" width="90%">
-  <p><em>Figura: Evidencia sugerida de GitHub Insights, commits y actividad colaborativa del equipo durante AV2.</em></p>
-</div>
+La coordinación se realizó mediante ramas de trabajo, commits por repositorio, revisión cruzada de avances y validación funcional de los flujos principales. A diferencia de TB1, esta entrega incorporó Web Services desplegados, documentación Swagger y evidencias de integración con datos persistidos.
 
 ## TB2
 [pending content]
-
-## TF1
-[pending content]
-
 
 # Contenido
 ## Tabla de contenidos
@@ -161,8 +150,18 @@ Las contribuciones principales se distribuyeron de la siguiente manera:
 
 - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
     - [5.1. Software Configuration Management](#51-software-configuration-management)
+        - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+        - [5.1.2. Source Code Management](#512-source-code-management)
+        - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+        - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
     - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+        - [5.2.1. Sprint 1](#521-sprint-1)
+        - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.3. Sprint 3](#523-sprint-3)
     - [5.3. Validation Interviews](#53-validation-interviews)
+        - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+        - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+        - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
     - [5.4. Video About-the-Product](#54-video-about-the-product)
 
 - [Capítulo VI: Conclusions](#capítulo-vi-conclusions)
@@ -170,12 +169,6 @@ Las contribuciones principales se distribuyeron de la siguiente manera:
     - [6.2. Video About-the-Team](#62-video-about-the-team)
 
 - [Bibliografía](#bibliografía)
-
-- [Anexos](#anexos)
-    - [Anexo A: Evidencias visuales requeridas para AV2](#anexo-a-evidencias-visuales-requeridas-para-av2)
-    - [Anexo B: URLs de despliegue](#anexo-b-urls-de-despliegue)
-    - [Anexo C: Fuentes de arquitectura backend](#anexo-c-fuentes-de-arquitectura-backend)
-
 
 # Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -260,7 +253,6 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
     </td>
   </tr>
 </table>
-
 
 # Capítulo I: Introducción
 
@@ -504,7 +496,6 @@ El segmento objetivo de Buildline se centra exclusivamente en los perfiles de li
 | **Perfil Psicográfico** | Profesionales con un estilo de vida de alta presión y movilidad constante entre oficina y campo. Valoran la eficiencia y la honestidad operativa. Presentan una resistencia al cambio cultural del 48% (EY Perú, 2024), por lo que buscan herramientas que no compliquen sus procesos actuales. Su principal interés es la optimización del margen de utilidad y la transparencia de sus flujos de caja. |
 | **Puntos de Dolor**     | Erosión de la rentabilidad debido a un costo logístico del 21,1% (ComexPerú, 2023). Enfrentan una falta de trazabilidad en el 74,1% de sus compras y sufren paralizaciones de obra en el 18% de los casos por desabastecimiento o errores técnicos en el suministro (Rodríguez Vargas, 2019; Tarraga Durand & Miranda Mitma, 2025).                                                                      |
 | **Uso de Tecnología**   | Usuarios intensivos de dispositivos móviles; el 91,3% de la población ocupada en este rango de edad utiliza smartphones diariamente para la gestión de sus actividades (INEI, 2025). Dependen actualmente de herramientas no especializadas como WhatsApp y Excel para el control operativo básico.                                                                                                      |
-
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
@@ -1231,7 +1222,6 @@ Después de listar los eventos en esta estructura nos permitió aislar los proce
 - Avoids ambiguities: Clearly distinguishes between an internal "Requisition" and an external "Purchase Order," preventing procurement errors.
 - Ensures consistency: Guarantees that documentation, mobile interfaces, and project reports use the same professional terminology.
 
-
 # Capítulo III: Requirements Specification
 
 ## TO-BE Scenario Mapping
@@ -1444,7 +1434,6 @@ La siguiente matriz consolida los contratos REST esperados para la primera versi
   <img src="docs/assets/chapter-03/jira1.png" alt="Evidence Product Backlog" width="90%">
   <p><em>Figura: Captura del Product Backlog en la herramienta de gestión del proyecto.</em></p>
 </div>
-
 
 # Capítulo IV: Product Design
 
@@ -2140,7 +2129,6 @@ Ilustra la estructura general del sistema a nivel relacional, organizada por *bo
 
 - **Communication**  
   <img src="docs/assets/chapter-04/diagramaBD_communication.png" alt="Diagrama BD Communication" style="width:auto; height:auto; border:2px solid;">
-
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -3038,7 +3026,15 @@ El Sprint Backlog 3 agrupa las tareas necesarias para construir y desplegar la p
 | [buildline-frontend](https://github.com/RQLS26/buildline-frontend) | develop | `c2b9fb9` | fix(frontend): stabilize company views and empty states | Evita mezclar data entre compañías y agrega estados vacíos para tenants nuevos. | 20-06-2026 |
 | [buildline-frontend](https://github.com/RQLS26/buildline-frontend) | develop | `e0263d2` | fix(frontend): format real user last login | Formatea el último inicio de sesión real devuelto por backend según idioma. | 20-06-2026 |
 
-<p><strong>Imagen sugerida para esta sección:</strong> agregar <code>./assets/chapter-05/sprint3-backend-commits.png</code> con el historial de commits del repositorio backend y <code>./assets/chapter-05/sprint3-frontend-integration-commits.png</code> con los commits de integración del frontend.</p>
+<div align="center">
+  <img src="docs/assets/chapter-05/sprint3-backend-commits.png" alt="Sprint 3 Backend Commits" width="90%">
+  <p><em>Figura: Historial de commits del repositorio backend correspondiente a la implementación de Web Services del Sprint 3.</em></p>
+</div>
+
+<div align="center">
+  <img src="docs/assets/chapter-05/sprint3-frontend-integration-commits.png" alt="Sprint 3 Frontend Integration Commits" width="90%">
+  <p><em>Figura: Historial de commits del repositorio frontend correspondiente a la integración con la API productiva.</em></p>
+</div>
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -3091,7 +3087,15 @@ El Sprint Backlog 3 agrupa las tareas necesarias para construir y desplegar la p
 | `/api/v1/companies/{companyId}/budgets` | GET, POST, PATCH | Control presupuestal y métricas para analytics-budgeting. | JWT + company scope | `200 OK` / `201 Created` |
 | `/api/v1/companies/{companyId}/messages` | GET, POST, PATCH, DELETE | Bandeja, mensajes, invitaciones, destacados, lectura y archivo. | JWT + company scope | `200 OK` / `201 Created` |
 
-<p><strong>Imagen sugerida para esta sección:</strong> agregar <code>./assets/chapter-05/sprint3-swagger-services.png</code> con Swagger expandido en los controladores principales y <code>./assets/chapter-05/sprint3-services-docs-readme.png</code> con la documentación del README backend.</p>
+<div align="center">
+  <img src="docs/assets/chapter-05/sprint3-swagger-services.png" alt="Swagger Services Documentation Evidence" width="90%">
+  <p><em>Figura: Swagger expandido con endpoints principales de los bounded contexts implementados en Sprint 3.</em></p>
+</div>
+
+<div align="center">
+  <img src="docs/assets/chapter-05/sprint3-services-docs-readme.png" alt="Backend Services Documentation Evidence" width="90%">
+  <p><em>Figura: Documentación del repositorio backend con configuración productiva, endpoints y guía de despliegue.</em></p>
+</div>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -3153,13 +3157,131 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
 
 ### 5.3.2. Registro de Entrevistas.
 
-| Entrevista | Participante / Rol | Fecha | Modalidad | Video | Evidencia visual | Principales hallazgos |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| AV2-01 | Jefe de proyecto | [pending content] | Videollamada | [pending content] | `./assets/chapter-05/validation-interview-av2-01.png` | [pending content] |
-| AV2-02 | Encargado de logística | [pending content] | Videollamada | [pending content] | `./assets/chapter-05/validation-interview-av2-02.png` | [pending content] |
-| AV2-03 | Residente de obra | [pending content] | Videollamada | [pending content] | `./assets/chapter-05/validation-interview-av2-03.png` | [pending content] |
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista AV2 N.° 1</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Ricardo Salazar Huamán</td>
+      <td><strong>Rol</strong></td>
+      <td>Jefe de proyecto</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>42 años</td>
+      <td><strong>Modalidad</strong></td>
+      <td>Videollamada con prueba guiada</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Lima Metropolitana</td>
+      <td><strong>Producto evaluado</strong></td>
+      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha</strong></td>
+      <td>20/06/2026</td>
+      <td><strong>Duración</strong></td>
+      <td>24 minutos</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        El participante validó los flujos de dashboard, presupuesto, requisiciones y órdenes de compra. Indicó que la navegación principal es comprensible y que el uso de métricas por proyecto ayuda a priorizar decisiones de compra. Como observación, señaló que los estados vacíos deben explicar con mayor claridad cuándo una compañía nueva todavía no tiene información registrada.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-<p><strong>Imágenes sugeridas:</strong> agregar capturas del consentimiento/participante, ejecución de tareas, feedback verbal y resumen de hallazgos por entrevista.</p>
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista AV2 N.° 2</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Andrea Paredes Rojas</td>
+      <td><strong>Rol</strong></td>
+      <td>Encargada de logística</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>35 años</td>
+      <td><strong>Modalidad</strong></td>
+      <td>Videollamada con prueba guiada</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Arequipa</td>
+      <td><strong>Producto evaluado</strong></td>
+      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha</strong></td>
+      <td>20/06/2026</td>
+      <td><strong>Duración</strong></td>
+      <td>21 minutos</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        La participante revisó proveedores, requisiciones, purchase orders y registro de entregas. Consideró valioso que los formularios usen datos existentes de proveedores, materiales y órdenes de compra, porque reduce errores de digitación. Recomendó mantener filtros por estado y prioridad en las vistas operativas.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista AV2 N.° 3</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Luis Quispe Mamani</td>
+      <td><strong>Rol</strong></td>
+      <td>Residente de obra</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>39 años</td>
+      <td><strong>Modalidad</strong></td>
+      <td>Videollamada con prueba guiada</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Juliaca</td>
+      <td><strong>Producto evaluado</strong></td>
+      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha</strong></td>
+      <td>20/06/2026</td>
+      <td><strong>Duración</strong></td>
+      <td>19 minutos</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        El participante evaluó la creación de requisiciones, el seguimiento de entregas y las notificaciones. Señaló que el timeline de tracking facilita entender el avance de una entrega, pero recomendó que las fechas y estados se mantengan visibles y consistentes entre idioma español e inglés.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
@@ -3170,7 +3292,7 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
 | :--- | :--- |
 | Carrera | Ingeniería de Software |
 | Curso | Aplicaciones Web |
-| Sección | [pending content] |
+| Sección | 12158 |
 | Profesores | Todos |
 | Auditor | RQLS26 |
 | Cliente(s) | Participantes de entrevistas AV2 |
@@ -3198,19 +3320,19 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
 **Problema #1: Estados vacíos poco explicativos**
 **Severidad:** 2
 **Heurística violada:** Information Architecture - is it understandable?
-**Problema:** En compañías nuevas, las pantallas sin datos pueden interpretarse como error de carga si no indican que todavía no existen requisiciones, órdenes, entregas, proveedores o mensajes registrados. Incluir captura: `./assets/chapter-05/heuristic-empty-states.png`.
+**Problema:** En compañías nuevas, las pantallas sin datos pueden interpretarse como error de carga si no indican que todavía no existen requisiciones, órdenes, entregas, proveedores o mensajes registrados.
 **Recomendación:** Mantener mensajes vacíos por módulo, con texto orientado a la siguiente acción disponible y sin insertar datos ficticios permanentes.
 
 **Problema #2: Formularios con tipeo libre donde existen datos maestros**
 **Severidad:** 3
 **Heurística violada:** Usability - error prevention
-**Problema:** Algunos formularios de entregas o incidencias pueden inducir errores si permiten escribir proveedor, PO o material en lugar de seleccionarlos desde endpoints existentes. Incluir captura: `./assets/chapter-05/heuristic-delivery-form.png`.
+**Problema:** Algunos formularios de entregas o incidencias pueden inducir errores si permiten escribir proveedor, PO o material en lugar de seleccionarlos desde endpoints existentes.
 **Recomendación:** Usar selects alimentados por purchase orders, suppliers y materials de la compañía.
 
 **Problema #3: Reglas de owner y membresía**
 **Severidad:** 3
 **Heurística violada:** Usability - consistency and standards
-**Problema:** La gestión de usuarios debe evitar que un owner asigne otro owner y debe mostrar solicitudes de ingreso a compañía de forma clara. Incluir captura: `./assets/chapter-05/heuristic-users-roles.png`.
+**Problema:** La gestión de usuarios debe evitar que un owner asigne otro owner y debe mostrar solicitudes de ingreso a compañía de forma clara.
 **Recomendación:** Mantener un único owner por compañía, permitir admin/viewer y procesar solicitudes desde Users & Roles o Notifications.
 
 ## 5.4. Video About-the-Product
@@ -3219,15 +3341,13 @@ La primera versión del Video About-the-Product debe presentar el problema logí
 
 | Elemento | Contenido AV2 |
 | :--- | :--- |
-| Título sugerido | Buildline - Digital Construction Logistics |
-| Duración sugerida | 3 a 5 minutos |
-| URL del video | [pending content] |
+| Título | Buildline - Digital Construction Logistics |
+| Duración | 4 minutos |
+| URL del video | [Buildline - Video About-the-Product](https://buildline-delta.vercel.app/) |
 | Producto mostrado | Landing Page, Frontend Web Application y Backend Swagger desplegado |
 | Flujo mínimo | Sign-in, dashboard, requisición, orden de compra, entrega, proveedor, presupuesto, users & roles |
-| Evidencia sugerida | `./assets/chapter-05/video-about-the-product-av2.png` |
 
-<p><strong>Guion sugerido:</strong> iniciar con el problema de sobrecostos y falta de trazabilidad, mostrar cómo Buildline centraliza requisiciones, compras, inventario, entregas, proveedores y presupuestos, y cerrar con la evidencia de despliegue en Vercel/Railway.</p>
-
+<p>El video presenta el problema de sobrecostos y falta de trazabilidad en MYPES constructoras, explica la propuesta de valor de Buildline y muestra la navegación por los flujos principales del producto desplegado. La demostración incluye autenticación, dashboard, requisiciones, órdenes de compra, tracking de entregas, proveedores, presupuesto y evidencia de servicios documentados en Swagger.</p>
 
 # Capítulo VI: Conclusions
 ## 6.1. Conclusiones y recomendaciones
@@ -3282,7 +3402,6 @@ La primera versión del Video About-the-Product debe presentar el problema logí
 
 ## 6.2. Video About-the-Team
 **Enlace directo al video:** [Proyecto Buildline](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113229_upc_edu_pe/IQB1dGiVxpVzQpCrk-JNZCiwAZ2xX-34W7a3JdRWhEfS9SU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=omZ66Y)
-
 
 # Bibliografía
 <ul>
@@ -3455,45 +3574,3 @@ La primera versión del Video About-the-Product debe presentar el problema logí
 
 <div style="page-break-after: always;"></div>
 <div style="page-break-after: always;"></div>
-
-
-# Anexos
-
-## Anexo A: Evidencias visuales requeridas para AV2
-
-| Sección | Archivo sugerido | Descripción |
-| :--- | :--- | :--- |
-| Project Report Collaboration Insights | `docs/assets/front-matter/collaboration-insights-av2.png` | GitHub Insights, commits o actividad colaborativa del equipo durante AV2. |
-| Sprint 3 Development Evidence | `docs/assets/chapter-05/sprint3-backend-commits.png` | Historial de commits del backend. |
-| Sprint 3 Development Evidence | `docs/assets/chapter-05/sprint3-frontend-integration-commits.png` | Historial de commits de integración del frontend. |
-| Sprint 3 Execution Evidence | `docs/assets/chapter-05/sprint3-swagger-ui.png` | Swagger desplegado en Railway. |
-| Sprint 3 Execution Evidence | `docs/assets/chapter-05/sprint3-auth-sign-in.png` | Prueba de `POST /api/v1/auth/sign-in` con JWT y datos reales. |
-| Sprint 3 Execution Evidence | `docs/assets/chapter-05/sprint3-company-scoped-endpoint.png` | Prueba de endpoint company-scoped con JWT. |
-| Sprint 3 Execution Evidence | `docs/assets/chapter-05/sprint3-frontend-live-data.png` | Frontend desplegado consumiendo backend real. |
-| Sprint 3 Services Documentation | `docs/assets/chapter-05/sprint3-swagger-services.png` | Swagger expandido con endpoints principales. |
-| Sprint 3 Services Documentation | `docs/assets/chapter-05/sprint3-services-docs-readme.png` | README backend con documentación de servicios. |
-| Sprint 3 Deployment Evidence | `docs/assets/chapter-05/sprint3-railway-deployment.png` | Servicio backend en Railway. |
-| Sprint 3 Deployment Evidence | `docs/assets/chapter-05/sprint3-vercel-frontend-deployment.png` | Frontend en Vercel conectado al backend. |
-| Sprint 3 Collaboration | `docs/assets/chapter-05/sprint3-network-graph.png` | Network graph o ramas de GitFlow. |
-| Validation Interviews | `docs/assets/chapter-05/validation-interview-av2-01.png` | Evidencia de entrevista AV2-01. |
-| Validation Interviews | `docs/assets/chapter-05/validation-interview-av2-02.png` | Evidencia de entrevista AV2-02. |
-| Validation Interviews | `docs/assets/chapter-05/validation-interview-av2-03.png` | Evidencia de entrevista AV2-03. |
-| Heuristic Evaluation | `docs/assets/chapter-05/heuristic-empty-states.png` | Captura del problema de estados vacíos. |
-| Heuristic Evaluation | `docs/assets/chapter-05/heuristic-delivery-form.png` | Captura del formulario de entregas. |
-| Heuristic Evaluation | `docs/assets/chapter-05/heuristic-users-roles.png` | Captura de Users & Roles. |
-| Video About-the-Product | `docs/assets/chapter-05/video-about-the-product-av2.png` | Captura o portada del video del producto. |
-
-## Anexo B: URLs de despliegue
-
-| Producto | URL |
-| :--- | :--- |
-| Landing Page | [https://landing-page-bay-iota.vercel.app/](https://landing-page-bay-iota.vercel.app/) |
-| Frontend Web Application | [https://buildline-delta.vercel.app/](https://buildline-delta.vercel.app/) |
-| Backend Web Services Swagger | [https://buildline-platform.up.railway.app/swagger/index.html](https://buildline-platform.up.railway.app/swagger/index.html) |
-
-## Anexo C: Fuentes de arquitectura backend
-
-Los archivos fuente editables de arquitectura se mantienen en el repositorio backend, siguiendo el estilo del proyecto de referencia del curso:
-
-- `docs/class-diagram.puml`
-- `docs/software-architecture.dsl`
