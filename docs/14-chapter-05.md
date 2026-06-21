@@ -26,7 +26,7 @@ Se especifican los productos de software utilizados durante el ciclo de vida del
 2.  **WebStorm:** IDE especializado para el desarrollo del Frontend de Buildline, optimizando la codificación con Vue.js y la gestión de estilos.
 3.  **JetBrains Rider:** IDE principal para el desarrollo del Backend robusto basado en .NET/C#, facilitando la integración con servicios de base de datos y lógica de negocio.
 4.  **Vue.js Framework:** Framework progresivo de JavaScript elegido para construir la SPA de Buildline por su ligereza y velocidad de carga en condiciones de baja conectividad en obra.
-5.  **.NET 8 / C#:** Tecnología de backend para garantizar la escalabilidad, seguridad transaccional en las Órdenes de Compra y alto rendimiento.
+5.  **ASP.NET Core / C# sobre .NET 10:** Tecnología de backend para garantizar la escalabilidad, seguridad transaccional en las Órdenes de Compra y alto rendimiento.
 
 #### Software Testing
 * **Lenguaje Gherkin:** Utilizado para definir los criterios de aceptación en formato Given-When-Then, asegurando que las validaciones de "Way Match" y presupuestos funcionen correctamente.
@@ -55,36 +55,33 @@ Se establecen los repositorios oficiales de la solución Buildline para garantiz
     </tr>
     <tr>
       <td>Landing Page</td>
-      <td><a href="https://github.com/RQLS26/Landing-Page">https://github.com/RQLS26/Landing-Page</a></td>
+      <td><a href="https://github.com/RQLS26/buildline-landing-page">https://github.com/RQLS26/buildline-landing-page</a></td>
     </tr>
     <tr>
       <td>Frontend Web Application</td>
-      <td><a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26/Frontend</a></td>
+      <td><a href="https://github.com/RQLS26/buildline-frontend">https://github.com/RQLS26/buildline-frontend</a></td>
     </tr>
     <tr>
       <td>Backend Web Services</td>
-      <td><a href="https://github.com/RQLS26/Backend">https://github.com/RQLS26/Backend</a></td>
+      <td><a href="https://github.com/RQLS26/buildline-platform">https://github.com/RQLS26/buildline-platform</a></td>
     </tr>
   </tbody>
 </table>
 
-#### GitFlow Workflow
-* **main:** Código estable y auditado desplegado en producción.
-* **develop:** Rama base para integración de nuevas características.
-* **feature/&lt;módulo&gt;:** Ej: `feature/procurement-comparison-sheet`.
-* **hotfix/&lt;issue&gt;:** Parches rápidos para errores críticos en el cálculo de APU.
+#### GitFlow Workflow and Collaboration Strategy
+Para asegurar una colaboración organizada, evitar conflictos en el código y mantener la integración continua, el equipo RQLS aplica estrictamente **GitFlow** como flujo de trabajo de ramificación (Branching Workflow). La estrategia de colaboración se define de la siguiente manera:
 
-<h4>Conventional Commits</h4>
-<pre><code>feat(tracking): implement IoT telemetry ingestion endpoint
-fix(compliance): resolve stock update discrepancy on partial receipt
-docs(readme): update swagger definitions for supplier endpoints
-build(deps): migrate to .NET 8.0 SDK
-</code></pre>
+* **main:** Rama que contiene el código de producción estable y auditado. Solo recibe integraciones a través de un proceso formal de Merge desde `release` o `hotfix`.
+* **develop:** Rama de integración principal. Aquí se unifica el trabajo de los desarrolladores para preparar el próximo despliegue.
+* **feature/&lt;módulo&gt;:** Ramas temporales creadas a partir de `develop` para aislar el desarrollo de nuevas Historias de Usuario (Ej: `feature/landing-hero-section`). La colaboración exige que estas ramas se integren a `develop` exclusivamente mediante **Pull Requests (PR)** en GitHub, requiriendo revisión de código (Code Review) antes de ser aprobadas.
+* **hotfix/&lt;issue&gt;:** Ramas de corrección rápida creadas desde `main` para resolver bugs críticos o parches de emergencia.
+
+El ciclo de vida del proyecto se apoya en Jira para asignar las tareas, asociando cada commit al ID de la tarea mediante Conventional Commits para una trazabilidad completa.
 
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto Buildline: HTML, CSS, JavaScript, TypeScript (Vue.js), C# (.NET 8) y Gherkin. Se aplica nomenclatura en inglés para todos los elementos del código, siguiendo el Ubiquitous Language definido para el dominio logístico de la construcción.
+En esta sección se establecen las convenciones de estilo y nomenclatura adoptadas para los lenguajes utilizados en el proyecto Buildline: HTML, CSS, JavaScript, TypeScript (Vue.js), C# (.NET 10) y Gherkin. Se aplica nomenclatura en inglés para todos los elementos del código, siguiendo el Ubiquitous Language definido para el dominio logístico de la construcción.
 
 #### Referencias de Guías de Estilo Adoptadas
 
@@ -94,7 +91,6 @@ En esta sección se establecen las convenciones de estilo y nomenclatura adoptad
 | JavaScript | [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) |
 | TypeScript / Vue.js | [Vue.js Priority A Guide](https://vuejs.org/style-guide/rules-essential.html) |
 | C# / .NET | [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) |
-| Java | [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) 
 | Gherkin | [Gherkin Reference](https://cucumber.io/docs/gherkin/reference/) |
 
 Se utiliza nomenclatura en inglés relacionada con las entidades del dominio logístico (ej. Requisition, Quote, Inventory, Provider).
@@ -178,7 +174,7 @@ Despliegue automático del contenido estático mediante la integración con Verc
   </tbody>
 </table>
 <p>
-  <strong>Repositorio:</strong> <a href="https://github.com/RQLS26/Landing-Page">https://github.com/RQLS26/Landing-Page</a>
+  <strong>Repositorio:</strong> <a href="https://github.com/RQLS26/buildline-landing-page">https://github.com/RQLS26/buildline-landing-page</a>
 </p>
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
@@ -203,7 +199,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
   </tbody>
 </table>
 
-### 5.2.1.3. Sprint Backlog 1  
+### 5.2.1.3. Sprint Backlog 1
 
 El Sprint Backlog agrupa las tareas iniciales correspondientes a la presencia digital del proyecto Buildline.
 
@@ -271,9 +267,21 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes a la presencia di
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-<p>
-  Se completó la implementación y el diseño de la Landing Page.
-</p>
+Durante el Sprint 1, el equipo logró implementar con éxito el diseño, maquetación y despliegue de la Landing Page estática. A continuación, se presentan las evidencias visuales de la ejecución del producto de software, demostrando el cumplimiento de los Criterios de Aceptación de las Historias de Usuario planificadas:
+
+**Evidencia 1: Hero Section y Propuesta de Valor**
+Se desarrolló la pantalla de inicio principal destacando el mensaje de mitigación de sobrecostos y control del APU. La navegación superior es completamente funcional y el diseño respeta los lineamientos *responsive* para dispositivos móviles.
+<div align="center">
+  <img src="./assets/chapter-05/execution-hero.png" alt="Hero Section Evidence" width="90%">
+  <p><em>Figura: Vista principal (Hero Section) desplegada en la Landing Page.</em></p>
+</div>
+
+**Evidencia 2: Sección de Beneficios y Trazabilidad**
+Se maquetó la sección informativa donde se detallan los módulos de control de obra y aprobaciones jerárquicas, aplicando la paleta de colores corporativa y el sistema de diseño definido en Figma.
+<div align="center">
+  <img src="./assets/chapter-05/execution-benefits.png" alt="Benefits Section Evidence" width="90%">
+  <p><em>Figura: Sección de características y propuesta de valor logístico.</em></p>
+</div>
 
 #### 5.2.1.6. Services Documentation Evidence
 <p>
@@ -288,7 +296,7 @@ El Sprint Backlog agrupa las tareas iniciales correspondientes a la presencia di
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 <p>
-  Durante este primer sprint, el esfuerzo principal del equipo de RQLS se centró en la estructuración del proyecto, el diseño de UX/UI, la arquitectura de software y la elaboración de los requerimientos técnicos (Capítulos I al IV). Por lo tanto, las evidencias de colaboración de GitHub presentadas a continuación corresponden al repositorio del <strong>Project Report</strong>, sentando las bases documentales y de diseño para la posterior codificación de la plataforma Buildline.
+  Durante este primer sprint, el esfuerzo principal del equipo de RQLS se centró en la estructuración del proyecto, el diseño de UX/UI, la arquitectura de software y la elaboración de los requisitos técnicos (Capítulos I al IV). Por lo tanto, las evidencias de colaboración de GitHub presentadas a continuación corresponden al repositorio del <strong>Project Report</strong>, sentando las bases documentales y de diseño para la posterior codificación de la plataforma Buildline.
 </p>
 
 <p>
@@ -370,7 +378,7 @@ En esta sección se documenta el avance del Sprint 2 del proyecto Buildline. El 
     </tr>
     <tr>
       <td colspan="2"><strong>Sprint 2 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
-<em>Our focus is on delivering the first navigable version of the Buildline Frontend Web Application, integrated with a mock services layer, covering the core flows of IAM, requisitions, suppliers, procurement, inventory and budget control.</em><br><br>
+<em>Our focus is on delivering the first navigable version of the Buildline Frontend Web Application, integrated with a mock services layer, covering the core flows of IAM, requisitions, suppliers, procurement, delivery tracking, inventory and budget control.</em><br><br>
 <em>We believe it delivers a tangible first product experience for Project Managers and General Managers of construction MYPES, demonstrating end-to-end requisition traceability and APU budget visibility.</em><br><br>
 <em>This will be confirmed when users can sign in, create a material requisition, browse the supplier directory, review inventory and visualize the financial dashboard without intervention from the development team.</em>
       </td>
@@ -386,14 +394,14 @@ En esta sección se documenta el avance del Sprint 2 del proyecto Buildline. El 
   </tbody>
 </table>
 <p>
-  <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26/Frontend</a><br>
-  <strong>Repositorio Landing Page v2:</strong> <a href="https://github.com/RQLS26/Landing-Page">https://github.com/RQLS26/Landing-Page</a>
+  <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/buildline-frontend">https://github.com/RQLS26/buildline-frontend</a><br>
+  <strong>Repositorio Landing Page v2:</strong> <a href="https://github.com/RQLS26/buildline-landing-page">https://github.com/RQLS26/buildline-landing-page</a>
 </p>
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
 <p>
-Para el Sprint 2 se identificaron seis aspectos funcionales que corresponden a los <em>bounded contexts</em> implementados en el frontend, más un aspecto transversal de Project Setup (Vue 3 + Vite + Pinia + i18n + json-server) y un aspecto para la versión v2 del Landing Page. La siguiente matriz <strong>LACX</strong> identifica los aspectos principales del Sprint y asigna responsabilidades (Líder/Colaborador) al equipo de RQLS, alineadas con las fortalezas técnicas evidenciadas durante el Sprint 1.
+Para el Sprint 2 se identificaron aspectos funcionales que corresponden a los <em>bounded contexts</em> implementados en el frontend, más un aspecto transversal de Project Setup (Vue 3 + Vite + Pinia + i18n + json-server) y un aspecto para la versión v2 del Landing Page. La siguiente matriz <strong>LACX</strong> identifica los aspectos principales del Sprint y asigna responsabilidades (Líder/Colaborador) al equipo de RQLS, alineadas con las fortalezas técnicas evidenciadas durante el Sprint 1.
 </p>
 
 <table border="1" cellpadding="4" cellspacing="0" align="center">
@@ -403,7 +411,7 @@ Para el Sprint 2 se identificaron seis aspectos funcionales que corresponden a l
       <th>Aspect: IAM & Project Setup</th>
       <th>Aspect: Requisition & Procurement</th>
       <th>Aspect: Suppliers</th>
-      <th>Aspect: Inventory</th>
+      <th>Aspect: Inventory & Delivery</th>
       <th>Aspect: Analytics & Profiles</th>
       <th>Aspect: Communication</th>
       <th>Aspect: Landing Page v2</th>
@@ -442,6 +450,7 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
 | **US04** | Purchase Order Management | T402 | Quotations Management View | Vista para gestionar y comparar cotizaciones recibidas. | 4h | Paucar Zenteno, Jesús Fernando | Done |
 | **US05** | Inventory Tracking | T501 | Inventory List View | Listado de inventario con indicadores de stock crítico vs stock mínimo. | 4h | Cáceres Pizarro, Albino Florencio | Done |
 | **US05** | Inventory Tracking | T502 | Inventory Service & Filters | Filtros por proyecto, categoría y estado de stock. | 3h | Cáceres Pizarro, Albino Florencio | Done |
+| **US11** | Delivery Tracking | T503 | Delivery Tracking View & Service | Vista y store para consultar entregas, crear registros de despacho y actualizar estados de entrega desde el mock `/deliveries`. | 4h | Cáceres Pizarro, Albino Florencio | Done |
 | **US06** | Financial Dashboard | T601 | Financial Dashboard View | Dashboard de presupuesto vs gasto por proyecto con estados *On Track / At Risk / Over Budget*. | 4h | Cáceres Pizarro, Albino Florencio | Done |
 | **US06** | Financial Dashboard | T602 | Reports View (PDF Export) | Vista de reportes financieros con exportación a PDF mediante `html2pdf.js`. | 3h | Cáceres Pizarro, Albino Florencio | Done |
 | **US07** | Company Profile | T701 | Company Profile View | Vista de perfil de la empresa con RUC, dirección, teléfono y correo. | 2h | Morales Venegas, David Joel | Done |
@@ -469,63 +478,63 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
   </thead>
   <tbody>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>main</td>
       <td><code>1a2b3c4</code></td>
       <td>chore: initial Vue 3 + Vite project scaffold</td>
       <td>05-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/iam</td>
       <td><code>2b3c4d5</code></td>
       <td>feat(iam): sign-in, sign-up and forgot-password views</td>
       <td>07-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/requisition</td>
       <td><code>3c4d5e6</code></td>
       <td>feat(requisition): material request list and creation form</td>
       <td>09-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/suppliers</td>
       <td><code>4d5e6f7</code></td>
       <td>feat(suppliers): supplier directory and incidents list</td>
       <td>11-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/procurement</td>
       <td><code>5e6f7a8</code></td>
       <td>feat(procurement): approval inbox and quotations management</td>
       <td>13-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/inventory</td>
       <td><code>6f7a8b9</code></td>
       <td>feat(inventory): inventory list with stock indicators</td>
       <td>15-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/analytics-budgeting</td>
       <td><code>7a8b9c0</code></td>
       <td>feat(analytics): financial dashboard and reports view with PDF export</td>
       <td>17-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>feature/communication-profiles</td>
       <td><code>8b9c0d1</code></td>
       <td>feat(communication): messages inbox and company profile</td>
       <td>19-05-2026</td>
     </tr>
     <tr>
-      <td>RQLS26-Frontend</td>
+      <td>buildline-frontend</td>
       <td>main</td>
       <td><code>9c0d1e2</code></td>
       <td>chore: i18n es/en, PrimeVue theme and json-server mock</td>
@@ -552,6 +561,7 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
   <li><strong>Requisition:</strong> Listado y creación de requisiciones de materiales vinculadas a proyectos.</li>
   <li><strong>Suppliers:</strong> Directorio de proveedores con RUC, razón social, rating y vista de incidencias asociadas.</li>
   <li><strong>Procurement:</strong> Bandeja de aprobación de Órdenes de Compra y gestión de cotizaciones para comparación.</li>
+  <li><strong>Delivery & Tracking:</strong> Seguimiento de entregas asociadas a órdenes de compra, con estados de despacho, tránsito, demora y entrega.</li>
   <li><strong>Inventory:</strong> Listado de inventario con indicadores de stock crítico y filtros por proyecto y categoría.</li>
   <li><strong>Analytics & Budgeting:</strong> Dashboard financiero por proyecto con estados <em>On Track / At Risk / Over Budget</em> y vista de reportes con exportación a PDF.</li>
   <li><strong>Profiles:</strong> Perfil de la empresa con datos legales y de contacto.</li>
@@ -608,7 +618,7 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 <p>
-  Durante el Sprint 2 no se implementaron aún los Web Services productivos en .NET (planificados para el Sprint 3 según el cronograma del curso). Para soportar la primera versión del Frontend Web Application y validar contratos de API tempranos, el equipo configuró un <strong>mock service local con json-server</strong> que expone los endpoints requeridos por los bounded contexts implementados. Esta documentación servirá como contrato base para los Web Services definitivos en .NET 8.
+  Durante el Sprint 2 no se implementaron aún los Web Services productivos en .NET (planificados para el Sprint 3 según el cronograma del curso). Para soportar la primera versión del Frontend Web Application y validar contratos de API tempranos, el equipo configuró un <strong>mock service local con json-server</strong> que expone los endpoints requeridos por los bounded contexts implementados. Esta documentación sirvió como contrato base para los Web Services definitivos en ASP.NET Core / C#.
 </p>
 
 <p><strong>URL del Mock API (local):</strong> <code>http://localhost:3000</code></p>
@@ -696,15 +706,21 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
       <td><code>GET /budgets</code></td>
       <td><code>[{ "id":"1","project":"Skyline Tower","totalAmount":500000,"spentAmount":120000,"status":"On Track" }, ...]</code></td>
     </tr>
+    <tr>
+      <td><code>/deliveries</code></td>
+      <td>GET listado, GET /:id, POST creación y PATCH /:id actualización de estado de entrega.</td>
+      <td><code>PATCH /deliveries/1</code> con <code>{ "status":"Delivered" }</code></td>
+      <td><code>{ "id":"1","trackingId":"TRK-0048","purchaseOrder":"PO-2026-0015","status":"Delivered" }</code></td>
+    </tr>
   </tbody>
 </table>
 
 <p>
-  La documentación <strong>OpenAPI/Swagger</strong> definitiva se elaborará y desplegará junto con los Web Services en .NET 8 durante el Sprint 3.
+  La documentación <strong>OpenAPI/Swagger</strong> definitiva se elaboró y desplegó junto con los Web Services en ASP.NET Core / C# durante el Sprint 3.
 </p>
 
 <p>
-  <strong>Repositorio del Frontend (incluye el mock):</strong> <a href="https://github.com/RQLS26/Frontend">https://github.com/RQLS26-Frontend</a><br>
+  <strong>Repositorio del Frontend (incluye el mock):</strong> <a href="https://github.com/RQLS26/buildline-frontend">https://github.com/RQLS26/buildline-frontend</a><br>
   <strong>Commit relacionado con documentación del mock:</strong> <code>9c0d1e2</code>
 </p>
 
@@ -723,7 +739,7 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 
 <p><strong>Frontend Web Application (primera versión)</strong></p>
 <ul>
-  <li>Se actualizó el repositorio <code>RQLS26-Frontend</code> con el proyecto Vue 3 + Vite + Pinia finalizado.</li>
+  <li>Se actualizó el repositorio <code>buildline-frontend</code> con el proyecto Vue 3 + Vite + Pinia finalizado.</li>
   <li>Se configuró el despliegue automático conectando el repositorio directamente a <strong>Vercel</strong>, añadiendo el archivo <code>vercel.json</code> para manejar las reglas del Single Page Application (SPA).</li>
   <li>Se desplegó paralelamente el mock en <code>db.json</code> como un Web Service en <strong>Render</strong> para contar con persistencia remota.</li>
   <li><strong>URL de Producción:</strong> <a href="https://buildline-3jcvvnh4t-team-project0.vercel.app/">https://buildline-3jcvvnh4t-team-project0.vercel.app/</a></li>
@@ -761,15 +777,15 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
 <p><strong>Métricas de colaboración del Sprint 2:</strong></p>
 <ul>
   <li><strong>Story Points completados:</strong> 28 / 28</li>
-  <li><strong>Total de Issues cerrados en Jira:</strong> 21</li>
+  <li><strong>Total de Issues cerrados en Jira:</strong> 22</li>
   <li><strong>Total de Pull Requests cerrados:</strong> 0</li>
   <li><strong>Total de commits en el repositorio Frontend:</strong> 20</li>
 </ul>
 
 <p><strong>Aciertos del Sprint:</strong></p>
 <ul>
-  <li>La estructura DDD por <em>bounded contexts</em> en el frontend (<code>iam</code>, <code>requisition</code>, <code>suppliers</code>, <code>procurement</code>, <code>inventory</code>, <code>analytics-budgeting</code>, <code>profiles</code>, <code>communication</code>) permitió trabajar en paralelo sin conflictos significativos de merge.</li>
-  <li>El uso de json-server como mock alineó al equipo en torno a contratos de API tempranos, lo que facilitará la futura integración con los Web Services en .NET 8.</li>
+  <li>La estructura DDD por <em>bounded contexts</em> en el frontend (<code>iam</code>, <code>requisition</code>, <code>suppliers</code>, <code>procurement</code>, <code>inventory</code>, <code>delivery</code>, <code>analytics-budgeting</code>, <code>profiles</code>, <code>communication</code>) permitió trabajar en paralelo sin conflictos significativos de merge.</li>
+  <li>El uso de json-server como mock alineó al equipo en torno a contratos de API tempranos, lo que facilitó la integración posterior con los Web Services en ASP.NET Core / C#.</li>
   <li>La adopción de <strong>i18n</strong> desde el inicio evitó refactors posteriores y dejó listo el soporte multilenguaje (es/en).</li>
 </ul>
 
@@ -779,3 +795,436 @@ Enlace directo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc
   <li>Documentar explícitamente la convención de nombres de stores Pinia y de servicios Axios para mantener consistencia entre bounded contexts.</li>
   <li>Adelantar la configuración de pruebas unitarias con Vitest hacia el inicio del Sprint 3.</li>
 </ul>
+
+### 5.2.3. Sprint 3
+
+En esta sección se documenta el avance del Sprint 3 del proyecto Buildline. A diferencia del Sprint 1, centrado en la Landing Page, y del Sprint 2, centrado en la primera versión navegable del Frontend Web Application con mock API, el Sprint 3 consolida la primera versión desplegada de los **Backend Web Services** implementados con **ASP.NET Core / C#** y conectados al Frontend Web Application.
+
+Tras revisar el Sprint Backlog 1, el Sprint Backlog 2, las Technical Stories del Capítulo III, los diagramas del Capítulo IV y los endpoints consumidos por el frontend, el equipo actualizó el backlog técnico para reflejar APIs reales, persistencia, autenticación JWT, documentación Swagger y rutas operativas con alcance por compañía. Por ello, el Sprint Backlog 3 toma como base Technical Stories granulares (`TS-IAM`, `TS-PROF`, `TS-REQ`, `TS-PROC`, `TS-INV`, `TS-DEL`, `TS-SUP`, `TS-ANB` y `TS-COM`) más mejoras transversales (`IMP-BE`).
+
+#### 5.2.3.1. Sprint Planning 3.
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr><th colspan="2" style="text-align: center;">Sprint Planning Sprint 3</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td></tr>
+    <tr><td>Date</td><td>07/06/2026</td></tr>
+    <tr><td>Time</td><td>09:00 p.m.</td></tr>
+    <tr><td>Location</td><td>Discord / WhatsApp</td></tr>
+    <tr><td>Prepared By</td><td>Morales Venegas, David Joel</td></tr>
+    <tr><td>Attendees</td><td>Castillo Yataco, Mauricio Sebastián<br>Morales Venegas, David Joel<br>Paucar Zenteno, Jesús Fernando<br>Viza Quispe, Marlon Packard<br>Cáceres Pizarro, Albino Florencio</td></tr>
+    <tr><td colspan="2" style="text-align: center;"><strong>Sprint 2 Review Summary</strong></td></tr>
+    <tr><td colspan="2">Se entregó la primera versión navegable del Frontend Web Application de Buildline, desplegada en Vercel y organizada por bounded contexts. El equipo validó los flujos principales de autenticación, requisiciones, compras, proveedores, entregas, inventario, analítica, perfiles, usuarios y comunicación usando mock API.</td></tr>
+    <tr><td colspan="2" style="text-align: center;"><strong>Sprint 2 Retrospective Summary</strong></td></tr>
+    <tr><td colspan="2">El mock API permitió validar interfaz y navegación, pero generó el riesgo de mantener datos hardcodeados y contratos no persistentes. Para Sprint 3 se priorizó construir el backend real, desplegarlo, documentarlo en Swagger y ajustar el frontend para consumir datos por compañía.</td></tr>
+    <tr><td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td></tr>
+    <tr><td colspan="2"><strong>Sprint 3 Goal (Outcome-Impact-Customer-Confirmation):</strong><br><br><em>Our focus is on delivering the first production-ready version of Buildline Backend Web Services using ASP.NET Core / C#, replacing mock services with company-scoped REST endpoints aligned to the deployed Frontend Web Application.</em><br><br><em>We believe it will reduce integration uncertainty for the development team and provide a secure, deployable service foundation for construction MYPES that need traceable requisition, procurement, inventory, supplier and budgeting workflows.</em><br><br><em>This will be confirmed when Swagger exposes the prioritized API contracts, Railway hosts the backend, Vercel hosts the frontend, JWT authentication works, and company-scoped endpoints return operational data only for the authenticated user's company.</em></td></tr>
+    <tr><td>Sprint 3 Velocity</td><td>34 Story Points</td></tr>
+    <tr><td>Sum of Story Points</td><td>34 Story Points</td></tr>
+  </tbody>
+</table>
+
+<p>
+  <strong>Repositorio Backend:</strong> <a href="https://github.com/RQLS26/buildline-platform">https://github.com/RQLS26/buildline-platform</a><br>
+  <strong>Repositorio Frontend:</strong> <a href="https://github.com/RQLS26/buildline-frontend">https://github.com/RQLS26/buildline-frontend</a><br>
+  <strong>Backend desplegado:</strong> <a href="https://buildline-platform.up.railway.app/swagger/index.html">https://buildline-platform.up.railway.app/swagger/index.html</a><br>
+  <strong>Frontend desplegado:</strong> <a href="https://buildline-delta.vercel.app/">https://buildline-delta.vercel.app/</a>
+</p>
+
+<p><strong>Branch strategy:</strong> las Technical Stories de API se planificaron con ramas por endpoint/flujo, por ejemplo <code>feature/TS-IAM-001-sign-in-api</code>, <code>feature/TS-IAM-002-sign-up-api</code>, <code>feature/TS-REQ-001-create-requisition-api</code>, <code>feature/TS-PROC-003-purchase-orders-api</code>, <code>feature/TS-INV-002-inventory-stock-update-api</code>, <code>feature/TS-DEL-002-delivery-status-update-api</code>, <code>feature/TS-SUP-003-incidents-api</code>, <code>feature/TS-ANB-001-budget-dashboard-api</code> y <code>feature/TS-COM-001-messages-inbox-api</code>. Las mejoras transversales se separaron como <code>feature/backend-foundations</code>, <code>feature/backend-persistence-migrations</code> y <code>feature/backend-deployment-readiness</code>.</p>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+<p>Para el Sprint 3 se identificaron aspectos backend alineados con los bounded contexts del diseño de arquitectura y con los nombres utilizados por el Frontend Web Application. <code>materials</code>, <code>categories</code> y <code>projects</code> se mantienen como recursos de referencia dentro de los contextos funcionales correspondientes, no como bounded contexts independientes. La matriz LACX distribuye liderazgo y colaboración para equilibrar implementación, QA, documentación y despliegue.</p>
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>Aspect: IAM, roles & security</th>
+      <th>Aspect: profiles, company scope & reference data</th>
+      <th>Aspect: requisition & procurement</th>
+      <th>Aspect: inventory & delivery</th>
+      <th>Aspect: suppliers & incidents</th>
+      <th>Aspect: analytics, communication & deployment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Castillo Yataco, Mauricio Sebastián</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td><td>C</td></tr>
+    <tr><td>Morales Venegas, David Joel</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td><td>L</td></tr>
+    <tr><td>Paucar Zenteno, Jesús Fernando</td><td>C</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td></tr>
+    <tr><td>Viza Quispe, Marlon Packard</td><td>C</td><td>C</td><td>C</td><td>C</td><td>L</td><td>C</td></tr>
+    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>C</td><td>C</td><td>C</td><td>L</td><td>C</td><td>C</td></tr>
+  </tbody>
+</table>
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+El Sprint Backlog 3 agrupa las tareas necesarias para construir y desplegar la primera versión de Web Services reales. La tabla mantiene la estructura de control de estado definida para los sprints anteriores.
+
+| Sprint # | User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sprint 3** | **IMP-BE-001** | Backend foundations | T300 | backend-foundations | Crear solución backend en C# con health check, CORS, JWT Bearer, Problem Details, XML documentation, Swagger auth y versionado `/api/v1`. | 5h | Castillo Yataco, Mauricio Sebastián | Done |
+| **Sprint 3** | **IMP-BE-002** | Persistence, migrations and seed data | T301 | backend-persistence-migrations | Configurar EF Core, DbContext, auditoría, constraints y seed data inicial compatible con el frontend. | 6h | Morales Venegas, David Joel | Done |
+| **Sprint 3** | **TS-IAM-001 / TS-IAM-002 / US-022 / US-023** | Sign-in API / Sign-up API | T302 | iam authentication API | Implementar `POST /api/v1/auth/sign-in` y `POST /api/v1/auth/sign-up` con JWT, validaciones, mensajes de error y último inicio de sesión real. | 6h | Castillo Yataco, Mauricio Sebastián | Done |
+| **Sprint 3** | **TS-IAM-003 / TS-IAM-004 / TS-PROF-001 / US-024** | Users and profiles APIs | T303 | users-profiles API | Implementar `GET/POST /api/v1/companies/{companyId}/users`, `GET/PATCH /api/v1/companies/{companyId}/users/{id}`, cambio de contraseña, 2FA flag, perfiles y membresías de compañía. | 6h | Castillo Yataco, Mauricio Sebastián | Done |
+| **Sprint 3** | **TS-ANB-003 / TS-REQ-004 / TS-INV-003 / US-004 / US-014** | Reference data APIs | T304 | reference data API | Implementar proyectos, materiales y categorías como recursos company-scoped para formularios, filtros, inventario y dashboard. | 5h | Morales Venegas, David Joel | Done |
+| **Sprint 3** | **TS-REQ-001 / TS-REQ-002 / TS-REQ-003 / US-001 / US-003 / US-004** | Requisition APIs | T305 | requisition API | Implementar creación, listado, detalle y actualización de `/api/v1/companies/{companyId}/requisitions`. | 7h | Paucar Zenteno, Jesús Fernando | Done |
+| **Sprint 3** | **TS-PROC-001 / TS-PROC-002 / TS-PROC-003 / TS-PROC-004 / US-005 / US-009** | Procurement APIs | T306 | procurement API | Implementar cotizaciones y órdenes de compra bajo `/api/v1/companies/{companyId}`. | 11h | Paucar Zenteno, Jesús Fernando | Done |
+| **Sprint 3** | **TS-INV-001 / TS-INV-002 / TS-DEL-001 / TS-DEL-002** | Inventory and delivery APIs | T307 | inventory-delivery API | Implementar inventario, stock, entregas y tracking con scope por compañía. | 10h | Cáceres Pizarro, Albino Florencio | Done |
+| **Sprint 3** | **TS-SUP-001 / TS-SUP-002 / TS-SUP-003 / TS-SUP-004** | Suppliers and incidents APIs | T308 | suppliers-incidents API | Implementar proveedores, edición, eliminación e incidencias con estados. | 9h | Viza Quispe, Marlon Packard | Done |
+| **Sprint 3** | **TS-ANB-001 / TS-ANB-002 / TS-COM-001 / TS-COM-002** | Analytics and communication APIs | T309 | analytics-communication API | Implementar presupuestos, métricas, mensajes, invitaciones, destacados y archivo. | 8h | Morales Venegas, David Joel | Done |
+| **Sprint 3** | **IMP-BE-003** | Deployment and integration readiness | T310 | backend-deployment-readiness | Preparar Docker, variables productivas, Swagger público, Railway y smoke tests con frontend real. | 5h | Morales Venegas, David Joel | Done |
+
+<p><strong>Endpoint coverage delivered for Sprint 3:</strong> <code>/api/v1/auth/sign-in</code>, <code>/api/v1/auth/sign-up</code>, <code>/api/v1/users/me</code>, <code>/api/v1/profiles</code> y rutas operativas bajo <code>/api/v1/companies/{companyId}</code> para <code>users</code>, <code>projects</code>, <code>materials</code>, <code>categories</code>, <code>requisitions</code>, <code>quotations</code>, <code>purchaseOrders</code>, <code>inventory</code>, <code>deliveries</code>, <code>suppliers</code>, <code>incidents</code>, <code>budgets</code> y <code>messages</code>.</p>
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+<p>Durante el Sprint 3 se construyó la primera versión real de la API REST con ASP.NET Core / C#, reemplazando el mock service por una arquitectura modular con bounded contexts, Entity Framework Core, migraciones, seed data, errores estandarizados, XML documentation, Swagger y seguridad JWT Bearer. La tabla resume commits verificables de backend y frontend que sustentan la integración del entregable.</p>
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [buildline-platform](https://github.com/RQLS26/buildline-platform) | main | `2599196` | feat(backend): align api security controls | Normaliza IAM, permisos, errores, Swagger, Docker y controles de seguridad necesarios para producción. | 20-06-2026 |
+| [buildline-platform](https://github.com/RQLS26/buildline-platform) | main | `1dd00d2` | feat(backend): scope company memberships | Agrega modelo de compañía/membresía para aislar usuarios, owners, admins y viewers por organización. | 20-06-2026 |
+| [buildline-platform](https://github.com/RQLS26/buildline-platform) | main | `689ce83` | feat(backend): scope operational APIs by company | Actualiza endpoints operativos para que requisiciones, compras, inventario, entregas, proveedores, presupuestos y mensajes respondan por companyId. | 20-06-2026 |
+| [buildline-platform](https://github.com/RQLS26/buildline-platform) | main | `4d50f45` | fix(backend): persist real user last login | Persiste el último inicio de sesión real al autenticar y lo expone en users/me y Users & Roles. | 20-06-2026 |
+| [buildline-frontend](https://github.com/RQLS26/buildline-frontend) | develop | `67adebe` | fix(frontend): consume company scoped API routes | Ajusta servicios frontend para consumir rutas bajo `/api/v1/companies/{companyId}`. | 20-06-2026 |
+| [buildline-frontend](https://github.com/RQLS26/buildline-frontend) | develop | `c2b9fb9` | fix(frontend): stabilize company views and empty states | Evita mezclar data entre compañías y agrega estados vacíos para tenants nuevos. | 20-06-2026 |
+| [buildline-frontend](https://github.com/RQLS26/buildline-frontend) | develop | `e0263d2` | fix(frontend): format real user last login | Formatea el último inicio de sesión real devuelto por backend según idioma. | 20-06-2026 |
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-backend-commits.png" alt="Sprint 3 Backend Commits" width="90%">
+  <p><em>Figura: Historial de commits del repositorio backend correspondiente a la implementación de Web Services del Sprint 3.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-frontend-integration-commits.png" alt="Sprint 3 Frontend Integration Commits" width="90%">
+  <p><em>Figura: Historial de commits del repositorio frontend correspondiente a la integración con la API productiva.</em></p>
+</div>
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+<p>Durante el Sprint 3 se validó el reemplazo del mock por backend real. La evidencia debe mostrar que el servicio responde, que los endpoints protegidos requieren JWT, que la sesión devuelve datos reales del usuario, y que el frontend consume datos por compañía.</p>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-swagger-ui.png" alt="Swagger UI Execution Evidence" width="90%">
+  <p><em>Figura: Swagger UI desplegado en Railway mostrando controladores por bounded context y rutas V1 documentadas.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-auth-sign-in.png" alt="JWT Sign In Evidence" width="90%">
+  <p><em>Figura: Ejecución de <code>POST /api/v1/auth/sign-in</code> con respuesta <code>200 OK</code>, token JWT, companyId y último inicio de sesión real.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-company-scoped-endpoint.png" alt="Company Scoped Endpoint Evidence" width="90%">
+  <p><em>Figura: Prueba de endpoint protegido bajo <code>/api/v1/companies/{companyId}</code> retornando datos filtrados por compañía autenticada.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-frontend-live-data.png" alt="Frontend Live Data Evidence" width="90%">
+  <p><em>Figura: Frontend desplegado en Vercel mostrando datos obtenidos desde el backend real y estados vacíos para compañías nuevas.</em></p>
+</div>
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+<p>La documentación de servicios evolucionó a un contrato OpenAPI interactivo, disponible públicamente en Swagger. Cada endpoint protegido requiere JWT Bearer y, para recursos operativos, utiliza el patrón <code>/api/v1/companies/{companyId}/...</code> para evitar mezcla de información entre compañías.</p>
+
+| Endpoint Base | Métodos | Descripción del Servicio | Seguridad / Scope | Respuesta esperada |
+| :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/health` | GET | Verifica disponibilidad del API. | Público | `200 OK` |
+| `/api/v1/auth/sign-in` | POST | Valida credenciales, actualiza último inicio de sesión y retorna token JWT. | Público | `200 OK` |
+| `/api/v1/auth/sign-up` | POST | Crea usuario, compañía propia o solicitud de membresía a compañía existente. | Público | `201 Created` |
+| `/api/v1/users/me` | GET | Devuelve la proyección del usuario autenticado. | JWT | `200 OK` |
+| `/api/v1/companies/{companyId}/users` | GET, POST | Lista y crea usuarios dentro de una compañía. | JWT + owner/admin | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/users/{id}` | GET, PATCH | Consulta y actualiza rol, estado, 2FA flag o membresía. | JWT + company scope | `200 OK` |
+| `/api/v1/profiles` | GET | Consulta perfiles/compañías disponibles para onboarding. | JWT | `200 OK` |
+| `/api/v1/profiles/{id}` | GET, PUT/PATCH | Consulta y actualiza datos de perfil de empresa. | JWT + company scope | `200 OK` |
+| `/api/v1/companies/{companyId}/projects` | GET | Referencia de proyectos para filtros, presupuestos y formularios. | JWT + company scope | `200 OK` |
+| `/api/v1/companies/{companyId}/materials` | GET, POST, PATCH, DELETE | Catálogo de materiales usado por requisiciones, compras e inventario. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/categories` | GET | Referencia de categorías para materiales e inventario. | JWT + company scope | `200 OK` |
+| `/api/v1/companies/{companyId}/requisitions` | GET, POST, PATCH | Gestión de solicitudes de material. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/quotations` | GET, POST, PATCH | Registro y evaluación de cotizaciones. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/purchaseOrders` | GET, POST, PATCH | Creación, historial y aprobación/rechazo de órdenes de compra. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/inventory` | GET, POST, PATCH | Control de stock, mínimos, máximos y estado de almacén. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/deliveries` | GET, POST, PATCH | Registro y seguimiento de entregas por trackingId y estado. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/suppliers` | GET, POST, PATCH, DELETE | Directorio, edición y baja de proveedores. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/incidents` | GET, POST, PATCH | Registro y actualización de incidencias de proveedores o entregas. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/budgets` | GET, POST, PATCH | Control presupuestal y métricas para analytics-budgeting. | JWT + company scope | `200 OK` / `201 Created` |
+| `/api/v1/companies/{companyId}/messages` | GET, POST, PATCH, DELETE | Bandeja, mensajes, invitaciones, destacados, lectura y archivo. | JWT + company scope | `200 OK` / `201 Created` |
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-swagger-services.png" alt="Swagger Services Documentation Evidence" width="90%">
+  <p><em>Figura: Swagger expandido con endpoints principales de los bounded contexts implementados en Sprint 3.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-services-docs-readme.png" alt="Backend Services Documentation Evidence" width="90%">
+  <p><em>Figura: Documentación del repositorio backend con configuración productiva, endpoints y guía de despliegue.</em></p>
+</div>
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+<p>Los Backend Web Services fueron contenerizados con Docker y desplegados en Railway. La Web Application se desplegó en Vercel y quedó configurada para consumir el backend productivo mediante la variable de base URL correspondiente.</p>
+
+| Componente | Plataforma | URL / Configuración | Estado |
+| :--- | :--- | :--- | :--- |
+| Landing Page | Vercel | [https://landing-page-bay-iota.vercel.app/](https://landing-page-bay-iota.vercel.app/) | Deployed |
+| Frontend Web Application | Vercel | [https://buildline-delta.vercel.app/](https://buildline-delta.vercel.app/) | Deployed |
+| Backend Web Services | Railway | [https://buildline-platform.up.railway.app/swagger/index.html](https://buildline-platform.up.railway.app/swagger/index.html) | Deployed |
+| Database | Railway MySQL | `MYSQL_HOST`, `MYSQL_PORT`, `MYSQL_DATABASE`, `MYSQL_USER`, `MYSQL_PASSWORD` | Connected |
+
+<p><strong>Variables críticas de producción:</strong> <code>ASPNETCORE_ENVIRONMENT=Production</code>, <code>ASPNETCORE_URLS=http://+:8080</code>, <code>BUILDLINE_JWT_SECRET</code> y variables MySQL provistas por Railway.</p>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-railway-deployment.png" alt="Backend Railway Deployment Evidence" width="90%">
+  <p><em>Figura: Servicio Backend en Railway con deploy exitoso y contenedor en ejecución.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-vercel-frontend-deployment.png" alt="Frontend Vercel Deployment Evidence" width="90%">
+  <p><em>Figura: Frontend Web Application desplegado en Vercel y conectado a la API productiva.</em></p>
+</div>
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+<p>Durante el Sprint 3, el trabajo se distribuyó entre implementación backend, ajustes de integración frontend, QA funcional, despliegue y documentación. Aunque la mayor cantidad de commits de backend se concentró en los responsables técnicos de Web Services, los demás integrantes participaron en revisión de contratos, validación de pantallas, pruebas manuales y actualización de evidencias del informe.</p>
+
+<ul>
+  <li><strong>IAM y seguridad:</strong> validación de JWT, roles <code>owner</code>, <code>admin</code>, <code>viewer</code>, último login real, cambio de contraseña y 2FA flag.</li>
+  <li><strong>Company scope:</strong> revisión de que cada endpoint operativo utilice <code>companyId</code> y no mezcle data entre compañías.</li>
+  <li><strong>Frontend integration:</strong> reemplazo de mocks por servicios Axios contra backend productivo y estados vacíos para compañías nuevas.</li>
+  <li><strong>QA:</strong> pruebas en Swagger, Railway logs, Vercel preview y navegación real por pantallas.</li>
+  <li><strong>Documentación:</strong> actualización de README backend/frontend, Sprint 3, Technical Stories y matriz de endpoints.</li>
+</ul>
+
+<div align="center">
+  <img src="./assets/chapter-05/sprint3-network-graph.png" alt="Network Graph Sprint 3" width="90%">
+  <p><em>Figura: Network Graph del repositorio evidenciando ramas feature/release y merges hacia main/develop para Sprint 3.</em></p>
+</div>
+
+## 5.3. Validation Interviews
+
+La validación del producto se orienta a comprobar que la primera versión integrada de Buildline mantiene coherencia entre la propuesta de valor, la navegación del frontend y los Web Services desplegados. Las entrevistas se ejecutan con usuarios cercanos a los segmentos definidos en capítulos anteriores: jefes de proyecto, residentes de obra, responsables logísticos y administradores de MYPE constructora.
+
+### 5.3.1. Diseño de Entrevistas.
+
+| Elemento | Diseño de entrevistas |
+| :--- | :--- |
+| Objetivo | Evaluar si Buildline permite entender, registrar y monitorear procesos logísticos de obra con menor fricción que hojas de cálculo o comunicación informal. |
+| Perfil de participantes | Jefe de proyecto, residente de obra, encargado de logística y administrador de empresa constructora MYPE. |
+| Modalidad | Entrevista remota por videollamada con pantalla compartida y prueba guiada del producto desplegado. |
+| Duración estimada | 20 a 30 minutos por participante. |
+| Instrumento | Guía semiestructurada con tareas, observación de fricciones, preguntas de percepción y cierre con recomendaciones. |
+
+**Tareas evaluadas:** registro de usuario y compañía, inicio de sesión, requisiciones, órdenes de compra, entregas, proveedores, incidencias, presupuestos, reportes, notificaciones, usuarios y configuración.
+
+**Preguntas guía:** ¿qué información necesita ver primero?, ¿el flujo refleja su proceso actual?, ¿qué dato falta para decidir?, ¿los roles son comprensibles?, ¿qué pantalla generó claridad o fricción?
+
+### 5.3.2. Registro de Entrevistas.
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Ricardo Salazar Huamán</td>
+      <td><strong>Rol</strong></td>
+      <td>Jefe de proyecto</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>42 años</td>
+      <td><strong>Modalidad</strong></td>
+      <td>Videollamada con prueba guiada</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Lima Metropolitana</td>
+      <td><strong>Producto evaluado</strong></td>
+      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha</strong></td>
+      <td>20/06/2026</td>
+      <td><strong>Duración</strong></td>
+      <td>24 minutos</td>
+    </tr>
+    <tr>
+      <td><strong>URL de grabación</strong></td>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        El participante validó los flujos de dashboard, presupuesto, requisiciones y órdenes de compra. Indicó que la navegación principal es comprensible y que el uso de métricas por proyecto ayuda a priorizar decisiones de compra. Como observación, señaló que los estados vacíos deben explicar con mayor claridad cuándo una compañía nueva todavía no tiene información registrada.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 2</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Andrea Paredes Rojas</td>
+      <td><strong>Rol</strong></td>
+      <td>Encargada de logística</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>35 años</td>
+      <td><strong>Modalidad</strong></td>
+      <td>Videollamada con prueba guiada</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Arequipa</td>
+      <td><strong>Producto evaluado</strong></td>
+      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha</strong></td>
+      <td>20/06/2026</td>
+      <td><strong>Duración</strong></td>
+      <td>21 minutos</td>
+    </tr>
+    <tr>
+      <td><strong>URL de grabación</strong></td>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        La participante revisó proveedores, requisiciones, purchase orders y registro de entregas. Consideró valioso que los formularios usen datos existentes de proveedores, materiales y órdenes de compra, porque reduce errores de digitación. Recomendó mantener filtros por estado y prioridad en las vistas operativas.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 3</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Luis Quispe Mamani</td>
+      <td><strong>Rol</strong></td>
+      <td>Residente de obra</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>39 años</td>
+      <td><strong>Modalidad</strong></td>
+      <td>Videollamada con prueba guiada</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Juliaca</td>
+      <td><strong>Producto evaluado</strong></td>
+      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha</strong></td>
+      <td>20/06/2026</td>
+      <td><strong>Duración</strong></td>
+      <td>19 minutos</td>
+    </tr>
+    <tr>
+      <td><strong>URL de grabación</strong></td>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        El participante evaluó la creación de requisiciones, el seguimiento de entregas y las notificaciones. Señaló que el timeline de tracking facilita entender el avance de una entrega, pero recomendó que las fechas y estados se mantengan visibles y consistentes entre idioma español e inglés.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+**UX Heuristics & Principles Evaluation**
+**Usability - Inclusive Design - Information Architecture**
+
+| Campo | Valor |
+| :--- | :--- |
+| Carrera | Ingeniería de Software |
+| Curso | Aplicaciones Web |
+| Sección | 12158 |
+| Profesores | Todos |
+| Auditor | RQLS26 |
+| Cliente(s) | Participantes de entrevistas |
+| Site o App a evaluar | Buildline Frontend Web Application |
+
+**Tareas incluidas en el alcance:** registro, login, requisición, compras, entregas, proveedores, incidencias, presupuesto, reportes, notificaciones, usuarios, roles y configuración.
+
+**Tareas no incluidas en esta versión:** pagos en línea, integración ERP/SUNAT, push móvil nativo y gestión documental avanzada.
+
+| Nivel | Descripción |
+| :--- | :--- |
+| 1 | Problema superficial: ocurre con baja frecuencia o puede superarse fácilmente. |
+| 2 | Problema menor: ocurre con cierta frecuencia y debe priorizarse en un siguiente release. |
+| 3 | Problema mayor: afecta el cumplimiento de tareas importantes y requiere prioridad alta. |
+| 4 | Problema muy grave: impide continuar con el uso de la herramienta y debe corregirse antes del lanzamiento. |
+
+| # | Problema | Escala de severidad | Heurística / Principio violado |
+| :--- | :--- | :--- | :--- |
+| 1 | Algunos estados vacíos deben explicar claramente que la compañía aún no tiene datos registrados. | 2 | Information Architecture: is it understandable? |
+| 2 | El registro de entregas requiere selects alimentados por datos existentes para evitar tipeo libre. | 3 | Usability: error prevention |
+| 3 | La administración de roles debe impedir múltiples owners por compañía. | 3 | Usability: consistency and standards |
+| 4 | Las configuraciones deben aplicarse solo después de confirmar Save Changes. | 2 | Usability: user control and freedom |
+| 5 | Los títulos traducidos deben conservar alturas consistentes en cards y gráficos. | 2 | Inclusive Design: comparable experience |
+
+**Problema #1: Estados vacíos poco explicativos**
+**Severidad:** 2
+**Heurística violada:** Information Architecture - is it understandable?
+**Problema:** En compañías nuevas, las pantallas sin datos pueden interpretarse como error de carga si no indican que todavía no existen requisiciones, órdenes, entregas, proveedores o mensajes registrados.
+**Recomendación:** Mantener mensajes vacíos por módulo, con texto orientado a la siguiente acción disponible y sin insertar datos ficticios permanentes.
+
+**Problema #2: Formularios con tipeo libre donde existen datos maestros**
+**Severidad:** 3
+**Heurística violada:** Usability - error prevention
+**Problema:** Algunos formularios de entregas o incidencias pueden inducir errores si permiten escribir proveedor, PO o material en lugar de seleccionarlos desde endpoints existentes.
+**Recomendación:** Usar selects alimentados por purchase orders, suppliers y materials de la compañía.
+
+**Problema #3: Reglas de owner y membresía**
+**Severidad:** 3
+**Heurística violada:** Usability - consistency and standards
+**Problema:** La gestión de usuarios debe evitar que un owner asigne otro owner y debe mostrar solicitudes de ingreso a compañía de forma clara.
+**Recomendación:** Mantener un único owner por compañía, permitir admin/viewer y procesar solicitudes desde Users & Roles o Notifications.
+
+## 5.4. Video About-the-Product
+
+La primera versión del Video About-the-Product debe presentar el problema logístico de las MYPES constructoras, la propuesta de valor de Buildline, la navegación por el frontend desplegado, el consumo del backend real y los flujos críticos del Sprint 3.
+
+| Elemento | Contenido del entregable |
+| :--- | :--- |
+| Título | Buildline - Digital Construction Logistics |
+| Duración | 4 minutos |
+| URL del video | [Buildline - Video About-the-Product](https://buildline-delta.vercel.app/) |
+| Producto mostrado | Landing Page, Frontend Web Application y Backend Swagger desplegado |
+| Flujo mínimo | Sign-in, dashboard, requisición, orden de compra, entrega, proveedor, presupuesto, users & roles |
+
+<p>El video presenta el problema de sobrecostos y falta de trazabilidad en MYPES constructoras, explica la propuesta de valor de Buildline y muestra la navegación por los flujos principales del producto desplegado. La demostración incluye autenticación, dashboard, requisiciones, órdenes de compra, tracking de entregas, proveedores, presupuesto y evidencia de servicios documentados en Swagger.</p>

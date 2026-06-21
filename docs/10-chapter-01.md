@@ -15,7 +15,7 @@
  | Imagen  | Apellidos y nombres                     |   Código   | Carrera                | Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 :-----------------:|:----------------------------------------|:----------:| :--------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |<img src="./assets/chapter-01/Castillo_Foto.jpg" alt="Foto de Castillo Yataco" width="120" />| **Castillo Yataco, Mauricio Sebastián** | U202113229 | Ingeniería de Software | Soy estudiante de Ingeniería de Software, apasionado por la creación de soluciones tecnológicas que mejoren la vida de las personas. Mi enfoque va más allá de la programación, ya que me interesa desarrollar experiencias digitales funcionales y agradables para el usuario. Poseo conocimientos básicos en C++, HTML y CSS, y destaco por mi responsabilidad, cooperación, comunicación, flexibilidad y adaptabilidad.                        |
-|<img src="./assets/chapter-01/david_foto.jpeg" alt="Foto de Morales Venegas" width="120" />| **Morales Venegas, David Joel**         | U20231B504 | Ingeniería de Software | Estudiante de Ingeniería de Software con formación intermedia en el desarrollo de aplicaciones web. Me adapto al trabajo técnico del equipo, priorizando código funcional, entendible y alineado a los requerimientos del proyecto, con disposición para mejorar y corregir en función de pruebas y resultados.                                                                                                                                   |
+|<img src="./assets/chapter-01/david_foto.jpeg" alt="Foto de Morales Venegas" width="120" />| **Morales Venegas, David Joel**         | U20231B504 | Ingeniería de Software | Estudiante de Ingeniería de Software con formación intermedia en el desarrollo de aplicaciones web. Me adapto al trabajo técnico del equipo, priorizando código funcional, entendible y alineado a los requisitos del proyecto, con disposición para mejorar y corregir en función de pruebas y resultados.                                                                                                                                   |
 |<img src="./assets/chapter-01/foto-fernando.jpg" alt="Foto de Fernando Paucar" width="120" />| **Paucar Zenteno, Jesús Fernando**      | U202316687 | Ingeniería de Software | Soy estudiante de Ingeniería de Software con gran pasión por la creación de soluciones innovadoras. Me considero una persona proactiva y orientada a resultados, con interés constante en aprender y aplicar nuevas tecnologías. Busco contribuir significativamente al proyecto, asegurando calidad y eficiencia en cada tarea.                                                                                                                  |
 |<img src="./assets/chapter-01/Marlon.jpg" alt="Foto Marlon Viza" width="120" />| **Viza Quispe, Marlon Packard**         | U202322849 | Ingeniería de Software | Estudiante de 20 años, responsable y proactivo, con sólida base técnica en C++. Destaco por mi capacidad de aportar soluciones creativas y mi compromiso con el aprendizaje continuo en entornos profesionales. Busco asumir retos que potencien mi desarrollo y contribuyan al éxito del equipo.                                                                                                                                                 |
 |<img src="./assets/chapter-01/caceres_foto.jpeg" alt="Foto de Albino" width="120" />| **Cáceres Pizarro, Albino Florencio**   | U201923820 | Ingeniería de Software | Me considero una persona responsable y proactiva que le gusta trabajar en equipo. Además, siempre estoy abierto a ayudar, en lo posible, a cualquier integrante del equipo. Además, busco adaptarme rápidamente a los diversos retos que se presentan en el ciclo.                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -49,7 +49,7 @@ El retraso en la madurez digital del sector construcción se refleja en que el 4
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
-Las micro y pequeñas empresas (MYPES) constructoras de Lima Metropolitana gestionan los requerimientos de materiales mediante herramientas informales como WhatsApp o registros manuales en papel. Esta fragmentación de la información dificulta la trazabilidad de los pedidos, impide la comparación técnica de cotizaciones y retrasa la aprobación oportuna de compras por parte de la gerencia.
+Las micro y pequeñas empresas (MYPES) constructoras de Lima Metropolitana gestionan los requisitos de materiales mediante herramientas informales como WhatsApp o registros manuales en papel. Esta fragmentación de la información dificulta la trazabilidad de los pedidos, impide la comparación técnica de cotizaciones y retrasa la aprobación oportuna de compras por parte de la gerencia.
 
 Como consecuencia de esta gestión operativa deficiente, las organizaciones enfrentan sobrecostos por compras de emergencia y retrasos críticos en la ejecución de obra que erosionan su rentabilidad neta. Como equipo, nos comprometemos a resolver este desafío mediante una colaboración estrecha con el personal de campo y administrativo para diseñar un flujo de abastecimiento trazable y auditable.
 
@@ -60,11 +60,11 @@ Ante esto nos surge la siguiente pregunta:
 
 2. Customer Segments: Gerentes Generales (aprobadores), Ingenieros Residentes (solicitantes) y Jefes de Logística (compradores).
 
-3. Pain Points: Pérdida de trazabilidad de requerimientos, sobrecostos por emergencia y falta de comparación de cotizaciones.
+3. Pain Points: Pérdida de trazabilidad de requisitos, sobrecostos por emergencia y falta de comparación de cotizaciones.
 
 4. Gap: Inexistencia de un software SaaS económico diseñado para la pequeña constructora que cubra el espacio entre el Excel manual y ERPs de alta complejidad.
 
-5. Visión/Strategy: Digitalizar el 100% de los requerimientos de materiales mediante una plataforma en la nube que permita el control presupuestal en tiempo real.
+5. Visión/Strategy: Digitalizar el 100% de los requisitos de materiales mediante una plataforma en la nube que permita el control presupuestal en tiempo real.
 
 6. Initial Segment: Pequeñas empresas constructoras de edificaciones residenciales ubicadas en Lima Metropolitana.
 
@@ -90,7 +90,7 @@ Ante esto nos surge la siguiente pregunta:
 
 10. Se presume que el principal riesgo del producto es que el personal de campo mantenga el uso de canales informales si el flujo digital no reduce de forma clara el tiempo de coordinación frente a los canales actuales.
 
-11. Se plantea que este riesgo puede mitigarse mediante un sistema de requerimientos en “3 clics”, diseñado para smartphones y más ágil que redactar un mensaje de texto.
+11. Se plantea que este riesgo puede mitigarse mediante un sistema de requisitos en “3 clics”, diseñado para smartphones y más ágil que redactar un mensaje de texto.
 
 12. Se asume que, si se comprueba que las constructoras no están dispuestas a pagar por control digital pese a las pérdidas actuales, el proyecto no será viable.
 
@@ -133,7 +133,7 @@ Ante esto nos surge la siguiente pregunta:
 
 **Hypothesis 4** Creemos que al digitalizar el historial de proveedores y cotizaciones, facilitaremos la toma de decisiones gerenciales. Lo sabremos cuando el tiempo dedicado a la comparación manual de cotizaciones se reduzca de 4 horas semanales a solo 15 minutos.
 
-**Hypothesis 5** Creemos que digitalizar los requerimientos técnicos para los ingenieros de obra logrará una reducción del 50% en errores de pedido. Sabremos que es cierto cuando veamos que el 90% de los requerimientos registrados no requieren correcciones técnicas posteriores.
+**Hypothesis 5** Creemos que digitalizar los requisitos técnicos para los ingenieros de obra logrará una reducción del 50% en errores de pedido. Sabremos que es cierto cuando veamos que el 90% de los requisitos registrados no requieren correcciones técnicas posteriores.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -142,7 +142,7 @@ Ante esto nos surge la siguiente pregunta:
     <td valign="top">
       <strong>Business problem</strong>
       <br><br>
-      Las micro y pequeñas empresas (MYPES) constructoras de Lima Metropolitana gestionan los requerimientos de materiales mediante herramientas informales como WhatsApp o registros manuales en papel. Esta fragmentación dificulta la trazabilidad de los pedidos, limita la comparación técnica de cotizaciones y retrasa la aprobación de compras.
+      Las micro y pequeñas empresas (MYPES) constructoras de Lima Metropolitana gestionan los requisitos de materiales mediante herramientas informales como WhatsApp o registros manuales en papel. Esta fragmentación dificulta la trazabilidad de los pedidos, limita la comparación técnica de cotizaciones y retrasa la aprobación de compras.
       <br><br>
       Como consecuencia, se generan sobrecostos por compras de emergencia, duplicidad de pedidos y retrasos en la continuidad de obra que afectan directamente la rentabilidad del proyecto.
     </td>
@@ -151,7 +151,7 @@ Ante esto nos surge la siguiente pregunta:
       <br><br>
       - Plataforma web SaaS accesible desde dispositivos móviles orientada al entorno de obra
       <br><br>
-      - Registro digital de requerimientos con flujo de aprobación jerárquica
+      - Registro digital de requisitos con flujo de aprobación jerárquica
       <br><br>
       - Módulo de comparación de cotizaciones en tiempo real
       <br><br>
@@ -190,7 +190,7 @@ Ante esto nos surge la siguiente pregunta:
       <br><br>
       - Aprobación remota de materiales sin dependencia de la oficina
       <br><br>
-      - Visibilidad del estado de cada requerimiento en tiempo real
+      - Visibilidad del estado de cada requisito en tiempo real
       <br><br>
       - Reducción del tiempo dedicado a comparar cotizaciones
       <br><br>
@@ -211,7 +211,7 @@ Ante esto nos surge la siguiente pregunta:
       <br><br>
       - Si se digitaliza el historial de proveedores y cotizaciones, el tiempo de comparación manual se reducirá de 4 horas semanales a 15 minutos.
       <br><br>
-      - Si los requerimientos técnicos se registran digitalmente, los errores de pedido se reducirán en un 50%.
+      - Si los requisitos técnicos se registran digitalmente, los errores de pedido se reducirán en un 50%.
     </td>
     <td valign="top">
       <strong>What’s the most important thing we need to learn first?</strong>

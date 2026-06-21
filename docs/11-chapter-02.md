@@ -277,7 +277,7 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
 10. ¿Cuántos proyectos u obras suele gestionar de manera simultánea en un mes promedio?
 11. ¿Podría describir el flujo de trabajo actual desde que se identifica la falta de un material en obra hasta que se emite el pago al proveedor?
 12. ¿Qué medios de comunicación utiliza para recibir las requisiciones de los ingenieros residentes?
-13. ¿Cómo gestiona y almacena las cotizaciones recibidas de diversos proveedores para un mismo requerimiento?
+13. ¿Cómo gestiona y almacena las cotizaciones recibidas de diversos proveedores para un mismo requisito?
 14. ¿Cómo realiza actualmente el control presupuestal de los materiales por cada proyecto?
 15. ¿Ha experimentado retrasos en el cronograma de obra debido a errores en la logística de abastecimiento?
 16. ¿Considera que el uso de herramientas genéricas (como Excel) es suficiente para mantener un control de costos eficiente en sus obras?
@@ -325,13 +325,13 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 8:46</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/personal/u202322849_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202322849%5Fupc%5Fedu%5Fpe%2FDocuments%2FVideos%2FSegmento%2D1%2DJefes%20de%20Proyectos%20y%20Gerentes%20Generales%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E593e8b93%2Dc4f0%2D4a57%2D9f1e%2De92dc81c64bd" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
   </td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        El entrevistado es un jefe de departamento en el sector construcción con 20 años de experiencia que labora de forma independiente y para empresas privadas, operando principalmente en Juliaca, Puno, y zonas aledañas como Cusco y Arequipa. En su rutina digital utiliza predominantemente laptop y celular, apoyándose en herramientas como AutoCAD, Excel y Word para la elaboración de reportes técnicos, mientras que WhatsApp es su canal principal de comunicación y S10 su software para presupuestos. Su dinámica de trabajo implica la gestión de levantamientos topográficos y de carreteras que luego procesa en gabinete, siguiendo un flujo logístico que inicia con el requerimiento de materiales desde el campo hacia el almacén.
+        El entrevistado es un jefe de departamento en el sector construcción con 20 años de experiencia que labora de forma independiente y para empresas privadas, operando principalmente en Juliaca, Puno, y zonas aledañas como Cusco y Arequipa. En su rutina digital utiliza predominantemente laptop y celular, apoyándose en herramientas como AutoCAD, Excel y Word para la elaboración de reportes técnicos, mientras que WhatsApp es su canal principal de comunicación y S10 su software para presupuestos. Su dinámica de trabajo implica la gestión de levantamientos topográficos y de carreteras que luego procesa en gabinete, siguiendo un flujo logístico que inicia con el requisito de materiales desde el campo hacia el almacén.
 
 El proceso de aprobación de compras involucra al residente y al contratista general, pudiendo demorar hasta dos días, y actualmente enfrenta desafíos como la frustración por la demora en la llegada de materiales y la necesidad de actualizar constantemente los costos del mercado. Abdón señala que el uso de Excel es insuficiente para un control eficiente debido al riesgo de errores humanos y expresa un alto interés en automatizar la variación de costos y la gestión logística. Finalmente, destaca que la rapidez en la entrega de materiales es el factor más influyente en sus decisiones y considera fundamental contar con una plataforma móvil que permita supervisar y gestionar las operaciones directamente desde el campo.
       </td>
@@ -379,12 +379,12 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 12:14</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://drive.google.com/file/d/14m4jJwM0lSUNWYnrakp4qyTpgDP1KKJ8/view" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        El entrevistado es un Gerente de Proyecto con 18 años de experiencia en el sector construcción, gestionando actualmente obras de gran envergadura en provincias, como minería y carreteras. En su rutina digital, utiliza el celular para resolver urgencias operativas vía WhatsApp, mientras que reserva el uso de su laptop (con Windows y Chrome) para la revisión financiera, presupuestal y la aprobación de compras usando sistemas como SAP y MS Project.<br><br>El flujo logístico que supervisa involucra requerimientos del campo, cotizaciones de logística y su aprobación final. Carlos identifica los retrasos en el abastecimiento como uno de los problemas más críticos, ya que paralizar una obra genera altísimos sobrecostos. Además, señala un cuello de botella en la formalidad: aunque las requisiciones deberían procesarse en el sistema integrado, en la práctica las urgencias se manejan por mensajes directos. Finalmente, enfatiza que el uso de herramientas genéricas como Excel es "peligroso" para llevar el control de costos a nivel profesional debido al riesgo de errores humanos y la falta de trazabilidad, validando la necesidad de un sistema estructurado y seguro.
+        El entrevistado es un Gerente de Proyecto con 18 años de experiencia en el sector construcción, gestionando actualmente obras de gran envergadura en provincias, como minería y carreteras. En su rutina digital, utiliza el celular para resolver urgencias operativas vía WhatsApp, mientras que reserva el uso de su laptop (con Windows y Chrome) para la revisión financiera, presupuestal y la aprobación de compras usando sistemas como SAP y MS Project.<br><br>El flujo logístico que supervisa involucra requisitos del campo, cotizaciones de logística y su aprobación final. Carlos identifica los retrasos en el abastecimiento como uno de los problemas más críticos, ya que paralizar una obra genera altísimos sobrecostos. Además, señala un cuello de botella en la formalidad: aunque las requisiciones deberían procesarse en el sistema integrado, en la práctica las urgencias se manejan por mensajes directos. Finalmente, enfatiza que el uso de herramientas genéricas como Excel es "peligroso" para llevar el control de costos a nivel profesional debido al riesgo de errores humanos y la falta de trazabilidad, validando la necesidad de un sistema estructurado y seguro.
       </td>
     </tr>
   </tbody>
@@ -430,7 +430,7 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 05:58</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316687_upc_edu_pe/IQBWOpfi_6v_T7DTHOz0tzKIAbYe-kP_QcbvspNKOG6LOLQ?e=dSPEWH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -478,17 +478,17 @@ El proceso de aprobación de compras involucra al residente y al contratista gen
       <td><strong>Residencia / ubicación</strong></td>
       <td>Jesús María, Lima – Proyectos en San Miguel, Surco y Ate</td>
       <td><strong>Software especializado utilizado</strong></td>
-      <td>Uso parcial de Indusoft (consulta de stock y requerimientos), complementado con Excel, correo electrónico y WhatsApp</td>
+      <td>Uso parcial de Indusoft (consulta de stock y requisitos), complementado con Excel, correo electrónico y WhatsApp</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>Duración</strong>: [pendiente de completar]</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923820_upc_edu_pe/IQBlkNjTWHvGRrHWcVowxzt6Adx8YM62dFlnE9heBecX338?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mTp6gw" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>Duración</strong>: 6:08</td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
         La entrevistada, Lisset Paredes, jefa de logística con aproximadamente 10 años de experiencia, gestiona entre 2 y 3 proyectos de manera simultánea. Su trabajo se apoya principalmente en herramientas como WhatsApp para la comunicación diaria, el correo electrónico para formalizar información y Microsoft Excel para el control de costos. Además, utiliza parcialmente Indusoft para consultas de stock, aunque este presenta limitaciones como lentitud en su funcionamiento.
-El proceso de abastecimiento inicia con requerimientos enviados desde obra, generalmente a través de WhatsApp y muchas veces con información incompleta, lo que genera retrabajo y retrasos. Posteriormente, la búsqueda y comparación de cotizaciones se realiza de forma manual, almacenando la información en distintos medios sin un sistema centralizado.
+El proceso de abastecimiento inicia con requisitos enviados desde obra, generalmente a través de WhatsApp y muchas veces con información incompleta, lo que genera retrabajo y retrasos. Posteriormente, la búsqueda y comparación de cotizaciones se realiza de forma manual, almacenando la información en distintos medios sin un sistema centralizado.
 
 El control presupuestal también se gestiona en Excel, sin actualización en tiempo real, lo que ocasiona desfases entre los registros y la ejecución real de gastos. Esta falta de integración y trazabilidad contribuye a errores logísticos, pérdida de información y retrasos en obra.
 En general, la entrevistada considera que las herramientas actuales no son suficientes para gestionar eficientemente múltiples proyectos, evidenciando la necesidad de una solución digital más integrada y especializada.
@@ -537,12 +537,12 @@ En general, la entrevistada considera que las herramientas actuales no son sufic
     </tr>
     <tr>
       <td colspan="2"><strong>Duración</strong>: 14:54</td>
-      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc_edu_pe/IQDfPqhAH-25T7AE0HENbnpTAZ2WTtY2YOFNkrarA_D8QgM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XxxnPg" target="_blank">Ver video</a></td>
+      <td colspan="2"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        Sebastián destaca que el mayor dolor administrativo es la pérdida de trazabilidad en las compras. Actualmente, recibe requerimientos por WhatsApp que se mezclan con fotos de obra y mensajes personales, lo que causa olvidos y compras de emergencia que elevan los costos hasta en un 18%.
+        Sebastián destaca que el mayor dolor administrativo es la pérdida de trazabilidad en las compras. Actualmente, recibe requisitos por WhatsApp que se mezclan con fotos de obra y mensajes personales, lo que causa olvidos y compras de emergencia que elevan los costos hasta en un 18%.
         Valida positivamente la solución, ya que actualmente debe revisar PDF's sueltos en el correo para decidir a qué proveedor comprar. Indica que su disposición a pagar por el SaaS depende de que el operario en campo (Residente) realmente use el sistema en lugar de llamar por teléfono. Sugiere que la interfaz sea extremadamente ligera debido a la baja señal en algunas obras de infraestructura.
       </td>
     </tr>
@@ -561,7 +561,7 @@ Este segmento agrupa a [descripción breve del grupo analizado]. A partir de las
 #### 2. Características objetivas del segmento
 | Característica              | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:----------------------------| :-- | :-- | :-- |
-| **Uso de mensajería informal para requerimientos** | 100% (5/5) | **Entrevistas 1, 2, 3, 4 y 5:** Todos afirman usar WhatsApp como canal principal para urgencias y requerimientos de obra, mezclando datos técnicos con mensajes personales. | Define el comportamiento actual del usuario y justifica la necesidad de crear un canal de comunicación centralizado y estructurado. |
+| **Uso de mensajería informal para requisitos** | 100% (5/5) | **Entrevistas 1, 2, 3, 4 y 5:** Todos afirman usar WhatsApp como canal principal para urgencias y requisitos de obra, mezclando datos técnicos con mensajes personales. | Define el comportamiento actual del usuario y justifica la necesidad de crear un canal de comunicación centralizado y estructurado. |
 | **Uso de MS Excel como herramienta base de control** | 80% (4/5) | **Entrevistas 1, 2, 3 y 4:** Abdón, Carlos, Leonardo y Lisset utilizan Excel para presupuestos y control de costos, pero reconocen que no se actualiza en tiempo real. | Establece la línea base de competencia tecnológica del usuario: están acostumbrados a tablas y grillas, por lo que la nueva interfaz debe ser familiar pero automatizada. |
 | **Operación dividida (Campo vs. Gabinete)** | 100% (5/5) | **Todas las entrevistas:** Evidencian un flujo logístico desconectado donde el campo (residente) pide y el gabinete (oficina/logística) procesa y aprueba. | Moldea el arquetipo en dos roles interactuantes, obligando a que la solución sea multiplataforma (móvil para campo, web para oficina). |
 | **Dependencia de dispositivos móviles con conectividad limitada** | 60% (3/5) | **Entrevistas 1, 2 y 5:** Abdón, Carlos y Sebastián priorizan el celular. Sebastián indica que la señal en obras de infraestructura es baja. | Dictamina que el arquetipo valora la inmediatez y requiere que la aplicación sea extremadamente ligera (Low-Data) para funcionar en campo. |
@@ -569,7 +569,7 @@ Este segmento agrupa a [descripción breve del grupo analizado]. A partir de las
 #### 3. Características subjetivas del segmento
 | Característica               | Sustento estadístico | Evidencia en entrevistas | Relación con el arquetipo |
 |:-----------------------------| :-- | :-- | :-- |
-| **Frustración por pérdida de trazabilidad** | 100% (5/5) | **Entrevistas 3, 4 y 5:** Leonardo, Lisset y Sebastián sufren por cotizaciones perdidas, PDFs sueltos y requerimientos incompletos enviados por WhatsApp. | Define el principal dolor (*pain point*) del arquetipo: la ansiedad administrativa y la carga cognitiva de buscar información dispersa. |
+| **Frustración por pérdida de trazabilidad** | 100% (5/5) | **Entrevistas 3, 4 y 5:** Leonardo, Lisset y Sebastián sufren por cotizaciones perdidas, PDFs sueltos y requisitos incompletos enviados por WhatsApp. | Define el principal dolor (*pain point*) del arquetipo: la ansiedad administrativa y la carga cognitiva de buscar información dispersa. |
 | **Percepción de riesgo ante procesos manuales** | 60% (3/5) | **Entrevistas 1, 2 y 3:** Carlos califica a Excel como "peligroso" a nivel profesional. Abdón y Leonardo señalan el alto riesgo de errores humanos. | Aporta a los objetivos del usuario: busca seguridad, formalidad y automatización para proteger su prestigio y el presupuesto de la obra. |
 | **Preocupación por sobrecostos logísticos** | 80% (4/5) | **Entrevistas 2, 3, 4 y 5:** Carlos y Leonardo afirman que los retrasos paralizan cuadrillas. Sebastián cuantifica que las compras de emergencia elevan costos hasta un 18%. | Establece la motivación de compra (*driver*) del usuario: adoptarán el sistema si este demuestra prevenir paralizaciones y reducir urgencias. |
 | **Condicionamiento de adopción tecnológica** | 40% (2/5) | **Entrevistas 1 y 5:** Sebastián condiciona el pago del SaaS a que el operario de campo realmente lo use y deje de llamar. Abdón exige poder gestionar desde campo. | Define las frustraciones potenciales frente a nuevas soluciones: el usuario teme pagar por un software que su equipo operativo se resista a utilizar. |
@@ -619,7 +619,7 @@ El User Task Matrix presenta las tareas clave que realizan los User Persona para
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left;">Generar requerimientos de materiales de obra</td>
+      <td style="text-align:left;">Generar requisitos de materiales de obra</td>
       <td>Often</td><td>High</td>
       <td>Rarely</td><td>Low</td>
     </tr>
@@ -652,7 +652,7 @@ El User Task Matrix presenta las tareas clave que realizan los User Persona para
 </table>
 
 **Análisis del Task Matrix:**
-Se observa una clara complementariedad entre ambos perfiles. La tarea de **"Generar requerimientos de materiales"** es de altísima frecuencia e importancia para Martín (Campo), mientras que **"Revisar cotizaciones y Aprobar"** es el "Core" de Roberto (Oficina). Esto confirma que RQLS debe priorizar un flujo bidireccional: una interfaz de creación de pedidos ultra rápida (Mobile) para el ejecutor, conectada automáticamente a un Dashboard de aprobación seguro y comparativo (Desktop) para el gerente. Adicionalmente, la tarea de rastrear despachos (**High** para Martín) valida la necesidad de un sistema de notificaciones de estados.
+Se observa una clara complementariedad entre ambos perfiles. La tarea de **"Generar requisitos de materiales"** es de altísima frecuencia e importancia para Martín (Campo), mientras que **"Revisar cotizaciones y Aprobar"** es el "Core" de Roberto (Oficina). Esto confirma que RQLS debe priorizar un flujo bidireccional: una interfaz de creación de pedidos ultra rápida (Mobile) para el ejecutor, conectada automáticamente a un Dashboard de aprobación seguro y comparativo (Desktop) para el gerente. Adicionalmente, la tarea de rastrear despachos (**High** para Martín) valida la necesidad de un sistema de notificaciones de estados.
 
 <div style="page-break-after: always;"></div>
 
@@ -692,7 +692,7 @@ En esta primera etapa, el equipo realizó una sesión de lluvia de ideas para ca
 
 **Step 2 – Structured Organization** 
 
-Después de listar los eventos en esta estructura nos permitió aislar los procesos clave, desde el requerimiento inicial en el frente de obra hasta la conciliación financiera final, resaltando las áreas de mejora que serán abordadas mediante nuestra solución digital.
+Después de listar los eventos en esta estructura nos permitió aislar los procesos clave, desde el requisito inicial en el frente de obra hasta la conciliación financiera final, resaltando las áreas de mejora que serán abordadas mediante nuestra solución digital.
 
 <img src="../docs/assets/chapter-02/big-picture-event-storming2.png" alt="Big Picture EventStorming 2" width="auto" height="1900"/>
 
