@@ -1007,11 +1007,11 @@ El Sprint Backlog 3 agrupa las tareas necesarias para construir y desplegar la p
 
 ## 5.3. Validation Interviews
 
-La validación AV2 se orienta a comprobar que la primera versión integrada de Buildline mantiene coherencia entre la propuesta de valor, la navegación del frontend y los Web Services desplegados. Las entrevistas deben ejecutarse con usuarios cercanos a los segmentos definidos en capítulos anteriores: jefes de proyecto, residentes de obra, responsables logísticos y administradores de MYPE constructora.
+La validación del producto se orienta a comprobar que la primera versión integrada de Buildline mantiene coherencia entre la propuesta de valor, la navegación del frontend y los Web Services desplegados. Las entrevistas se ejecutan con usuarios cercanos a los segmentos definidos en capítulos anteriores: jefes de proyecto, residentes de obra, responsables logísticos y administradores de MYPE constructora.
 
 ### 5.3.1. Diseño de Entrevistas.
 
-| Elemento | Diseño propuesto para AV2 |
+| Elemento | Diseño de entrevistas |
 | :--- | :--- |
 | Objetivo | Evaluar si Buildline permite entender, registrar y monitorear procesos logísticos de obra con menor fricción que hojas de cálculo o comunicación informal. |
 | Perfil de participantes | Jefe de proyecto, residente de obra, encargado de logística y administrador de empresa constructora MYPE. |
@@ -1028,7 +1028,7 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
-      <td colspan="4" align="center"><strong>Entrevista AV2 N.° 1</strong></td>
+      <td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td>
     </tr>
     <tr>
       <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
@@ -1059,6 +1059,10 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
       <td>24 minutos</td>
     </tr>
     <tr>
+      <td><strong>URL de grabación</strong></td>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
         El participante validó los flujos de dashboard, presupuesto, requisiciones y órdenes de compra. Indicó que la navegación principal es comprensible y que el uso de métricas por proyecto ayuda a priorizar decisiones de compra. Como observación, señaló que los estados vacíos deben explicar con mayor claridad cuándo una compañía nueva todavía no tiene información registrada.
@@ -1070,7 +1074,7 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
-      <td colspan="4" align="center"><strong>Entrevista AV2 N.° 2</strong></td>
+      <td colspan="4" align="center"><strong>Entrevista N.° 2</strong></td>
     </tr>
     <tr>
       <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
@@ -1101,6 +1105,10 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
       <td>21 minutos</td>
     </tr>
     <tr>
+      <td><strong>URL de grabación</strong></td>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
         La participante revisó proveedores, requisiciones, purchase orders y registro de entregas. Consideró valioso que los formularios usen datos existentes de proveedores, materiales y órdenes de compra, porque reduce errores de digitación. Recomendó mantener filtros por estado y prioridad en las vistas operativas.
@@ -1112,7 +1120,7 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
-      <td colspan="4" align="center"><strong>Entrevista AV2 N.° 3</strong></td>
+      <td colspan="4" align="center"><strong>Entrevista N.° 3</strong></td>
     </tr>
     <tr>
       <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
@@ -1143,6 +1151,10 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
       <td>19 minutos</td>
     </tr>
     <tr>
+      <td><strong>URL de grabación</strong></td>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
         El participante evaluó la creación de requisiciones, el seguimiento de entregas y las notificaciones. Señaló que el timeline de tracking facilita entender el avance de una entrega, pero recomendó que las fechas y estados se mantengan visibles y consistentes entre idioma español e inglés.
@@ -1163,7 +1175,7 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
 | Sección | 12158 |
 | Profesores | Todos |
 | Auditor | RQLS26 |
-| Cliente(s) | Participantes de entrevistas AV2 |
+| Cliente(s) | Participantes de entrevistas |
 | Site o App a evaluar | Buildline Frontend Web Application |
 
 **Tareas incluidas en el alcance:** registro, login, requisición, compras, entregas, proveedores, incidencias, presupuesto, reportes, notificaciones, usuarios, roles y configuración.
@@ -1207,7 +1219,7 @@ La validación AV2 se orienta a comprobar que la primera versión integrada de B
 
 La primera versión del Video About-the-Product debe presentar el problema logístico de las MYPES constructoras, la propuesta de valor de Buildline, la navegación por el frontend desplegado, el consumo del backend real y los flujos críticos del Sprint 3.
 
-| Elemento | Contenido AV2 |
+| Elemento | Contenido del entregable |
 | :--- | :--- |
 | Título | Buildline - Digital Construction Logistics |
 | Duración | 4 minutos |

@@ -27,7 +27,7 @@
   Durante el Sprint 1, el desarrollo de software se limitó estrictamente a la capa de presentación estática. Se logró implementar y desplegar exitosamente la Landing Page informativa de Buildline mediante GitHub Pages, cumpliendo con los criterios de aceptación definidos: navegación responsiva, presentación clara de la propuesta de valor, visualización de planes y perfiles del equipo.
 </p> 
 <p>
-  Tras el avance de AV2, la solución ya cuenta con una Landing Page actualizada, una primera versión navegable del Frontend Web Application desplegada en Vercel y una primera versión de Backend Web Services desplegada en Railway. Esto permite validar progresivamente métricas operativas con datos persistidos, endpoints documentados en Swagger y rutas protegidas por JWT.
+  Tras el segundo avance del proyecto, la solución ya cuenta con una Landing Page actualizada, una primera versión navegable del Frontend Web Application desplegada en Vercel y una primera versión de Backend Web Services desplegada en Railway. Esto permite validar progresivamente métricas operativas con datos persistidos, endpoints documentados en Swagger y rutas protegidas por JWT.
 </p> 
 
 <p><strong>Recomendaciones (Roadmap):</strong></p> 

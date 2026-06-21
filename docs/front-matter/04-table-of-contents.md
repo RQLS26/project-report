@@ -1,7 +1,7 @@
 # Contenido
 ## Tabla de contenidos
 
-- [Carátula](#informe-de-trabajo-final---av1)
+- [Carátula](#informe-de-trabajo-final---av2)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Student Outcome](#student-outcome)
 - [Abstract](#abstract)
