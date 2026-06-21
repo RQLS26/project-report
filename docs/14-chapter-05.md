@@ -1059,10 +1059,10 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td><strong>Ubicación</strong></td>
       <td>Lima, Perú</td>
       <td><strong>Duración</strong></td>
-      <td>10 minutos</td>
+      <td>12 minutos</td>
     </tr>
     <tr>
-      <td colspan="4"><strong>URL de grabación: </strong><a href="" target="_blank">Ver video</a></td>
+      <td colspan="4"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1095,7 +1095,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>No especificada</td>
+      <td>25 años</td>
       <td><strong>Producto validado</strong></td>
       <td>Frontend Web Application integrado con Backend Web Services</td>
     </tr>
@@ -1103,10 +1103,10 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td><strong>Ubicación</strong></td>
       <td>Lima, Perú</td>
       <td><strong>Duración</strong></td>
-      <td>11 minutos</td>
+      <td>13 minutos</td>
     </tr>
     <tr>
-      <td colspan="4"><strong>URL de grabación: </strong><a href="" target="_blank">Ver video</a></td>
+      <td colspan="4"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -1150,7 +1150,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td>4 minutos</td>
     </tr>
     <tr>
-      <td colspan="4"><strong>URL de grabación: </strong><a href="" target="_blank">Ver video</a></td>
+      <td colspan="4"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
