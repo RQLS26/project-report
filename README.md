@@ -3712,8 +3712,6 @@ La primera versión del Video About-the-Product debe presentar el problema logí
 
 # Anexos
 
-# Anexos
-
 ## Anexo A: Videos de Exposiciones
 
 | Entrega | Nombre del archivo | URL |
