@@ -3164,6 +3164,52 @@ La validación del producto se orienta a comprobar que la primera versión integ
 
 **Preguntas guía:** ¿qué información necesita ver primero?, ¿el flujo refleja su proceso actual?, ¿qué dato falta para decidir?, ¿los roles son comprensibles?, ¿qué pantalla generó claridad o fricción?
 
+**Preguntas para el Segmento: Ingenieros Residentes / Personal de Obra**
+
+1. Al utilizar Buildline, ¿pudo registrar una requisición de materiales de manera rápida y sencilla?
+
+2. ¿Le pareció más práctico registrar solicitudes mediante Buildline en lugar de usar WhatsApp o llamadas?
+
+3. ¿La información solicitada en el formulario de requisición le pareció clara y suficiente?
+
+4. ¿Pudo identificar fácilmente el estado de sus solicitudes (pendiente, en cotización, aprobada o rechazada)?
+
+5. ¿Considera útil contar con una plataforma centralizada para dar seguimiento a los pedidos de materiales?
+
+6. ¿Buildline le ayudó a reducir errores al momento de especificar materiales, cantidades o detalles técnicos?
+
+7. ¿Le pareció útil recibir actualizaciones del estado de su requisición en tiempo real?
+
+8. ¿Considera que Buildline puede ayudar a reducir retrasos en obra relacionados con problemas de abastecimiento?
+
+9. ¿La interfaz de la plataforma le pareció intuitiva y fácil de usar desde celular o laptop?
+
+10. Después de probar el producto, ¿qué funcionalidad agregaría o mejoraría para facilitar aún más la gestión de requisiciones?
+
+
+**Preguntas para el Segmento: Jefes de Logística / Gerentes / Jefes de Proyecto**
+
+1. Al observar el panel principal de Buildline, ¿pudo entender rápidamente el estado general de las requisiciones y compras?
+
+2. ¿Le resultó útil visualizar todas las solicitudes, cotizaciones y aprobaciones desde una sola plataforma?
+
+3. ¿La comparación de cotizaciones entre proveedores le pareció clara y fácil de analizar?
+
+4. ¿Considera útil que Buildline centralice el historial de proveedores y compras anteriores?
+
+5. ¿El dashboard financiero le ayudó a comprender mejor el estado presupuestal del proyecto?
+
+6. ¿Le pareció útil recibir alertas cuando una compra supera el presupuesto asignado?
+
+7. ¿La plataforma le ayudó a tomar decisiones más rápidas respecto a aprobaciones y compras?
+
+8. ¿Considera que Buildline puede reducir sobrecostos ocasionados por compras de emergencia o mala planificación?
+
+9. ¿Los reportes generados por la plataforma le brindaron información útil para el control y seguimiento del proyecto?
+
+10. Después de probar el producto, ¿qué funcionalidad considera más importante agregar o mejorar para optimizar la gestión logística?
+
+
 ### 5.3.2. Registro de Entrevistas.
 
 **Nombre del archivo de video consolidado:** `upc-pre-202610-1asi0730-12158-rqls-validation-sprint-3.mp4`
@@ -3172,6 +3218,11 @@ La validación del producto se orienta a comprobar que la primera versión integ
   <tbody>
     <tr>
       <td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="docs/assets/chapter-05/validation-interview-01-screenshot.png" alt="Screenshot de entrevista de validación 1" height="350">
+      </td>
     </tr>
     <tr>
       <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
@@ -3185,7 +3236,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>27 años</td>
+      <td>42 años</td>
       <td><strong>Modalidad</strong></td>
       <td>Videollamada con prueba guiada</td>
     </tr>
@@ -3202,8 +3253,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td>24 minutos</td>
     </tr>
     <tr>
-      <td><strong>URL de grabación</strong></td>
-      <td colspan="3"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver grabación</a></td>
+      <td colspan="4"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -3218,6 +3268,11 @@ La validación del producto se orienta a comprobar que la primera versión integ
   <tbody>
     <tr>
       <td colspan="4" align="center"><strong>Entrevista N.° 2</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="docs/assets/chapter-05/validation-interview-02-screenshot.png" alt="Screenshot de entrevista de validación 2" height="350">
+      </td>
     </tr>
     <tr>
       <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
@@ -3237,7 +3292,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>Ubicación</strong></td>
-      <td>Lima Metropolitana</td>
+      <td>Arequipa</td>
       <td><strong>Producto evaluado</strong></td>
       <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
     </tr>
@@ -3248,8 +3303,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td>21 minutos</td>
     </tr>
     <tr>
-      <td><strong>URL de grabación</strong></td>
-      <td colspan="3"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver grabación</a></td>
+      <td colspan="4"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -3266,6 +3320,11 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td colspan="4" align="center"><strong>Entrevista N.° 3</strong></td>
     </tr>
     <tr>
+      <td colspan="4" align="center">
+        <img src="docs/assets/chapter-05/validation-interview-03-screenshot.png" alt="Screenshot de entrevista de validación 3" height="350">
+      </td>
+    </tr>
+    <tr>
       <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
       <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
     </tr>
@@ -3277,13 +3336,13 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>27 años</td>
+      <td>39 años</td>
       <td><strong>Modalidad</strong></td>
       <td>Videollamada con prueba guiada</td>
     </tr>
     <tr>
       <td><strong>Ubicación</strong></td>
-      <td>Lima Metropolitana</td>
+      <td>Juliaca</td>
       <td><strong>Producto evaluado</strong></td>
       <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
     </tr>
@@ -3294,13 +3353,62 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td>19 minutos</td>
     </tr>
     <tr>
-      <td><strong>URL de grabación</strong></td>
-      <td colspan="3"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver grabación</a></td>
+      <td colspan="4"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
         El participante evaluó la creación de requisiciones, el seguimiento de entregas y las notificaciones. Señaló que el timeline de tracking facilita entender el avance de una entrega, pero recomendó que las fechas y estados se mantengan visibles y consistentes entre idioma español e inglés.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 4</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="docs/assets/chapter-05/validation-interview-04-screenshot.png" alt="Screenshot de entrevista de validación 4" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Lisset Paredes</td>
+      <td><strong>Rol</strong></td>
+      <td>Jefa de logística</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>32 años</td>
+      <td><strong>Modalidad</strong></td>
+      <td>Videollamada con prueba guiada</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Jesús María, Lima</td>
+      <td><strong>Producto evaluado</strong></td>
+      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha</strong></td>
+      <td>20/06/2026</td>
+      <td><strong>Duración</strong></td>
+      <td>4:07 minutos</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>URL de grabación: </strong><a href="" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        La participante destacó que Buildline presenta una interfaz clara e intuitiva, permitiéndole visualizar rápidamente requisiciones, compras y aprobaciones. Valoró especialmente la centralización de información, la comparación de cotizaciones y el control presupuestal en tiempo real, ya que facilitan una toma de decisiones más rápida y reducen errores operativos. Además, consideró que la plataforma puede ayudar a disminuir sobrecostos y mejorar la planificación logística. Como mejora, sugirió una mejor integración con herramientas como Excel y correo electrónico.
       </td>
     </tr>
   </tbody>
@@ -3367,8 +3475,8 @@ La primera versión del Video About-the-Product debe presentar el problema logí
 | Título | Buildline - Digital Construction Logistics |
 | Duración | 4 minutos |
 | Nombre del archivo | `upc-pre-202610-1asi0730-12158-rqls-about-the-product-sprint-3.mp4` |
-| URL Microsoft Stream | &nbsp; |
-| URL YouTube | &nbsp; |
+| URL Microsoft Stream | [upc-pre-202610-1asi0730-12158-rqls-about-the-product-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc_edu_pe/IQA8qIsT7zqFSbgzB5JiRyPyAVb93hMYJuWgVr-72S3tRpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MMcSdc) |
+| URL YouTube | [upc-pre-202610-1asi0730-12158-rqls-about-the-product-sprint-3.mp4](https://youtu.be/6BcWWI_7CdY) |
 | Producto mostrado | Landing Page, Frontend Web Application y Backend Swagger desplegado |
 | Flujo mínimo | Sign-in, dashboard, requisición, orden de compra, entrega, proveedor, presupuesto, users & roles |
 
@@ -3430,8 +3538,8 @@ La primera versión del Video About-the-Product debe presentar el problema logí
 | Elemento | Contenido del entregable |
 | :--- | :--- |
 | Nombre del archivo | `upc-pre-202610-1asi0730-12158-rqls-about-the-team-sprint-3.mp4` |
-| URL Microsoft Stream | [upc-pre-202610-1asi0730-12158-rqls-about-the-team-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQDF7K3vlirDQ646tUd9EOfEAfiul9zMXnKiQsSu7htxW2k?e=jakAph&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| URL YouTube |  [upc-pre-202610-1asi0730-12158-rqls-about-the-team-sprint-3.mp4](https://youtu.be/sqylf0zKJzg) |
+| URL Microsoft Stream | [upc-pre-202610-1asi0730-12158-rqls-about-the-team-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQDF7K3vlirDQ646tUd9EOfEAfiul9zMXnKiQsSu7htxW2k?e=jakAph&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| URL YouTube | [upc-pre-202610-1asi0730-12158-rqls-about-the-team-sprint-3.mp4](https://youtu.be/sqylf0zKJzg) |
 
 # Bibliografía
 <ul>
@@ -3611,6 +3719,6 @@ La primera versión del Video About-the-Product debe presentar el problema logí
 
 | Entrega | Nombre del archivo | URL |
 | :--- | :--- | :--- |
-| AV1 | `upc-pre-202610-1asi0730-12158-rqls-expo-av1.mp4` | &nbsp; |
+| AV1 | `upc-pre-202610-1asi0730-12158-rqls-expo-av1.mp4` | [Ver exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113229_upc_edu_pe/IQB1dGiVxpVzQpCrk-JNZCiwAXMUMt9tIxG2-cljg-YwNTk?e=CcziaK) |
 | TB1 | `upc-pre-202610-1asi0730-12158-rqls-expo-tb1.mp4` | &nbsp; |
 | AV2 | `upc-pre-202610-1asi0730-12158-rqls-expo-av2.mp4` | &nbsp; |
