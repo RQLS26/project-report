@@ -3179,13 +3179,13 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>Ricardo Salazar Huamán</td>
+      <td>Nicolas Sarango</td>
       <td><strong>Rol</strong></td>
       <td>Jefe de proyecto</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>42 años</td>
+      <td>27 años</td>
       <td><strong>Modalidad</strong></td>
       <td>Videollamada con prueba guiada</td>
     </tr>
@@ -3203,7 +3203,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>URL de grabación</strong></td>
-      <td colspan="3">&nbsp;</td>
+      <td colspan="3"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver grabación</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -3249,7 +3249,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>URL de grabación</strong></td>
-      <td colspan="3">&nbsp;</td>
+      <td colspan="3"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver grabación</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -3295,7 +3295,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>URL de grabación</strong></td>
-      <td colspan="3">&nbsp;</td>
+      <td colspan="3"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver grabación</a></td>
     </tr>
     <tr>
       <td colspan="4">
