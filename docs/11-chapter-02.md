@@ -285,6 +285,8 @@ Para el desarrollo de las entrevistas del segmento objetivo, se redactaron las s
 ### 2.2.2. Registro de entrevistas
 **Segmento objetivo: Jefes de Proyectos y Gerentes Generales**
 
+**Nombre del archivo de video consolidado:** `upc-pre-202610-1asi0730-12158-rqls-needfinding-sprint-1.mp4`
+
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>

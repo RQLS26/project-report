@@ -602,9 +602,11 @@ El Sprint Backlog 2 agrupa los User Stories priorizados del Product Backlog que 
   <p><em>Figura: Dashboard Overview (resumen).</em></p>
 </div>
 
-<h4>Video About The Product</h4>
+<h4>Product Navigation Video Evidence</h4>
 
-<p>En esta sección se presenta el video demostrativo oficial de la plataforma <strong>Buildline (Release v1.0.0)</strong>, elaborado para el cierre del Sprint 2. El propósito de este video es evidenciar la integración end-to-end de nuestra arquitectura, mostrando desde la gestión de requisiciones y el control de inventario hasta el impacto automático en el Dashboard Financiero. El material audiovisual ha sido alojado de forma segura en la plataforma institucional <strong>Microsoft Stream</strong>.</p>
+<p>En esta sección se presenta el video demostrativo de navegación de la plataforma <strong>Buildline (Release v1.0.0)</strong>, elaborado para el cierre del Sprint 2. El propósito de este video es evidenciar los flujos principales del Frontend Web Application con datos de prueba mediante json-server, mostrando desde la gestión de requisiciones y el control de inventario hasta el impacto automático en el Dashboard Financiero. El material audiovisual ha sido alojado de forma segura en la plataforma institucional <strong>Microsoft Stream</strong>.</p>
+
+**Nombre del archivo de video:** `upc-pre-202610-1asi0730-12158-rqls-productnavigation-sprint-2.mp4`
 
 <div align="center">
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b504_upc_edu_pe/IQBmp9aQwMuLSLxjirNLDL3-ATVaXbe2IUg_aTtw3V59494?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y9T9qs" target="_blank">
@@ -1025,6 +1027,8 @@ La validación del producto se orienta a comprobar que la primera versión integ
 
 ### 5.3.2. Registro de Entrevistas.
 
+**Nombre del archivo de video consolidado:** `upc-pre-202610-1asi0730-12158-rqls-validation-sprint-3.mp4`
+
 <table style="width:100%; border-collapse:collapse;">
   <tbody>
     <tr>
@@ -1223,7 +1227,9 @@ La primera versión del Video About-the-Product debe presentar el problema logí
 | :--- | :--- |
 | Título | Buildline - Digital Construction Logistics |
 | Duración | 4 minutos |
-| URL del video | [Buildline - Video About-the-Product](https://buildline-delta.vercel.app/) |
+| Nombre del archivo | `upc-pre-202610-1asi0730-12158-rqls-about-the-product-sprint-3.mp4` |
+| URL Microsoft Stream | &nbsp; |
+| URL YouTube | &nbsp; |
 | Producto mostrado | Landing Page, Frontend Web Application y Backend Swagger desplegado |
 | Flujo mínimo | Sign-in, dashboard, requisición, orden de compra, entrega, proveedor, presupuesto, users & roles |
 
