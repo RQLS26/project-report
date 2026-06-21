@@ -3337,7 +3337,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td><strong>Fecha</strong></td>
       <td>20/06/2026</td>
       <td><strong>Duración</strong></td>
-      <td>19 minutos</td>
+      <td> 4:07 minutos</td>
     </tr>
     <tr>
       <td><strong>URL de grabación</strong></td>
