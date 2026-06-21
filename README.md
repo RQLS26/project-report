@@ -3225,7 +3225,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>Andrea Paredes Rojas</td>
+      <td>Patriva Coraldo</td>
       <td><strong>Rol</strong></td>
       <td>Encargada de logística</td>
     </tr>
@@ -3237,7 +3237,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>Ubicación</strong></td>
-      <td>Arequipa</td>
+      <td>Lima Metropolitana</td>
       <td><strong>Producto evaluado</strong></td>
       <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
     </tr>
@@ -3271,19 +3271,19 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>Luis Quispe Mamani</td>
+      <td>Lis Paredes</td>
       <td><strong>Rol</strong></td>
       <td>Residente de obra</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>39 años</td>
+      <td>27 años</td>
       <td><strong>Modalidad</strong></td>
       <td>Videollamada con prueba guiada</td>
     </tr>
     <tr>
       <td><strong>Ubicación</strong></td>
-      <td>Juliaca</td>
+      <td>Lima Metropolitana</td>
       <td><strong>Producto evaluado</strong></td>
       <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
     </tr>
