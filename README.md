@@ -3346,6 +3346,50 @@ La validación del producto se orienta a comprobar que la primera versión integ
   </tbody>
 </table>
 
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><strong>Entrevista N.° 4</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <img src="docs/assets/chapter-05/validation-interview-04-screenshot.png" alt="Screenshot de entrevista de validación 4" height="350">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
+      <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nombre completo</strong></td>
+      <td>Ana Reyes</td>
+      <td><strong>Segmento objetivo</strong></td>
+      <td>Residente de obra / Personal de obra</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>25 años</td>
+      <td><strong>Producto validado</strong></td>
+      <td>Frontend Web Application integrado con Backend Web Services</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Lima Metropolitana</td>
+      <td><strong>Duración</strong></td>
+      <td>4 minutos</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQCMnpYspCE0QqDrnzTy-aiJAaYFYe1RFf-w4mtejPoi3Js?e=h1W7SD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Resumen de la entrevista</strong><br><br>
+        La entrevistada indicó que Buildline permite registrar requisiciones de manera rápida y sencilla, mejorando el orden frente a herramientas como WhatsApp. Destacó que el formulario es claro y ayuda a reducir errores en la solicitud de materiales. También valoró positivamente la facilidad para visualizar el estado de las requisiciones y el seguimiento en tiempo real. Considera que la plataforma puede ayudar a reducir retrasos en obra al mejorar el control del abastecimiento. Como mejora, sugirió añadir notificaciones más visibles y la opción de adjuntar fotos o documentos en las solicitudes.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### 5.3.3. Evaluaciones según heurísticas.
 
 <div align="center">
