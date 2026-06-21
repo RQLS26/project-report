@@ -3348,47 +3348,120 @@ La validación del producto se orienta a comprobar que la primera versión integ
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
-**UX Heuristics & Principles Evaluation**
-**Usability - Inclusive Design - Information Architecture**
+<div align="center">
+  <strong>UX Heuristics & Principles Evaluation</strong><br>
+  <strong>Usability - Inclusive Design - Information Architecture</strong>
+</div>
 
 | Campo | Valor |
 | :--- | :--- |
-| Carrera | Ingeniería de Software |
-| Curso | Aplicaciones Web |
-| Sección | 12158 |
-| Profesores | Todos |
-| Auditor | RQLS26 |
-| Cliente(s) | Participantes de entrevistas |
-| Fecha | 20/06/2026 |
+| **Carrera** | Ingeniería de Software |
+| **Curso** | Aplicaciones Web |
+| **Sección** | 12158 |
+| **Profesores** | Todos |
+| **Auditor** | RQLS26 |
+| **Cliente(s)** | Nicolás Edu Sarango Ceballos, Patricia Coral y Liz Paredes |
+| **Fecha** | 20/06/2026 |
 
-**Scale Severity Ratings:**
+**Sitio o app a evaluar:** Buildline - Digital Construction Logistics.
 
-| Valor | Descripción |
+**Tareas a evaluar:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Inicio de sesión y acceso al dashboard principal.
+2. Registro y seguimiento de requisiciones de materiales.
+3. Comparación de cotizaciones entre proveedores.
+4. Revisión y aprobación de órdenes de compra.
+5. Seguimiento de entregas y estados logísticos.
+6. Consulta de inventario, proveedores e incidencias.
+7. Revisión de presupuesto, reportes y alertas financieras.
+8. Consulta de notificaciones, usuarios y configuración básica.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Integración completa con ERP o sistema contable externo.
+2. Automatización avanzada de rating de proveedores con datos históricos reales.
+3. Adjuntar fotografías desde dispositivos móviles en requisiciones.
+4. Vista Gantt o calendario logístico de materiales críticos.
+5. Flujo completo de exportación a Excel conectado a herramientas corporativas.
+
+**Escala de severidad:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
+
+| Nivel | Descripción |
 | :--- | :--- |
-| 1 | Problema cosmético o de mejora menor |
-| 2 | Problema menor de usabilidad con impacto controlado |
-| 3 | Problema mayor que afecta una tarea frecuente |
-| 4 | Problema crítico que bloquea el uso |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir con más frecuencia o ser un poco más difícil de superar para el usuario. Se debería asignar una prioridad baja para resolverlo de cara a la siguiente iteración. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4 | Problema muy grave: error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento. |
 
-**Problema #1: Comparación de cotizaciones incompleta para decisión logística**
+**Tabla resumen:**
+
+| # | Problema | Escala de severidad | Heurística / Principio violado |
+| :--- | :--- | :---: | :--- |
+| 1 | La comparación de cotizaciones no muestra todos los criterios necesarios para decidir una compra logística. | 2 | Usability: Recognition rather than recall |
+| 2 | El registro de requisiciones requiere mayor ayuda visual para reducir ambigüedad en campo. | 2 | Usability: Error prevention |
+| 3 | Los reportes y alertas financieras necesitan criterios configurables y opciones de exportación operativa. | 2 | Information Architecture: User control and freedom |
+
+**Descripción de problemas:**
+
+**Problema #1: La comparación de cotizaciones no muestra todos los criterios necesarios para decidir una compra logística.**
+
 **Severidad:** 2
-**Heurística violada:** Usability - recognition rather than recall
-**Problema:** La comparación de cotizaciones era clara, pero para los jefes de proyecto no basta con precio unitario y total; también necesitan ver tiempo de entrega y condiciones de crédito para evitar elegir una opción barata que retrase la obra.
-**Recomendación:** Ampliar la tabla comparativa con columnas de plazo de entrega, términos de pago y señales visuales sobre cumplimiento del proveedor.
 
-**Problema #2: Requisiciones con poca ayuda visual para personal de campo**
+**Heurística violada:** Usability - Recognition rather than recall.
+
+**Problema:**
+
+Durante la validación, el jefe de proyecto indicó que la comparación de cotizaciones resulta clara, pero que una decisión logística real no debe depender solo del precio unitario o total. En obra, una oferta más barata puede generar retrasos si no considera tiempos de entrega, condiciones de crédito o historial de cumplimiento del proveedor.
+
+**Recomendación:**
+
+Ampliar la tabla comparativa de cotizaciones con plazo de entrega, términos de pago, señales visuales de cumplimiento y referencias al historial del proveedor.
+
+**Corrección aplicada:**
+
+El hallazgo fue incorporado al backlog de mejora y se documentó como criterio funcional para fortalecer la vista de cotizaciones y la evaluación de proveedores.
+
+**Problema #2: El registro de requisiciones requiere mayor ayuda visual para reducir ambigüedad en campo.**
+
 **Severidad:** 2
-**Heurística violada:** Usability - error prevention
-**Problema:** El formulario de requisición cubre los datos esenciales, pero puede generar ambigüedad cuando el usuario de campo describe materiales, herramientas dañadas o repuestos específicos solo con texto.
-**Recomendación:** Incorporar ejemplos breves, catálogos guiados y opción de adjuntar fotografías desde celular al crear una solicitud.
 
-**Problema #3: Reportes y alertas requieren criterios operativos configurables**
+**Heurística violada:** Usability - Error prevention.
+
+**Problema:**
+
+La entrevistada del segmento de ingeniería civil consideró que el formulario de requisición cubre los datos esenciales, pero señaló que el personal de campo puede cometer errores si debe describir materiales, herramientas dañadas o repuestos específicos únicamente con texto.
+
+**Recomendación:**
+
+Incorporar ejemplos breves dentro del formulario, mantener catálogos guiados de materiales y permitir adjuntar fotografías desde celular al crear una solicitud.
+
+**Corrección aplicada:**
+
+El hallazgo fue registrado como mejora UX para formularios guiados. En la versión revisada se priorizó el uso de datos maestros y queda documentada la necesidad de adjuntos visuales para una iteración posterior.
+
+**Problema #3: Los reportes y alertas financieras necesitan criterios configurables y opciones de exportación operativa.**
+
 **Severidad:** 2
-**Heurística violada:** Information Architecture - user control and freedom
-**Problema:** Los reportes y alertas fueron valorados positivamente, pero su utilidad depende de poder exportarlos y configurar umbrales preventivos antes de exceder el presupuesto.
-**Recomendación:** Mantener exportación a PDF/Excel, preparar integración futura con ERP/correo y permitir alertas tempranas por porcentaje de avance presupuestal.
 
-**Estado de corrección:** Los hallazgos fueron incorporados como ajustes de backlog y mejoras de UX. En la versión revisada del producto se documentan como atendidos mediante mejoras en comparación de cotizaciones, formularios guiados, reportes exportables y alertas preventivas.
+**Heurística violada:** Information Architecture - User control and freedom.
+
+**Problema:**
+
+Los participantes valoraron positivamente los reportes, el dashboard financiero y las alertas de presupuesto; sin embargo, indicaron que su utilidad operativa depende de poder exportar información y configurar umbrales preventivos antes de que el presupuesto sea excedido.
+
+**Recomendación:**
+
+Mantener exportación a PDF, preparar exportación a Excel, considerar integración futura con ERP/correo y permitir alertas configurables por porcentaje de avance presupuestal.
+
+**Corrección aplicada:**
+
+El hallazgo fue incorporado como ajuste de backlog. La versión revisada documenta las alertas preventivas y reportes exportables como criterios de mejora para seguimiento financiero.
+
+**Estado general de corrección:** Los hallazgos identificados no bloquean el uso del producto y fueron clasificados con severidad 2. En la versión documentada del Sprint 3 se consideran atendidos a nivel de backlog y criterios de mejora, manteniendo trazabilidad con las entrevistas de validación.
 
 ## 5.4. Video About-the-Product
 
