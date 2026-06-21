@@ -3220,23 +3220,18 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td colspan="4" align="center"><strong>Entrevista N.° 1</strong></td>
     </tr>
     <tr>
-      <td colspan="4" align="center">
-        <img src="docs/assets/chapter-05/validation-interview-01-screenshot.png" alt="Screenshot de entrevista de validación 1" height="350">
-      </td>
-    </tr>
-    <tr>
       <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
       <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>Ricardo Salazar Huamán</td>
+      <td>Nicolas Sarango</td>
       <td><strong>Rol</strong></td>
       <td>Jefe de proyecto</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>42 años</td>
+      <td>27 años</td>
       <td><strong>Modalidad</strong></td>
       <td>Videollamada con prueba guiada</td>
     </tr>
@@ -3253,7 +3248,8 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td>24 minutos</td>
     </tr>
     <tr>
-      <td colspan="4"><strong>URL de grabación: </strong><a href="" target="_blank">Ver video</a></td>
+      <td><strong>URL de grabación</strong></td>
+      <td colspan="3"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver grabación</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -3270,17 +3266,12 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td colspan="4" align="center"><strong>Entrevista N.° 2</strong></td>
     </tr>
     <tr>
-      <td colspan="4" align="center">
-        <img src="docs/assets/chapter-05/validation-interview-02-screenshot.png" alt="Screenshot de entrevista de validación 2" height="350">
-      </td>
-    </tr>
-    <tr>
       <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
       <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>Andrea Paredes Rojas</td>
+      <td>Patriva Coraldo</td>
       <td><strong>Rol</strong></td>
       <td>Encargada de logística</td>
     </tr>
@@ -3292,7 +3283,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>Ubicación</strong></td>
-      <td>Arequipa</td>
+      <td>Lima Metropolitana</td>
       <td><strong>Producto evaluado</strong></td>
       <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
     </tr>
@@ -3303,7 +3294,8 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td>21 minutos</td>
     </tr>
     <tr>
-      <td colspan="4"><strong>URL de grabación: </strong><a href="" target="_blank">Ver video</a></td>
+      <td><strong>URL de grabación</strong></td>
+      <td colspan="3"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver grabación</a></td>
     </tr>
     <tr>
       <td colspan="4">
@@ -3320,29 +3312,24 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td colspan="4" align="center"><strong>Entrevista N.° 3</strong></td>
     </tr>
     <tr>
-      <td colspan="4" align="center">
-        <img src="docs/assets/chapter-05/validation-interview-03-screenshot.png" alt="Screenshot de entrevista de validación 3" height="350">
-      </td>
-    </tr>
-    <tr>
       <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
       <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>Luis Quispe Mamani</td>
+      <td>Lis Paredes</td>
       <td><strong>Rol</strong></td>
       <td>Residente de obra</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>39 años</td>
+      <td>27 años</td>
       <td><strong>Modalidad</strong></td>
       <td>Videollamada con prueba guiada</td>
     </tr>
     <tr>
       <td><strong>Ubicación</strong></td>
-      <td>Juliaca</td>
+      <td>Lima Metropolitana</td>
       <td><strong>Producto evaluado</strong></td>
       <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
     </tr>
@@ -3350,65 +3337,16 @@ La validación del producto se orienta a comprobar que la primera versión integ
       <td><strong>Fecha</strong></td>
       <td>20/06/2026</td>
       <td><strong>Duración</strong></td>
-      <td>22 minutos</td>
+      <td>19 minutos</td>
     </tr>
     <tr>
-      <td colspan="4"><strong>URL de grabación: </strong><a href="" target="_blank">Ver video</a></td>
+      <td><strong>URL de grabación</strong></td>
+      <td colspan="3"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver grabación</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
         El participante evaluó la creación de requisiciones, el seguimiento de entregas y las notificaciones. Señaló que el timeline de tracking facilita entender el avance de una entrega, pero recomendó que las fechas y estados se mantengan visibles y consistentes entre idioma español e inglés.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<table style="width:100%; border-collapse:collapse;">
-  <tbody>
-    <tr>
-      <td colspan="4" align="center"><strong>Entrevista N.° 4</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4" align="center">
-        <img src="docs/assets/chapter-05/validation-interview-04-screenshot.png" alt="Screenshot de entrevista de validación 4" height="350">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
-      <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Nombre completo</strong></td>
-      <td>Lisset Paredes</td>
-      <td><strong>Rol</strong></td>
-      <td>Jefa de logística</td>
-    </tr>
-    <tr>
-      <td><strong>Edad</strong></td>
-      <td>32 años</td>
-      <td><strong>Modalidad</strong></td>
-      <td>Videollamada con prueba guiada</td>
-    </tr>
-    <tr>
-      <td><strong>Ubicación</strong></td>
-      <td>Jesús María, Lima</td>
-      <td><strong>Producto evaluado</strong></td>
-      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
-    </tr>
-    <tr>
-      <td><strong>Fecha</strong></td>
-      <td>20/06/2026</td>
-      <td><strong>Duración</strong></td>
-      <td>4:07 minutos</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>URL de grabación: </strong><a href="" target="_blank">Ver video</a></td>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <strong>Resumen de la entrevista</strong><br><br>
-        La participante destacó que Buildline presenta una interfaz clara e intuitiva, permitiéndole visualizar rápidamente requisiciones, compras y aprobaciones. Valoró especialmente la centralización de información, la comparación de cotizaciones y el control presupuestal en tiempo real, ya que facilitan una toma de decisiones más rápida y reducen errores operativos. Además, consideró que la plataforma puede ayudar a disminuir sobrecostos y mejorar la planificación logística. Como mejora, sugirió una mejor integración con herramientas como Excel y correo electrónico.
       </td>
     </tr>
   </tbody>
@@ -3538,8 +3476,8 @@ La primera versión del Video About-the-Product debe presentar el problema logí
 | Elemento | Contenido del entregable |
 | :--- | :--- |
 | Nombre del archivo | `upc-pre-202610-1asi0730-12158-rqls-about-the-team-sprint-3.mp4` |
-| URL Microsoft Stream | [upc-pre-202610-1asi0730-12158-rqls-about-the-team-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113229_upc_edu_pe/IQB1dGiVxpVzQpCrk-JNZCiwAZ2xX-34W7a3JdRWhEfS9SU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=omZ66Y) |
-| URL YouTube | &nbsp; |
+| URL Microsoft Stream | [upc-pre-202610-1asi0730-12158-rqls-about-the-team-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQDF7K3vlirDQ646tUd9EOfEAfiul9zMXnKiQsSu7htxW2k?e=jakAph&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| URL YouTube |  [upc-pre-202610-1asi0730-12158-rqls-about-the-team-sprint-3.mp4](https://youtu.be/sqylf0zKJzg) |
 
 # Bibliografía
 <ul>
