@@ -3164,7 +3164,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
 
 **Preguntas guía:** ¿qué información necesita ver primero?, ¿el flujo refleja su proceso actual?, ¿qué dato falta para decidir?, ¿los roles son comprensibles?, ¿qué pantalla generó claridad o fricción?
 
-## Preguntas para el Segmento: Ingenieros Residentes / Personal de Obra
+**Preguntas para el Segmento: Ingenieros Residentes / Personal de Obra**
 
 1. Al utilizar Buildline, ¿pudo registrar una requisición de materiales de manera rápida y sencilla?
 
@@ -3187,7 +3187,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
 10. Después de probar el producto, ¿qué funcionalidad agregaría o mejoraría para facilitar aún más la gestión de requisiciones?
 
 
-## Preguntas para el Segmento: Jefes de Logística / Gerentes / Jefes de Proyecto
+**Preguntas para el Segmento: Jefes de Logística / Gerentes / Jefes de Proyecto**
 
 1. Al observar el panel principal de Buildline, ¿pudo entender rápidamente el estado general de las requisiciones y compras?
 
