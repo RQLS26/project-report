@@ -1045,35 +1045,29 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>Nicolas Sarango</td>
-      <td><strong>Rol</strong></td>
+      <td>Nicolás Edu Sarango Ceballos</td>
+      <td><strong>Segmento objetivo</strong></td>
       <td>Jefe de proyecto</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>42 años</td>
-      <td><strong>Modalidad</strong></td>
-      <td>Videollamada con prueba guiada</td>
+      <td>27 años</td>
+      <td><strong>Producto validado</strong></td>
+      <td>Frontend Web Application integrado con Backend Web Services</td>
     </tr>
     <tr>
       <td><strong>Ubicación</strong></td>
-      <td>Lima Metropolitana</td>
-      <td><strong>Producto evaluado</strong></td>
-      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
-    </tr>
-    <tr>
-      <td><strong>Fecha</strong></td>
-      <td>20/06/2026</td>
+      <td>Lima, Perú</td>
       <td><strong>Duración</strong></td>
-      <td>24 minutos</td>
+      <td>10 minutos</td>
     </tr>
     <tr>
-      <td colspan="4"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
+      <td colspan="4"><strong>URL de grabación: </strong><a href="" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        El participante validó los flujos de dashboard, presupuesto, requisiciones y órdenes de compra. Indicó que la navegación principal es comprensible y que el uso de métricas por proyecto ayuda a priorizar decisiones de compra. Como observación, señaló que los estados vacíos deben explicar con mayor claridad cuándo una compañía nueva todavía no tiene información registrada.
+        El entrevistado validó positivamente la centralización de solicitudes, cotizaciones, aprobaciones, seguimiento de entregas, inventario, proveedores, presupuesto y reportes dentro de Buildline. Indicó que la plataforma ayuda a reducir la dispersión de información que hoy se maneja por WhatsApp, correo y Excel, evitando pérdida de documentos y acelerando la aprobación de compras. Consideró especialmente valioso comparar cotizaciones, pero precisó que la decisión no debe basarse solo en precio, sino también en tiempos de entrega y condiciones de crédito. También destacó la utilidad del historial de proveedores, el control presupuestal en tiempo real y las alertas preventivas por umbral antes de exceder el presupuesto. Como mejoras, propuso un rating automático de proveedores basado en cumplimiento y calidad, además de una vista tipo calendario o Gantt logístico para alinear materiales críticos con fases de obra.
       </td>
     </tr>
   </tbody>
@@ -1095,35 +1089,29 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>Patriva Coraldo</td>
-      <td><strong>Rol</strong></td>
-      <td>Encargada de logística</td>
+      <td>Patricia Coral</td>
+      <td><strong>Segmento objetivo</strong></td>
+      <td>Ingeniera civil</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>35 años</td>
-      <td><strong>Modalidad</strong></td>
-      <td>Videollamada con prueba guiada</td>
+      <td>No especificada</td>
+      <td><strong>Producto validado</strong></td>
+      <td>Frontend Web Application integrado con Backend Web Services</td>
     </tr>
     <tr>
       <td><strong>Ubicación</strong></td>
-      <td>Arequipa</td>
-      <td><strong>Producto evaluado</strong></td>
-      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
-    </tr>
-    <tr>
-      <td><strong>Fecha</strong></td>
-      <td>20/06/2026</td>
+      <td>Lima, Perú</td>
       <td><strong>Duración</strong></td>
-      <td>21 minutos</td>
+      <td>11 minutos</td>
     </tr>
     <tr>
-      <td colspan="4"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
+      <td colspan="4"><strong>URL de grabación: </strong><a href="" target="_blank">Ver video</a></td>
     </tr>
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        La participante revisó proveedores, requisiciones, purchase orders y registro de entregas. Consideró valioso que los formularios usen datos existentes de proveedores, materiales y órdenes de compra, porque reduce errores de digitación. Recomendó mantener filtros por estado y prioridad en las vistas operativas.
+        La entrevistada evaluó principalmente el registro y seguimiento de requisiciones, cotizaciones, órdenes de compra, entregas, inventario, proveedores, incidentes, presupuesto, reportes, roles, notificaciones y configuración. Señaló que registrar requisiciones mediante Buildline es más práctico que usar WhatsApp o llamadas, porque cada pedido queda formalizado y mantiene trazabilidad entre obra y compras. Consideró clara la información solicitada en el formulario, aunque recomendó incorporar ejemplos o guías visuales para personal de campo. También valoró los estados con colores y etiquetas, la centralización de información entre residente y logística, el catálogo estandarizado para reducir errores y las actualizaciones en tiempo real para evitar llamadas o correos repetitivos. Como mejora prioritaria, sugirió permitir adjuntar fotografías desde el celular al crear una solicitud, ya que en obra una imagen puede explicar mejor una herramienta dañada, repuesto o material específico.
       </td>
     </tr>
   </tbody>
@@ -1145,77 +1133,21 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td><strong>Nombre completo</strong></td>
-      <td>Lis Paredes</td>
-      <td><strong>Rol</strong></td>
-      <td>Residente de obra</td>
-    </tr>
-    <tr>
-      <td><strong>Edad</strong></td>
-      <td>39 años</td>
-      <td><strong>Modalidad</strong></td>
-      <td>Videollamada con prueba guiada</td>
-    </tr>
-    <tr>
-      <td><strong>Ubicación</strong></td>
-      <td>Juliaca</td>
-      <td><strong>Producto evaluado</strong></td>
-      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
-    </tr>
-    <tr>
-      <td><strong>Fecha</strong></td>
-      <td>20/06/2026</td>
-      <td><strong>Duración</strong></td>
-      <td>19 minutos</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>URL de grabación: </strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202322849_upc_edu_pe/IQD7E2pv1O8mSq5wsV2iUyJpAewRmKfI_iSbQhID5YK8hgY?e=2oihlD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></td>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <strong>Resumen de la entrevista</strong><br><br>
-        El participante evaluó la creación de requisiciones, el seguimiento de entregas y las notificaciones. Señaló que el timeline de tracking facilita entender el avance de una entrega, pero recomendó que las fechas y estados se mantengan visibles y consistentes entre idioma español e inglés.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<table style="width:100%; border-collapse:collapse;">
-  <tbody>
-    <tr>
-      <td colspan="4" align="center"><strong>Entrevista N.° 4</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4" align="center">
-        <img src="./assets/chapter-05/validation-interview-04-screenshot.png" alt="Screenshot de entrevista de validación 4" height="350">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center"><strong>Información del entrevistado</strong></td>
-      <td colspan="2" align="center"><strong>Contexto de validación</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Nombre completo</strong></td>
-      <td>Lisset Paredes</td>
-      <td><strong>Rol</strong></td>
+      <td>Liz Paredes</td>
+      <td><strong>Segmento objetivo</strong></td>
       <td>Jefa de logística</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
       <td>32 años</td>
-      <td><strong>Modalidad</strong></td>
-      <td>Videollamada con prueba guiada</td>
+      <td><strong>Producto validado</strong></td>
+      <td>Frontend Web Application integrado con Backend Web Services</td>
     </tr>
     <tr>
       <td><strong>Ubicación</strong></td>
       <td>Jesús María, Lima</td>
-      <td><strong>Producto evaluado</strong></td>
-      <td><a href="https://buildline-delta.vercel.app/" target="_blank">Buildline Frontend Web Application</a></td>
-    </tr>
-    <tr>
-      <td><strong>Fecha</strong></td>
-      <td>20/06/2026</td>
       <td><strong>Duración</strong></td>
-      <td>4:07 minutos</td>
+      <td>4 minutos</td>
     </tr>
     <tr>
       <td colspan="4"><strong>URL de grabación: </strong><a href="" target="_blank">Ver video</a></td>
@@ -1223,7 +1155,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
     <tr>
       <td colspan="4">
         <strong>Resumen de la entrevista</strong><br><br>
-        La participante destacó que Buildline presenta una interfaz clara e intuitiva, permitiéndole visualizar rápidamente requisiciones, compras y aprobaciones. Valoró especialmente la centralización de información, la comparación de cotizaciones y el control presupuestal en tiempo real, ya que facilitan una toma de decisiones más rápida y reducen errores operativos. Además, consideró que la plataforma puede ayudar a disminuir sobrecostos y mejorar la planificación logística. Como mejora, sugirió una mejor integración con herramientas como Excel y correo electrónico.
+        La entrevistada indicó que el panel principal permite comprender rápidamente el estado de requisiciones, compras pendientes y aprobaciones, lo cual ayuda a priorizar tareas logísticas. Valoró que Buildline concentre en una sola plataforma información que actualmente se maneja por WhatsApp, Excel y correo, reduciendo tiempos, errores y pérdida de información. También consideró clara la comparación de cotizaciones, útil el historial centralizado de proveedores y compras, y relevante el dashboard financiero en tiempo real para evitar desviaciones presupuestales. Las alertas tempranas fueron percibidas como una herramienta clave para prevenir sobrecostos antes de que se materialicen. Como mejora, sugirió reforzar la integración con herramientas ya usadas por el equipo, especialmente Excel y correo electrónico, para facilitar la adopción en campo.
       </td>
     </tr>
   </tbody>
@@ -1242,44 +1174,36 @@ La validación del producto se orienta a comprobar que la primera versión integ
 | Profesores | Todos |
 | Auditor | RQLS26 |
 | Cliente(s) | Participantes de entrevistas |
-| Site o App a evaluar | Buildline Frontend Web Application |
+| Fecha | 20/06/2026 |
 
-**Tareas incluidas en el alcance:** registro, login, requisición, compras, entregas, proveedores, incidencias, presupuesto, reportes, notificaciones, usuarios, roles y configuración.
+**Scale Severity Ratings:**
 
-**Tareas no incluidas en esta versión:** pagos en línea, integración ERP/SUNAT, push móvil nativo y gestión documental avanzada.
-
-| Nivel | Descripción |
+| Valor | Descripción |
 | :--- | :--- |
-| 1 | Problema superficial: ocurre con baja frecuencia o puede superarse fácilmente. |
-| 2 | Problema menor: ocurre con cierta frecuencia y debe priorizarse en un siguiente release. |
-| 3 | Problema mayor: afecta el cumplimiento de tareas importantes y requiere prioridad alta. |
-| 4 | Problema muy grave: impide continuar con el uso de la herramienta y debe corregirse antes del lanzamiento. |
+| 1 | Problema cosmético o de mejora menor |
+| 2 | Problema menor de usabilidad con impacto controlado |
+| 3 | Problema mayor que afecta una tarea frecuente |
+| 4 | Problema crítico que bloquea el uso |
 
-| # | Problema | Escala de severidad | Heurística / Principio violado |
-| :--- | :--- | :--- | :--- |
-| 1 | Algunos estados vacíos deben explicar claramente que la compañía aún no tiene datos registrados. | 2 | Information Architecture: is it understandable? |
-| 2 | El registro de entregas requiere selects alimentados por datos existentes para evitar tipeo libre. | 3 | Usability: error prevention |
-| 3 | La administración de roles debe impedir múltiples owners por compañía. | 3 | Usability: consistency and standards |
-| 4 | Las configuraciones deben aplicarse solo después de confirmar Save Changes. | 2 | Usability: user control and freedom |
-| 5 | Los títulos traducidos deben conservar alturas consistentes en cards y gráficos. | 2 | Inclusive Design: comparable experience |
-
-**Problema #1: Estados vacíos poco explicativos**
+**Problema #1: Comparación de cotizaciones incompleta para decisión logística**
 **Severidad:** 2
-**Heurística violada:** Information Architecture - is it understandable?
-**Problema:** En compañías nuevas, las pantallas sin datos pueden interpretarse como error de carga si no indican que todavía no existen requisiciones, órdenes, entregas, proveedores o mensajes registrados.
-**Recomendación:** Mantener mensajes vacíos por módulo, con texto orientado a la siguiente acción disponible y sin insertar datos ficticios permanentes.
+**Heurística violada:** Usability - recognition rather than recall
+**Problema:** La comparación de cotizaciones era clara, pero para los jefes de proyecto no basta con precio unitario y total; también necesitan ver tiempo de entrega y condiciones de crédito para evitar elegir una opción barata que retrase la obra.
+**Recomendación:** Ampliar la tabla comparativa con columnas de plazo de entrega, términos de pago y señales visuales sobre cumplimiento del proveedor.
 
-**Problema #2: Formularios con tipeo libre donde existen datos maestros**
-**Severidad:** 3
+**Problema #2: Requisiciones con poca ayuda visual para personal de campo**
+**Severidad:** 2
 **Heurística violada:** Usability - error prevention
-**Problema:** Algunos formularios de entregas o incidencias pueden inducir errores si permiten escribir proveedor, PO o material en lugar de seleccionarlos desde endpoints existentes.
-**Recomendación:** Usar selects alimentados por purchase orders, suppliers y materials de la compañía.
+**Problema:** El formulario de requisición cubre los datos esenciales, pero puede generar ambigüedad cuando el usuario de campo describe materiales, herramientas dañadas o repuestos específicos solo con texto.
+**Recomendación:** Incorporar ejemplos breves, catálogos guiados y opción de adjuntar fotografías desde celular al crear una solicitud.
 
-**Problema #3: Reglas de owner y membresía**
-**Severidad:** 3
-**Heurística violada:** Usability - consistency and standards
-**Problema:** La gestión de usuarios debe evitar que un owner asigne otro owner y debe mostrar solicitudes de ingreso a compañía de forma clara.
-**Recomendación:** Mantener un único owner por compañía, permitir admin/viewer y procesar solicitudes desde Users & Roles o Notifications.
+**Problema #3: Reportes y alertas requieren criterios operativos configurables**
+**Severidad:** 2
+**Heurística violada:** Information Architecture - user control and freedom
+**Problema:** Los reportes y alertas fueron valorados positivamente, pero su utilidad depende de poder exportarlos y configurar umbrales preventivos antes de exceder el presupuesto.
+**Recomendación:** Mantener exportación a PDF/Excel, preparar integración futura con ERP/correo y permitir alertas tempranas por porcentaje de avance presupuestal.
+
+**Estado de corrección:** Los hallazgos fueron incorporados como ajustes de backlog y mejoras de UX. En la versión revisada del producto se documentan como atendidos mediante mejoras en comparación de cotizaciones, formularios guiados, reportes exportables y alertas preventivas.
 
 ## 5.4. Video About-the-Product
 
