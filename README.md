@@ -3164,6 +3164,52 @@ La validación del producto se orienta a comprobar que la primera versión integ
 
 **Preguntas guía:** ¿qué información necesita ver primero?, ¿el flujo refleja su proceso actual?, ¿qué dato falta para decidir?, ¿los roles son comprensibles?, ¿qué pantalla generó claridad o fricción?
 
+## Preguntas para el Segmento: Ingenieros Residentes / Personal de Obra
+
+1. Al utilizar Buildline, ¿pudo registrar una requisición de materiales de manera rápida y sencilla?
+
+2. ¿Le pareció más práctico registrar solicitudes mediante Buildline en lugar de usar WhatsApp o llamadas?
+
+3. ¿La información solicitada en el formulario de requisición le pareció clara y suficiente?
+
+4. ¿Pudo identificar fácilmente el estado de sus solicitudes (pendiente, en cotización, aprobada o rechazada)?
+
+5. ¿Considera útil contar con una plataforma centralizada para dar seguimiento a los pedidos de materiales?
+
+6. ¿Buildline le ayudó a reducir errores al momento de especificar materiales, cantidades o detalles técnicos?
+
+7. ¿Le pareció útil recibir actualizaciones del estado de su requisición en tiempo real?
+
+8. ¿Considera que Buildline puede ayudar a reducir retrasos en obra relacionados con problemas de abastecimiento?
+
+9. ¿La interfaz de la plataforma le pareció intuitiva y fácil de usar desde celular o laptop?
+
+10. Después de probar el producto, ¿qué funcionalidad agregaría o mejoraría para facilitar aún más la gestión de requisiciones?
+
+
+## Preguntas para el Segmento: Jefes de Logística / Gerentes / Jefes de Proyecto
+
+1. Al observar el panel principal de Buildline, ¿pudo entender rápidamente el estado general de las requisiciones y compras?
+
+2. ¿Le resultó útil visualizar todas las solicitudes, cotizaciones y aprobaciones desde una sola plataforma?
+
+3. ¿La comparación de cotizaciones entre proveedores le pareció clara y fácil de analizar?
+
+4. ¿Considera útil que Buildline centralice el historial de proveedores y compras anteriores?
+
+5. ¿El dashboard financiero le ayudó a comprender mejor el estado presupuestal del proyecto?
+
+6. ¿Le pareció útil recibir alertas cuando una compra supera el presupuesto asignado?
+
+7. ¿La plataforma le ayudó a tomar decisiones más rápidas respecto a aprobaciones y compras?
+
+8. ¿Considera que Buildline puede reducir sobrecostos ocasionados por compras de emergencia o mala planificación?
+
+9. ¿Los reportes generados por la plataforma le brindaron información útil para el control y seguimiento del proyecto?
+
+10. Después de probar el producto, ¿qué funcionalidad considera más importante agregar o mejorar para optimizar la gestión logística?
+
+
 ### 5.3.2. Registro de Entrevistas.
 
 **Nombre del archivo de video consolidado:** `upc-pre-202610-1asi0730-12158-rqls-validation-sprint-3.mp4`
