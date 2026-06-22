@@ -3353,7 +3353,7 @@ La validación del producto se orienta a comprobar que la primera versión integ
     </tr>
     <tr>
       <td colspan="4" align="center">
-        <img src="docs/assets/chapter-05/validation-interview-04-screenshot.png" alt="Screenshot de entrevista de validación 4" height="350">
+        <img src="docs/assets/chapter-05/validation-interview-4-screenshot.png" alt="Screenshot de entrevista de validación 4" height="350">
       </td>
     </tr>
     <tr>
